@@ -58,7 +58,7 @@ function drawChart(svgElement: SVGSVGElement, bars: CategoricalBar[], width: num
     const yExtents = d3.extent(bars.map((d) => d.value)) as [number, number];
     const xCategories = [...new Set(bars.map((d) => d.category))];
 
-    const xScale = d3.scaleBand<string>()
+    const xScale = d3.scaleBand()
         .rangeRound([margin.left, width - margin.right])
         .domain(xCategories)
         .padding(0.1);
