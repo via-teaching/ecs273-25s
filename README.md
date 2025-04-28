@@ -4,5 +4,5 @@ Please refer to the instructions provided on Canvas and the linked Google Docs f
 
 To clone this repository, please run:
 ```
-git clone 
+git clone git@github.com:via-teaching/ecs273-25s.git
 ```
