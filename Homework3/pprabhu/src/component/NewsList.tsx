@@ -108,7 +108,7 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
                     <p className="text-gray-500">No news found for stock: {selectedStock}</p>
                 </div>
             ) : (
-                <div className="flex-grow overflow-auto pr-2">
+                <div className="flex-grow overflow-y-scroll scrollbar-thin pr-2">
                     <ul className="pb-4">
                         {newsItems.map(item => (
                             <li key={item.id} className="border border-gray-300">

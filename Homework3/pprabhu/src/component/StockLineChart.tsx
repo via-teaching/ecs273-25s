@@ -111,7 +111,7 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
   svg.append("g")
     .attr("class", "x-axis")
     .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x).ticks(width / 80))
+    .call(d3.axisBottom(x).ticks(width / 90))
     .call((g: any) => g.append("text")
       .attr("x", width - margin.right)
       .attr("y", margin.bottom - 4)
@@ -220,7 +220,7 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
       svg.select<SVGGElement>(".x-axis")
         .transition()
         .duration(200)
-        .call(d3.axisBottom(newX).ticks(width / 80));
+        .call(d3.axisBottom(newX).ticks(width / 90));
 
       // Update the location of the lines
       ["open", "high", "low", "close"].forEach(key => {
