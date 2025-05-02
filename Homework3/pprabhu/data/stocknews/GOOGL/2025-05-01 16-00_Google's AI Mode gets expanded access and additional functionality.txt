@@ -1,0 +1,217 @@
+Google's AI Mode gets expanded access and additional functionality
+2025-05-01 16-00
+https://techcrunch.com/2025/05/01/googles-ai-mode-gets-expanded-access-and-additional-functionality/?.tsrc=rss
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Google is expanding access to AI Mode, its experimental feature that allows users to ask complex, multipart questions and follow-ups to dig deeper on a topic directly within Search. The tech giant is also adding more functionality to the feature, including the ability to pick up where you left off on a search.
+Google launched AI Mode back in March as a way to take on popular services like Perplexity AI and OpenAI’s ChatGPT Search. The updates announced today are designed to allow AI Mode to better compete with the aforementioned services.
+With this expansion, Google is getting rid of the waitlist for AI Mode. Now anyone in the U.S. who is at least 18 years old can access the feature if they’re enrolled in Labs, Google’s experimental arm. 
+Google is also going to make AI Mode accessible outside of Labs, as it’s testing an AI Mode tab in Google Search that will be visible to a small percentage of people in the U.S.
+As for the new functionality, Google is making it possible to go a step beyond asking detailed questions about places and products. Now you can use AI mode to do things like find a new restaurant or things you need for your next trip. You will now start to see visual place and product cards in AI Mode that you can tap on to get more details.
+When looking at local spots like restaurants or salons, you can quickly see info like ratings, reviews, and opening hours. For products, you will be able to see details like real-time prices and promotions, images, shipping details, and local inventory. 
+For example, if you’re searching for the best vintage shops with midcentury modern furniture, AI Mode can highlight nearby stores, provide real-time details like how busy they are, and let you quickly call or get directions.
+Or, if you’re planning a camping trip, you try searching for something like “best foldable camping chair that would fit in a backpack for under $100.” AI Mode will then give you a breakdown of recommended products, alongside product details and links to retailers.  
+Google is also making it possible to pick up where you left off when using AI Mode, which should be helpful in cases where you’re working on longer-running projects and tasks. On desktop, you can now click the new left-side panel in AI Mode to get to your past searches to see the information you were already given, and to ask follow-up questions. 
+Topics
+
+Consumer News Reporter
+
+Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI
+
+
+
+ Microsoft CEO says up to 30% of the company’s code was written by AI
+
+
+
+ Google launches AI tools for practicing languages through personalized lessons
+
+
+
+ Indian court orders blocking of Proton Mail
+
+
+
+ Hugging Face releases a 3D-printed robotic arm starting at $100
+
+
+
+ From coding tests to billion-dollar startups, Ali Partovi’s eight-year experiment is paying off
+
+
+
+ Bezos-backed Slate Auto debuts analog EV pickup truck that is decidedly anti-Tesla
+
+
+
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out

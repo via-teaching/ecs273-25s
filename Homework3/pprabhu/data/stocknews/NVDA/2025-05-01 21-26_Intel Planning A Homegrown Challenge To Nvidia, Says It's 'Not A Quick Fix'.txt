@@ -1,0 +1,42 @@
+Intel Planning A Homegrown Challenge To Nvidia, Says It's 'Not A Quick Fix'
+2025-05-01 21-26
+https://finance.yahoo.com/news/intel-planning-homegrown-challenge-nvidia-212609148.html?.tsrc=rss
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+Intel announced plans to develop its own AI chips on an earnings call Friday
+The company's previous strategy has been to acquire AI startups that have already developed their own chips
+Analysts remain split on whether or not the plan will work, citing Nvidia's dominance in the market
+Intel (NASDAQ:INTC) CEO Lip-Bu Tan announced that the company will be working to develop its own AI chips, in an earnings call on Friday.
+"This is not a quick fix," Tan said on the call. He continued that he would be combing through Intel's existing products, looking for ways to sharpen them to meet emerging trends in the AI market.
+Don't Miss:
+‘Scrolling To UBI' — Deloitte's #1 fastest-growing software company allows users to earn money on their phones. You can invest today for just $0.26/share with a $1000 minimum.
+Hasbro, MGM, and Skechers trust this AI marketing firm — invest pre-IPO from $0.60 per share now.
+"We are taking a holistic approach to redefine our portfolio, to optimize our products for new and emerging AI workloads,” Tan said. "Our goal is to become the platform of choice for our customers. This requires us to radically evolve our design and engineering mindset and anticipate the needs of our customer well in advance.”
+One of Intel's biggest missed opportunities over the last years has been its failure to challenge Nvidia (NASDAQ:NVDA) in the AI chip market. With a valuation of $2.65 trillion, Nvidia has become the dominant player in the market.
+Previously, Intel's approach has been to let AI companies develop the chips and then to acquire those companies. Between 2016 and 2019, it acquired a number of AI startups, including Movidius, Nervana, and Habana Labs. However, many of these deals failed to help the company gain traction against Nvidia and other competitors.
+Trending: Donald Trump Just Announced a $500 Billion AI Infrastructure Deal — Here's How You Can Invest in the Entertainment Market's Next Big Disruptor for Just $998
+Intel's chief financial officer, David Zinser, told Reuters that the company will be putting acquisitions on hold for the near future. "Our priority will need to be, at this point, getting the balance sheet to a better place,” he said.
+Analysts are split on whether or not the plan will work.
+Bob O'Donnell, the chief analyst at Technalysis Research, told Reuters, "Intel has a long history of building important new silicon developments within its own walls, so I'm not shocked to see them focus on in-house developments for AI. If they can build the appropriate set of software support to help make it easy to deploy these new chips, then they have a chance—but that is a big if."
+See Also: Shark Tank's Kevin O'Leary called Missing Ring his biggest mistake — Don't repeat history—invest in RYSE at just $1.90/share.
+Other analysts told Reuters that they think the move is too little, too late, telling Reuters that Nvidia's position is too strong, and combined with the efforts of other companies like Amazon (NASDAQ:AMZN) and Google, there simply isn't room for a new player.
+Hendi Susanto, a portfolio manager at Gabelli Funds, told Reuters that the company provided a peek at their overall AI strategy on the call. That strategy is to focus on chips and systems that run AI applications and edge devices. "While these areas show promise, the scale and pace of their growth remain uncertain,” she said.
+Read Next:
+Invest Where It Hurts — And Help Millions Heal: Invest in Cytonics and help disrupt a $390B Big Pharma stronghold.
+Inspired by Uber and Airbnb – Deloitte's fastest-growing software company is transforming 7 billion smartphones into income-generating assets – with $1,000 you can invest at just $0.26/share!
+Image: Shutterstock
+Up Next: Transform your trading with Benzinga Edge's one-of-a-kind market trade ideas and tools. Click now to access unique insights that can set you ahead in today's competitive market.
+Get the latest stock analysis from Benzinga?
+APPLE (AAPL): Free Stock Analysis Report
+TESLA (TSLA): Free Stock Analysis Report
+This article Intel Planning A Homegrown Challenge To Nvidia, Says It's 'Not A Quick Fix' originally appeared on Benzinga.com
+© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.
+Seaport Research Partners began coverage of the leader in chips for artificial intelligence with a Sell rating.
+Qualcomm  beat earnings forecasts but gave a slightly disappointing outlook for its current quarter.  “As we navigate the current macroeconomic and trade environment, we remain focused on the critical factors we can control—our leading technology roadmap, best-in-class product portfolio, strong customer relationships and operational efficiencies,” Qualcomm CEO Cristiano Amon said in the release.  There was some optimism heading into Qualcomm’s earnings.
+After market hours Wednesday, Bloomberg published an article stating that restaurant software specialist Olo (NYSE: OLO) is considering a potential sale.  Citing unidentified "people familiar with the matter," the financial news agency said that Olo management is working with a financial advisor to help it ascertain interest from prospective buyers.
+We recently published a list of 10 Cheap Semiconductor Stocks to Buy Now. In this article, we are going to take a look at where Micron Technology, Inc. (NASDAQ:MU) stands against other cheap semiconductor stocks to buy now. The semiconductor industry has been experiencing a recent wave of surging demand, technological innovation, and shifting macroeconomic […]
+CoreWeave stock, a high profile artificial intelligence initial public offering this year, popped on Microsoft and Meta earnings reports.
+Meta Platforms and Microsoft aren't slowing their spending on AI data centers, defying skeptics who have predicted a pullback.
+NCR Voyix (VYX) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.
+The headline numbers for Skyward (SKWD) give insight into how the company performed in the quarter ended March 2025, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.
+While the top- and bottom-line numbers for Motorola (MSI) give a sense of how the business performed in the quarter ended March 2025, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values.
+Amazon reported its first quarter earnings after the bell on Thursday.

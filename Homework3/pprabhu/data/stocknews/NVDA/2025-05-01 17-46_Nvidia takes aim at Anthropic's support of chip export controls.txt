@@ -1,0 +1,191 @@
+Nvidia takes aim at Anthropic's support of chip export controls
+2025-05-01 17-46
+https://techcrunch.com/2025/05/01/nvidia-takes-aim-at-anthropics-support-of-chip-export-controls/?.tsrc=rss
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Posted:
+Nvidia clearly doesn’t agree with Anthropic’s support for export controls on U.S.-made AI chips.
+On Wednesday, Anthropic doubled down on its support for the U.S. Department of Commerce’s “Framework for Artificial Intelligence Diffusion,” which would impose sweeping AI chip export restrictions starting May 15.
+The next day, Nvidia responded with a very different take on the upcoming controls.
+“American firms should focus on innovation and rise to the challenge, rather than tell tall tales that large, heavy, and sensitive electronics are somehow smuggled in ‘baby bumps’ or ‘alongside live lobsters,’” a spokesperson for Nvidia told CNBC, in reference to Anthropic’s claims of how these AI chips are being smuggled into countries targeted by the U.S. controls, like China.
+In a statement to TechCrunch, an Nvidia spokesperson added that “China, with half of the world’s AI researchers, has highly capable AI experts at every layer of the AI stack. America cannot manipulate regulators to capture victory in AI.”
+Export restrictions would hurt Nvidia’s global revenue stream. Nvidia recently stated that a new licensing requirement for its H20 AI chips to be sold in China could cost the company $5.5 billion in Q1 of its 2026 fiscal year.
+This piece has been updated to include additional commentary from Nvidia. 
+
+Topics
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+Subscribe for the industry’s biggest tech news
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+TechCrunch's AI experts cover the latest news in the fast-moving field.
+Every Monday, gets you up to speed on the latest advances in aerospace.
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+By submitting your email, you agree to our Terms and Privacy Notice.
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out
