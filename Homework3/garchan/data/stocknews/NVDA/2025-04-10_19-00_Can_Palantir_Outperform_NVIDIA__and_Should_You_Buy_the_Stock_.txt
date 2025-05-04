@@ -1,0 +1,97 @@
+Title: Can Palantir Outperform NVIDIA, and Should You Buy the Stock_
+Date (YYYY-MM-DD hour-min):2025-04-10 19-00
+URL: https://finance.yahoo.com/news/palantir-outperform-nvidia-buy-stock-190000870.html?.tsrc=rss
+Oops, something went wrong
+Tip: Try a valid symbol or a specific company name for relevant results
+Oops, something went wrong
+China already knows Trump's breaking point in their burgeoning trade war, our columnist writes
+How the bond market helped make Trump blink on tariffs
+The Dow fell 1,000 points, and the S&P 500 and Nasdaq were crushed as stocks resumed a tariff-fueled sell-off
+Trump's total tariff on China is actually 145%, the White House said, an amount higher than the 125% previously reported
+Stocks hit session lows as focus turned to the US-China trade war. The Dow lost over 1,200 points, and the Nasdaq plunged 4.5%.
+The Dow plummeted 900 points and the Nasdaq plunged over 3% as a tariff-fueled sell-off picked up speed again.
+Stocks plummet as Wall Street's euphoria from Trump's tariff pause gets a reality check
+Inflation unexpectedly tumbled in March, and core CPI rose at its slowest pace in four years.
+The EU matched Trump's 90-day pause on tariffs to 'give negtiations a chance.' See our live updates.
+The 'Trump put' makes an appearance
+March's report could be last time investors see inflation easing. Here's what to expect.
+Stocks wanted one thing from Trump after his shocking tariff announcement last week. They finally got it today.
+Stocks staged a wild rally after Trump's tariff reversal. The Dow gained near 3,000 points and the S&P 500 had its best day since 2008.
+Trump nodded to market turbulence as a factor in his 'reciprocal' tariff pause, saying investors were 'yippy' and 'afraid'
+The Nasdaq was up 10%, aiming for its biggest gain since 2008, after Trump paused some tariffs. The Dow soared 2,500 points.
+Trump unilaterally raises tariff rate on China to 125%, pauses 'reciprocal' tariffs on other countries
+The major indexes rocketed higher after Trump announced a '90-day pause on tariffs for most countries.
+Investors grapple with bond chaos as long-term yields soar following Trump's sweeping tariffs
+Trump tries to reassure Americans as markets reel from tariff shocks
+JPMorgan's Dimon: US recession now a 'likely outcome'
+Dow slides, Nasdaq rises after China strikes back against Trump's tariffs
+China strikes back by raising tariff on US goods to 84% after Trump's massive duties take effect
+What rankles Elon Musk the most — and what he actually likes — about Trump's trade approach
+A diminished ‘Magnificent 7’ tests Big Tech’s role in the market
+Trump tariffs live updates: US moves forward with 104% China tariffs, other 'reciprocal' duties go into effect
+Low mortgage rates from tariff pain? Don't count on it.
+Bill Ackman is waging a public campaign to sway Trump's tariffs. Here's what the billionaire says should happen next.
+Tariff-fueled losses for the megacaps have topped $2 trillion, as Tesla and Apple led Tuesday's sell-off
+Stocks completed a remarkable U-turn, with the Dow ending 300 points lower as Trump's tariffs sparked more volatility
+The S&P 500 and Nasdaq turned red after an early rally, as the White House said Trump would move forward with 104% China tariffs.
+Markets are wrestling with a mystery: What exactly does Trump want from tariff talks?
+Dow, S&P 500, Nasdaq surge in Wall Street rebound as hopes for Trump tariff deals get a boost
+Wall Street got a preview of what could stop the tariff turmoil
+'No signal, lots of noise': Sell-off cools down as Trump's tariffs drive wild swings in stock market
+Some of Trump's closest allies, including Elon Musk and Bill Ackman, are starting to raise questions about his tariff team
+The Trump stock market crash will hurt Main Street more than Wall Street
+Dow sinks 350 points, S&P 500 falls for third straight day as tariffs send stocks on roller-coaster ride
+BlackRock's Fink says most CEOs tell him 'we are probably in a recession right now'
+Wall Street bulls are ripping up their forecasts as the market's tariff-fueled meltdown 'projects negative outcomes to infinity'
+Trump threatens additional tariffs on China if it doesn't scrap its plans for retaliation
+Stocks whipsawed in volatile trading as investors sought clarity on tariff developments. See the latest updates.
+Dow, S&P 500, Nasdaq plummet as Trump tariff rout set to continue
+Jamie Dimon warns of slower growth, higher inflation as tariffs add 'one large additional straw on the camel’s back'
+Dow, S&P 500, Nasdaq futures plunge as Trump tariff rout gets set to escalate
+Trump says markets may have to 'take medicine' as stock futures plummet
+Analysts say stocks have 'ample space' to keep selling off as Trump and top advisers dig in on tariffs
+Stock futures plunge as Trump tariff rout looks set to intensify
+Homebuyers waiting for lower mortgage rates may wonder if rates will ever get to 3% again. Here's what to know.
+Opinion: There are too many unknowns to be able to model a clean market forecast right now.
+Builders sitting on a pile of unsold homes are slashing prices and offering mortgage rate deals
+The advent of artificial intelligence (AI) has made semiconductor behemoth NVIDIA Corporation NVDA and data-mining specialist Palantir Technologies Inc. PLTR Wall Street darlings, with their shares witnessing massive gains. But this year, NVIDIA’s shares have fallen 15.1%, while Palantir’s shares have gained 21.5% amid Trump tariff woes. Does this mean Palantir has more growth potential and investment appeal? Let’s explore –
+Image Source: Zacks Investment Research
+NVIDIA’s share of over 80% in the growing graphics processing unit (GPU) market gives the company a competitive edge over its peers. Among the developers, NVIDIA’s CUDA software platform is in more demand than Advanced Micro Devices, Inc.’s AMD ROCm software platform. The change is unlikely due to the complexity of infrastructure transitions.
+There is insane demand for NVIDIA’s both new and older chips. The new-generation Blackwell chips with faster AI interfaces are popular among prominent tech firms. Meanwhile, the older Hopper chips maintained steady demand due to their superior quality compared to rival Intel Corporation INTC.
+AI data center spending is also rising, a boon for NVIDIA. Major cloud computing stocks are poised to invest nearly $250 billion in AI data center infrastructure, purchasing GPUs to meet the growing demand for AI workloads.
+For now, Microsoft Corporation MSFT, one of NVIDIA’s primary customers, has scaled back on some of the data center projects. However, competitors Amazon.com, Inc. AMZN and Alphabet Inc. GOOGL have stepped in to fill the gap for NVIDIA.
+Palantir’s Artificial Intelligence Platform (AIP) has been a grand success among existing and new customers owing to its capability to automate tasks beyond human capacity. AIP helps its clients decode complex information by applying generative AI in the decision-making workflows.
+From International Data Corp. to Forrester Research, AIP’s prowess was praised by all. Palantir saw a 43% increase in customer count in the fourth quarter, thanks to AIP’s popularity. Its customer base expanded into the private sector beyond government clients, boosting revenue growth.
+The company’s revenues rose 36% in the fourth quarter, with Palantir expecting revenues to increase 31% year over year in the current year. Moreover, the company’s remaining performance obligation in the fourth quarter surpassed current revenue growth, indicating strong upcoming growth.
+Dominance in the GPU market, persistent demand for chips, and an uptick in AI infrastructure spending should help the NVIDIA stock scale upward in the long term.
+Lest we forget, the company has a price/earnings-to-growth (PEG) ratio of 0.85. Any reading below 1 signifies that the stock is undervalued and has the potential to rise when the market realizes its true worth. Maybe that’s why brokers have raised NVIDIA’s average short-term price target by 82.9% to $176.15 from the previous $96.30.
+Image Source: Zacks Investment Research
+On the other hand, Palantir’s top customer, the government, is cutting spending due to uncertainty about future software budgets. The Trump administration has asked DOGE to trim its budget by 8% each year for the next five years, hampering Palantir’s growth.
+To top it off, Palantir is trading at a forward price-to-earnings (P/E) ratio of 165.49, which is quite expensive for a company whose earnings are projected to grow 37% in 2025. So, Palantir has set a high bar for itself, but the overvalued stock could crash if business objectives aren’t met. Therefore, it’s premature to expect Palantir stock to outperform NVIDIA soon.
+Brokers are also skeptical about Palantir’s growth story as they have raised the stock’s average short-term price target by only 9.3% to $84.53 from the previous $77.32.
+Image Source: Zacks Investment Research
+Given such uncertainty, new entrants should avoid investing in Palantir stock as of now. However, those who have invested may hold onto the stock since an increase in customer base on AIP acceptance is good news for Palantir.
+Palantir currently has a Zacks Rank #3 (Hold), whereas NVIDIA carries a Zacks Rank #2 (Buy). You can see the complete list of today’s Zacks Rank #1 (Strong Buy) stocks here.
+Want the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report
+Amazon.com, Inc. (AMZN) : Free Stock Analysis Report
+Intel Corporation (INTC) : Free Stock Analysis Report
+Advanced Micro Devices, Inc. (AMD) : Free Stock Analysis Report
+Microsoft Corporation (MSFT) : Free Stock Analysis Report
+NVIDIA Corporation (NVDA) : Free Stock Analysis Report
+Alphabet Inc. (GOOGL) : Free Stock Analysis Report
+Palantir Technologies Inc. (PLTR) : Free Stock Analysis Report
+This article originally published on Zacks Investment Research (zacks.com).
+Zacks Investment Research
+Given PLTR's continuous rise in stock price, it's essential to evaluate its current standing and determine whether this presents a buying opportunity.
+QCOM vs. AMAT: Which Stock Is the Better Value Option?
+Alphabet or RDDT, which digital advertising stock is a better pick in the growing digital advertising domain?
+Following huge gains in yesterday's trading, Palantir Technologies (NASDAQ: PLTR) stock is losing ground Thursday.  At the same point in the day, the S&P 500 (SNPINDEX: ^GSPC) had fallen 3.3%, and the Nasdaq Composite (NASDAQINDEX: ^IXIC) had slipped 3.7%.  Palantir stock surged yesterday after President Trump announced a 90-day pause on "reciprocal tariffs" and a near-universal 10% tariff on all imported goods.
+Here’s what could be next for Palantir stock.
+We recently published a list of Jim Cramer Warns of a 36% Market Drop & Reviews These 9 Key Stocks. In this article, we are going to take a look at where Palantir Technologies Inc. (NYSE:PLTR) stands against other stocks Jim Cramer discusses. In his appearance on CNBC’s Squawk on the Street on Monday, Jim […]
+We recently published a list of Long-Term Stock Portfolio: 15 Best Stocks for 15 Years. In this article, we are going to take a look at where NVIDIA Corporation (NASDAQ:NVDA) stands against other best stocks for 15 years. Russell Investments believes that 3 features are defining the market outlook for 2025. These include the elevated […]
+The roller-coaster week for global stock markets took another sharp turn Thursday, yanking Nvidia (NVDA), Apple (AAPL), Amazon (AMZN), and other Big Tech stocks down with it.
+CMG and CAVA are the major operators in the fast-casual restaurant space. Find out which restaurant stock has more upside potential.
+Here are the best Bitcoin ETFs, including how much you’ll pay to invest in them.
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio
+Try again.
