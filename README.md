@@ -3,7 +3,7 @@
 This application uses python to process data. 
 Make sure you have python 3.13.3.
 You must also have the following modules.
-os,pandaand json. 
+os,panda and json. 
 
 # Steps to run
 
