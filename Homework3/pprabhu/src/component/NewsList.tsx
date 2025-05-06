@@ -26,7 +26,7 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
         const loadNewsForStock = async (stockSymbol: string) => {
             try {
                 // Loading article names from JSON file
-                const indexResponse = await fetch('/data/articles.json');
+                const indexResponse = await fetch('../../data/articles.json');
                 if (!indexResponse.ok) {
                     console.error("Failed to load articles index");
                     setNewsItems([]);
@@ -47,15 +47,15 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
                     try {
                         // Encode the filename bypass errors
                         const encodedFileName = encodeURIComponent(fileName);
-                        const fileResponse = await fetch(`/data/stocknews/${stockSymbol}/${encodedFileName}`);
+                        const fileResponse = await fetch(`../../data/stocknews/${stockSymbol}/${encodedFileName}`);
 
                         if (!fileResponse.ok) return null;
                         const text = await fileResponse.text();
                         // Skip HTML responses
-                        // if (text.toLowerCase().includes('<!doctype html>')) {
-                        //     console.warn(`Skipping HTML response for ${fileName}`);
-                        //     return null;
-                        // }
+                        if (text.toLowerCase().includes('<!doctype html>')) {
+                            console.warn(`Skipping HTML response for ${fileName}`);
+                            return null;
+                        }
 
                         const lines = text.split('\n');
 

@@ -1,5 +1,5 @@
 /**
- * This code builds off of existing code and uses parts from online D3 examples.
+ * This code uses parts of code from online D3 examples.
  * Source: options.tsx
  * Source: https://observablehq.com/@d3/scatterplot/2
  * Source: https://observablehq.com/@d3/zoomable-area-chart
@@ -28,6 +28,7 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
   const [data, setData] = useState<StockDataPoint[]>([]);
+  const zoomRef = useRef<any>(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -50,6 +51,16 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
     }
   }, [selectedStock]);
 
+  //For fixing zoom jumpiness
+  useEffect(() => {
+    if (svgRef.current && zoomRef.current) {
+      d3.select(svgRef.current).call(
+        zoomRef.current.transform as any,
+        d3.zoomIdentity
+      );
+    }
+  }, [selectedStock]);
+
   useEffect(() => {
     if (!data.length || !svgRef.current || !containerRef.current) return;
 
@@ -59,7 +70,8 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
           if (entry.target !== containerRef.current) continue;
           const { width, height } = entry.contentRect as ComponentSize;
           if (width && height && !isEmpty(data)) {
-            drawChart(svgRef.current!, data, width, height, selectedStock);
+            const zoom = drawChart(svgRef.current!, data, width, height, selectedStock);
+            zoomRef.current = zoom;
           }
         }
       }, 100)
@@ -70,11 +82,12 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
     // Draw initially based on starting size
     const { width, height } = containerRef.current.getBoundingClientRect();
     if (width && height) {
-      drawChart(svgRef.current!, data, width, height, selectedStock);
+      const zoom = drawChart(svgRef.current!, data, width, height, selectedStock);
+      zoomRef.current = zoom;
     }
 
     return () => resizeObserver.disconnect();
-  }, [data]);
+  }, [data, selectedStock]);
 
   return (
     <div className="chart-container d-flex" ref={containerRef} style={{ width: '100%', height: '100%' }}>
@@ -131,24 +144,25 @@ function drawChart(svgElement: SVGSVGElement, data: StockDataPoint[], width: num
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 80))
     .call(g => g.append("text")
-      .attr("x", width - margin.right)
+      .attr("x", (width - margin.right + margin.left) / 2)
       .attr("y", margin.bottom - 4)
       .attr("fill", "currentColor")
-      .attr("text-anchor", "end")
-      .attr("font-weight", "bold")
-      .text("t-SNE DIMENSION 1 →"));
+      .attr("text-anchor", "middle")
+      .attr("font-size", "12px")
+      .text("t-SNE DIMENSION 1"));
   // Y Axis
   svg.append("g")
     .attr("class", "y-axis")
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(y))
     .call(g => g.append("text")
-      .attr("x", -margin.left + 10)
-      .attr("y", 10)
+      .attr("transform", `rotate(-90)`)
+      .attr("x", -((height) / 2))
+      .attr("y", -margin.left + 15)
       .attr("fill", "currentColor")
       .attr("text-anchor", "start")
-      .attr("font-weight", "bold")
-      .text("↑ t-SNE DIMENSION 2"));
+      .attr("font-size", "12px")
+      .text("t-SNE DIMENSION 2"));
 
   // Create the grid
   svg.append("g")
@@ -257,13 +271,16 @@ function drawChart(svgElement: SVGSVGElement, data: StockDataPoint[], width: num
     });
 
   svg.call(zoom as any);
+  svg.call(zoom.transform as any, d3.zoomIdentity);
 
   // Small instruction text at the bottom
   svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", height - 1)
+    .attr("x", (width - margin.right + margin.left) / 2)
+    .attr("y", margin.top - 15)
     .attr("text-anchor", "middle")
-    .attr("font-size", "8px")
+    .attr("font-size", "10px")
     .attr("fill", "#888888")
     .text("Drag to pan, scroll to zoom")
+  
+  return zoom;
 }

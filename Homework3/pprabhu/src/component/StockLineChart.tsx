@@ -1,5 +1,5 @@
 /**
- * This code builds off of existing code and uses parts from online D3 examples.
+ * This code uses parts of code from online D3 examples.
  * Source: options.tsx
  * Source: https://observablehq.com/@d3/line-chart/2
  * Source: https://observablehq.com/@d3/zoomable-area-chart
@@ -113,10 +113,11 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 90))
     .call((g: any) => g.append("text")
-      .attr("x", width - margin.right)
+      .attr("x", (width - margin.right + margin.left) / 2) 
       .attr("y", margin.bottom - 4)
       .attr("fill", "currentColor")
-      .attr("font-weight", "bold")
+      .attr("text-anchor", "middle") 
+      .attr("font-size", "12px")
       .text("DATE →"));
 
   // Y Axis
@@ -125,11 +126,12 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(y).ticks(height / 20))
     .call((g: any) => g.append("text")
-      .attr("x", -margin.left + 5)
-      .attr("y", 10)
+      .attr("transform", `rotate(-90)`)
+      .attr("x", -((height) / 2)) 
+      .attr("y", -margin.left + 15) 
       .attr("fill", "currentColor")
-      .attr("text-anchor", "start")
-      .attr("font-weight", "bold")
+      .attr("text-anchor", "middle")
+      .attr("font-size", "12px")
       .text("PRICE ($)"));
 
   // Prevents lines from extending outside the chart area when zooming
@@ -165,14 +167,14 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
 
   // Legend
   const legend = svg.append("g")
-    .attr("transform", `translate(${width - margin.right + 10},${margin.top + 10})`);
+    .attr("transform", `translate(${width - margin.right + 10},${margin.top})`);
 
   legend.append("text")
     .attr("x", 0)
     .attr("y", -10)
     .attr("font-weight", "bold")
     .style("font-size", "11px")
-    .text("Legend");
+    .text("Stock Metric");
 
   Object.keys(colors).forEach((key, i) => {
     const group = legend.append("g")
@@ -244,10 +246,10 @@ function drawChart(svgElement: SVGSVGElement, data: StockData[], width: number, 
 
   // Small instruction text at the bottom
   svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", height - 1)
+    .attr("x", (width - margin.right + margin.left) / 2)
+    .attr("y", margin.top - 20)
     .attr("text-anchor", "middle")
-    .attr("font-size", "8px")
+    .attr("font-size", "10px")
     .attr("fill", "#888888")
     .text("Drag to pan, scroll to zoom")
 }
