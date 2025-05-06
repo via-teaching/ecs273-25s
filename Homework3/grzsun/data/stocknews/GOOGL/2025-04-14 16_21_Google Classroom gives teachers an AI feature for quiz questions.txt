@@ -1,0 +1,137 @@
+Google Classroom gives teachers an AI feature for quiz questions
+2025-04-14 16:21
+https://techcrunch.com/2025/04/14/google-classroom-gives-teachers-an-ai-feature-for-quiz-questions/?.tsrc=rss
+
+
+		Latest	
+
+
+		AI	
+
+
+		Amazon	
+
+
+		Apps	
+
+
+		Biotech & Health	
+
+
+		Climate	
+
+
+		Cloud Computing	
+
+
+		Commerce	
+
+
+		Crypto	
+
+
+		Enterprise	
+
+
+		EVs	
+
+
+		Fintech	
+
+
+		Fundraising	
+
+
+		Gadgets	
+
+
+		Gaming	
+
+
+		Google	
+
+
+		Government & Policy	
+
+
+		Hardware	
+
+
+		Instagram	
+
+
+		Layoffs	
+
+
+		Media & Entertainment	
+
+
+		Meta	
+
+
+		Microsoft	
+
+
+		Privacy	
+
+
+		Robotics	
+
+
+		Security	
+
+
+		Social	
+
+
+		Space	
+
+
+		Startups	
+
+
+		TikTok	
+
+
+		Transportation	
+
+
+		Venture	
+
+
+		Events	
+
+
+		Startup Battlefield	
+
+
+		StrictlyVC	
+
+
+		Newsletters	
+
+
+		Podcasts	
+
+
+		Videos	
+
+
+		Partner Content	
+
+
+		TechCrunch Brand Studio	
+
+
+		Crunchboard	
+
+
+		Contact Us	
+Google Classroom introduced a new AI-powered feature designed to help teachers generate questions. Launched on Monday, this tool lets educators create a list of questions based on specific text input.Using this text-dependent question-generation tool, which utilizes Gemini, teachers can either upload files from Google Drive or manually enter text for the AI to generate questions. They can then export the questions into a Google Doc or Google Form.Educators can choose from a variety of filters, including the grade level, the number of questions, and the type of questions (such as multiple choice or open-ended). Additionally, there is an option for teachers to specify the skills they want their students to demonstrate, such as the use of figurative language or the ability to evaluate arguments.This feature is available only to Google Workspace for Education subscribers who have either the Gemini Education add-on ($24 per user) or Gemini Education Premium ($36 per user).Google initially launched Gemini to Classroom in 2024 and has since expanded its capabilities. The recent update included a tool for creating vocabulary lists. It can also generate lesson plan ideas and summarize a range of materials, from class notes to student feedback.Topics Blue Origin’s all-female crew, including Katy Perry, successfully launched
+ Silicon Valley crosswalk buttons hacked to imitate Musk, Zuckerberg’s voices
+ Nvidia says it plans to manufacture some AI chips in the US
+ Access to future AI models in OpenAI’s API may require a verified ID
+ Jack Dorsey and Elon Musk would like to ‘delete all IP law’
+ OpenAI co-founder Ilya Sutskever’s Safe Superintelligence reportedly valued at $32B
+ Hacked documents reveal guide to serving Elon Musk on private jets
+© 2025 Yahoo.
