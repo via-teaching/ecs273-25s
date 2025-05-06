@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 How to run:
 1. Cd into grzsun directory
-2. type npm run install in terminal
+2. type npm install in terminal
 3. type npm run dev. Please make sure to run on http://localhost:5173/
 4. Open http://localhost:5173/ 
 
