@@ -57,7 +57,6 @@ export function NewsArticles() {
     return `${day}${ordinal} ${formatted}`;
   }
 
-  // Wait until dropdown exists before fetching
   useEffect(() => {
     const attemptLoad = () => {
       const dropdown = document.getElementById("bar-select");
@@ -77,7 +76,6 @@ export function NewsArticles() {
     return () => clearInterval(interval);
   }, []);
 
-  // Watch for dropdown changes
   useEffect(() => {
     const dropdown = document.getElementById("bar-select");
     if (!dropdown) return;
@@ -99,13 +97,10 @@ export function NewsArticles() {
             className="relative group cursor-pointer"
             onClick={() => setExpandedIndex(index === expandedIndex ? null : index)}
           >
-            {/* Dot on the timeline */}
             <span className="absolute left-[-1.9rem] top-2 w-3 h-3 bg-blue-500 rounded-full border-2 border-red-10 shadow z-10" />
 
-            {/* Horizontal connector from dot to content */}
             <span className="absolute left-0.1 top-[0.875rem] w-6 border-t-2 border-black-400" />
 
-            {/* Content container */}
             <div className="ml-10">
               <div className="text-sm font-medium text-gray-800">
                 {formatDate(article.date)}

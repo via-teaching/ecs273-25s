@@ -1,7 +1,7 @@
 import RenderOptions from "./component/options";
-import { LineChart } from './component/line_chart';
-import { NewsArticles } from './component/news_article';
-import { TsnePlot } from "./component/scatter_plot";
+import { LineChart } from './component/example/line_chart';
+import { NewsArticles } from './component/example/news_article';
+import { TsnePlot } from "./component/example/scatter_plot";
 
 function App() {
   return (
@@ -27,7 +27,8 @@ function App() {
 
       <div className="h-2/5  w-full p-1">
         <h3 className="text-center text-xl">Historic Data for Companies</h3>
-        <div className="border-2 bg-green-100 border-black rounded-xl h-[calc(100%-1rem)]">
+        <div className="border-2 border-black rounded-xl h-[calc(100%-1rem)]" style={{ backgroundColor: '#f3fdf7' }}>
+
           <LineChart />
         </div>
       </div>
@@ -36,12 +37,11 @@ function App() {
    
         <div className="w-1/2 p-1 ">
           <h3 className="text-center text-xl p-1 h-[1.7rem]">Scatter Plot</h3>
-          <div className="border-2 bg-white border-black rounded-xl h-[calc(100%-2rem)]">
+          <div className="border-2 bg-white border-black rounded-xl h-[calc(100%-2rem)]" style={{ backgroundColor: '#fffce5' }}>
             <TsnePlot />
           </div>
         </div>
 
-        {/* Right: News Articles */}
         <div className="w-1/2 p-1 ">
           <h3 className="text-center text-xl p-1 h-[1.7rem]">Related News Articles</h3>
           <div className="border-2 bg-blue-200 border-black rounded-xl h-[calc(100%-2rem)] overflow-auto p-2">

@@ -166,10 +166,8 @@
         .attr("transform", `translate(0, ${height - margin.bottom})`)
         .call(d3.axisBottom(xScale).ticks(d3.timeMonth.every(1)).tickFormat(d3.timeFormat("%b %Y")));
 
-      // Y-axis update
       d3.select("#y-axis").call(d3.axisLeft(yScale));
 
-      // X axis label
       svg.append("text")
         .attr("x", zoomedWidth / 2)
         .attr("y", height)
@@ -178,7 +176,6 @@
         .attr("font-size", "12px")
         .text("Date");
 
-      // Trigger redraw when dropdown changes
       d3.select("#bar-select").on("change", () => {
         const { height } = svgEl.getBoundingClientRect();
         const width = monthsVisible * pixelsPerMonth;

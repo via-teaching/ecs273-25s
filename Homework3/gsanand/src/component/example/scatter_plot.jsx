@@ -11,7 +11,6 @@ export function TsnePlot() {
     const loadAndRender = async () => {
       const data = await csv("data/tsne.csv");
 
-      // Wait until dropdown is populated
       let ticker = document.getElementById("bar-select")?.value;
       if (!ticker) {
         await new Promise(resolve => setTimeout(resolve, 100));
@@ -39,11 +38,18 @@ export function TsnePlot() {
     const x = d3.scaleLinear(d3.extent(data, d => +d.x), [40, width - 40]);
     const y = d3.scaleLinear(d3.extent(data, d => +d.y), [height - 40, 40]);
 
-    const color = d3.scaleOrdinal(d3.schemeTableau10);
+    const distinctColors = [
+      "#e6194b", "#3cb44b", "#ffe119", "#0082c8", "#f58231",
+      "#911eb4", "#46f0f0", "#f032e6", "#d2f53c", "#fabebe",
+      "#008080", "#e6beff", "#aa6e28", "#fffac8", "#800000",
+      "#aaffc3", "#808000", "#ffd8b1", "#000080", "#808080"
+    ];
+
+    const color = d3.scaleOrdinal(distinctColors);
+
     const sectors = Array.from(new Set(data.map(d => d.Sector)));
     color.domain(sectors);
 
-    // Clip path to prevent overflowing
     svg.append("defs")
       .append("clipPath")
       .attr("id", "clip")
@@ -69,7 +75,6 @@ export function TsnePlot() {
       .attr("class", "y-axis")
       .call(yAxis);
 
-    // Axis labels
     svg.append("text")
       .attr("x", width / 2)
       .attr("y", height - 5)
@@ -96,7 +101,6 @@ export function TsnePlot() {
         .attr("stroke", d => d.Ticker === selectedTicker ? "black" : null)
         .attr("stroke-width", d => d.Ticker === selectedTicker ? 1.5 : 0);
 
-      // Ticker label
       main.selectAll("text.ticker-label")
         .data(data.filter(d => d.Ticker === selectedTicker))
         .join("text")
@@ -124,7 +128,6 @@ export function TsnePlot() {
 
     svg.call(zoom);
 
-    // Auto-center selected ticker
     if (selectedTicker) {
       const point = data.find(d => d.Ticker === selectedTicker);
       if (point) {
@@ -140,7 +143,6 @@ export function TsnePlot() {
       }
     }
 
-    // Legend
     const legend = svg.append("g").attr("transform", `translate(${width - 110}, 20)`);
     sectors.forEach((sector, i) => {
       legend.append("circle")
