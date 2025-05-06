@@ -1,10 +1,12 @@
-# ECS273 Homework templates
-In this repository, you will find the templates for your homework assignments.
-Please refer to the instructions provided on Canvas and the linked Google Docs for detailed requirements and submission guidelines.
+# Dependencies
 
-To clone this repository, please run:
-```
-git clone git@github.com:via-teaching/ecs273-25s.git
-```
+This application uses python to process data. 
+Make sure you have python 3.13.3.
+You must also have the following modules.
+os,pandaand json. 
 
-Switch to the respective Homework directory for more information.
+# Steps to run
+
+Navigate to the gsanand directory. Homework3 --> gsanand. 
+In the gsanand directory open the cmd and run "npm build".
+Then run "npm run dev".
