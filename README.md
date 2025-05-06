@@ -6,3 +6,5 @@ To clone this repository, please run:
 ```
 git clone git@github.com:via-teaching/ecs273-25s.git
 ```
+
+Switch to the respective Homework directory for more information.
