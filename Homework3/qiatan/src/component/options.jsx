@@ -1,10 +1,15 @@
-import Data from "../../data/demo.json";
+const RenderOptions = () => {
+  const stocks = [
+    "AAPL", "MSFT", "GOOGL", "AMZN", "META",
+    "TSLA", "NVDA", "JPM", "BAC", "WFC",
+    "V", "MA", "DIS", "NFLX", "NKE",
+    "KO", "PEP", "PFE", "JNJ", "MRK"
+  ];
 
-export default function RenderOptions() {
-    const bars = Data.data;
-    return bars.map((bar, index) => (
-      <option key={index} value={bar.category}>
-        {bar.category}
-      </option>
-    ));
-  }
+  return stocks.map((stock) => (
+    <option key={stock} value={stock}>{stock}</option>
+  ));
+};
+
+export default RenderOptions;
+5
