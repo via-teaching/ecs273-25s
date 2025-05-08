@@ -1,9 +1,9 @@
 const RenderOptions = () => {
   const stocks = [
-    "AAPL", "MSFT", "GOOGL", "AMZN", "META",
-    "TSLA", "NVDA", "JPM", "BAC", "WFC",
-    "V", "MA", "DIS", "NFLX", "NKE",
-    "KO", "PEP", "PFE", "JNJ", "MRK"
+    "AAPL", "BAC", "CAT", "CVX", "DAL",
+    "GOOGL", "GS", "HAL", "JNJ", "JPM",
+    "KO", "MCD", "META", "MMM", "MSFT",
+    "NKE", "NVDA", "PFE", "UNH", "XOM"
   ];
 
   return stocks.map((stock) => (
@@ -12,4 +12,3 @@ const RenderOptions = () => {
 };
 
 export default RenderOptions;
-5

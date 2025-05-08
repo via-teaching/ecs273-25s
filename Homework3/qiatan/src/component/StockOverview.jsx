@@ -38,21 +38,25 @@ const StockOverview = ({ selectedStock }) => {
     fetch(`/data/stockdata/${selectedStock}.csv`)
       .then((res) => res.text())
       .then((csvText) => {
-        const parsed = Papa.parse(csvText, { header: true });
+        const parsed = Papa.parse(csvText, { header: true });  
         const data = parsed.data
           .filter((d) => d.Date && d.Open && d.High && d.Low && d.Close)
           .map((d) => ({
-            Date: d3.timeParse("%Y-%m-%d")(d.Date),
+            Date: d3.timeParse("%Y-%m-%d")(d.Date.split(' ')[0]), 
             Open: +d.Open,
             High: +d.High,
             Low: +d.Low,
             Close: +d.Close,
           }));
+  
         if (!isEmpty(data)) {
           drawChart(svgRef.current, data, width, height);
         }
+
       });
   };
+  
+  
 
   return (
     <div className="chart-container" ref={containerRef} style={{ width: "100%", height: "100%" }}>
