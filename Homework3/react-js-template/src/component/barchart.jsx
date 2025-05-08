@@ -20,7 +20,9 @@ export function BarChart() {
           if (entry.target !== containerRef.current) continue;
           const { width, height } = entry.contentRect;
           if (width && height && !isEmpty(bars)) {
-            drawChart(svgRef.current, bars, width, height);
+            d3.csv(`/data/stockdata/${selectedStock}.csv`).then((data) => {
+                drawChart(svgRef.current, data, width, height);
+            });
           }
         }
       }, 100)
