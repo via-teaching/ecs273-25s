@@ -6,7 +6,7 @@ import Data from "../../data/demo.json";
 
 const margin = { left: 40, right: 20, top: 20, bottom: 60 };
   
-export function BarChart() {
+export function BarChart({ selectedStock }) {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
 //   const bars = Data.data;
@@ -19,9 +19,9 @@ export function BarChart() {
         for (const entry of entries) {
           if (entry.target !== containerRef.current) continue;
           const { width, height } = entry.contentRect;
-          if (width && height && !isEmpty(bars)) {
-            d3.csv(`/data/stockdata/${selectedStock}.csv`).then((data) => {
-                drawChart(svgRef.current, data, width, height);
+          if (width && height) {
+            d3.csv(`/data/stockdata/${selectedStock}.csv`).then((rawData) => {
+                drawChart(svgRef.current,rawData, width, height);
             });
           }
         }
@@ -33,11 +33,13 @@ export function BarChart() {
     // Draw initially based on starting size
     const { width, height } = containerRef.current.getBoundingClientRect();
     if (width && height) {
-      drawChart(svgRef.current, bars, width, height);
+        d3.csv(`/data/stockdata/${selectedStock}.csv`).then((rawData) => {
+            drawChart(svgRef.current,rawData, width, height);
+        });
     }
 
     return () => resizeObserver.disconnect();
-  }, [bars]);
+  }, [selectedStock]);
 
   
 
@@ -49,24 +51,32 @@ export function BarChart() {
 }
 
 
-function drawChart(svgElement, bars, width, height, ) {
+function drawChart(svgElement, rawData, width, height) {
     const svg = d3.select(svgElement);
     svg.selectAll('*').remove(); // clear previous render
 
-    const yExtents = d3.extent(bars.map((d) => d.value));
-    const xCategories = [...new Set(bars.map((d) => d.category))];
+    const stock_data = rawData.map((d) => ({
+        Date: new Date(d.Date),
+        Open: +d.Open,
+        High: +d.High,
+        Low: +d.Low,
+        Close: +d.Close,
+    }));
 
-    const xScale = d3.scaleBand()
+    const yExtent = d3.extent(stock_data.flatMap(d => [d.Open, d.High, d.Low, d.Close]));
+    // const xCategories = [...new Set(bars.map((d) => d.category))];
+
+    const xScale = d3.scaleTime()
         .rangeRound([margin.left, width - margin.right])
-        .domain(xCategories)
-        .padding(0.1);
+        .domain(d3.extent(stock_data, d => d.Date));
 
     const yScale = d3.scaleLinear()
         .range([height - margin.bottom, margin.top])
-        .domain([0, yExtents[1]]);
+        .domain(yExtent);
     
+    const g = svg.append("g");
     
-
+    //axes
     svg.append('g')
         .attr('transform', `translate(0, ${height - margin.bottom})`)
         .call(d3.axisBottom(xScale))
@@ -74,57 +84,81 @@ function drawChart(svgElement, bars, width, height, ) {
         .attr('transform', `translate(${margin.left}, 0)`)
         .call(d3.axisLeft(yScale));
 
+    // labels
     svg.append('g')
         .attr('transform', `translate(10, ${height / 2}) rotate(-90)`)
         .append('text')
-        .text('Value')
+        .text('Price')
         .style('font-size', '.8rem');
 
     svg.append('g')
         .attr('transform', `translate(${width / 2 - margin.left}, ${height - margin.top - 5})`)
         .append('text')
-        .text('Categories')
+        .text('Dates')
         .style('font-size', '.8rem');
+    
+    
+    const fields = [
+        { key: "Open", color: "blue" },
+        { key: "High", color: "green" },
+        { key: "Low", color: "orange" },
+        { key: "Close", color: "red" },
+        ];
+    
+    fields.forEach(({ key, color }) => {
+        const line = d3.line()
+            .x((d) => xScale(d.Date))
+            .y((d) => yScale(d[key]));
+    
+        g.append("path")
+            .datum(stock_data)
+            .attr("fill", "none")
+            .attr("stroke", color)
+            .attr("stroke-width", 1.5)
+            .attr("d", line);
+    });
 
-    svg.append('g')
-        .selectAll('rect')
-        .data(bars)
-        .join('rect')
-        .attr('x', (d) => xScale(d.category))
-        .attr('y', (d) => yScale(d.value))
-        .attr('width', xScale.bandwidth())
-        .attr('height', (d) => Math.abs(yScale(0) - yScale(d.value)))
-        .attr('fill', 'teal')
-        .attr('class', 'bar')
-        .attr('id', (d) => `bar-${d.category}`);
 
-    svg.append('g')
-        .append('text')
-        .attr('transform', `translate(${width / 2}, ${height - margin.top + 5})`)
-        .attr('dy', '0.5rem')
-        .style('text-anchor', 'middle')
-        .style('font-weight', 'bold')
-        .text('Distribution of Demo Data');
-    const categorySelect = d3.select('#bar-select');
+
+    // svg.append('g')
+    //     .selectAll('rect')
+    //     .data(bars)
+    //     .join('rect')
+    //     .attr('x', (d) => xScale(d.category))
+    //     .attr('y', (d) => yScale(d.value))
+    //     .attr('width', xScale.bandwidth())
+    //     .attr('height', (d) => Math.abs(yScale(0) - yScale(d.value)))
+    //     .attr('fill', 'teal')
+    //     .attr('class', 'bar')
+    //     .attr('id', (d) => `bar-${d.category}`);
+
+    // svg.append('g')
+    //     .append('text')
+    //     .attr('transform', `translate(${width / 2}, ${height - margin.top + 5})`)
+    //     .attr('dy', '0.5rem')
+    //     .style('text-anchor', 'middle')
+    //     .style('font-weight', 'bold')
+    //     .text('Distribution of Demo Data');
+    // const categorySelect = d3.select('#bar-select');
 
     // call it once initially
-    const initialSelected = categorySelect.property('value');
-    highlightBar(initialSelected);
+    // const initialSelected = categorySelect.property('value');
+    // highlightBar(initialSelected);
     
-    // change when the select changes
-    categorySelect
-      .on('change', function(event) {
-        const selectedCategory = event.target.value;
-        highlightBar(selectedCategory);
+    // // change when the select changes
+    // categorySelect
+    //   .on('change', function(event) {
+    //     const selectedCategory = event.target.value;
+    //     highlightBar(selectedCategory);
 
-      })
+    //   })
 }
 
-function highlightBar(selectedCategory) {
-  // 1. First, reset all bars back to normal
-  d3.selectAll('.bar')
-    .attr('fill', 'teal'); // whatever your default color is
-  // 2. Then highlight the selected bar
-  d3.select(`#bar-${selectedCategory}`)
-    .attr('fill', 'orange'); // or any color you like
-}
+// function highlightBar(selectedCategory) {
+//   // 1. First, reset all bars back to normal
+//   d3.selectAll('.bar')
+//     .attr('fill', 'teal'); // whatever your default color is
+//   // 2. Then highlight the selected bar
+//   d3.select(`#bar-${selectedCategory}`)
+//     .attr('fill', 'orange'); // or any color you like
+// }
