@@ -19,9 +19,9 @@ function App() {
       <div className="flex flex-row h-full w-full">
         <div className="flex flex-col w-2/3">
 
-          <div className="h-1/4 p-2">
+          <div className="h-1/4 p-2 flex flex-col ">
             <h3 className="text-left text-xl">View 1: Stock Price Bar Chart</h3>
-            <div className="border-2 border-gray-300 rounded-xl">
+            <div className="border-2 border-gray-300 rounded-xl flex-1 overflow-hidden">
               <BarChart selectedStock={selectedStock}/> 
               {/* I here asked gpt why it needs to be change to <> */}
             </div>
@@ -32,7 +32,7 @@ function App() {
               <p className="text-center text-gray-500 mt-20">Empty View 2</p>
             </div>
           </div>
-          
+
         </div>
         <div className="w-1/3 h-full p-2">
             <h3 className="text-left text-xl h-[2rem]">View 3 to be replaced by the view title</h3>
