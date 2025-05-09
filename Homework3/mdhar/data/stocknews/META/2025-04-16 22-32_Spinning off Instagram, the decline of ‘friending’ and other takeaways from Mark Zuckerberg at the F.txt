@@ -1,0 +1,115 @@
+Title: Spinning off Instagram, the decline of ‘friending’ and other takeaways from Mark Zuckerberg at the F
+Date: 2025-04-16 22:32
+URL: https://www.cnn.com/2025/04/16/tech/mark-zuckerberg-testimony-meta-ftc-trial?.tsrc=rss
+Content:
+Markets 
+
+
+
+Hot Stocks 
+
+
+
+Fear & Greed Index 
+
+
+
+
+            Latest Market News 
+
+
+
+
+            Hot Stocks 
+
+
+
+Follow:
+
+            CEO Mark Zuckerberg defended Meta’s acquisition of Instagram and WhatsApp on the stand this week during the start of trial over the blockbuster antitrust lawsuit brought by the Federal Trade Commission.
+    
+
+            But, it turns out, Zuckerberg predicted that he might find himself in this position years ago – and even proposed the idea of spinning off Instagram himself.
+    
+
+            That was one of several takeaways from more than 10 hours of testimony from Meta’s CEO, during which he pushed back on the FTC’s claims that the company has built an illegal “social network monopoly” by acquiring would-be rivals. The testimony painted a picture of how Zuckerberg views the competition and the company’s struggles to keep up with a rapidly evolving social media landscape that it argues has pushed users toward rivals like TikTok and YouTube.
+    
+
+            There’s a lot at stake for Meta, as it could be forced to offload Instagram and WhatsApp if it loses.
+    
+
+            Here are the biggest takeaways from Zuckerberg, who took the stand just before former Facebook Chief Operating Officer Sheryl Sandberg testified on Wednesday.
+    
+
+            In 2018, Zuckerberg raised concerns to other executives that “as calls to break up the big tech companies grow, there is a non-trivial chance that we will be forced to spin out Instagram and perhaps WhatsApp in the next 5-10 years anyway,” according to an email produced in court.
+    
+
+            In light of that, Zuckerberg suggested spinning off Instagram because the company’s “family of apps” structure could hurt Facebook. He added: “most companies actually perform better after they’ve been split up.”
+    
+
+            Of course, Meta didn’t end up spinning Instagram or WhatsApp off, and it’s now in court fighting the FTC to avoid having to do just that.
+    
+
+            Zuckerberg was indeed concerned that WhatsApp and Instagram could threaten Facebook’s dominance prior to buying the platforms, documents presented during FTC lawyer Daniel Matheson’s questioning suggested.
+    
+
+            In 2011, Zuckerberg appeared to realize that Facebook’s now-defunct Facebook Camera service was falling behind Instagram in functionality and popularity.
+    
+
+            “In the time it has taken us to get our act together on this, Instagram has become a large and viable competitor to us on mobile photos, which will increasingly be the future of photos,” Zuckerberg wrote in an email at the time. Facebook ended up acquiring Instagram for $1 billion in April 2012.
+    
+
+            In a 2012 email to then-COO Sandberg, Zuckerberg said then-Chief Technology Officer Mike Schroepfer’s teams “are executing well technically but their results this year are only okay so far.”
+    
+
+            “Messenger isn’t beating WhatsApp, Instagram was growing so much faster than us that we had to buy them for $1 billion,” he wrote in the email. “That’s not exactly killing it.”
+    
+
+            Then in 2013, Zuckerberg told then-growth head Javier Olivan he worried that WhatsApp would develop features similar to Facebook and Instagram and could “start winning in the US and other markets.” Olivan responded at the time he had been having “sleepless nights” worried that WhatsApp was “the real deal.” Facebook had also been concerned around that time that Google could acquire WhatsApp before it did.
+    
+
+            But Zuckerberg said in court Wednesday, during cross examination by Meta’s lawyer, that he thought it was “extremely unlikely” that WhatsApp would build competitive features after his first meeting with the platform’s co-founder Jan Koum.
+    
+
+            Facebook bought WhatsApp in 2014 for $19 billion.
+    
+
+            Zuckerberg also claimed that Meta made both platforms better for users by acquiring them.
+    
+
+            Zuckerberg originally built Facebook to connect and share content with friends and family. That’s the market that the FTC claims Meta now dominates.
+    
+
+            But Zuckerberg said that kind of use of his product has been declining.
+    
+
+            The FTC’s lawyer on Tuesday asked Zuckerberg about an internal document from 2022 that indicated “friending and friend sharing are losing steam.”
+    
+
+            “The amount that people are sharing with friends on Facebook, especially, has been declining,” Zuckerberg said. “Even the amount of new friends that people add … I think has been declining. But I don’t know the exact numbers.”
+    
+
+            But the future isn’t necessarily the content creator-filled feeds that have become the norm on Meta’s products. Instead, Zuckerberg said, messaging between individuals or friend groups is becoming more popular than sharing content on more public social media feeds.
+    
+
+            “Messaging has been growing dramatically, and sharing with friends in feeds has been declining,” he said Tuesday.
+    
+
+            It’s not just TikTok and Snapchat; Google’s YouTube platform is also a major rival to Facebook, the Meta CEO said on the stand this week.
+    
+
+            YouTube has indeed been capturing the attention of younger audiences; Pew Research found that nine in 10 US teens use YouTube, while Facebook usage has “steeply declined” over the past decade among that age group.
+    
+
+            Zuckerberg attributed this in part to a rise in “richer forms of media,” like video, as mobile networks have grown more capable in the last 10 years. “YouTube is the most competitive for creators,” he said Wednesday, referring to online personalities that garner huge followings through posting videos on platforms like YouTube, TikTok and Instagram.
+    
+
+            “My understanding … is that people spend more time on YouTube than on Facebook and Instagram combined, certainly more than either one independently,” he said.
+    
+
+            Still, Meta holds a firm grip on the social media market, especially in the US, according to Pew Research, where it operates a quarter of the most widely-used social media platforms.
+    
+Most stock quote data provided by BATS. US market indices are shown in real time, except for the S&P 500 which is refreshed every two minutes. All times are ET. Factset: FactSet Research Systems Inc. All rights reserved. Chicago Mercantile: Certain market data is the property of Chicago Mercantile Exchange Inc. and its licensors. All rights reserved. Dow Jones: The Dow Jones branded indices are proprietary to and are calculated, distributed and marketed by DJI Opco, a subsidiary of S&P Dow Jones Indices LLC and have been licensed for use to S&P Opco, LLC and CNN. Standard & Poor’s and S&P are registered trademarks of Standard & Poor’s Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC. All content of the Dow Jones branded indices Copyright S&P Dow Jones Indices LLC and/or its affiliates. Fair value provided by IndexArb.com. Market holidays and trading hours provided by Copp Clark Limited.
+© 2025 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.  CNN Sans ™ & © 2016 Cable News Network.
+If you switch this toggle to “no,” we will not sell or share your personal information with third parties for advertising targeted to this device. Please see our Privacy Center for additional preferences.
+These cookies are necessary for the website to function and cannot be switched off in our systems. You can set your browser to block or alert you about these cookies, but some parts of the site will not work.
