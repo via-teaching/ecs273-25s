@@ -1,3 +1,4 @@
+// import
 import { useState } from "react";
 import RenderOptions from "./component/options";
 import StockPriceChart from "./component/StockPriceChart";
