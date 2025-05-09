@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import { useEffect, useRef } from "react";
 import { debounce, isEmpty } from "lodash";
-import Papa from "papaparse"; // 确保 npm install papaparse
+import Papa from "papaparse";
 
 const margin = { left: 40, right: 20, top: 20, bottom: 60 };
 
@@ -38,25 +38,22 @@ const StockOverview = ({ selectedStock }) => {
     fetch(`/data/stockdata/${selectedStock}.csv`)
       .then((res) => res.text())
       .then((csvText) => {
-        const parsed = Papa.parse(csvText, { header: true });  
+        const parsed = Papa.parse(csvText, { header: true });
         const data = parsed.data
           .filter((d) => d.Date && d.Open && d.High && d.Low && d.Close)
           .map((d) => ({
-            Date: d3.timeParse("%Y-%m-%d")(d.Date.split(' ')[0]), 
+            Date: d3.timeParse("%Y-%m-%d")(d.Date.split(' ')[0]),
             Open: +d.Open,
             High: +d.High,
             Low: +d.Low,
             Close: +d.Close,
           }));
-  
+
         if (!isEmpty(data)) {
           drawChart(svgRef.current, data, width, height);
         }
-
       });
   };
-  
-  
 
   return (
     <div className="chart-container" ref={containerRef} style={{ width: "100%", height: "100%" }}>
@@ -80,62 +77,30 @@ function drawChart(svgElement, data, width, height) {
       d3.min(data, (d) => d.Low),
       d3.max(data, (d) => d.High),
     ])
+    .nice()
     .range([height - margin.bottom, margin.top]);
 
-  const lineOpen = d3.line()
+  const lineGen = (key) => d3.line()
     .x((d) => xScale(d.Date))
-    .y((d) => yScale(d.Open));
+    .y((d) => yScale(d[key]));
 
-  const lineHigh = d3.line()
-    .x((d) => xScale(d.Date))
-    .y((d) => yScale(d.High));
+  const gContent = svg.append("g").attr("class", "content");
 
-  const lineLow = d3.line()
-    .x((d) => xScale(d.Date))
-    .y((d) => yScale(d.Low));
+  gContent.append("path").datum(data).attr("d", lineGen("Open"))
+    .attr("stroke", "blue").attr("fill", "none").attr("stroke-width", 1.5);
+  gContent.append("path").datum(data).attr("d", lineGen("High"))
+    .attr("stroke", "red").attr("fill", "none").attr("stroke-width", 1.5);
+  gContent.append("path").datum(data).attr("d", lineGen("Low"))
+    .attr("stroke", "green").attr("fill", "none").attr("stroke-width", 1.5);
+  gContent.append("path").datum(data).attr("d", lineGen("Close"))
+    .attr("stroke", "orange").attr("fill", "none").attr("stroke-width", 1.5);
 
-  const lineClose = d3.line()
-    .x((d) => xScale(d.Date))
-    .y((d) => yScale(d.Close));
-
-  svg.append("g")
+  const xAxis = svg.append("g")
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(xScale));
-
-  svg.append("g")
+  const yAxis = svg.append("g")
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(yScale));
-
-  svg.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", "blue")
-    .attr("stroke-width", 1.5)
-    .attr("d", lineOpen);
-
-  svg.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", "red")
-    .attr("stroke-width", 1.5)
-    .attr("d", lineHigh);
-
-  svg.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", "green")
-    .attr("stroke-width", 1.5)
-    .attr("d", lineLow);
-
-  svg.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", "orange")
-    .attr("stroke-width", 1.5)
-    .attr("d", lineClose);
-
-  const legend = svg.append("g")
-    .attr("transform", `translate(${width - margin.right - 100}, ${margin.top})`);
 
   const legendItems = [
     { label: "Open", color: "blue" },
@@ -143,10 +108,31 @@ function drawChart(svgElement, data, width, height) {
     { label: "Low", color: "green" },
     { label: "Close", color: "orange" },
   ];
-
-  legendItems.forEach((item, index) => {
-    const g = legend.append("g").attr("transform", `translate(0, ${index * 20})`);
-    g.append("rect").attr("width", 10).attr("height", 10).attr("fill", item.color);
-    g.append("text").attr("x", 15).attr("y", 10).text(item.label).style("font-size", "0.8rem");
+  const legend = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
+  legendItems.forEach((item, i) => {
+    const g = legend.append("g").attr("transform", `translate(0, ${i * 20})`);
+    g.append("line").attr("x1", 0).attr("x2", 20).attr("y1", 5).attr("y2", 5)
+      .attr("stroke", item.color).attr("stroke-width", 2);
+    g.append("text").attr("x", 25).attr("y", 9).text(item.label).style("font-size", "0.8rem");
   });
+
+  const zoom = d3.zoom()
+    .scaleExtent([1, 10])
+    .translateExtent([[margin.left, 0], [width - margin.right, height]])
+    .extent([[margin.left, 0], [width - margin.right, height]])
+    .on("zoom", (event) => {
+      const t = event.transform;
+      const newX = t.rescaleX(xScale);
+
+      gContent.selectAll("path").attr("d", (d, i, nodes) => {
+        const key = ["Open", "High", "Low", "Close"][i];
+        return d3.line()
+          .x(d => newX(d.Date))
+          .y(d => yScale(d[key]))(data);
+      });
+
+      xAxis.call(d3.axisBottom(newX));
+    });
+
+  svg.call(zoom);
 }

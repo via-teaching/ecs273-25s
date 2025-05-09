@@ -5,6 +5,16 @@ import Papa from "papaparse";
 
 const margin = { left: 40, right: 20, top: 20, bottom: 60 };
 
+const sectorMap = {
+  AAPL: "Tech", MSFT: "Tech", GOOGL: "Tech", META: "Tech", NVDA: "Tech",
+  JPM: "Finance", BAC: "Finance", GS: "Finance",
+  KO: "Consumer", MCD: "Consumer", NKE: "Consumer",
+  XOM: "Energy", CVX: "Energy", HAL: "Energy",
+  CAT: "Industrial", MMM: "Industrial",
+  UNH: "Health", JNJ: "Health", PFE: "Health",
+  DAL: "Transport"
+};
+
 const TsneScatter = ({ selectedStock }) => {
   const containerRef = useRef(null);
   const svgRef = useRef(null);
@@ -25,7 +35,6 @@ const TsneScatter = ({ selectedStock }) => {
     );
 
     resizeObserver.observe(containerRef.current);
-
     const { width, height } = containerRef.current.getBoundingClientRect();
     if (width && height) {
       fetchAndDraw(width, height);
@@ -35,11 +44,19 @@ const TsneScatter = ({ selectedStock }) => {
   }, [selectedStock]);
 
   const fetchAndDraw = (width, height) => {
-    fetch(`/data/tsne.csv`)
+    fetch("/data/tsne.csv")
       .then((res) => res.text())
       .then((csvText) => {
         const parsed = Papa.parse(csvText, { header: true });
-        const data = parsed.data.filter(d => d.x && d.y && d.sector && d.stock);
+        const data = parsed.data
+          .filter(d => d.x && d.y && d.stock)
+          .map(d => ({
+            x: +d.x,
+            y: +d.y,
+            stock: d.stock,
+            sector: sectorMap[d.stock] || "Other"
+          }));
+
         if (!isEmpty(data)) {
           drawChart(svgRef.current, data, width, height, selectedStock);
         }
@@ -60,41 +77,71 @@ function drawChart(svgElement, data, width, height, selectedStock) {
   svg.selectAll("*").remove();
 
   const xScale = d3.scaleLinear()
-    .domain(d3.extent(data, d => +d.x))
+    .domain(d3.extent(data, d => d.x))
+    .nice()
     .range([margin.left, width - margin.right]);
 
   const yScale = d3.scaleLinear()
-    .domain(d3.extent(data, d => +d.y))
+    .domain(d3.extent(data, d => d.y))
+    .nice()
     .range([height - margin.bottom, margin.top]);
 
-  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+  const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+    .domain([...new Set(data.map(d => d.sector))]);
 
-  svg.append("g")
+  const gContent = svg.append("g").attr("class", "content");
+
+  // axes inside gContent → will zoom together
+  gContent.append("g")
+    .attr("class", "x-axis")
     .attr("transform", `translate(0, ${height - margin.bottom})`)
     .call(d3.axisBottom(xScale));
 
-  svg.append("g")
+  gContent.append("g")
+    .attr("class", "y-axis")
     .attr("transform", `translate(${margin.left}, 0)`)
     .call(d3.axisLeft(yScale));
 
-  svg.append("g")
-    .selectAll("circle")
+  // dots
+  gContent.selectAll("circle")
     .data(data)
     .join("circle")
-    .attr("cx", d => xScale(+d.x))
-    .attr("cy", d => yScale(+d.y))
+    .attr("cx", d => xScale(d.x))
+    .attr("cy", d => yScale(d.y))
     .attr("r", d => d.stock === selectedStock ? 10 : 5)
     .attr("fill", d => colorScale(d.sector))
     .attr("stroke", d => d.stock === selectedStock ? "black" : "none")
     .attr("stroke-width", d => d.stock === selectedStock ? 2 : 0);
 
+  // label selected stock
+  if (selectedStock) {
+    const selected = data.find(d => d.stock === selectedStock);
+    if (selected) {
+      gContent.append("text")
+        .attr("x", xScale(selected.x) + 12)
+        .attr("y", yScale(selected.y) - 12)
+        .text(selected.stock)
+        .attr("font-size", "0.8rem")
+        .attr("font-weight", "bold")
+        .attr("fill", "black");
+    }
+  }
+
+  // legend
   const legend = svg.append("g")
     .attr("transform", `translate(${width - margin.right - 100}, ${margin.top})`);
-
   const sectors = [...new Set(data.map(d => d.sector))];
   sectors.forEach((sector, i) => {
     const g = legend.append("g").attr("transform", `translate(0, ${i * 20})`);
     g.append("rect").attr("width", 10).attr("height", 10).attr("fill", colorScale(sector));
     g.append("text").attr("x", 15).attr("y", 10).text(sector).style("font-size", "0.8rem");
   });
+
+  const zoom = d3.zoom()
+    .scaleExtent([0.5, 20])
+    .on("zoom", (event) => {
+      gContent.attr("transform", event.transform);
+    });
+
+  svg.call(zoom);
 }

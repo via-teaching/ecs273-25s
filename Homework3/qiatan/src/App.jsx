@@ -5,7 +5,6 @@ import TsneScatter from "./component/TsneScatter";
 import NewsList from "./component/NewsList";
 
 function App() {
-  // ✅ 增加状态
   const [selectedStock, setSelectedStock] = useState("AAPL");
 
   return (
@@ -18,7 +17,7 @@ function App() {
             id="bar-select"
             className="bg-white text-black p-2 rounded mx-2"
             value={selectedStock}
-            onChange={(e) => setSelectedStock(e.target.value)} // ✅ 监听 select 变化
+            onChange={(e) => setSelectedStock(e.target.value)} 
           >
             {RenderOptions()}
           </select>
@@ -30,7 +29,7 @@ function App() {
           <div className="h-1/4 p-2">
             <h3 className="text-left text-xl">Stock Overview (Line Chart)</h3>
             <div className="border-2 border-gray-300 rounded-xl">
-              {/* ✅ 传 selectedStock 作为 prop */}
+              {}
               <StockOverview selectedStock={selectedStock} />
             </div>
           </div>
