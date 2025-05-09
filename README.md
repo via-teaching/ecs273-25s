@@ -1,4 +1,4 @@
-# ECS273 Homework basic instructins 
+# ECS273 Homework basic instructions 
 Each template is self-contained. Navigate into a folder and install dependencies:
 ```bash
 cd Homework3/sadadhwal
