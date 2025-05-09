@@ -1,10 +1,9 @@
-# ECS273 Homework templates
-In this repository, you will find the templates for your homework assignments.
-Please refer to the instructions provided on Canvas and the linked Google Docs for detailed requirements and submission guidelines.
+# ECS273 Homework3 running instructions
+This homework is done with the help of GPT
 
-To clone this repository, please run:
-```
-git clone git@github.com:via-teaching/ecs273-25s.git
-```
+## 1. get into the right folder
+The path is: ecs273-25s/Homework3/qiatan
 
-Switch to the respective Homework directory for more information.
+## 2. using the command to run
+Enter npm run dev in the terminal
+
