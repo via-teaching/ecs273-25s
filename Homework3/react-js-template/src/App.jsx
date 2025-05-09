@@ -1,12 +1,17 @@
+import { useState } from "react"; 
 import RenderOptions from "./component/options";
-import { BarChart } from "./component/example";
+import { BarChart } from "./component/barchart";
 function App() {
+
+  //initial setting = first stock in options
+  const [selectedStock, setSelectedStock] = useState("AAPL"); 
+
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col h-screen w-full">
       <header className="bg-zinc-400 text-white p-2 flex flex-row align-center">
         <h2 className="text-left text-2xl">Homework 3</h2>
-        <label htmlFor="bar-select" className="mx-2">Select a category:
-          <select id = 'bar-select' className="bg-white text-black p-2 rounded mx-2">
+        <label htmlFor="bar-select" className="mx-2">Select a stock:
+          <select id = 'bar-select' className="bg-white text-black p-2 rounded mx-2" value={selectedStock} onChange={(e) => setSelectedStock(e.target.value)} >
               {RenderOptions()}
           </select>
         </label>
@@ -15,9 +20,10 @@ function App() {
         <div className="flex flex-col w-2/3">
 
           <div className="h-1/4 p-2">
-            <h3 className="text-left text-xl">View 1 to be replaced by the view title</h3>
+            <h3 className="text-left text-xl">View 1: Stock Price Bar Chart</h3>
             <div className="border-2 border-gray-300 rounded-xl">
-              {BarChart()}
+              <BarChart selectedStock={selectedStock}/> 
+              {/* I here asked gpt why it needs to be change to <> */}
             </div>
           </div>
           <div className="h-3/4 p-2">
