@@ -1,0 +1,63 @@
+Title: Where Will Nvidia Stock Be in 1 Year?
+Date: 2025-04-13 10:30
+URL: https://www.fool.com/investing/2025/04/13/where-will-nvidia-stock-be-in-1-year/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=ff0548cf-8548-4d6f-9146-22ae5067cbf3&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+This has been a brutal year for the U.S. tech industry as a combination of challenges, ranging from political uncertainty to foreign competition, has shaken some of its core assumptions. Globalism is no longer guaranteed, and developing markets like China are transitioning from a source of low-cost labor into a viable threat to U.S. technological dominance. 
+The next 12 months could be a make-or-break period for Nvidia (NVDA 2.91%) as it navigates the evolving macroeconomic landscape. Let's dig deeper to decide how the company's shares might perform.
+While it is too early to be sure, President Donald Trump's April 2 tariff announcement may mark the beginning of the end for globalization -- a system that facilitated increasingly complex international supply chains. Nvidia is a typical example of how globalized business models work. 
+As a fabless semiconductor company, Nvidia only designs its chips. Their actual production is outsourced to foreign companies like Taiwan Semiconductor Manufacturing (TSMC), which produces them with the help of EUV machines from the Dutch company ASML. 
+These international interdependencies could draw unwelcome political attention. But the good news is that Nvidia worked to preempt this exposure with the help of its manufacturing partners. 
+In late 2024, TSMC opened its first U.S. factory in Arizona, allowing Nvidia to source its cutting-edge Blackwell AI chips domestically. This move could shield the company from potential tariffs, which is essential for its long-term success. Even though semiconductors are currently exempt from this latest round of tariffs, their strategic nature will likely attract attention from this administration and future U.S. lawmakers, so it is advantageous for Nvidia to get ahead of this potential headwind. 
+Although trade war talk is stealing the show in April, Nvidia's stock price crash started in January, with the launch of the high-performing Chinese large language model (LLM) DeepSeek V3, which was allegedly developed for just $6 million. While the actual cost is still hotly debated, it is believed that V3 was built using much less advanced H800 chips while still comparing favorably to American LLMs like OpenAI's ChatGPT, which were built with substantially more expensive hardware.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now…
+*Stock Advisor returns as of April 5, 2025
+Image source: Getty Images.
+DeepSeek calls into question the amount of money American AI companies are spending on Nvidia hardware. And while major customers like Meta Platforms continue to plow money into the opportunity, it may be a matter of time before they face shareholder backlash over the amount being spent for minimal financial reward. 
+In April, an Indian start-up called Ziroh Labs added even more uncertainty to the U.S. AI market with the release of Kompact AI, a system designed to run LLMs without advanced graphics processing units (GPUs) made by companies like Nvidia. Inference (the process where an AI model uses its trained knowledge to generate output) represents a significant source of demand for Nvidia's hardware. Kompact AI aims to facilitate this process using less expensive central processing units (CPUs), which are widely available on consumer devices like laptops and computers.
+Over the next 12 months, Nvidia should face substantial volatility. Even though the company seems relatively isolated from the direct impacts of the trade war, that isn't stopping investors from jumping ship. Low-cost competition from China and India is also beginning to call into question the importance of its most advanced (and expensive) GPUs for training and running competitive LLMs. 
+With a forward price-to-earnings (P/E) multiple of 25, Nvidia's current valuation is relatively low for a company that grew fourth-quarter profits by 80% year over year. This discount already prices in much of the uncertainty. However, investors may want to wait for the stock to fall deeper into oversold territory before considering a position. 
+The events of early April have made this a fear and uncertainty-driven market. And until that changes, fundamentals may take the back seat.
+
+ 
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $495,226!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $679,900!*
+Now, it’s worth noting Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 5, 2025
+
+
+Randi Zuckerberg, a former director of market development and spokeswoman for Facebook and sister to Meta Platforms CEO Mark Zuckerberg, is a member of The Motley Fool's board of directors. Will Ebiefung has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends ASML, Meta Platforms, Nvidia, and Taiwan Semiconductor Manufacturing. The Motley Fool has a disclosure policy.
+This tech could reach 80 trillion. Imagine a technology worth over 26 Nvidias.
+What in the world could be worth 26 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Motley Fool Returns
+Market-beating stocks from our flagship service.
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 04/13/2025.
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+Calculated by Time-Weighted Return since 2002. Volatility profiles based on trailing-three-year calculations of the standard deviation of service investment returns.
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
