@@ -19,7 +19,7 @@ function App() {
       <div className="flex flex-row h-full w-full">
         <div className="flex flex-col w-2/3">
 
-          <div className="h-1/4 p-2 flex flex-col ">
+          <div className="h-1/4 p-2 flex flex-col">
             <h3 className="text-left text-xl">View 1: Stock Price Bar Chart</h3>
             <div className="border-2 border-gray-300 rounded-xl flex-1 overflow-hidden">
               <BarChart selectedStock={selectedStock}/> 

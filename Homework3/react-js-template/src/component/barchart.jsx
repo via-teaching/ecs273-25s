@@ -75,11 +75,16 @@ function drawChart(svgElement, rawData, width, height) {
         .domain(yExtent);
     
     const g = svg.append("g");
+
+    //View1: labeled axes
     
     //axes
-    svg.append('g')
-        .attr('transform', `translate(0, ${height - margin.bottom})`)
-        .call(d3.axisBottom(xScale))
+
+    //delete original x axis for new x-axis with Zoom function
+    // svg.append('g')
+    //     .attr('transform', `translate(0, ${height - margin.bottom})`)
+    //     .call(d3.axisBottom(xScale))
+
     svg.append('g')
         .attr('transform', `translate(${margin.left}, 0)`)
         .call(d3.axisLeft(yScale));
@@ -105,13 +110,14 @@ function drawChart(svgElement, rawData, width, height) {
         { key: "Close", color: "red" },
         ];
     
-    fields.forEach(({ key, color }) => {
+    fields.forEach(({ key, color }, idx) => {
         const line = d3.line()
             .x((d) => xScale(d.Date))
             .y((d) => yScale(d[key]));
     
         g.append("path")
             .datum(stock_data)
+            .attr("class", `line-${idx}`) 
             .attr("fill", "none")
             .attr("stroke", color)
             .attr("stroke-width", 1.5)
@@ -119,46 +125,78 @@ function drawChart(svgElement, rawData, width, height) {
     });
 
 
+    // View 1: legend
+    const legend = svg.append("g")
+        .attr("transform", `translate(${margin.left + 5 }, ${height - margin.bottom - 20})`);
 
-    // svg.append('g')
-    //     .selectAll('rect')
-    //     .data(bars)
-    //     .join('rect')
-    //     .attr('x', (d) => xScale(d.category))
-    //     .attr('y', (d) => yScale(d.value))
-    //     .attr('width', xScale.bandwidth())
-    //     .attr('height', (d) => Math.abs(yScale(0) - yScale(d.value)))
-    //     .attr('fill', 'teal')
-    //     .attr('class', 'bar')
-    //     .attr('id', (d) => `bar-${d.category}`);
+    fields.forEach(({ key, color }, i) => {
+        const g = legend.append("g").attr("transform", `translate(${i * 50},0)`);
+        g.append("rect")
+            .attr("width", 10).attr("height", 10)
+            .attr("fill", color);
+        g.append("text")
+            .attr("x", 16).attr("y", 10)
+            .style("font-size", "0.65rem")
+            .attr("fill", color) 
+            .text(key);
+    });
 
-    // svg.append('g')
-    //     .append('text')
-    //     .attr('transform', `translate(${width / 2}, ${height - margin.top + 5})`)
-    //     .attr('dy', '0.5rem')
-    //     .style('text-anchor', 'middle')
-    //     .style('font-weight', 'bold')
-    //     .text('Distribution of Demo Data');
-    // const categorySelect = d3.select('#bar-select');
 
-    // call it once initially
-    // const initialSelected = categorySelect.property('value');
-    // highlightBar(initialSelected);
-    
-    // // change when the select changes
-    // categorySelect
-    //   .on('change', function(event) {
-    //     const selectedCategory = event.target.value;
-    //     highlightBar(selectedCategory);
+    svg.append("text")
+        .attr("class", "hint-text")
+        .attr("x", width - margin.right)
+        .attr("y", height - margin.bottom +40)
+        .style("text-anchor", "end")
+        .style("font-size", "0.75rem")
+        .style("fill", "#666")
+        .text("drag: horizontal scroll, wheel/pinch: zoom");
 
-    //   })
+
+    // View 1: Zoom and scroll
+    const clipId = "clipID-" + Math.random().toString(36).slice(2);
+    svg.append("clipPath")
+        .attr("id", clipId)
+        .append("rect")
+        .attr("x", margin.left)
+        .attr("y", margin.top)
+        .attr("width", width - margin.left - margin.right)
+        .attr("height", height - margin.top - margin.bottom);
+
+    g.attr("clip-path", `url(#${clipId})`);
+
+
+    const new_g = svg.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", `translate(0, ${height - margin.bottom})`)
+        .call(d3.axisBottom(xScale));
+
+
+    const xScale_original = xScale.copy();
+
+    const dataMinPx = xScale(stock_data[0].Date);
+    const dataMaxPx = xScale(stock_data[stock_data.length - 1].Date);
+
+    const zoom = d3.zoom()
+        .scaleExtent([1, 20])
+        .translateExtent([[margin.left, 0],[dataMaxPx, 0]])
+        .extent([[margin.left, 0], [width - margin.right, 0]])
+        .on("zoom", zoomed);
+
+    svg.call(zoom);
+
+    function zoomed(event) {
+        const newX = event.transform.rescaleX(xScale_original);
+        new_g.call(d3.axisBottom(newX));
+
+        fields.forEach(({ key, color }, idx) => {
+            const newLine = d3.line()
+                .x(d => newX(d.Date))
+                .y(d => yScale(d[key]));
+
+            svg.select(`.line-${idx}`)
+                .attr("d", newLine);
+        });
+    }
+
 }
 
-// function highlightBar(selectedCategory) {
-//   // 1. First, reset all bars back to normal
-//   d3.selectAll('.bar')
-//     .attr('fill', 'teal'); // whatever your default color is
-//   // 2. Then highlight the selected bar
-//   d3.select(`#bar-${selectedCategory}`)
-//     .attr('fill', 'orange'); // or any color you like
-// }
