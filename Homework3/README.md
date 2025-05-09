@@ -1,16 +1,14 @@
 # Homework 3 Templates
 
-This repository contains multiple templates:
+Requirements
+    Node.js (v14 or higher)
+    npm (Node Package Manager)
 
-- `react-js-example`: A template based on react and javascript.
-- `react-ts-example`: A template based on react and typescript.
-
-## Usage
-
-Each template is self-contained. Navigate into a folder and install dependencies:
-
-```bash
-cd react-example
-npm install
-npm run dev
-```
+Steps to run:
+    Navigate to the correct directory
+        cd ecs273-25s/Homework3/swdougherty
+    run npm install
+    run npm run dev
+    Once application begins running cmd+click on the link that is presented in a format like:
+        Local:   http://localhost:1234/
+    Or copy and past the link into a browser of your choice
