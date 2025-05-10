@@ -1,0 +1,65 @@
+{
+    "data":[
+        {
+            "category": "AAPL"
+        },
+        {
+            "category": "BAC"
+        },   
+        {
+            "category": "CAT"
+        }, 
+        {
+            "category": "CVX"
+        },
+        {
+            "category": "DAL"
+        },   
+        {
+            "category": "GOOGL"
+        },  
+        {
+            "category": "GS"
+        },               
+        {
+            "category": "HAL"
+        },   
+        {
+            "category": "JNJ"
+        },    
+        {
+            "category": "JPM"
+        },         
+        {
+            "category": "KO"
+        },            
+        {
+            "category": "MCD"
+        },       
+        {
+            "category": "META"
+        },                
+        {
+            "category": "MMM"
+        },        
+        {
+            "category": "MSFT"
+        },  
+        {
+            "category": "NKE"
+        },  
+        {
+            "category": "NVDA"
+        }, 
+        {
+            "category": "PFE"
+        },        
+        {
+            "category": "UNH"
+        },        
+        {
+            "category": "XOM"
+        }
+    ]
+
+}

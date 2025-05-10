@@ -1,0 +1,14 @@
+Trump promises 'expedited' process for Nvidia's US supercomputer plans as Big Tech pledges top $1.6 
+2025-04-15 17-39
+https://finance.yahoo.com/news/trump-promises-expedited-process-for-nvidias-us-supercomputer-plans-as-big-tech-pledges-top-16-trillion-173943856.html?.tsrc=rss
+President Trump on Tuesday again toutedNvidia’s $500 billion commitmentto building AI infrastructure in the US, pledging to expedite the process for the chip giant and any other company planning big US investments.
+“This is very big and exciting news. All necessary permits will be expedited and quickly delivered to NVIDIA, as they will to all companies committing to be part of the Golden Age of America!” Trump said in a Truth Social post.
+Nvidia's announcement brings Big Tech’s investment pledges to US AI infrastructure to just north of $1.6 trillion since Trump's inauguration as thetech world tries to navigate the potential hazards of the president's trade war while staying on the right side of a malleable administration.
+Nvidia, for its part, did seem to make moves in US manufacturing partially due to Trump’s chaotic approach to trade policy, with on-again, off-again global tariffs affecting imports of AI servers containing its highly coveted GPUs, or graphics processing units.
+Asked about Trump’s tariffs at its annual GTC event in March, Nvidia CEO Jensen Huang said the company was "preparing, and we have been preparing to manufacture onshore." Huangreportedly attended a dinner at Mar-a-Lagolast week, after which the Trump administration backed off new restrictions on the company's chip exports to China.
+Nvidia's moves are the latest in Big Tech's splashy announcements of plans to expand investments within the US.
+In February, Apple (AAPL)committed to investing $500 billion to expand its US manufacturingover the next four years.
+TSMC (TSM) — which makes the world's most advanced chips with most of its manufacturing capacity in Taiwan —has committed to spending $100 billionover a similar time frame. The company had previously committed $65 billion to building out its US manufacturing capabilities with funding from the 2022 Chips and Science Act.
+Just after Trump's inauguration, Oracle (ORCL), OpenAI (OPAI.PVT), and SoftBank (SFTBY) announceda joint venture called Stargate, which the companies said would spend $500 billion on US AI data centers.
+And after Trump's election, Microsoft (MSFT) said it wouldspend $80 billion to build AI data centers. The company said "more than half" of that total would be invested in the US.
+Apple's US-centric moves have landed in the spotlight again amid Trump's fluctuating tariff policies. Apple announced its $500 billion commitment just days afterTrump said CEO Tim Cookpromised him hundreds of millions of dollars in US investment and implied the pledge was due to his approach to trade policy.
