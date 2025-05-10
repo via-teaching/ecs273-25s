@@ -1,11 +1,6 @@
 import RenderOptions from "./component/options";
 import { BarChart } from "./component/example";
-import { StockLineChart } from "./component/StockLineChart";
-import { useState } from "react";
-
 function App() {
-  const [selectedStock, setSelectedStock] = useState("AAPL");
-
   return (
     <div className="flex flex-col h-full w-full">
       <header className="bg-zinc-400 text-white p-2 flex flex-row align-center">
@@ -16,8 +11,6 @@ function App() {
           </select>
         </label>
       </header>
-
-
       <div className="flex flex-row h-full w-full">
         <div className="flex flex-col w-2/3">
 
@@ -27,22 +20,20 @@ function App() {
               {BarChart()}
             </div>
           </div>
-
           <div className="h-3/4 p-2">
             <h3 className="text-left text-xl h-[2rem]">View 2 to be replaced by the view title</h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
               <p className="text-center text-gray-500 mt-20">Empty View 2</p>
             </div>
           </div>
+          
         </div>
-
-        
         <div className="w-1/3 h-full p-2">
             <h3 className="text-left text-xl h-[2rem]">View 3 to be replaced by the view title</h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
               <p className="text-center text-gray-500 mt-20">Empty View 3</p>
             </div>
-        </div>
+          </div>
         
       </div>
     </div>
