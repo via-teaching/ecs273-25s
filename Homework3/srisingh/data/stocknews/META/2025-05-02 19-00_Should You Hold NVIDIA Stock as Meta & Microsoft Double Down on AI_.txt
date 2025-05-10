@@ -1,0 +1,89 @@
+Title: Should You Hold NVIDIA Stock as Meta & Microsoft Double Down on AI?
+Date: 2025-05-02 19:00
+URL: https://finance.yahoo.com/news/hold-nvidia-stock-meta-microsoft-190000490.html?.tsrc=rss
+
+Tip: Try a valid symbol or a specific company name for relevant results
+More Americans are claiming Social Security early. Here's why.
+Nvidia CEO Jensen Huang gets first salary boost in 10 years
+Trump's tariffs are pulling in billions, but the revenue boom could be short-lived. Here's why.
+S&P 500 wipes out Trump tariff losses, marks longest winning streak in 20 years as trade war cools
+China says 'the door is open' to trade talks, while Canada's Carney is set to meet with Trump next week.
+Investors cheered a solid jobs report and a thaw in US-China relations. The S&P 500 eyed its longest win streak in over 20 years.
+Trump once again called on the Fed to lower rates. But the jobs report could reinforce Chair Powell's cautious stance.
+Dow, S&P 500, Nasdaq jump amid jobs report beat, hopes for US-China talks
+The US economy added 177,000 jobs in April as the labor market remained resilient in the wake of Trump's tariffs
+The AI revolution is an advertising revolution
+China says it’s evaluating US talks after weeks of stalemate (Bloomberg)
+The April jobs report comes at a critical moment for markets. Here's what to expect.
+'People are visiting less': Food chains warn tariffs are triggering a pullback in spending
+Apple beats earnings on strong iPhone sales, authorizes $100 billion stock buyback
+Watch our special report with insights, analysis, and key takeaways from Apple's high-stakes update.
+Amazon beats on earnings but stock sinks as forecast spooks investors
+Nasdaq surges as AI trade reignites amid Big Tech earnings; Dow, S&P 500 rise for 8th day
+Even as Tesla's board denied kicking off a search to replace Musk, one analyst thinks it could help push him out of government.
+Manufacturing activity in the US hit a five-month low in April, as Trump's tariffs left businesses in a 'state of near paralysis'
+The Nasdaq surged over 2% as upbeat Microsoft and Meta results boosted optimism around Big Tech
+Nasdaq leads way higher as stocks rally after Microsoft, Meta beats reassure Wall Street
+Weekly jobless claims jumped to their highest level in two months, in the latest sign of a labor market slowdown
+The month that Trump blinked on trade
+Negative GDP is the latest data to offer 2 views on the US economy
+The tech giant is set to report earnings Thursday with Trump's tariff whiplash in focus. Here's what to expect.
+Here's how the courts could upend Trump's tariffs
+Oil prices post biggest monthly drop since 2021 as trade war sparks recession, demand fears
+Meta stock jumps after strong earnings, upbeat outlook shrugs off tariff worries
+Microsoft stock soars after company beats on earnings, defying tariff fears
+Stocks recover from sharp losses to cap volatile April fueled by tariff uncertainty
+Trump decried 'Biden's Stock Market' after his 100th day in office was capped by another series of dour economic indicators
+A pair of economic reports just delivered the Fed a 'stagflation warning shot'
+Dow, S&P 500, Nasdaq fall after bleak GDP and jobs data, with Big Tech earnings on deck
+Wall Street was setting up for a rough open after data showed the US economy contracted. Nasdaq futures lost nearly 2%.
+The US economy contracted for the first time in three years start 2025, while prices increased more than forecast.
+The US economy may have avoided a recession so far. Here's how that could change.
+Corporate earnings tell 2 different consumer stories
+The tech giant is set to report earnings on Wednesday under growing pressure to deliver on AI. Here's what to expect.
+Trump: 'I have a Fed person who is not really doing a good job'
+Trump's next tariff war will be with your favorite store
+Why Wall Street is wary of the stock market rally
+Dow extends longest win streak of 2025 as stocks climb amid latest tariff relief
+From 'destacking' of tariffs to reimbursements for foreign parts, the US will offer relief to weary automakers.
+Consumer confidence plunged for the fifth straight month, dropping to a level not seen since the early days of the pandemic
+The White House took aim at Amazon over reports it would display tariff price impacts on products
+S&P 500, Nasdaq slip amid rush of earnings, hopes for auto tariff relief
+How Trump is answering (or dodging) questions on his historically bad 100-day stock market
+Big Tech’s big week of tariff guidance
+Trump has been president for 100 days, and it's clear he peaked on day one.
+Widely criticized student loan servicer MOHELA faces investigation by multiple state attorneys general
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+NVIDIA Corporation NVDA stock gained nearly 2.5% on Thursday, buoyed by a renewed wave of optimism from two of its largest customers, Meta Platforms, Inc. META and Microsoft Corporation MSFT. Both tech giants reaffirmed, and in Meta Platforms’ case, raised their capital expenditure commitments toward AI infrastructure.
+This resurgence of AI-related investment could mark a key turning point for NVIDIA stock, which has pulled back 27% from its 52-week high of $153.13 attained on Jan. 7, 2025. With the renewed optimism about AI investment, the question arises: Should investors rush to buy more, or is holding the stock the smarter move right now?
+Image Source: Zacks Investment Research
+Microsoft, a major cloud provider and longtime NVIDIA partner, confirmed during its third-quarter fiscal 2025 earnings call that it will maintain its massive $80 billion capital expenditure plan for AI data centers, with more than half of that directed toward U.S. operations.
+Meanwhile, during its first-quarter 2025 earnings call, Meta Platforms increased its 2025 capital spending outlook to a range of $64-$72 billion, up from the prior $60-$65 billion range. The added spending will primarily go toward expanding data center capacity and AI infrastructure, both heavily reliant on NVIDIA’s high-performance graphics processing units (GPUs).
+Meta Platforms’ CFO, Susan Li, made it clear that the CapEx bump is driven by AI ambitions and infrastructure upgrades. Similarly, Microsoft CFO Amy Hood indicated that fiscal 2026 investments will grow, albeit at a slower pace, and be more closely aligned with short-term revenue gains, implying accelerated AI workload deployments.
+These commitments are strong signals that NVIDIA’s chips, especially its H100 and upcoming B100 GPUs, will remain in high demand as hyperscalers scale their AI platforms.
+NVIDIA’s products are at the center of the ongoing AI revolution, driving demand from hyperscalers, enterprises and cutting-edge startups alike. The data center end-market continues to be a powerhouse for NVIDIA. In the fourth quarter of fiscal 2025, revenues from the data center end-market grew 93% year over year to $35.58 billion and contributed 90.5% to the total sales.
+AI-driven workloads, cloud computing expansion and increasing enterprise adoption of AI models have turned NVIDIA’s high-performance chips into a necessity rather than a luxury. With businesses aggressively investing in AI infrastructure, NVIDIA remains positioned at the heart of this technological transformation.
+Financially, NVIDIA is firing on all cylinders. In the fourth quarter of fiscal 2025, revenues surged 78% year over year, while non-GAAP EPS climbed 71%. The company’s first-quarter fiscal 2026 guidance of $43 billion in revenues represents a staggering increase from $26.04 billion in the prior-year quarter.
+Analysts expect NVIDIA to maintain this momentum, forecasting fiscal 2026 and 2027 revenue growth of 48% and 24%, respectively. With earnings projected to rise 42% in fiscal 2026 and 27% in fiscal 2027, NVIDIA’s long-term investment case remains intact. The stock surpassed the Zacks Consensus Estimate for earnings in each of the trailing four quarters, the average surprise being 7.9%.
+NVIDIA Corporation price-consensus-eps-surprise-chart | NVIDIA Corporation Quote
+Valuation-wise, NVIDIA is overvalued, as suggested by the Zacks Value Score of D.
+However, in terms of forward 12-month Price/Sales, NVDA shares are trading at 13.32X, higher than the Zacks Semiconductor – General industry’s 10.96X.
+Image Source: Zacks Investment Research
+NVIDIA’s stock may be off its highs, but the AI megatrend is very much alive and is receiving fresh fuel from the likes of Meta Platforms and Microsoft. Their deep-pocketed commitments to AI infrastructure spending underscore NVIDIA’s strategic importance in the evolving tech landscape. However, its high valuation makes it vulnerable to short-term volatility. For now, holding the stock is the smartest approach.
+Currently, NVIDIA carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.
+Want the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report
+Microsoft Corporation (MSFT) : Free Stock Analysis Report
+NVIDIA Corporation (NVDA) : Free Stock Analysis Report
+Meta Platforms, Inc. (META) : Free Stock Analysis Report
+This article originally published on Zacks Investment Research (zacks.com).
+Nvidia stock cleared its 50-day moving average on Friday after Amazon's earnings.  Amazon's run up in capex in the first quarter was largely due to demand for its artificial intelligence services.  Amazon's capex for the first quarter jumped to $24.3 billion from $13.9 billion in the same quarter a year ago.
+While the top- and bottom-line numbers for Reddit Inc. (RDDT) give a sense of how the business performed in the quarter ended March 2025, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values.
+In April, the monthly deliveries of NIO, XPeng and Li Auto have risen 53%, 273% and 31.6%, respectively, year over year.
+Apple (AAPL) is scheduled to report results of the second fiscal quarter of FY25 after the market close on Thursday, May 1, with a conference call scheduled for 5:00 pm ET. What to watch for: EXPECTATIONS: Last quarter, Apple beat consensus sales and earnings expectations, reporting EPS of $2.40 on Q1 revenue of $124.30B in what Apple CEO Tim Cook called the company’s “best quarter ever.” Cook added: “We were thrilled to bring customers our best-ever lineup of products and services during the ho
+The latest trading day saw Salesforce.com (CRM) settling at $269.33, representing a +0.23% change from its previous close.
+The chief executive of the world’s biggest chipmaker is getting his first raise in a decade.
+QCOM reports higher revenues year over year in the fiscal second quarter, backed by healthy demand trends in several markets.
+Steady stock repurchases are an indicator of management confidence. Pinterest, Devon, AES, Trex, and Enphase are all scooping up shares.
+Earn 5% cash back on valuable Discover cash-back rotating categories like grocery stores, Target, gas stations, and Amazon.com.
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio

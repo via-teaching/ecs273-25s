@@ -1,0 +1,100 @@
+Title: META Q1 Earnings Call: AI Investment Drives Growth but Guidance Misses Expectations
+Date: 2025-05-02 16:51
+URL: https://finance.yahoo.com/news/meta-q1-earnings-call-ai-165111667.html?.tsrc=rss
+
+Tip: Try a valid symbol or a specific company name for relevant results
+More Americans are claiming Social Security early. Here's why.
+Nvidia CEO Jensen Huang gets first salary boost in 10 years
+Trump's tariffs are pulling in billions, but the revenue boom could be short-lived. Here's why.
+S&P 500 wipes out Trump tariff losses, marks longest winning streak in 20 years as trade war cools
+China says 'the door is open' to trade talks, while Canada's Carney is set to meet with Trump next week.
+Investors cheered a solid jobs report and a thaw in US-China relations. The S&P 500 eyed its longest win streak in over 20 years.
+Trump once again called on the Fed to lower rates. But the jobs report could reinforce Chair Powell's cautious stance.
+Dow, S&P 500, Nasdaq jump amid jobs report beat, hopes for US-China talks
+The US economy added 177,000 jobs in April as the labor market remained resilient in the wake of Trump's tariffs
+The AI revolution is an advertising revolution
+China says it’s evaluating US talks after weeks of stalemate (Bloomberg)
+The April jobs report comes at a critical moment for markets. Here's what to expect.
+'People are visiting less': Food chains warn tariffs are triggering a pullback in spending
+Apple beats earnings on strong iPhone sales, authorizes $100 billion stock buyback
+Watch our special report with insights, analysis, and key takeaways from Apple's high-stakes update.
+Amazon beats on earnings but stock sinks as forecast spooks investors
+Nasdaq surges as AI trade reignites amid Big Tech earnings; Dow, S&P 500 rise for 8th day
+Even as Tesla's board denied kicking off a search to replace Musk, one analyst thinks it could help push him out of government.
+Manufacturing activity in the US hit a five-month low in April, as Trump's tariffs left businesses in a 'state of near paralysis'
+The Nasdaq surged over 2% as upbeat Microsoft and Meta results boosted optimism around Big Tech
+Nasdaq leads way higher as stocks rally after Microsoft, Meta beats reassure Wall Street
+Weekly jobless claims jumped to their highest level in two months, in the latest sign of a labor market slowdown
+The month that Trump blinked on trade
+Negative GDP is the latest data to offer 2 views on the US economy
+The tech giant is set to report earnings Thursday with Trump's tariff whiplash in focus. Here's what to expect.
+Here's how the courts could upend Trump's tariffs
+Oil prices post biggest monthly drop since 2021 as trade war sparks recession, demand fears
+Meta stock jumps after strong earnings, upbeat outlook shrugs off tariff worries
+Microsoft stock soars after company beats on earnings, defying tariff fears
+Stocks recover from sharp losses to cap volatile April fueled by tariff uncertainty
+Trump decried 'Biden's Stock Market' after his 100th day in office was capped by another series of dour economic indicators
+A pair of economic reports just delivered the Fed a 'stagflation warning shot'
+Dow, S&P 500, Nasdaq fall after bleak GDP and jobs data, with Big Tech earnings on deck
+Wall Street was setting up for a rough open after data showed the US economy contracted. Nasdaq futures lost nearly 2%.
+The US economy contracted for the first time in three years start 2025, while prices increased more than forecast.
+The US economy may have avoided a recession so far. Here's how that could change.
+Corporate earnings tell 2 different consumer stories
+The tech giant is set to report earnings on Wednesday under growing pressure to deliver on AI. Here's what to expect.
+Trump: 'I have a Fed person who is not really doing a good job'
+Trump's next tariff war will be with your favorite store
+Why Wall Street is wary of the stock market rally
+Dow extends longest win streak of 2025 as stocks climb amid latest tariff relief
+From 'destacking' of tariffs to reimbursements for foreign parts, the US will offer relief to weary automakers.
+Consumer confidence plunged for the fifth straight month, dropping to a level not seen since the early days of the pandemic
+The White House took aim at Amazon over reports it would display tariff price impacts on products
+S&P 500, Nasdaq slip amid rush of earnings, hopes for auto tariff relief
+How Trump is answering (or dodging) questions on his historically bad 100-day stock market
+Big Tech’s big week of tariff guidance
+Trump has been president for 100 days, and it's clear he peaked on day one.
+Widely criticized student loan servicer MOHELA faces investigation by multiple state attorneys general
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+Social network operator Meta Platforms (NASDAQ:META) reported Q1 CY2025 results topping the market’s revenue expectations , with sales up 16.1% year on year to $42.31 billion. On the other hand, next quarter’s revenue guidance of $44 billion was less impressive, coming in 0.9% below analysts’ estimates. Its non-GAAP profit of $7.69 per share was 47.7% above analysts’ consensus estimates.
+Is now the time to buy META? Find out in our full research report (it’s free).
+Revenue: $42.31 billion vs analyst estimates of $41.35 billion (16.1% year-on-year growth, 2.3% beat)
+Adjusted EPS: $7.69 vs analyst estimates of $5.21 (47.7% beat)
+Adjusted EBITDA: $25.6 billion vs analyst estimates of $23.99 billion (60.5% margin, 6.7% beat)
+Revenue Guidance for Q2 CY2025 is $44 billion at the midpoint, below analyst estimates of $44.39 billion
+Operating Margin: 41.5%, up from 37.9% in the same quarter last year
+Free Cash Flow Margin: 24.4%, down from 27.2% in the previous quarter
+Daily Active People: 3.43 billion, up 190 million year on year
+Market Capitalization: $1.44 trillion
+Meta’s first quarter results reflected ongoing momentum in its advertising business and the growing impact of artificial intelligence across its platforms. Management attributed the quarter’s outperformance to improvements in ad targeting and creative tools powered by AI, as well as user growth on both established and emerging platforms like Threads and Ray-Ban Meta AI glasses. CEO Mark Zuckerberg pointed to AI-driven enhancements in ad performance and user engagement, saying, “Our community keeps growing with more than 3.4 billion people now using at least one of our apps each day.”
+Looking ahead, management set a cautious tone regarding its revenue outlook, citing macroeconomic uncertainty and new regulatory headwinds—especially in Europe. CFO Susan Li noted that the company’s second quarter guidance factored in “reduced spend in the US from Asia-based e-commerce exporters” and potential impacts from the European Commission’s Digital Markets Act. She added, “We continue to feel good about the fundamental drivers of revenue growth,” but acknowledged that a dynamic operating environment could lead to a wider range of outcomes.
+Meta’s management focused on how AI advancements are shaping both the user experience and the core advertising business. The leadership team also discussed progress in newer business areas and the challenges posed by regulatory changes.
+AI-Powered Advertising: Meta’s ongoing upgrades to ad recommendation systems, such as the Generative Ads Recommendation Model (GEM), have improved ad conversion rates and enabled more advertisers to utilize AI-driven creative tools. Management highlighted that 30% more advertisers used AI creative tools in the last quarter, with a new model increasing Reels ad conversion rates by 5%.
+User Engagement Gains: Improvements in AI-driven recommendation systems drove higher user engagement across platforms. Time spent on Facebook increased 7%, Instagram 6%, and Threads 35% over the past six months. Threads now has over 350 million monthly active users, signaling traction as a new social platform.
+Business Messaging Growth: Meta continued to expand business messaging capabilities, especially on WhatsApp. While business messaging already drives revenue in certain markets, management believes AI will play a key role in making these tools viable in higher-cost markets over time.
+AI Glasses and Reality Labs: Sales of Ray-Ban Meta AI glasses tripled year-on-year, and new features like live translation were rolled out. However, Reality Labs remains a source of significant investment and operating losses, as Meta continues to prioritize scale and product development over near-term profitability.
+Regulatory and Market Dynamics: Management acknowledged regulatory risks in the European Union, where new requirements under the Digital Markets Act could negatively impact user experience and revenue beginning as early as the third quarter. They are appealing the decision but preparing for potential changes to their subscription model.
+Meta’s management expects future performance to be shaped by continued investment in AI, evolving regulatory requirements, and the company’s ability to deepen monetization across its platforms.
+AI Infrastructure and Product Rollout: Meta is increasing capital expenditures to accelerate data center and compute capacity, aiming to support both core ad products and new AI-driven experiences. Management believes additional investment will be necessary to meet rising internal demand for AI resources.
+Regulatory Uncertainty: The company faces potential revenue headwinds from regulatory changes, particularly in Europe. Management warned that modifications to comply with the Digital Markets Act could reduce engagement and monetization in affected regions.
+Business Messaging and New Monetization Streams: Meta is working to scale business messaging tools and AI agents for small businesses. Management views these products as incremental to current advertising revenue and critical for long-term growth, especially as messaging becomes more deeply integrated into commerce.
+Brian Nowak (Morgan Stanley): Asked about Meta’s advancements in large language models (LLMs) and Meta AI user traction. CEO Mark Zuckerberg emphasized the focus on low-latency, personalized AI and context window length, noting, "We are building out the leading infrastructure and teams that we need."
+Eric Sheridan (Goldman Sachs): Inquired about the rationale for a standalone Meta AI app versus integration within existing apps. Zuckerberg said the standalone app is aimed at providing more immediate access, especially in the U.S. where WhatsApp is less dominant.
+Justin Post (Bank of America): Questioned the impact of e-commerce supply issues on guidance and the return on large capital expenditures. CFO Susan Li cited uncertainty in Asia-based e-commerce spend and stressed that CapEx is directed at maintaining leadership in AI infrastructure.
+Doug Anmuth (JPMorgan): Sought clarification on the breakdown of CapEx increases and the potential for partnership in funding AI infrastructure. Li explained that higher hardware costs and accelerated data center builds are main drivers, but Meta remains the primary funder of its AI training infrastructure.
+Youssef Squali (Truist Securities): Asked about the competitive landscape for AI chatbots and the financial impact of European regulatory actions. Zuckerberg discussed personalization and multimodal capabilities as Meta AI’s differentiators, while Li acknowledged it is too early to quantify the regulatory impact but noted European ad revenue represents 16% of 2024 totals.
+In the coming quarters, our team will be watching (1) how Meta executes on scaling its AI infrastructure and rolls out new AI-driven ad and messaging features, (2) the evolution of regulatory developments in Europe and their effect on user engagement and revenue, and (3) whether new monetization efforts in business messaging and AI-powered products gain meaningful traction. Progress in Reality Labs and uptake of Meta AI’s standalone app will also be closely monitored as indicators of longer-term strategic success.
+Meta currently trades at a forward EV/EBITDA ratio of 13×. In the wake of earnings, is it a buy or sell? Find out in our free research report.
+The market surged in 2024 and reached record highs after Donald Trump’s presidential victory in November, but questions about new economic policies are adding much uncertainty for 2025.
+While the crowd speculates what might happen next, we’re homing in on the companies that can succeed regardless of the political or macroeconomic environment. Put yourself in the driver’s seat and build a durable portfolio by checking out our Top 6 Stocks for this week. This is a curated list of our High Quality stocks that have generated a market-beating return of 175% over the last five years.
+Stocks that made our list in 2019 include now familiar names such as Nvidia (+2,183% between December 2019 and December 2024) as well as under-the-radar businesses like Comfort Systems (+751% five-year return). Find your next big winner with StockStory today.
+The U.S. Department of Labor is still reconsidering the Biden-era effort to expand overtime pay eligibility, according to court documents.
+Although the revenue and EPS for Meta Platforms (META) give a sense of how its business performed in the quarter ended March 2025, it might be worth considering how some key metrics compare with Wall Street estimates and the year-ago numbers.
+Here’s a roundup of numbers from the last week of HR news — including the number of workers who have layoff anxiety.
+Blue Owl Capital co-CEO and co-founder Marc Lipschultz says the company is built for the current market environment. Speaking on Bloomberg Television, Lipschultz also discusses the company's data center business, his excitement for The Stargate Project, a private-sector initiative to build AI infrastructure, and his views on packaged assets in the credit market.
+Meta’s (META) ambitious push into the metaverse is proving to be an expensive journey. In its latest quarter results, Meta’s Reality Labs division posted another steep loss, highlighting ongoing challenges. Despite CEO Mark Zuckerberg’s long-term vision and multibillion-dollar investments, both revenues and investor patience appear to be wearing thin. Overall, Meta reported strong Q1 FY2025 results. Adjusted earnings per share came in at $6.43, significantly beating Wall Street’s estimate of $5.
+We recently published a list of 10 Best NASDAQ Stocks to Buy According to Billionaires. In this article, we are going to take a look at where Meta Platforms, Inc. (NASDAQ:META) stands against other best NASDAQ stocks to buy according to billionaires. The latest market data shows that the US economy contracted at an annualized […]
+Qualcomm  beat earnings forecasts but gave a slightly disappointing outlook for its current quarter.  “As we navigate the current macroeconomic and trade environment, we remain focused on the critical factors we can control—our leading technology roadmap, best-in-class product portfolio, strong customer relationships and operational efficiencies,” Qualcomm CEO Cristiano Amon said in the release.  There was some optimism heading into Qualcomm’s earnings.
+Oil futures surged late in a choppy session as President Trump threatened secondary sanctions against any country buying Iranian oil or petrochemical products.
+Apple (AAPL) is scheduled to report results of the second fiscal quarter of FY25 after the market close on Thursday, May 1, with a conference call scheduled for 5:00 pm ET. What to watch for: EXPECTATIONS: Last quarter, Apple beat consensus sales and earnings expectations, reporting EPS of $2.40 on Q1 revenue of $124.30B in what Apple CEO Tim Cook called the company’s “best quarter ever.” Cook added: “We were thrilled to bring customers our best-ever lineup of products and services during the ho
+Recessions happen, but they can have severe negative consequences for your savings and finances. To minimize its impact on your life, take these steps to recession-proof your savings.
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio

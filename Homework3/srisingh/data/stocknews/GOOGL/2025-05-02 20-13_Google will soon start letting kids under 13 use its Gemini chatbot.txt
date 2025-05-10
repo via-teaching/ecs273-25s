@@ -1,0 +1,14 @@
+Title: Google will soon start letting kids under 13 use its Gemini chatbot
+Date: 2025-05-02 20:13
+URL: https://techcrunch.com/2025/05/02/google-will-soon-start-letting-kids-under-13-use-its-gemini-chatbot/?.tsrc=rss
+
+Next week, Google will begin allowing kids under 13 who have parent-managed Google accounts to use its Gemini chatbot, according to The New York Times. 
+The Times reports that Gemini will be available to kids whose parents use Family Link, a Google service that enables families to opt into various Google services for their child. A Google spokesperson told the publication that Gemini has specific guardrails for younger users, and that the company won’t use that data to train its AI.
+As The Times notes, chatbot makers are racing to capture younger audiences as the AI race heats up. That’s despite the fact that chatbots today are imperfect at best — and potentially harmful at worst. The UN Educational, Scientific and Cultural Organization late last year pushed for governments to regulate the use of generative AI in education, including implementing age limits for users and guardrails on data protection and user privacy.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+Subscribe for the industry’s biggest tech news
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+TechCrunch's AI experts cover the latest news in the fast-moving field.
+Every Monday, gets you up to speed on the latest advances in aerospace.
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+By submitting your email, you agree to our Terms and Privacy Notice.
