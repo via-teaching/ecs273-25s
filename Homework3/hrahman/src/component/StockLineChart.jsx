@@ -4,19 +4,30 @@ import Papa from "papaparse";
 
 export default function StockLineChart({ selectedTicker }) {
   const svgRef = useRef();
+  const yAxisRef = useRef();
+  const zoomRef = useRef();
   const [data, setData] = useState([]);
+  const zoomTransformRef = useRef();
+
+  const lineTypes = ["Open", "High", "Low", "Close"];
+  const colorMap = {
+    Open: "#1f77b4",
+    High: "#2ca02c",
+    Low: "#ff7f0e",
+    Close: "#d62728"
+  };
 
   useEffect(() => {
     if (!selectedTicker) return;
 
     fetch(`/data/stockdata/${selectedTicker}.csv`)
-      .then((res) => res.text())
-      .then((csvText) => {
+      .then(res => res.text())
+      .then(csvText => {
         Papa.parse(csvText, {
           header: true,
           dynamicTyping: true,
           complete: (results) => {
-            const parsedData = results.data.filter(d => d.Date && d.Open); // remove bad rows
+            const parsedData = results.data.filter(d => d.Date && d.Open);
             parsedData.forEach(d => d.Date = new Date(d.Date));
             setData(parsedData);
           },
@@ -26,88 +37,142 @@ export default function StockLineChart({ selectedTicker }) {
 
   useEffect(() => {
     if (!data.length) return;
+
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
+    const yAxisSvg = d3.select(yAxisRef.current);
+    yAxisSvg.selectAll("*").remove();
 
-    const margin = { top: 20, right: 60, bottom: 40, left: 60 };
-    const width = svgRef.current.clientWidth;
-    const height = svgRef.current.clientHeight;
-
-    const chartWidth = width - margin.left - margin.right;
+    const margin = { top: 30, right: 120, bottom: 50, left: 0 };
+    const fullWidth = Math.max(1200, data.length * 4);
+    const height = 300;
+    const chartWidth = fullWidth;
     const chartHeight = height - margin.top - margin.bottom;
 
-    const g = svg
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
+    const g = svg.append("g")
+      .attr("transform", `translate(0,${margin.top})`);
 
-    // Scales
-    const xScale = d3
-      .scaleTime()
-      .domain(d3.extent(data, (d) => d.Date))
-      .range([0, chartWidth]);
+    const xScale = d3.scaleTime()
+      .domain(d3.extent(data, d => d.Date))
+      .range([0, chartWidth])
+      .clamp(true);
 
-    const yScale = d3
-      .scaleLinear()
+    const yScale = d3.scaleLinear()
       .domain([
-        d3.min(data, (d) => Math.min(d.Open, d.High, d.Low, d.Close)),
-        d3.max(data, (d) => Math.max(d.Open, d.High, d.Low, d.Close)),
+        d3.min(data, d => Math.min(d.Open, d.High, d.Low, d.Close)),
+        d3.max(data, d => Math.max(d.Open, d.High, d.Low, d.Close))
       ])
       .nice()
       .range([chartHeight, 0]);
 
-    // Axes
-    g.append("g")
+    const xAxisGroup = g.append("g")
+      .attr("class", "x-axis")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale));
 
-    g.append("g").call(d3.axisLeft(yScale));
+    const yAxisGroup = yAxisSvg.append("g")
+      .attr("transform", `translate(60,30)`)
+      .call(d3.axisLeft(yScale));
 
-    const lineTypes = ["Open", "High", "Low", "Close"];
-    const colors = d3.scaleOrdinal()
-      .domain(lineTypes)
-      .range(["steelblue", "green", "orange", "red"]);
+    yAxisGroup.select(".domain").attr("stroke", "black");
+    yAxisGroup.selectAll("line").attr("stroke", "#aaa");
 
-    // Draw lines
-    lineTypes.forEach((type) => {
-      const line = d3
-        .line()
-        .x((d) => xScale(d.Date))
-        .y((d) => yScale(d[type]));
+    yAxisSvg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -height / 2)
+      .attr("y", 15)
+      .attr("text-anchor", "middle")
+      .text("Price")
+      .style("font-size", "0.8rem");
 
-      g.append("path")
+    g.append("text")
+      .attr("x", chartWidth / 2)
+      .attr("y", chartHeight + 40)
+      .attr("text-anchor", "middle")
+      .text("Date")
+      .style("font-size", "0.8rem");
+
+    const chartBody = g.append("g").attr("class", "chart-body");
+
+    lineTypes.forEach(type => {
+      const line = d3.line()
+        .x(d => xScale(d.Date))
+        .y(d => yScale(d[type]));
+
+      chartBody.append("path")
         .datum(data)
         .attr("fill", "none")
-        .attr("stroke", colors(type))
+        .attr("stroke", colorMap[type])
         .attr("stroke-width", 1.5)
-        .attr("d", line);
+        .attr("d", line)
+        .attr("class", `line-${type}`);
     });
 
-    // Legend
-    const legend = g
-      .selectAll(".legend")
-      .data(lineTypes)
-      .enter()
-      .append("g")
-      .attr("transform", (d, i) => `translate(${i * 80}, ${-10})`);
+    const zoom = d3.zoom()
+      .scaleExtent([1, 10])
+      .translateExtent([[0, 0], [chartWidth, chartHeight]])
+      .extent([[0, 0], [chartWidth, chartHeight]])
+      .on("zoom", (event) => {
+        const newX = event.transform.rescaleX(xScale);
+        zoomTransformRef.current = event.transform;
+        xAxisGroup.call(d3.axisBottom(newX));
 
-    legend
-      .append("rect")
-      .attr("width", 10)
-      .attr("height", 10)
-      .attr("fill", (d) => colors(d));
+        lineTypes.forEach(type => {
+          const line = d3.line()
+            .x(d => newX(d.Date))
+            .y(d => yScale(d[type]));
+          chartBody.select(`.line-${type}`).attr("d", line(data));
+        });
+      });
 
-    legend
-      .append("text")
-      .attr("x", 15)
-      .attr("y", 10)
-      .text((d) => d)
-      .style("font-size", "0.8rem");
+    svg.call(zoom);
+    zoomRef.current = zoom;
+    zoomTransformRef.current = d3.zoomIdentity;
 
   }, [data]);
 
+  const handleZoom = (factor) => {
+    const svg = d3.select(svgRef.current);
+    svg.transition().duration(300).call(zoomRef.current.scaleBy, factor);
+  };
+
+  const handleReset = () => {
+    const svg = d3.select(svgRef.current);
+    svg.transition().duration(300).call(zoomRef.current.transform, d3.zoomIdentity);
+  };
+
   return (
-    <div className="w-full h-full">
-      <svg ref={svgRef} width="100%" height="100%"></svg>
+    <div className="relative w-full">
+      {/* Fixed Position Legend */}
+      <div className="absolute top-2 left-18 z-50 bg-white/90 backdrop-blur p-2 rounded shadow text-sm">
+        {lineTypes.map(type => (
+          <div key={type} className="flex items-center gap-2 mb-1">
+            <div className="w-3 h-3 rounded" style={{ backgroundColor: colorMap[type] }}></div>
+            <span className="text-gray-800">{type}</span>
+          </div>
+        ))}
+      </div>
+  
+      {/* Fixed Position Zoom Buttons */}
+      <div className="absolute top-2 right-2 z-50 bg-white/90 backdrop-blur-sm flex items-center gap-2 p-1 rounded shadow-md">
+        <button onClick={() => handleZoom(1.2)} className="px-2 py-1 bg-indigo-500 hover:bg-indigo-600 text-white rounded">+</button>
+        <button onClick={() => handleZoom(0.8)} className="px-2 py-1 bg-indigo-500 hover:bg-indigo-600 text-white rounded">−</button>
+        <button onClick={handleReset} className="px-2 py-1 bg-gray-700 hover:bg-gray-800 text-white rounded">Reset</button>
+      </div>
+  
+      {/* Chart Area: Only This Scrolls */}
+      <div className="flex w-full">
+        <svg ref={yAxisRef} width={60} height={300} />
+  
+        <div className="overflow-x-auto w-full">
+          <svg
+            ref={svgRef}
+            width={Math.max(1200, data.length * 4)}
+            height={300}
+          />
+        </div>
+      </div>
     </div>
   );
+  
 }
