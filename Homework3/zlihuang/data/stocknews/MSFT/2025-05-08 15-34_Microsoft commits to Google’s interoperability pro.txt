@@ -1,0 +1,28 @@
+Title: Microsoft commits to Google’s interoperability protocol for AI agents
+Date: 2025-05-08 15:34
+URL: https://www.ciodive.com/news/-Microsoft-AI-agent-standard-Google-a2a-interoperability/747593/?.tsrc=rss
+
+Let CIO Dive’s free newsletter keep you informed, straight from your inbox.
+                    
+                
+            
+
+The cloud giant joins more than 50 technology partners that are supporting the Agent2Agent standard, including Salesforce, Oracle and SAP.
+Microsoft is joining more than 50 technology partners and providers, including Salesforce, Oracle and SAP, in supporting the open standard created by Google. 
+“This is just one step on a longer journey,” Microsoft said in the Wednesday blog post. The cloud giant has also teamed up with the A2A working group on GitHub, a Microsoft subsidiary, and plans to contribute to the spec and tooling.
+Standards that boost interoperability and ease AI adoption have gained traction among technology providers. 
+“We see vendors starting to embrace emerging open standards in hopes of accelerating adoption and scaling of their AI agent tools,” Jason Wong, distinguished VP analyst at Gartner, said in an email to CIO Dive. Agent2Agent and Model Context Protocol are two of the most common standards that vendors are beginning to adopt, he added.
+Customers can benefit from interoperability, too. 
+“Enterprises are eager for interoperability that A2A and MCP promise because they have heterogeneous environments that will have many agents,” Wong said. “But security, performance and agent pricing models are the wild card factors in proving out the technology.”
+Last year, big tech firms rallied around an open-standard AI infrastructure alliance developed to ease data center interconnectivity. Tech providers also banded together last May in hopes of nailing down AI risk thresholds and safety frameworks. More recently, the tech industry backed data provenance standards as AI adds urgency to get data practices on the right track.
+This kind of unity isn’t omnipresent, however. 
+Tensions have flared among the three largest hyperscalers, AWS, Microsoft and Google. Google accused Microsoft of stifling market competition last year in a complaint filed with the European Commission.
+“The downside of standards going away or changing is definitely something that IT leaders are wary of,” Wong said.
+Get the free daily newsletter read by industry experts
+The food industry giant doubled its digital, data and technology investments since 2019 as it pursues enhanced capabilities and supply chain optimization.
+The AI and data cloud segment contributed $900 million of annual recurring revenue during the provider’s fiscal year.
+Subscribe to CIO Dive for top news, trends & analysis
+Get the free daily newsletter read by industry experts
+The food industry giant doubled its digital, data and technology investments since 2019 as it pursues enhanced capabilities and supply chain optimization.
+The AI and data cloud segment contributed $900 million of annual recurring revenue during the provider’s fiscal year.
+The free newsletter covering the top industry headlines

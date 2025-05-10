@@ -1,0 +1,63 @@
+Title: Nvidia and Broadcom Helped Propel This ETF 18% Higher in a Single Day. Here's Why It's Still a Buy Now.
+Date: 2025-04-13 22:17
+URL: https://www.fool.com/investing/2025/04/13/nvidia-broadcom-semiconductor-growth-etf-buy/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=738cede6-27c5-478c-bef0-fb32f834cf87&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+It's been a wild week for semiconductor stocks. And for good reason, as tariffs throw a wrench into global supply chains and capital spending, thereby affecting demand for chips.
+One of the largest semiconductor exchange-traded funds (ETFs) by net assets is the iShares Semiconductor ETF (SOXX 2.18%). The fund surged 19% on Wednesday, fueled by huge gains in top holdings like Nvidia and Broadcom, as the market skyrocketed in hopes that trade tensions could ease.
+Here's why the ETF stands out as a solid buy for folks looking for chip companies to invest in artificial intelligence (AI) and growing global connectivity.
+Image source: Getty Images.
+The iShares Semiconductor ETF is a textbook example of why a fund can hold dozens of stocks but still be highly volatile if it is tied to one theme.
+As mentioned, the fund surged on Wednesday. Before that, it fell 4% on Tuesday; was up 2% on Monday, fell 7.5% on April 2; and dropped 10% on April 3. When the dust had settled, the fund was down 3% in those five days, showcasing the extent of the sell-off in chip stocks before Wednesday's monster rally.
+When equity prices are swinging this wildly to the upside and the downside, it can be difficult to stay on an even keel. But maintaining a long-term outlook is the best way to approach the semiconductor industry and the iShares Semiconductor ETF.
+The fund gives investors exposure to different aspects of the chip industry. Nvidia is the undisputed leader in making graphics processing units (GPUs) for AI applications.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now…
+*Stock Advisor returns as of April 5, 2025
+Broadcom makes accelerator chips, or application-specific integrated circuits (ASICs) that are built for AI tasks. The company also has a growing software-as-a-service platform through its acquisition of VMware, as well as an established network connectivity hardware division.
+The third-largest holding in the fund, Texas Instruments, is an established player in analog and embedded chips mainly used for the industrial and automotive sectors.
+Qualcomm is the fourth-largest holding in the fund, with a 6.8% weighting. The company is a leader in smartphone chip manufacturing, and its processors power Samsung's generative-AI-enabled Galaxy smartphones.
+Advanced Micro Devices is the fifth-largest holding. It has an entrenched position in central processing units but is trying to grow its market share in GPUs for data centers that compete with Nvidia. AMD has been relatively unsuccessful so far, a testament to Nvidia's lead over the competition.
+All told, the top five holdings make up 38% of the fund. With 30 total holdings, it is well diversified across the chip industry. It's a solid way to get exposure to chip designers, manufacturers, components and equipment suppliers, and other parts of the semiconductor industry.
+Even after Wednesday's surge, the iShares Semiconductor ETF is down 15% year to date (YTD) at the time of this writing. Nvidia is down 15% YTD, and Broadcom is still down slightly over 20%.
+When markets are volatile, the best way to approach a potential investment is to zoom out and build an investment thesis for why a stock or ETF could be worth holding for at least three to five years. The simplest reason to buy the iShares Semiconductor ETF is for a catchall way to invest in AI.
+Companies like Nvidia and Broadcom don't mind if Microsoft or Alphabet take market share from Amazon Web Services, as long as data center demand continues to grow. The iShares Semiconductor ETF takes that same idea a step further by owning leaders across the industry so that investors benefit from overall growth even if, for example, AMD eventually takes some market share from Nvidia, or hyperscalers find more value from Broadcom's ASICs for certain applications than Nvidia's GPUs.
+Before buying the iShares Semiconductor ETF, it's important to recognize that the fund is highly volatile, so it should only be approached if you have a high risk tolerance and long-term time horizon. It's also worth scanning the list of holdings in the fund to see if you would end up with duplicate holdings. For example, suppose you already own Nvidia and are comfortable with your position. In that case, the fund may not be the best buy, considering it would give you even more exposure to Nvidia.
+With a 0.35% expense ratio, the fund doesn't have as low a fee structure as you'll find from larger, passively managed funds. But the iShares Semiconductor ETF is still a good starting point for investors looking for a plug-and-play way to boost their semiconductor exposure.
+
+ 
+
+Before you buy shares in the iShares Trust - iShares Semiconductor ETF, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and the iShares Trust - iShares Semiconductor ETF wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $495,226!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $679,900!*
+Now, it’s worth noting Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 5, 2025
+
+
+John Mackey, former CEO of Whole Foods Market, an Amazon subsidiary, is a member of The Motley Fool’s board of directors. Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool’s board of directors. Daniel Foelber has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Advanced Micro Devices, Alphabet, Amazon, Microsoft, Nvidia, Qualcomm, Texas Instruments, and iShares Trust - iShares Semiconductor ETF. The Motley Fool recommends Broadcom and recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.
+This tech could reach $80 trillion. Imagine a technology worth over 30 Nvidias.
+What in the world could be worth 30 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Limited Time: Get a $250 Bonus with This Cash Back Card!
+Earn $250 when you spend $500 in 3 months—that's an easy 50% return! Plus, enjoy 0% intro APR for 15 months & up to 5% cash back.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends

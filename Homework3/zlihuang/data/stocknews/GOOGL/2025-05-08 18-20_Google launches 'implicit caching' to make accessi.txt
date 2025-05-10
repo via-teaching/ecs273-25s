@@ -1,0 +1,219 @@
+Title: Google launches 'implicit caching' to make accessing its latest AI models cheaper
+Date: 2025-05-08 18:20
+URL: https://techcrunch.com/2025/05/08/google-launches-implicit-caching-to-make-accessing-its-latest-ai-models-cheaper/?.tsrc=rss
+
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Google is rolling out a feature in its Gemini API that the company claims will make its latest AI models cheaper for third-party developers.
+Google calls the feature “implicit caching” and says it can deliver 75% savings on “repetitive context” passed to models via the Gemini API. It supports Google’s Gemini 2.5 Pro and 2.5 Flash models.
+That’s likely to be welcome news to developers as the cost of using frontier models continues to grow.
+Caching, a widely adopted practice in the AI industry, reuses frequently accessed or pre-computed data from models to cut down on computing requirements and cost. For example, caches can store answers to questions users often ask of a model, eliminating the need for the model to re-create answers to the same request.
+Google previously offered model prompt caching, but only explicit prompt caching, meaning devs had to define their highest-frequency prompts. While cost savings were supposed to be guaranteed, explicit prompt caching typically involved a lot of manual work.
+Some developers weren’t pleased with how Google’s explicit caching implementation worked for Gemini 2.5 Pro, which they said could cause surprisingly large API bills. Complaints reached a fever pitch in the past week, prompting the Gemini team to apologize and pledge to make changes.
+In contrast to explicit caching, implicit caching is automatic. Enabled by default for Gemini 2.5 models, it passes on cost savings if a Gemini API request to a model hits a cache. 
+“[W]hen you send a request to one of the Gemini 2.5 models, if the request shares a common prefix as one of previous requests, then it’s eligible for a cache hit,” explained Google in a blog post. “We will dynamically pass cost savings back to you.”
+The minimum prompt token count for implicit caching is 1,024 for 2.5 Flash and 2,048 for 2.5 Pro, according to Google’s developer documentation, which is not a terribly big amount, meaning it shouldn’t take much to trigger these automatic savings. Tokens are the raw bits of data models work with, with a thousand tokens equivalent to about 750 words.
+Given that Google’s last claims of cost savings from caching ran afoul, there are some buyer-beware areas in this new feature. For one, Google recommends that developers keep repetitive context at the beginning of requests to increase the chances of implicit cache hits. Context that might change from request to request should be appended at the end, the company says.
+For another, Google didn’t offer any third-party verification that the new implicit caching system would deliver the promised automatic savings. So we’ll have to see what early adopters say.
+Topics
+
+AI Editor
+
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ Spotify’s latest update gives users more control over their listening experience
+
+
+
+ Hugging Face releases a free Operator-like agentic AI tool
+
+
+
+ Meet Posha, a countertop robot that cooks your meals for you
+
+
+
+ Musk clashes with neighbors in exclusive Austin suburb
+
+
+
+ Is Duolingo the face of an AI jobs crisis?
+
+
+
+ Google launches AI tools for practicing languages through personalized lessons
+
+
+
+ Hugging Face releases a 3D-printed robotic arm starting at $100
+
+
+
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out

@@ -1,0 +1,226 @@
+Title: New court filing shows that Meta execs agreed that Facebook was losing to TikTok
+Date: 2025-05-07 18:24
+URL: https://techcrunch.com/2025/05/07/new-court-filing-shows-that-meta-execs-agreed-that-facebook-was-losing-to-tiktok/?.tsrc=rss
+
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Meta CEO Mark Zuckerberg, Instagram head Adam Mosseri, and other Meta execs thought that TikTok was beating Meta at its own game. That’s according to a new filing in the U.S. Federal Trade Commission’s antitrust lawsuit against the tech giant, published on Monday.
+The document, dated February 2022, includes conversations among a number of Meta execs discussing Facebook and Instagram’s strategy and market position. In one message, Zuckerberg called Facebook a “challenger” that has “lost the mindshare and momentum,” while adding that TikTok creates a “feeling of shared context” where friends see the same memes, he said.
+Mosseri also agreed that Facebook should be thought of as a challenger now, noting it’s no longer the default discovery engine. He proposed that the preferred discovery engine today could be YouTube, but he expected TikTok to surpass the Google-owned video platform in time, given the data Meta had on hand.
+“The most natural differentiated … strategy for Facebook is to be the default discovery surface. But it’s interesting that [TikTok] is 100% video and beating us badly,” Mosseri wrote. “My guess is they’re growing the social mobile market and eating into TV, long-form video, Netflix as well.”
+Mosseri was right. TikTok overtook YouTube for average watch time in the U.S. in 2021, one study found. Another study by the parental control software maker Qustodio discovered that kids ages four through 18 had spent 60% more time on TikTok than YouTube in 2023. Last year, TikTok began allowing 60-minute uploads to challenge YouTube.
+And just this week, Netflix introduced its own TikTok-like experience in its mobile app, offering a new vertical video feed of recommended videos, personalized to the individual user. 
+In the trial, however, the U.S. government is attempting to prove that Meta violated competition laws by acquiring companies like Instagram and WhatsApp to create a social networking monopoly. A document like this could damage the case, given that, internally, Meta execs were discussing how badly Facebook was being beaten by TikTok. 
+For instance, Zuckerberg noted that even if Facebook remained the biggest app in terms of the number of people who engage with it on a daily or weekly basis, it was no longer the biggest app by time spent. 
+He also pointed out that TikTok has a way to provide people with a sense of shared context. That is, if you and your friends are interested in the same things, you’ll likely come across the same things in TikTok’s feed, he said. 
+“That makes it inherently social because instead of having to send some content to a friend, you can just assume they’ve seen it,” the CEO explained. “If we could get to a level like this with topics and unconnected content on FB, that would be great. “
+Other execs also chimed in. 
+Head of WhatsApp Will Cathcart pointed out that TikTok users could comment on a video in a particular niche, which would lead the algorithm to bring them and other commenters to the same videos over time.
+Stan Chudnovsky, then a VP and GM at Meta, added that Meta had now begun to compete in a space that had become very fragmented with a “bunch of companies eating into our growth.”
+“Just adding a new format (like we did with Stories) is not enough anymore. There are just so many other places for people to be,” he added, citing other social apps popular in the U.S., like TikTok, Twitter, iMessage, Snap, YouTube, Reddit, and Discord.
+John Hegeman, then the VP of ads (now chief revenue officer), agreed that TikTok was “clearly in the lead” in areas like short-form video content, ranking capabilities, and creation tools, but said he thought Meta could close the gap by getting creators to also post on Reels.
+However, he said he was less certain about how far behind Meta was on the machine learning and technical side of things, and in terms of creation tools. The document paints a picture that in Meta’s view, Facebook is the underdog in the social media market. 
+It’s also not the only document that has surfaced during the trial to demonstrate Meta’s fear of competition. Zuckerberg himself testified last month that TikTok’s success was both a risk to Meta’s business and had slowed its growth.
+Topics
+
+Consumer News Editor
+
+Sarah has worked as a reporter for TechCrunch since August 2011. She joined the company after having previously spent over three years at ReadWriteWeb. Prior to her work as a reporter, Sarah worked in I.T. across a number of industries, including banking, retail and software.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ One of Elon Musk’s longtime VCs is suing his former employer after allegedly being fired
+
+
+
+ Microsoft employees are banned from using DeepSeek app, president says 
+
+
+
+ A timeline of South Korean telco giant SKT’s data breach
+
+
+
+ Aurora to add night driving, new routes as it ramps driverless trucking
+
+
+
+ Aurora co-founder Sterling Anderson is leaving the self-driving truck startup
+
+
+
+ Appfigures: Apple made over $10B from US App Store commissions last year
+
+
+
+ ChatGPT’s deep research tool gets a GitHub connector to answer questions about code
+
+
+
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out

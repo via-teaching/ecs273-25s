@@ -1,0 +1,218 @@
+Title: Google rolls out AI tools to protect Chrome users against scams
+Date: 2025-05-08 17:00
+URL: https://techcrunch.com/2025/05/08/google-rolls-out-ai-tools-to-protect-chrome-users-against-scams/?.tsrc=rss
+
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Google announced on Thursday that it’s rolling out new AI-powered defenses to help combat scams on Chrome. The tech giant will begin using Gemini Nano, its on-device large language model (LLM), on desktop to protect users against online scams. It’s also launching new AI-powered warnings for Chrome on Android to help users be aware of spammy notifications.
+According to Google, Chrome’s Enhanced Protection mode of Safe Browsing on Chrome offers the highest level of protection, providing twice the protection against phishing and other online threats compared to the browser’s Standard Protection mode. Now, Google will use Gemini Nano to provide Enhanced Protection users with an additional layer of defense against online scams.
+Google says this on-device approach will provide immediate insight into risky websites to protect users against scams, including those that haven’t been seen before.
+“Gemini Nano’s LLM is perfect for this use because of its ability to distill the varied, complex nature of websites, helping us adapt to new scam tactics more quickly,” Google said in a blog post.
+The company is already using this AI-powered defense to protect users from remote tech support claims. Google plans to expand this defense to Android devices and even more types of scams in the future.
+As for the new AI-powered warnings, Google notes that the risk from scammy sites can extend beyond the site itself through notifications if you have them enabled. Malicious websites can use notifications to try to scam you, which is why Chrome will now help you be aware of malicious, spammy, or misleading notifications on Android.
+Now, when Chrome’s on-device machine learning model flags a notification as possibly being a scam, you will receive a warning. You can choose to either unsubscribe or view the content that was blocked. If you think the warning was shown incorrectly, you can allow all future notifications from that site.
+As part of today’s announcement, Google shared that it has been using AI to stop scams in Search by detecting and blocking hundreds of millions of scammy results every day. Its AI-powered scam detection systems have helped to catch 20 times more scammy pages, Google says.
+For example, Google has seen an increase in bad actors impersonating airline customer service agents and scamming people looking for help. The company says it has reduced these scams by over 80%, decreasing the risk of users coming across a scammy phone number on Search.
+Topics
+
+Consumer News Reporter
+
+Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ Spotify’s latest update gives users more control over their listening experience
+
+
+
+ Hugging Face releases a free Operator-like agentic AI tool
+
+
+
+ Meet Posha, a countertop robot that cooks your meals for you
+
+
+
+ Musk clashes with neighbors in exclusive Austin suburb
+
+
+
+ Is Duolingo the face of an AI jobs crisis?
+
+
+
+ Google launches AI tools for practicing languages through personalized lessons
+
+
+
+ Hugging Face releases a 3D-printed robotic arm starting at $100
+
+
+
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out

@@ -1,0 +1,72 @@
+Title: 3 Top Tech Stocks Down 27% to 57% to Buy in This Volatile Market
+Date: 2025-04-13 08:00
+URL: https://www.fool.com/investing/2025/04/13/3-top-tech-stocks-down-27-to-50-to-buy-in-this-vol/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=5fbcac33-4e84-4c1e-94cd-094accaf6f42&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Market volatility can be stressful, but these innovative tech winners will shine over the long haul.
+The stock market has become highly volatile following President Donald Trump's tariff announcements and heightened trade tensions with China. Stocks had some of their worst sessions since the COVID-19 pandemic five years ago. Yet, as the recent rally -- one of the market's best days ever -- showed, these moments can be great opportunities to buy high-quality stocks at lower prices.
+Investors are not out of the woods yet. Although the broader market is currently off its lows, things could remain bumpy.
+Right now, there are some bargains in the technology sector. Nvidia (NVDA 2.91%), Taiwan Semiconductor (TSM 3.77%), and Advanced Micro Devices (AMD) (AMD 5.07%) are proven winners down between 27% and 57% from their highs. Three Fool.com contributors circled them as top tech stock buys in this volatile market.
+Here are the pitches for each:
+Jake Lerch (Nvidia): My choice is Nvidia. As of this writing, Nvidia is down more than 27% from its all-time high. That means that Nvidia has shed nearly $1 trillion in market cap value in the last three months alone.
+Clearly, the stock's decline this year has been severe. Yet, for the savvy investor, it is important to remain clear-eyed about the company's long-term prospects.
+Granted, trade uncertainty and fears of a possible recession are hanging over the market, making it difficult to evaluate any company's prospects, let alone Nvidia's. The company is at the forefront of the artificial intelligence (AI) boom, so it's logical to fear that Nvidia's business could slump if the ongoing trade war were to bring on a global recession.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now…
+*Stock Advisor returns as of April 5, 2025
+Nevertheless, smart buy-and-hold investing requires investors to set aside the latest headlines, which will come and go, and instead concentrate on the trends that will last. One of those unrelenting trends is the growth of AI. Remember, innovation cannot be stopped. It relentlessly marches on, leaving old forms of technology behind. See the typewriter, the slide rule, and the horse and buggy for proof of this.
+So, if Nvidia's core investment thesis (the growth of AI) remains intact, how should investors view its stock right now? In my opinion, the stock looks cheap at current prices.
+For example, as of this writing, Nvidia's price-to-earnings (P/E) multiple is 39x. That may seem expensive, but consider the stock's 10-year average.
+
+NVDA PE Ratio data by YCharts. PE Ratio = price-to-earnings ratio.
+As you can see, Nvidia's 10-year average P/E ratio is 60x. What's more, over the last five years, Nvidia's P/E ratio has dipped below this average only a few times, most of which were during the bear market of 2022.
+So, for investors who still believe in AI's long-term growth and Nvidia's role in the next chapter of innovation, right now seems like a smart time to consider Nvidia stock.
+Justin Pope (Taiwan Semiconductor): Investors love semiconductor stocks for a good reason. Chips are essentially the building blocks of technology, making AI and other new industries possible. Taiwan Semiconductor could be my favorite stock to profit in a world constantly demanding more chips.
+You may not know it, but most chip companies, like Nvidia, don't build their chips. Instead, they outsource to foundries (companies that manufacture chips). Taiwan Semiconductor is the world's leading foundry, and it's not even close. Counterpoint Technology Market Research estimates that Taiwan Semiconductor manufactured approximately 67% of the world's chips in the fourth quarter of 2024, up from 58% in mid-2023. In other words, Taiwan Semiconductor is pulling away from its competitors.
+Taiwan Semiconductor's dominance gives it competitive advantages. It has higher production capacity and the best equipment, meaning it's the clear choice for most chip designers, especially high-end chips like those Nvidia is selling for AI data centers. Taiwan Semiconductor should remain busy for the foreseeable future as AI grows and new industries, including humanoid robotics and self-driving vehicles, continue to fuel robust chip demand.
+The caveat with Taiwan Semiconductor is its proximity to China, which has long claimed Taiwan as a province. The escalating China-U.S. tensions could shine an uncomfortably bright spotlight on Taiwan Semiconductor, a strategic chess piece for the U.S. The company has expanded into America and Europe, but the situation is still complicated.
+While owning the stock comes with geopolitical risks, Taiwan Semiconductor's valuation could be too compelling to ignore. The stock's P/E ratio has slipped to less thanr 22, a steal for a dominant business that analysts believe will grow earnings by nearly 30% annually over the long term. Assuming geopolitical tensions don't boil over, Taiwan Semiconductor should make buyers at these levels very happy.
+Will Healy (Advanced Micro Devices): Investors may not know what to make of AMD. The company is a leader in central processing units (CPUs) and GPUs, fueling its success in the gaming and PC segments. While its data center segment has also experienced rapid growth, it lags far behind market leader Nvidia in the AI accelerator market. Additionally, AMD's embedded segment is coming out of a downcycle.
+At the same time, gaming has suffered since Microsoft and Sony have not updated their gaming consoles in years. More recently, concerns about tariffs and worries over price wars with Intel have further spooked investors.
+Amid that news, investors have primarily focused on the negative, and AMD stock recently traded at 57% below its all-time high in March 2024.
+Still, investors have plenty of reasons to expect a recovery. For one, the data center and client (PC) segments grew revenue in 2024 by 94% and 52%, respectively. That allowed AMD to increase its overall revenue by 14% during the year.
+With more muted declines in the embedded sector and optimism about gaming, these business segments are finally coming out of a downcycle. Thus, analysts forecast revenue growth of 23% in 2025, leaving it on track for higher growth despite concerns about the company.
+Its forward valuation also seems to confirm that the selling is overdone. The P/E ratio of almost 100 appears elevated as some business segments come out of a downcycle. Nonetheless, the forward P/E ratio of approximately 20 essentially makes AMD a value stock if current trends continue.
+Admittedly, catching up to Nvidia in the data center market appears unlikely, and tariff worries add to uncertainty. Still, one cannot dispute that AMD has rapidly grown its data center revenue despite challenges. Moreover, with its lagging segments coming out of a downcycle, investors should consider taking advantage of the discounted stock price and low valuation.
+
+ 
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $495,226!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $679,900!*
+Now, it’s worth noting Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 5, 2025
+
+
+Jake Lerch has positions in Nvidia. Justin Pope has no position in any of the stocks mentioned. Will Healy has positions in Advanced Micro Devices and Intel. The Motley Fool has positions in and recommends Advanced Micro Devices, Intel, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing. The Motley Fool recommends the following options: long January 2026 $395 calls on Microsoft, short January 2026 $405 calls on Microsoft, and short May 2025 $30 calls on Intel. The Motley Fool has a disclosure policy.
+This tech could reach 80 trillion. Imagine a technology worth over 26 Nvidias.
+What in the world could be worth 26 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends

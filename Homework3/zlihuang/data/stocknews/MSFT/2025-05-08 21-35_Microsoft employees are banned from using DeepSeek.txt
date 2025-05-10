@@ -1,0 +1,222 @@
+Title: Microsoft employees are banned from using DeepSeek app, president says
+Date: 2025-05-08 21:35
+URL: https://techcrunch.com/2025/05/08/microsoft-employees-are-banned-from-using-deepseek-app-president-says/?.tsrc=rss
+
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Microsoft employees aren’t allowed to use DeepSeek due to data security and propaganda concerns, Microsoft vice chairman and president Brad Smith said in a Senate hearing today.
+“At Microsoft we don’t allow our employees to use the DeepSeek app,” Smith said, referring to DeepSeek’s application service (which is available on both desktop and mobile).
+Smith said Microsoft hasn’t put DeepSeek in its app store over those concerns, either. 
+Although lots of organizations and even countries have imposed restrictions on DeepSeek, this is the first time Microsoft has gone public about such a ban.
+Smith said the restriction stems from the risk that data will be stored in China and that DeepSeek’s answers could be influenced by “Chinese propaganda.”
+DeepSeek’s privacy policy states it stores user data on Chinese servers. Such data is subject to Chinese law, which mandates cooperation with the country’s intelligence agencies. DeepSeek also heavily censors topics considered sensitive by the Chinese government.
+Despite Smith’s critical comments about DeepSeek, Microsoft offered up DeepSeek’s R1 model on its Azure cloud service shortly after it went viral earlier this year.
+But that’s a bit different from offering DeepSeek’s chatbot app itself. Since DeepSeek is open source, anybody can download the model, store it on their own servers, and offer it to their clients without sending the data back to China. 
+That, however, doesn’t remove other risks like the model spreading propaganda or generating insecure code.
+During the Senate hearing, Smith said that Microsoft had managed to go inside DeepSeek’s AI model and “change” it to remove “harmful side effects.” Microsoft did not elaborate on exactly what it did to DeepSeek’s model, referring TechCrunch to Smith’s remarks.
+In its initial launch of DeepSeek on Azure, Microsoft wrote that DeepSeek underwent “rigorous red teaming and safety evaluations” before it was put on Azure.
+While we can’t help pointing out that DeepSeek’s app is also a direct competitor to Microsoft’s own Copilot internet search chat app, Microsoft doesn’t ban all such chat competitors from its Windows app store. 
+Perplexity is available in the Windows app store, for instance. Although any apps by Microsoft’s archrival Google (including the Chrome browser and Google’s chatbot Gemini) did not surface in our webstore search.
+
+Topics
+
+Senior Reporter
+
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ Spotify’s latest update gives users more control over their listening experience
+
+
+
+ Hugging Face releases a free Operator-like agentic AI tool
+
+
+
+ Meet Posha, a countertop robot that cooks your meals for you
+
+
+
+ Musk clashes with neighbors in exclusive Austin suburb
+
+
+
+ Is Duolingo the face of an AI jobs crisis?
+
+
+
+ Google launches AI tools for practicing languages through personalized lessons
+
+
+
+ Hugging Face releases a 3D-printed robotic arm starting at $100
+
+
+
+© 2025 TechCrunch Media LLC.
+Do Not Sell or Share My Personal Information
+We won't sell or share your personal information to inform the ads you see. You may still see interest-based ads if your information is sold or shared by other companies or was sold or shared previously.
+Dismiss
+Opt out

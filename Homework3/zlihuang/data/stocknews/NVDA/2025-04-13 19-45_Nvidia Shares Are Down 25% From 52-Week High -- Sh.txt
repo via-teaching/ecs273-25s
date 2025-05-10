@@ -1,0 +1,69 @@
+Title: Nvidia Shares Are Down 25% From 52-Week High -- Should You Buy, Hold, or Sell Now?
+Date: 2025-04-13 19:45
+URL: https://www.fool.com/investing/2025/04/13/nvidia-shares-are-down-25-from-52-week-high-should/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=5fe1ede8-cae1-4d39-8377-6f662a698de1&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Shares of semiconductor giant Nvidia (NVDA 2.91%) surged 18.7% on April 9, after President Trump announced a 90-day pause on the higher "reciprocal tariffs." Instead, he has authorized a "lowered reciprocal tariff of 10%" -- in line with the 10% baseline tariff set on all imports.
+Investors had long been worried about the U.S. government's decision to impose import tariffs on products from various trading partners. Since this can lead to rising costs, disruptions in the supply chain, and retaliatory tariffs on American goods, many U.S. stocks saw a dramatic decline in early April 2025. The temporary pause in reciprocal tariffs seems well received by Wall Street.
+Nvidia's stock is down nearly 25% from its recent high in January 2025. Although this is not a very encouraging sign, it is a solid improvement from the almost 38% drawdown from the high on April 4.
+So, does valuation correction present an opportunity for investors to buy, hold, or sell Nvidia stock now? Let's find out.
+Regulatory risks have emerged as a primary headwind for Nvidia. In April 2025, the U.S. government announced its decision to levy a hefty 32% tariff on imports from Taiwan and a 34% tariff from China. China responded by levying 84% retaliatory tariffs on imports from the U.S. In retaliation, the U.S. government has increased tariffs on Chinese imports to 104%.
+Although semiconductors have been excluded from this round of tariffs, there are signals of a potential escalation of trade wars between the U.S. and China.
+Jefferies analysts fear the possibility of additional sector-specific tariffs, including semiconductors, in subsequent tariff rounds. If true, it can lead to significant supply chain disruptions and margin pressures for Nvidia, considering that the company depends heavily on Taiwan Semiconductor Manufacturing's fabs for chip manufacturing.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now…
+*Stock Advisor returns as of April 5, 2025
+The U.S. government has long been mulling stricter controls on chip sales to China. The Chinese government's recently introduced energy-efficiency guidelines, also urge companies to use chips adhering to strict requirements in new data centers or expansions. Since Nvidia's best-selling H20 chip does not fulfil these requirements, it may hurt the company's Chinese business -- accounting for almost 13% of its revenues in fiscal 2025 (ending Jan. 26).
+Nvidia is also encountering competitive pressures, though other chip manufacturers are significantly behind in the artificial intelligence (AI) race. The company is also experiencing short-term gross margin pressures due to the ongoing ramp-up of its Blackwell systems.
+Despite these challenges, multiple catalysts can drive up Nvidia's share prices in the coming months.
+Nvidia enjoys an unmatched technological edge in AI computing, which is evident considering its over 90% share in the AI GPU market. The company has developed a robust AI infrastructure optimized for several AI computational workloads with significant growth opportunities. These include pre-training scaling or building and upgrading foundational models with large amounts of multimodal data, post-training scaling or customizing and fine-tuning foundational models, and inferencing, including complex reasoning.
+The recently launched Blackwell architecture systems have been specially architected for inference workloads (deploying and running models in a real-time environment) across various deployment environments such as on-premises, cloud, or hybrid. Blackwell is also optimized for computation-heavy reasoning inference workloads, demonstrating 25 times higher token throughput and 20 times lower cost than the Hopper 100 chips. Hence, with enterprise demand increasingly shifting from training workloads to more recurring inference workloads, Blackwell is expected to continue to be a significant growth catalyst for Nvidia.
+Besides hardware, Nvidia has built a solid software ecosystem with over 5.9 million developers using Compute Unified Device Architecture (CUDA) and other software platforms. The company has also recently introduced software offerings such as Nvidia AI Enterprise and Nvidia Inference Microservices to enable enterprises to deploy AI solutions effectively. This software advantage has led to high switching costs, which has resulted in a sticky customer base.
+Finally, the rapid adoption of AI agents and robotics is also proving to be a significant growth avenue for Nvidia. Blackwell chips are well poised to benefit from the evolving agentic AI opportunity, as it has the computational power and low latency required for building systems capable of making complex decisions and planning.
+Nvidia is trading at 24.45 times forward earnings, far lower than its five-year average of 71.54x. Hence, it is evident that most of the risks are already priced at the company's share price.
+But Nvidia also has a history of rebounding significantly after deep falls. Some of the recent events can better highlight this trend.
+This was seen in 2018, when the stock crashed over 53% from its peak in early October 2018 to its low in late December 2018. The decline was mainly due to the crypto market crash amid the global tech sell-off, resulting in excess inventory buildup for Nvidia. However, the stock recovered by over 65% in 2019, after inventory levels normalized and sales in gaming and data center segments started showing strong momentum.
+Nvidia stock also crashed by 30% from its recent peak in February 2020 to its low in March 2020 due to marketwide uncertainty and supply chain disruptions in the early stages of the COVID-19 pandemic. However, by March 2021, the stock had soared over 100%, driven mainly by increased demand for gaming and data center services during the pandemic.
+Finally, Nvidia stock crashed almost 66% from November 2021 to mid-October 2022, due to concerns about rising interest rates and supply chain disruptions. But then, the stock had recovered over 200% by October 2023, fueled by explosive demand in AI and data center markets and the company's focus on product innovation.
+Hence, historically, Nvidia has returned even stronger within 12 months after a significant stock decline. Therefore, it makes sense for retail investors to acquire at least a small stake in this stock to benefit from its future growth prospects.
+
+ 
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Now, it’s worth noting Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 5, 2025
+
+
+Manali Pradhan has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Jefferies Financial Group, Nvidia, and Taiwan Semiconductor Manufacturing. The Motley Fool has a disclosure policy.
+This tech could reach 80 trillion. Imagine a technology worth over 26 Nvidias.
+What in the world could be worth 26 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Limited Time: Get a $250 Bonus with This Cash Back Card!
+Earn $250 when you spend $500 in 3 months—that's an easy 50% return! Plus, enjoy 0% intro APR for 15 months & up to 5% cash back.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Motley Fool Returns
+Market-beating stocks from our flagship service.
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 04/13/2025.
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+Calculated by Time-Weighted Return since 2002. Volatility profiles based on trailing-three-year calculations of the standard deviation of service investment returns.
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
