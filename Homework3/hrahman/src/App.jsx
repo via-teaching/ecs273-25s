@@ -86,16 +86,28 @@ function App() {
         </label>
       </header> */}
 
-      <header className="bg-indigo-500 text-white p-2 flex flex-row items-center justify-between shadow-md">
-           <div className="flex flex-col">
-             <h2 className="text-3xl font-bold tracking-wide">Homework 3</h2>
-             <p className="text-sm text-indigo-100">ECS 273 - Visual Analytics | Shaik Haseeb Ur Rahman</p>
-           </div>
-           <div className="flex flex-col items-start">
-             <label htmlFor="bar-select" className="text-base font-bold mb-1 text-white">Select a Stock</label>
-             <RenderOptions selectedTicker={selectedTicker} setSelectedTicker={setSelectedTicker} />
-           </div>
-      </header>
+<header className="bg-indigo-500 text-white p-2 flex flex-row items-center justify-between shadow-md">
+  {/* Left: Title */}
+  <div className="flex flex-col">
+    <h2 className="text-3xl font-bold tracking-wide">Homework 3</h2>
+    <p className="text-sm text-indigo-100">ECS 273 - Visual Analytics</p>
+  </div>
+
+  {/* Center: Stock Selector */}
+  <div className="flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
+    <label htmlFor="bar-select" className="text-base font-bold mb-1 text-white">
+      <b>Select a Stock :</b>
+      <RenderOptions selectedTicker={selectedTicker} setSelectedTicker={setSelectedTicker} />
+    </label>
+  </div>
+
+  {/* Right: Haseeb */}
+  <div className="text-lg font-bold pr-2">
+    <h4 className="text-xl font-bold tracking-wide">Shaik Haseeb Ur Rahman</h4>
+    <p className="float-right text-sm text-indigo-100">UID: 924142853</p>
+  </div>
+</header>
+
       
       <div className="flex flex-row h-full w-full">
         <div className="flex flex-col w-2/3">
