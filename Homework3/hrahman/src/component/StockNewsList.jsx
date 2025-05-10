@@ -1,84 +1,73 @@
 import { useEffect, useState } from "react";
 
-export default function StockNewsList({ selectedTicker }) {
-  const [articles, setArticles] = useState([]);
-  const [expandedIndex, setExpandedIndex] = useState(null);
+export default function NewsList({ selectedTicker }) {
+  const [news, setNews] = useState([]);
+  const [expanded, setExpanded] = useState(null);
 
   useEffect(() => {
-    const folderPath = `/data/stocknews/${selectedTicker}`;
-    
+    fetch("/parsed_news.json")
+      .then(res => res.json())
+      .then(setNews);
+  }, []);
 
-    fetch(`${folderPath}/index.json`)
-      .then((res) => res.json())
-      .then((fileList) => {
-        const fetches = fileList.map((file) =>
-          fetch(`${folderPath}/${encodeURIComponent(file)}`)
-            
-            .then((res) => res.text())
-            .then((text) => ({ filename: file, content: text }))
-        );
-        return Promise.all(fetches);
-      })
-      .then(setArticles)
-      .catch((err) => {
-        console.error("Error loading news files:", err);
-        setArticles([]);
-      });
-  }, [selectedTicker]);
+  const filtered = news.filter(n => n.ticker === selectedTicker);
 
   return (
-    <div className="overflow-y-auto p-2 h-full">
-      {articles.length === 0 ? (
-        <p className="text-center text-gray-500 mt-8">No news available</p>
-      ) : (
-        articles.map((article, i) => {
-          const titleMatch = article.content.match(/Title:\s*(.+)/);
-          const dateMatch = article.content.match(/Date:\s*(.+)/);
-          const urlMatch = article.content.match(/URL:\s*(.+)/);
-          const contentStart = article.content.indexOf("Content:");
-          const content = contentStart !== -1
-            ? article.content.slice(contentStart + 8).trim()
-            : "No content available.";
-
-          const title = titleMatch ? titleMatch[1].trim() : article.filename;
-          const date = dateMatch ? dateMatch[1].trim() : "Unknown date";
-          const url = urlMatch ? urlMatch[1].trim() : null;
-          const isExpanded = expandedIndex === i;
+    <div className="h-full w-full px-4 py-2 rounded bg-white/90 flex flex-col overflow-hidden">
+      <h2 className="text-lg font-semibold mb-3">Recent news for {selectedTicker}</h2>
+      <div className="space-y-4 flex-1 overflow-y-auto pr-1">
+        {filtered.map((item, idx) => {
+          const isOpen = expanded === idx;
 
           return (
             <div
-              key={i}
-              className="mb-3 p-2 border border-gray-300 rounded-lg shadow-sm bg-white"
+              key={idx}
+              className={`bg-blue-100 border rounded-lg shadow-sm transition-all duration-300`}
+              style={{
+                maxHeight: isOpen ? '320px' : '84px',
+                overflowY: isOpen ? 'auto' : 'hidden'
+              }}
             >
-              <div
-                className="cursor-pointer font-semibold text-blue-800"
-                onClick={() => setExpandedIndex(isExpanded ? null : i)}
+              <button
+                onClick={() => setExpanded(isOpen ? null : idx)}
+                className="w-full text-left"
               >
-                {title}
-                <span className="text-sm text-gray-500 ml-2">({date})</span>
-              </div>
+                <div className="bg-blue-300 text-blue-900 font-semibold px-4 py-2 rounded-t">
+                  <div className="truncate">{item.title.replace(/_/g, " ")}</div>
+                  <div className="text-xs mt-1">{item.date}</div>
+                </div>
+              </button>
 
-              {isExpanded && (
-                <div className="mt-2 text-sm text-gray-700 whitespace-pre-wrap">
-                  {url && (
-                    <p className="mb-1">
-                      <a
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 underline"
-                      >
-                        [View Original Article]
-                      </a>
-                    </p>
-                  )}
-                  <p>{content}</p>
+              {isOpen && (
+                <div className="px-4 pb-3 pt-2 text-sm text-gray-800 whitespace-normal break-words">
+                  <div className="mb-2 font-semibold text-gray-700">
+                    Title: {item.title.replace(/_/g, " ")}
+                  </div>
+                  {item.content.split('\n').map((line, i) => {
+                    if (line.startsWith("URL:")) {
+                      const url = line.replace("URL: ", "").trim();
+                      return (
+                        <div key={i} className="mb-2">
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-700 underline break-all"
+                          >
+                            Go to the News Article →
+                          </a>
+                        </div>
+                      );
+                    } else {
+                      return <span key={i}>{line + " "}</span>;
+                    }
+                  })}
                 </div>
               )}
             </div>
           );
-        })
-      )}
+        })}
+      </div>
     </div>
   );
 }
