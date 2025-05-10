@@ -1,0 +1,20 @@
+TSNE1,TSNE2,ticker,sector
+50.46218,62.20386,AAPL,Information Tech / Comm. Svc
+24.00512,-51.17082,BAC,Financials
+-42.114376,-27.49045,CAT,Industrials
+57.962776,75.51116,CVX,Energy
+43.153477,65.62601,DAL,Industrials
+35.170715,-57.886345,GOOGL,Information Tech / Comm. Svc
+17.205292,-56.268566,GS,Financials
+39.870678,53.147038,HAL,Energy
+52.04353,85.08802,JNJ,Healthcare
+66.21328,76.44607,JPM,Financials
+1.077086,-51.91665,MCD,Consumer Discretionary/Staples
+-54.89008,-21.649328,META,Information Tech / Comm. Svc
+-47.362244,-38.47032,MMM,Industrials
+-51.789745,-30.66233,MSFT,Information Tech / Comm. Svc
+-0.08027361,-59.638943,NKE,Consumer Discretionary/Staples
+40.25744,-48.994167,NVDA,Information Tech / Comm. Svc
+65.927025,86.20397,PFE,Healthcare
+-31.96465,-29.048111,UNH,Healthcare
+23.286001,-63.389984,XOM,Energy
