@@ -86,11 +86,11 @@ export default function StockLineChart({ selectedTicker }) {
       .style("font-size", "0.8rem");
 
     g.append("text")
-      .attr("x", chartWidth / 2)
+      .attr("x", (chartWidth - 1000) / 2)
       .attr("y", chartHeight + 40)
       .attr("text-anchor", "middle")
       .text("Date")
-      .style("font-size", "0.8rem");
+      .style("font-size", "0.8rem");    
 
     const chartBody = g.append("g").attr("class", "chart-body");
 
@@ -167,7 +167,7 @@ export default function StockLineChart({ selectedTicker }) {
         <div className="overflow-x-auto w-full">
           <svg
             ref={svgRef}
-            width={Math.max(1200, data.length * 4)}
+            width={Math.max(1200, data.length * 4.01)}
             height={300}
           />
         </div>

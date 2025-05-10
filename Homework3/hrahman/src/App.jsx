@@ -91,7 +91,7 @@ function App() {
              <h2 className="text-3xl font-bold tracking-wide">Homework 3</h2>
              <p className="text-sm text-indigo-100">ECS 273 - Visual Analytics | Shaik Haseeb Ur Rahman</p>
            </div>
-           <div className="flex flex-col items-end">
+           <div className="flex flex-col items-start">
              <label htmlFor="bar-select" className="text-base font-bold mb-1 text-white">Select a Stock</label>
              <RenderOptions selectedTicker={selectedTicker} setSelectedTicker={setSelectedTicker} />
            </div>
