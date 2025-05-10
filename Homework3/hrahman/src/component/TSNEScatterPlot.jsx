@@ -145,43 +145,50 @@ export default function TSNEScatterPlot({ selectedTicker }) {
       <div className="w-3/4">
         <svg ref={svgRef}></svg>
       </div>
-
-      {/* Right side: Legend & Zoom */}
-      <div className="w-1/4 flex flex-col items-start gap-2 px-4">
-        <div className="text-sm font-semibold mb-2">Sectors</div>
-        {Object.entries(SECTOR_COLORS).map(([sector, color]) => (
-          <div key={sector} className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded" style={{ backgroundColor: color }}></div>
-            <span className="text-xs">{sector}</span>
+  
+      {/* Right side: Legend and Buttons in two clean blocks */}
+      <div className="w-1/4 flex flex-col justify-between px-4 py-4">
+        {/* Sector Legend */}
+        <div>
+          <div className="text-sm font-semibold mb-3">Sectors</div>
+          <div className="flex flex-col gap-3 text-sm">
+            {Object.entries(SECTOR_COLORS).map(([sector, color]) => (
+              <div key={sector} className="flex items-center gap-2">
+                <div className="w-4 h-4 rounded" style={{ backgroundColor: color }}></div>
+                <span className="whitespace-normal">{sector}</span>
+              </div>
+            ))}
           </div>
-        ))}
-        <div className="mt-6 flex flex-col gap-2 w-full">
-  <button
-    onClick={() => handleZoom(1.2)}
-    className="px-4 py-2 bg-indigo-500 text-white rounded shadow text-sm w-full"
-  >
-    Zoom In
-  </button>
-  <button
-    onClick={() => handleZoom(0.8)}
-    className="px-4 py-2 bg-indigo-500 text-white rounded shadow text-sm w-full"
-  >
-    Zoom Out
-  </button>
-  <button
-    onClick={() =>
-      d3.select(svgRef.current)
-        .transition()
-        .duration(300)
-        .call(zoomRef.current.transform, d3.zoomIdentity)
-    }
-    className="px-4 py-2 bg-gray-700 text-white rounded shadow text-sm w-full"
-  >
-    Reset
-  </button>
-</div>
-
+        </div>
+  
+        {/* Buttons Column */}
+        <div className="flex flex-col items-center gap-2">
+          <button
+            onClick={() => handleZoom(1.2)}
+            className="w-28 px-3 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded shadow text-sm"
+          >
+            Zoom In
+          </button>
+          <button
+            onClick={() => handleZoom(0.8)}
+            className="w-28 px-3 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded shadow text-sm"
+          >
+            Zoom Out
+          </button>
+          <button
+            onClick={() =>
+              d3.select(svgRef.current)
+                .transition()
+                .duration(300)
+                .call(zoomRef.current.transform, d3.zoomIdentity)
+            }
+            className="w-28 px-3 py-2 bg-gray-700 hover:bg-gray-800 text-white rounded shadow text-sm"
+          >
+            Reset
+          </button>
+        </div>
       </div>
     </div>
   );
+  
 }
