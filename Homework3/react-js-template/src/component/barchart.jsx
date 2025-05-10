@@ -4,7 +4,7 @@ import { isEmpty, debounce } from 'lodash';
 import Data from "../../data/demo.json";
 
 
-const margin = { left: 40, right: 20, top: 20, bottom: 60 };
+const margin = { left: 40, right: 20, top: 20, bottom: 40 };
   
 export function BarChart({ selectedStock }) {
   const containerRef = useRef(null);
@@ -97,12 +97,12 @@ function drawChart(svgElement, rawData, width, height) {
         .style('font-size', '.8rem');
 
     svg.append('g')
-        .attr('transform', `translate(${width / 2 - margin.left}, ${height - margin.top - 5})`)
+        .attr('transform', `translate(${width / 2 - margin.left}, ${height - margin.top +12 })`)
         .append('text')
-        .text('Dates')
-        .style('font-size', '.8rem');
+        .text('Date')
+        .style('font-size', '.8rem'); 
     
-    
+
     const fields = [
         { key: "Open", color: "blue" },
         { key: "High", color: "green" },
@@ -145,7 +145,7 @@ function drawChart(svgElement, rawData, width, height) {
     svg.append("text")
         .attr("class", "hint-text")
         .attr("x", width - margin.right)
-        .attr("y", height - margin.bottom +40)
+        .attr("y", height - margin.bottom + 30)
         .style("text-anchor", "end")
         .style("font-size", "0.75rem")
         .style("fill", "#666")

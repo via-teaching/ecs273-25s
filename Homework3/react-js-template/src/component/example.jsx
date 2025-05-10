@@ -46,7 +46,7 @@ export function BarChart() {
   );
 }
 
-function drawChart(svgElement, bars, width, height, ) {
+function drawChart(svgElement, bars, width, height) {
     const svg = d3.select(svgElement);
     svg.selectAll('*').remove(); // clear previous render
 
