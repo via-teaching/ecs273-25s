@@ -17,10 +17,13 @@ const categories = {
     Tech:         ["AAPL", "MSFT", "NVDA", "GOOGL", "META"]
   };
 
-const categoryOf = Object.entries(categories).reduce((acc, [category, tics]) => {
-    tics.forEach(t => (acc[t] = ));
-    return acc;
-}, {});
+const categoryOf = {};
+for (const category in categories) {
+    const symbols = categories[category];
+    symbols.forEach(symbol => {
+        categoryOf[symbol] = category;
+    });
+}
 
 const categoryColour = d3.scaleOrdinal()
   .domain(Object.keys(categories))
