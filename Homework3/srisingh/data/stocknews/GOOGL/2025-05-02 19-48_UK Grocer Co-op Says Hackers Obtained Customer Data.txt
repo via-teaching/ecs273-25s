@@ -1,0 +1,99 @@
+Title: UK Grocer Co-op Says Hackers Obtained Customer Data
+Date: 2025-05-02 19:48
+URL: https://finance.yahoo.com/news/uk-grocer-co-op-says-190656735.html?.tsrc=rss
+
+Tip: Try a valid symbol or a specific company name for relevant results
+More Americans are claiming Social Security early. Here's why.
+Nvidia CEO Jensen Huang gets first salary boost in 10 years
+Trump's tariffs are pulling in billions, but the revenue boom could be short-lived. Here's why.
+S&P 500 wipes out Trump tariff losses, marks longest winning streak in 20 years as trade war cools
+China says 'the door is open' to trade talks, while Canada's Carney is set to meet with Trump next week.
+Investors cheered a solid jobs report and a thaw in US-China relations. The S&P 500 eyed its longest win streak in over 20 years.
+Trump once again called on the Fed to lower rates. But the jobs report could reinforce Chair Powell's cautious stance.
+Dow, S&P 500, Nasdaq jump amid jobs report beat, hopes for US-China talks
+The US economy added 177,000 jobs in April as the labor market remained resilient in the wake of Trump's tariffs
+The AI revolution is an advertising revolution
+China says it’s evaluating US talks after weeks of stalemate (Bloomberg)
+The April jobs report comes at a critical moment for markets. Here's what to expect.
+'People are visiting less': Food chains warn tariffs are triggering a pullback in spending
+Apple beats earnings on strong iPhone sales, authorizes $100 billion stock buyback
+Watch our special report with insights, analysis, and key takeaways from Apple's high-stakes update.
+Amazon beats on earnings but stock sinks as forecast spooks investors
+Nasdaq surges as AI trade reignites amid Big Tech earnings; Dow, S&P 500 rise for 8th day
+Even as Tesla's board denied kicking off a search to replace Musk, one analyst thinks it could help push him out of government.
+Manufacturing activity in the US hit a five-month low in April, as Trump's tariffs left businesses in a 'state of near paralysis'
+The Nasdaq surged over 2% as upbeat Microsoft and Meta results boosted optimism around Big Tech
+Nasdaq leads way higher as stocks rally after Microsoft, Meta beats reassure Wall Street
+Weekly jobless claims jumped to their highest level in two months, in the latest sign of a labor market slowdown
+The month that Trump blinked on trade
+Negative GDP is the latest data to offer 2 views on the US economy
+The tech giant is set to report earnings Thursday with Trump's tariff whiplash in focus. Here's what to expect.
+Here's how the courts could upend Trump's tariffs
+Oil prices post biggest monthly drop since 2021 as trade war sparks recession, demand fears
+Meta stock jumps after strong earnings, upbeat outlook shrugs off tariff worries
+Microsoft stock soars after company beats on earnings, defying tariff fears
+Stocks recover from sharp losses to cap volatile April fueled by tariff uncertainty
+Trump decried 'Biden's Stock Market' after his 100th day in office was capped by another series of dour economic indicators
+A pair of economic reports just delivered the Fed a 'stagflation warning shot'
+Dow, S&P 500, Nasdaq fall after bleak GDP and jobs data, with Big Tech earnings on deck
+Wall Street was setting up for a rough open after data showed the US economy contracted. Nasdaq futures lost nearly 2%.
+The US economy contracted for the first time in three years start 2025, while prices increased more than forecast.
+The US economy may have avoided a recession so far. Here's how that could change.
+Corporate earnings tell 2 different consumer stories
+The tech giant is set to report earnings on Wednesday under growing pressure to deliver on AI. Here's what to expect.
+Trump: 'I have a Fed person who is not really doing a good job'
+Trump's next tariff war will be with your favorite store
+Why Wall Street is wary of the stock market rally
+Dow extends longest win streak of 2025 as stocks climb amid latest tariff relief
+From 'destacking' of tariffs to reimbursements for foreign parts, the US will offer relief to weary automakers.
+Consumer confidence plunged for the fifth straight month, dropping to a level not seen since the early days of the pandemic
+The White House took aim at Amazon over reports it would display tariff price impacts on products
+S&P 500, Nasdaq slip amid rush of earnings, hopes for auto tariff relief
+How Trump is answering (or dodging) questions on his historically bad 100-day stock market
+Big Tech’s big week of tariff guidance
+Trump has been president for 100 days, and it's clear he peaked on day one.
+Widely criticized student loan servicer MOHELA faces investigation by multiple state attorneys general
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+(Bloomberg) -- The UK supermarket chain Co-op said hackers were able to access and extract customer data from one of its systems during a recent cyberattack.
+NYC Lost $9 Billion of Income to Miami, Palm Beach in Five Years
+NJ Transit Urges Commuters to Work Remotely If Union Strikes
+New York City Transit System Chips Away at Subway Fare Evasion
+NYC’s MTA to Cut Costs Instead of Borrowing More to Fund Upgrades
+NYC’s Congestion Toll Raised $159 Million in the First Quarter
+“The accessed data included information relating to a significant number of our current and past members,” the company said in a statement Friday. “This data includes Co-op Group members’ personal data such as names and contact details, and did not include members’ passwords, bank or credit card details, transactions or information relating to any members’ or customers’ products or services with the Co-op Group.”
+The statement cames as a cybercrime gang took credit a disruptive campaign of attacks targeting Co-op and at least two other British retailers over the last two weeks.
+A spokesperson for the gang, known as “DragonForce,” said in an interview with Bloomberg News that it and its partners were behind incidents targeting Marks & Spencer, Co-op and Harrods.
+The group’s motivation was to extort money from their victims, the spokesperson said. They also claimed to have stolen customer data. The admission is the first confirmation the attacks were linked and carried out by the same group.
+Marks & Spencer first announced it had been targeted in a “cyber incident” on April 22. Some of the company’s systems were infected with DragonForce’s ransomware, which encrypts files stored on computers so they cannot be used, Bloomberg News previously reported.
+In the aftermath of the attack, M&S stopped accepting contactless payments and shut down online orders. Transactions have yet to resume. There have also been reports of gaps on shelves as the company struggles with availability for some items.
+In a post on X Friday, M&S Chief Executive Officer Stuart Machin apologized for the disruption, saying the company is working “day and night” to resolve the issue.
+On April 30, British supermarket chain Co-op said it had detected attempts to gain unauthorized access to some of its systems, which it said had a “small impact” on some back office and call center services. On Friday, the retailer said it was investigating along with Uk authorities. “We are continuing to experience sustained malicious attempts by hackers to access our systems,” Co-op said, in a statement. “This is a highly complex situation.”
+That was followed on May 1 by a statement from London’s luxury department store Harrods Ltd. disclosing that it had suffered attempts to compromise its systems. The company said it had restricted internet access at its sites in response.
+Neither Marks & Spencer, Harrods nor Co-op immediately responded to requests for comment on the DragonForce claims.
+The creators of DragonForce, whose identities aren’t known, operate like a criminal cartel, leasing out their malicious software and infrastructure to other hackers while taking a cut of any proceeds earned through extortion, experts say.
+Hackers working with DragonForce claimed more than 90 victims last year and targeted companies across various industries, including health care, manufacturing and telecommunications, according to Broadcom’s cybersecurity unit Symantec. The attacks spanned more than a dozen countries across North America, Europe, the Middle East and Asia, according to cyber experts.
+The DragonForce spokesperson declined to comment on whether they were negotiating with the British retailers. They said that they typically expect their victims to pay ransom payments that have seven zeros, possibly six. “Our job is not to destroy, we just take some money and walk away,” they said.
+The gang claimed it was in the process of harvesting a large trove of data, amounting to terabytes, that it had stolen from the British companies, and suggested that it would release it online if its demands for payment are not met.
+The group added that it planned more attacks on the UK’s retail sector, saying the recent breaches were “just a start.”
+Some cybersecurity experts have said the attacks bore the hallmarks of a hacking group known as Scattered Spider, whose previous targets included MGM Resorts International and Caesars Entertainment Inc.
+It’s possible Scattered Spider is working with DragonForce and using its ransomware, according to John Hultquist, chief analyst at Google Threat Intelligence Group. Scattered Spider has a history “of going one by one through a sector,” Hultquist said, “so the peers of the companies that have been targeted need to really batten down the hatches. The threat is imminent.”
+Asked about a cooperation with Scattered Spider, DragonForce’s spokesperson said they didn’t know the identities of the hackers it worked with.
+(Updates with new details about Scattered Spider in last four paragraphs.)
+Most Read from Bloomberg Businessweek
+Made-in-USA Wheelbarrows Promoted by Trump Are Now Made in China
+100 Moments You Might Have Missed From Trump’s First 100 Days
+Can the Labubu Doll Craze Survive Trump’s Tariffs?
+How an Israeli Hostage Negotiator Outsmarts Ransomware Hackers
+Healthy Sodas Like Poppi, Olipop Are Drawing PepsiCo’s and Coca-Cola’s Attention
+Most major railroads maintained their 2025 outlooks even amid worries about trade and the economy. The post Class I railroads keep optimistic outlooks despite trade uncertainty appeared first on FreightWaves.
+Forward Air is seeking shareholder approval to reincorporate in Delaware, where it may be easier to sell the company or seek other strategic alternatives. The post Forward Air looks for a fresh start in Delaware appeared first on FreightWaves.
+The U.S. added 177,000 jobs in April, reported the Bureau of Labor Statistics. That’s more than the 135,000 that economists had estimated.
+(Bloomberg) -- President Donald Trump said Harvard University would lose its tax-exempt status, stepping up his attack on the Ivy League school with a threat that was decried as out of his jurisdiction.Most Read from BloombergNYC Lost $9 Billion of Income to Miami, Palm Beach in Five YearsNJ Transit Urges Commuters to Work Remotely If Union StrikesNew York City Transit System Chips Away at Subway Fare EvasionNYC’s MTA to Cut Costs Instead of Borrowing More to Fund UpgradesNYC’s Congestion Toll R
+LONDON (Reuters) -The top sustainable finance executive at HSBC's asset management division is leaving the firm, HSBC said on Friday, the latest in a series of departures from the bank amid a restructuring under its new chief executive.  The exit of Erin Leonard, global head of sustainability at HSBC Asset Management, follows the departure of the bank's former chief sustainability officer, Celine Herweijer, at the end of last year as the bank reassesses environmental, social and governance (ESG) policies under CEO Georges Elhedery.
+(Bloomberg) -- The US has reached a settlement in principle with the estate of Ashli Babbitt, the protester who was shot and killed by a police officer as she tried to force her way into the chambers of the House of Representatives during the Jan. 6, 2021, Capitol riot.Most Read from BloombergNYC Lost $9 Billion of Income to Miami, Palm Beach in Five YearsNJ Transit Urges Commuters to Work Remotely If Union StrikesNew York City Transit System Chips Away at Subway Fare EvasionNYC’s MTA to Cut Cos
+Palantir is scheduled to report quarterly results after the closing bell Monday, with analysts largely taking a wait-and-see approach on the artificial intelligence software firm.
+(Bloomberg) -- Oil slumped as OPEC+ discussed making a second major production increase, inflaming concerns about swelling global supplies that have dragged down crude prices this year. Most Read from BloombergNYC Lost $9 Billion of Income to Miami, Palm Beach in Five YearsNJ Transit Urges Commuters to Work Remotely If Union StrikesNew York City Transit System Chips Away at Subway Fare EvasionNYC’s MTA to Cut Costs Instead of Borrowing More to Fund UpgradesNYC’s Congestion Toll Raised $159 Milli
+Columbia CEO Timothy Boyle said it has little China exposure for U.S. product, plans to absorb some tariff costs, and sees pressure in back half.
+We recently published a list of Jim Cramer Says AI Data Centers Have Potential & Discusses These 9 Stocks. In this article, we are going to take a look at where Microsoft Corporation (NASDAQ:MSFT) stands against other stocks that Jim Cramer discusses. In a recent appearance on CNBC’s Squawk on the Street, Jim Cramer commented […]
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio
