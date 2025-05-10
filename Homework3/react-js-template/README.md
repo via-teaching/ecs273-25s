@@ -1,6 +1,6 @@
 # How to Run
 
-This project uses an Express server (`server.cjs`) to fetch news from the `/stocknews` endpoint.
+I created `server.cjs` to fetch news from the `/stocknews` , as it wasn't recognized in my enviorment (but `/stockdata` was)
 
 1. Install Required Packages
 
@@ -17,5 +17,5 @@ node server.cjs
 
 3. Start the Frontend (in a separate terminal)
 ```zsh
-npm de
+npm run dev
 ```
