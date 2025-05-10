@@ -5,20 +5,20 @@ import Papa from "papaparse";
 const ticker_to_sector = {
   'XOM': "Energy", 'CVX': "Energy", 'HAL': "Energy",
   'MMM': "Industrials", 'CAT': "Industrials", 'DAL': "Industrials",
-  'MCD': "Consumer Discretionary/Staples", 'NKE': "Consumer Discretionary/Staples", 'KO': "Consumer Discretionary/Staples",
+  'MCD': "Staples", 'NKE': "Staples", 'KO': "Staples",
   'JNJ': "Healthcare", 'PFE': "Healthcare", 'UNH': "Healthcare",
   'JPM': "Financials", 'GS': "Financials", 'BAC': "Financials",
-  'AAPL': "Information Tech / Comm. Svc", 'MSFT': "Information Tech / Comm. Svc",
-  'NVDA': "Information Tech / Comm. Svc", 'GOOGL': "Information Tech / Comm. Svc", 'META': "Information Tech / Comm. Svc"
+  'AAPL': "Tech", 'MSFT': "Tech",
+  'NVDA': "Tech", 'GOOGL': "Tech", 'META': "Tech"
 };
 
 const SECTOR_COLORS = {
   "Energy": "#1f77b4",
   "Industrials": "#ff7f0e",
-  "Consumer Discretionary/Staples": "#2ca02c",
+  "Staples": "#2ca02c",
   "Healthcare": "#d62728",
   "Financials": "#9467bd",
-  "Information Tech / Comm. Svc": "#8c564b"
+  "Tech": "#8c564b"
 };
 
 export default function TSNEScatterPlot({ selectedTicker }) {
@@ -53,9 +53,19 @@ export default function TSNEScatterPlot({ selectedTicker }) {
 
     const width = 600;
     const height = 400;
-    const margin = { top: 30, right: 20, bottom: 40, left: 60 };
+    const margin = { top: 30, right: 20, bottom: 40, left: 100 };
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
+
+    svg.append("defs")
+      .append("clipPath")
+      .attr("id", "clip-region")
+      .append("rect")
+      .attr("x", -20)
+      .attr("y", -40)
+      .attr("width", chartWidth + 40)
+      .attr("height", chartHeight + 60)
+
 
     const g = svg
       .attr("width", width)
@@ -90,7 +100,8 @@ export default function TSNEScatterPlot({ selectedTicker }) {
       .attr("text-anchor", "middle")
       .text("Y (t-SNE)");
 
-    const chartBody = g.append("g");
+    const chartBody = g.append("g")
+      .attr("clip-path", "url(#clip-region)");
 
     chartBody.selectAll("circle")
       .data(data)
@@ -140,55 +151,38 @@ export default function TSNEScatterPlot({ selectedTicker }) {
   };
 
   return (
-    <div className="flex w-full h-[400px]">
-      {/* Left side: Chart */}
-      <div className="w-3/4">
-        <svg ref={svgRef}></svg>
-      </div>
-  
-      {/* Right side: Legend and Buttons in two clean blocks */}
-      <div className="w-1/4 flex flex-col justify-between px-4 py-4">
-        {/* Sector Legend */}
-        <div>
-          <div className="text-sm font-semibold mb-3">Sectors</div>
-          <div className="flex flex-col gap-3 text-sm">
+    <div className="relative w-full h-[500px]">
+      <div className="absolute top-3 right-3 z-10 flex flex-row items-start gap-6 bg-white/90 backdrop-blur-sm px-4 py-3 rounded-lg shadow text-sm">
+        <div className="max-w-[200px]">
+          <div className="font-semibold mb-2 text-sm">Sectors</div>
+          <div className="flex flex-col gap-2">
             {Object.entries(SECTOR_COLORS).map(([sector, color]) => (
-              <div key={sector} className="flex items-center gap-2">
-                <div className="w-4 h-4 rounded" style={{ backgroundColor: color }}></div>
-                <span className="whitespace-normal">{sector}</span>
+              <div key={sector} className="flex items-center gap-3">
+                <div className="w-3.5 h-3.5 rounded" style={{ backgroundColor: color }}></div>
+                <span className="leading-tight">{sector}</span>
               </div>
             ))}
           </div>
         </div>
-  
-        {/* Buttons Column */}
-        <div className="flex flex-col items-center gap-2">
-          <button
-            onClick={() => handleZoom(1.2)}
-            className="w-28 px-3 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded shadow text-sm"
-          >
-            Zoom In
-          </button>
-          <button
-            onClick={() => handleZoom(0.8)}
-            className="w-28 px-3 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded shadow text-sm"
-          >
-            Zoom Out
-          </button>
-          <button
-            onClick={() =>
-              d3.select(svgRef.current)
-                .transition()
-                .duration(300)
-                .call(zoomRef.current.transform, d3.zoomIdentity)
-            }
-            className="w-28 px-3 py-2 bg-gray-700 hover:bg-gray-800 text-white rounded shadow text-sm"
-          >
-            Reset
-          </button>
+
+        <div className="flex flex-col gap-2">
+          <button onClick={() => handleZoom(1.2)} className="w-8 h-8 bg-indigo-500 hover:bg-indigo-600 text-white text-base font-bold rounded shadow">+</button>
+          <button onClick={() => handleZoom(0.8)} className="w-8 h-8 bg-indigo-500 hover:bg-indigo-600 text-white text-base font-bold rounded shadow">−</button>
+          <button onClick={() =>
+            d3.select(svgRef.current)
+              .transition()
+              .duration(300)
+              .call(zoomRef.current.transform, d3.zoomIdentity)}
+            className="w-8 h-8 bg-gray-700 hover:bg-gray-800 text-white text-base font-bold rounded shadow">×</button>
         </div>
       </div>
+
+      <svg
+        ref={svgRef}
+        className="w-full h-full"
+        viewBox="0 0 600 400"
+        preserveAspectRatio="xMidYMid meet"
+      />
     </div>
   );
-  
 }
