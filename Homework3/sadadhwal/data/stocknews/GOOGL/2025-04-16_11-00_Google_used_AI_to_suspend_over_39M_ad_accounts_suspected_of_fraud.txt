@@ -1,0 +1,140 @@
+Google used AI to suspend over 39M ad accounts suspected of fraud
+2025-04-16 11:00
+https://techcrunch.com/2025/04/16/google-used-ai-to-suspend-over-39m-ad-accounts-committing-fraud/?.tsrc=rss
+
+[<p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="19" href="/latest/">
+		Latest	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="20" href="/category/artificial-intelligence/">
+		AI	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="21" href="/tag/amazon/">
+		Amazon	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="22" href="/category/apps/">
+		Apps	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="23" href="/category/biotech-health/">
+		Biotech &amp; Health	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="24" href="/category/climate/">
+		Climate	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="25" href="/tag/cloud-computing/">
+		Cloud Computing	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="26" href="/category/commerce/">
+		Commerce	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="27" href="/category/cryptocurrency/">
+		Crypto	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="28" href="/category/enterprise/">
+		Enterprise	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="29" href="/tag/evs/">
+		EVs	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="30" href="/category/fintech/">
+		Fintech	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="31" href="/category/fundraising/">
+		Fundraising	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="32" href="/category/gadgets/">
+		Gadgets	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="33" href="/category/gaming/">
+		Gaming	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="34" href="/tag/google/">
+		Google	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="35" href="/category/government-policy/">
+		Government &amp; Policy	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="36" href="/category/hardware/">
+		Hardware	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="37" href="/tag/instagram/">
+		Instagram	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="38" href="/tag/layoffs/">
+		Layoffs	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="39" href="/category/media-entertainment/">
+		Media &amp; Entertainment	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="40" href="/tag/meta/">
+		Meta	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="41" href="/tag/microsoft/">
+		Microsoft	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="42" href="/category/privacy/">
+		Privacy	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="43" href="/category/robotics/">
+		Robotics	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="44" href="/category/security/">
+		Security	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="45" href="/category/social/">
+		Social	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="46" href="/category/space/">
+		Space	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="47" href="/category/startups/">
+		Startups	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="48" href="/tag/tiktok/">
+		TikTok	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="49" href="/category/transportation/">
+		Transportation	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="50" href="/category/venture/">
+		Venture	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="51" href="/events/">
+		Events	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="52" href="/startup-battlefield/">
+		Startup Battlefield	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="53" href="https://strictlyvc.com/" noreferrer&quot;="" rel='"noopener' target='"_blank"'>
+		StrictlyVC	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="54" href="/newsletters/">
+		Newsletters	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="55" href="/podcasts/">
+		Podcasts	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="56" href="/video/">
+		Videos	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="57" href="/sponsored/">
+		Partner Content	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="58" href="/brand-studio/">
+		TechCrunch Brand Studio	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="59" href="https://www.crunchboard.com/" noreferrer&quot;="" rel='"noopener' target='"_blank"'>
+		Crunchboard	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="60" href="/contact-us/">
+		Contact Us	</a>
+</p>, <p class="wp-block-paragraph" id="speakable-summary">Google on Wednesday said it suspended 39.2 million advertiser accounts on its platform in 2024  — more than triple the number from the previous year — in its latest crackdown on ad fraud.</p>, <p class="wp-block-paragraph">By leveraging large language models (LLMs) and using signals such as business impersonation and illegitimate payment details, the search giant said it could suspend a “vast majority” of ad accounts before they ever served an ad.</p>, <p class="wp-block-paragraph">Last year, Google launched over 50 LLM enhancements to improve its safety enforcement mechanisms across all its platforms.</p>, <p class="wp-block-paragraph">“While these AI models are very, very important to us and have delivered a series of impressive improvements, we still have humans involved throughout the process,” said Alex Rodriguez, a general manager for Ads Safety at Google, in a virtual media roundtable.</p>, <p class="wp-block-paragraph">The executive told reporters that a team of over 100 experts assembled across Google, including members from the Ads Safety team, the Trust and Safety division, and researchers from DeepMind. They analyzed deepfake ad scams involving public figure impersonations and developed countermeasures. </p>, <p class="wp-block-paragraph">The company introduced technical countermeasures and over 30 ads and publisher policy updates last year. These moves helped suspend over 700,000 offending advertising accounts, leading to a 90% drop in reports of deepfake ads, the company claims.</p>, <p class="wp-block-paragraph">In the U.S. alone, Google said it suspended 39.2 million advertiser accounts and took down 1.8 billion ads last year, with key violations tied to ad network abuse, trademark misuse, healthcare claims, personalized ads, and misrepresentation.</p>, <p class="wp-block-paragraph">India, the world’s most populous country and the second biggest internet market after China in terms of users, saw 2.9 million account suspensions last year, Google said, making it the second-highest after the U.S. The company also removed 247.4 million ads in India, with the top five policy violations related to financial services, trademark misuse, ad network abuse, personalized ads, and gambling and games.</p>, <p class="wp-block-paragraph">Of all the advertiser account suspensions, Google said it suspended 5 million accounts for scam-related violations.</p>, <p class="wp-block-paragraph">Overall, the company removed almost half a billion ads related to scams.</p>, <p class="wp-block-paragraph">Google also verified more than 8,900 new election advertisers in 2024, which saw half of the world’s population go to the polls, and removed 10.7 million election ads. However, Rodriguez noted that the volume of election ads compared to Google’s overall ad numbers was relatively small and would not significantly impact its safety metrics this year.</p>, <p class="wp-block-paragraph">In total, Google said it blocked 5.1 billion ads last year and removed 1.3 billion pages. In comparison, it <a cmp-ltrk="Article - intext links" cmp-ltrk-idx="0" data-mrf-link="https://blog.google/products/ads-commerce/google-ads-safety-report-2023" data-rapid_p="78" href="https://blog.google/products/ads-commerce/google-ads-safety-report-2023" mrfobservableid="74c7848a-0956-46e2-be42-44d82b74b5cb" rel="noreferrer noopener nofollow" target="_blank">blocked</a> over 5.5 billion ads and took action against 2.1 billion publisher pages in 2023.</p>, <p class="wp-block-paragraph">Google told TechCrunch that the decreasing numbers indicated improvements in its prevention efforts. By improving early detection and suspension of malicious accounts, fewer harmful ads are produced or reach the platform, the company said.</p>, <p class="wp-block-paragraph">The company also restricted 9.1 billion ads last year, it said. </p>, <p class="wp-block-paragraph">Importantly, large-scale suspensions sometimes spark concerns over how fairly a company applies its rules. Google said it offers an appeal process that includes human reviews to ensure it took “appropriate action.”</p>, <p class="wp-block-paragraph">“Oftentimes, some of our message wasn’t as clear and transparent about specifics, about what the rationale was, or reasoning, and sometimes that left the advertiser a little more confused. We ended up updating a bunch of our policies as it related to that, a bunch of our transparency capabilities in terms of the messaging around what and why to help the advertiser … It’s been a big focus for the team as part of 2024 and into 2025,” Rodriguez said.</p>, <p class="wp-block-paragraph">Topics</p>, <p>
+<span class="wp-block-tc23-author-card-title__title">Reporter</span>
+</p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="0" data-destinationlink="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" data-rapid_p="97" href="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" mrfobservableid="f178c94a-c97a-41ec-83f2-1d450e612b06">Figma ignores the fear, files paperwork for an IPO</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="2" data-destinationlink="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" data-rapid_p="99" href="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" mrfobservableid="5764c741-0736-4f54-8003-2488fc38d2a2">For security, Android phones will now auto-reboot after three days</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="4" data-destinationlink="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" data-rapid_p="101" href="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" mrfobservableid="a0977d20-0cdb-424b-b8f6-1467c6566447">Figma sent a cease-and-desist letter to Lovable over the term ‘Dev Mode’</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="5" data-destinationlink="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" data-rapid_p="103" href="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" mrfobservableid="b5743d68-ded0-4fed-ae69-9b22d1288b26">Anthropic forms a new team to grow its AWS business</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="7" data-destinationlink="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" data-rapid_p="105" href="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" mrfobservableid="8f68cb90-898c-462f-afb5-5cbc5eb7c316">Notorious image board 4chan hacked and internal data leaked</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="9" data-destinationlink="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" data-rapid_p="108" href="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" mrfobservableid="298bf03d-c8af-49be-af81-f19e2e4ce79a">Notion releases an AI-powered email client for Gmail</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="11" data-destinationlink="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" data-rapid_p="110" href="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" mrfobservableid="8d816a93-dac6-4afb-bd52-71418fda41fb">Hertz says customers’ personal data and driver’s licenses stolen in data breach</a><br/>
+</p>, <p></p>, <p></p>, <p class="copyright has-white-color has-text-color has-link-color has-body-3-font-size wp-elements-609188f02cc3e7e277128e6956685bd3 wp-block-paragraph">© 2025 Yahoo.</p>, <p class="pn-ribbon__top-text pn-ribbon__top-text--desktop">1,200+ founders &amp; VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!</p>, <p class="pn-ribbon__top-text pn-ribbon__top-text--mobile">1,200+ founders &amp; VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!</p>]
