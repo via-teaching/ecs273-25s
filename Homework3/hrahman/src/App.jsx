@@ -30,7 +30,7 @@ function App() {
         </div>
       </header>
 
-      <div className="flex flex-row h-full w-full">
+      <div className="flex flex-row h-full w-full pt-1">
         <div className="flex flex-col w-2/3">
           <div className="h-1/2 p-2">
             <h3 className="text-left text-xl"><b>[View 1] Stock Overview Line Chart</b></h3>
@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
 
-          <div className="h-2/3 p-2">
+          <div className="h-full p-2">
             <h3 className="text-left text-xl h-[2rem]"><b>[View 2] TSNE scatter plot</b></h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
               <TSNEScatterPlot selectedTicker={selectedTicker} />

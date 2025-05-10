@@ -16,3 +16,7 @@ conda activate ecs273
 npm install
 npm run dev
 ```
+
+## Dashboard
+
+![alt text](./public/image.png)
