@@ -49,9 +49,11 @@ function App() {
         <div className="w-1/3 h-full p-2">
             <h3 className="text-left text-xl h-[2rem]">Stock News</h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
+
               <StockNewsList selectedStock={selectedStock} />
-              <p className="text-center text-gray-500 mt-20">Empty View 3</p>
+              {/* <p className="text-center text-gray-500 mt-20">Empty View 3</p> */}
             </div>
+            
         </div>
         
       </div>
