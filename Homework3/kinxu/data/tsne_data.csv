@@ -1,0 +1,21 @@
+x,y,Ticker,Sector
+74.90501,-241.9122,XOM,Energy
+80.05072,-236.07532,CVX,Energy
+262.58276,-51.14457,HAL,Energy
+308.59183,338.69345,MMM,Industrials
+64.74602,171.90234,CAT,Industrials
+-308.5675,137.84024,DAL,Industrials
+-190.41417,-163.10306,MCD,Consumer Discretionary/Staples
+72.39242,175.67796,NKE,Consumer Discretionary/Staples
+299.8698,349.172,KO,Consumer Discretionary/Staples
+295.0451,354.9616,JNJ,Healthcare
+57.99156,168.5701,PFE,Healthcare
+260.60068,-46.65953,UNH,Healthcare
+-198.57304,-157.54271,JPM,Financials
+305.33908,342.59793,GS,Financials
+-184.0517,-167.24222,BAC,Financials
+76.9486,177.92822,AAPL,Information Tech / Comm. Svc
+-206.15724,-161.74759,MSFT,Information Tech / Comm. Svc
+83.4046,-232.27608,NVDA,Information Tech / Comm. Svc
+-198.42104,-152.32874,GOOGL,Information Tech / Comm. Svc
+-303.6711,137.57701,META,Information Tech / Comm. Svc

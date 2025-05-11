@@ -28,10 +28,9 @@ export default function App() {
             </div>
           </div>
           <div className="h-3/4 p-2">
-            <h3 className="text-left text-xl h-[2rem]">tsne Scatter Plot</h3>
+            <h3 className="text-left text-xl h-[2rem]">T-SNE Scatter Plot</h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
               {TsnePlot()}
-              {/* <p className="text-center text-gray-500 mt-20">Empty View 2</p> */}
             </div>
           </div>
           
@@ -40,7 +39,6 @@ export default function App() {
             <h3 className="text-left text-xl h-[2rem]">List of News</h3>
             <div className="border-2 border-gray-300 rounded-xl h-[calc(100%_-_2rem)]">
               {ListNews()}
-              {/* <p className="text-center text-gray-500 mt-20">Empty View 3</p> */}
             </div>
           </div>
         

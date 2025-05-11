@@ -1,9 +1,7 @@
 import * as d3 from "d3";
 import { useEffect, useRef, useState } from "react";
-import { isEmpty, debounce, max, entries } from 'lodash';
-import { tickers } from "./options";
+import { isEmpty, debounce } from 'lodash';
 import { ComponentSize, Margin } from "../types";
-import { tickerContext } from "./line_chart"
 
 interface Point {
     x: number;
@@ -31,23 +29,23 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     var xExtents = d3.extent(x) as [number, number];
     var yExtents = d3.extent(y) as [number, number];
 
-    const svg = d3.select(svgElement)
-    svg.selectAll("*").remove()
+    const svg = d3.select(svgElement);
+    svg.selectAll("*").remove();
 
     var xScale = d3.scaleLinear()
     .range([margin.left, width - margin.right])
-    .domain(xExtents)
+    .domain(xExtents);
     
     var yScale = d3.scaleLinear()
     .range([height - margin.bottom, margin.top])
-    .domain(yExtents)
+    .domain(yExtents);
 
     const xAxis = d3.axisBottom(xScale);
     const yAxis = d3.axisLeft(yScale);
 
     var plot = svg.append("g")
     .attr("id", "plot-content")
-    .attr("transform", "translate(0, 0)")
+    .attr("transform", "translate(0, 0)");
 
     const xAxisGroup = plot.append("g")
     .attr("class", "x-axis")
@@ -55,9 +53,10 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     .call(d3.axisBottom(xScale));
 
     plot.append("g")
-    .attr("transform", `translate(${(width / 2) - margin.left}, ${height - margin.top - 5})`)
+    .attr("transform", `translate(${(width / 2)}, ${height - margin.top - 5})`)
     .append("text")
-    .text("x")
+    .style("text-anchor", "middle")
+    .text("T-SNE Dimension 1")
     .style("font-size", ".8rem");
 
     const yAxisGroup = plot.append("g")
@@ -68,8 +67,16 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     plot.append("g")
     .attr("transform", `translate(10, ${height / 2}) rotate(-90)`)
     .append("text")
-    .text("y")
+    .text("T-SNE Dimension 2")
     .style("font-size", ".8rem");
+
+    plot.append("g")
+    .append("text")
+    .attr("transform", `translate(${width / 2}, ${height - margin.top + 5})`)
+    .attr("dy", '0.5rem')
+    .style("text-anchor", "middle")
+    .style("font-weight", "bold")
+    .text("T-SNE Scatter View");
 
     const color = d3.scaleOrdinal(d3.schemeCategory10);
 
@@ -86,10 +93,10 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     .attr("class", (d) => "point-" + d["Sector"])
     .attr("r", (d) => {
         if (d["Ticker"] == ticker) {
-            return 6
+            return 8
         }
         else {
-            return 3.5
+            return 4
         }
     })
     .attr("fill", (d) => color(d["Sector"]))
@@ -102,8 +109,9 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     .attr("x", (d) => xScale(d["x"]) + 7)
     .attr("y", (d) => yScale(d["y"]) - 7)
     .text((d) => d["Ticker"])
-    .attr("font-size", "10px")
-    .attr("fill", "black");
+    .attr("font-size", "12px")
+    .attr("fill", "black")
+    .attr("font-weight", "bold")
 
     const legend = plot.append("g")
     .selectAll(".legend")
@@ -124,30 +132,47 @@ function drawScatterPlot(svgElement: SVGSVGElement, data: DSVRowArray<Point>, wi
     .attr("y", 10)
     .text((sector) => sector);
 
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
+    const zoom = d3.zoom()
         .scaleExtent([0.5, 20])
         .on("zoom", (event) => {
             const transform = event.transform;
 
-            // Create new scales
             const newXScale = transform.rescaleX(xScale);
             const newYScale = transform.rescaleY(yScale);
 
-            // Update axes
             xAxisGroup.call(xAxis.scale(newXScale));
             yAxisGroup.call(yAxis.scale(newYScale));
 
-            // Update positions
-            points
-                .attr("cx", d => newXScale(d["x"]))
-                .attr("cy", d => newYScale(d["y"]));
+            points.attr("cx", d => newXScale(d["x"]))
+            .attr("cy", d => newYScale(d["y"]));
 
             pointsGroup.selectAll("text")
-                .attr("x", d => newXScale(d["x"]) + 7)
-                .attr("y", d => newYScale(d["y"]) - 7);
+            .attr("x", d => newXScale(d["x"]) + 7)
+            .attr("y", d => newYScale(d["y"]) - 7);
         });
 
     svg.call(zoom);
+
+    const svgParent = svg.node()?.parentElement;
+    
+    const parentD3 = d3.select(svgParent);
+    var resetButton = parentD3.select("#reset-zoom");
+
+    if (resetButton.empty()) {
+        resetButton = parentD3.insert("button", "svg")
+        .attr("id", "reset-zoom")
+        .style("position", "absolute")
+        .style("top", "50")
+        .style("left", "20px")
+        .text("Reset Zoom")
+        .style("font-size", ".8rem");
+    }
+
+    resetButton.on("click", () => {
+        svg.transition()
+        .duration(750)
+        .call(zoom.transform, d3.zoomIdentity);
+    });
 }
 
 export function TsnePlot() {
@@ -179,10 +204,10 @@ export function TsnePlot() {
 
         resizeObserver.observe(containerRef.current)
 
-        const {width, height} = containerRef.current.getBoundingClientRect();
-        d3.csv<"Point">("../../data/tsne_data.csv").then((data) => {
-            drawScatterPlot(svgRef.current!, data, width, height, ticker)
-        })
+        // const {width, height} = containerRef.current.getBoundingClientRect();
+        // d3.csv<"Point">("../../data/tsne_data.csv").then((data) => {
+        //     drawScatterPlot(svgRef.current!, data, width, height, ticker)
+        // })
 
         return () => resizeObserver.disconnect()
 
