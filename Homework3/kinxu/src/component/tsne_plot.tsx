@@ -1,4 +1,4 @@
-// ChatGPT was used to help learn D3.js and components like zoom
+// ChatGPT was used to help learn D3.js and help implement components like zoom.
 
 import * as d3 from "d3";
 import { useEffect, useRef, useState } from "react";
