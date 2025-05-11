@@ -1,5 +1,4 @@
 
-import { BarChart } from "./component/example";
 import { LineChart } from "./component/line_chart";
 import { TsnePlot } from "./component/tsne_plot"; 
 import { ListNews } from "./component/list_news";

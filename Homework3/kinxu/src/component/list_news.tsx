@@ -1,14 +1,9 @@
+// ChatGPT was used to help learn how to read .txt files
+
 import * as d3 from "d3";
 import { useEffect, useRef, useState } from "react";
 import { ComponentSize } from "../types";
 
-
-interface Article {
-    title: string
-    date: string
-    url: string
-    content: string
-}
 function layoutNews(data: DSVRowArray<Point>, width: number, height: number, ticker: string) {
     var newsDiv = d3.select("#news-div")
     newsDiv.selectAll("*").remove()
