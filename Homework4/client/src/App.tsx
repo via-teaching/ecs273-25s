@@ -1,12 +1,9 @@
 import RenderOptions from "./component/options";
 import { useEffect, useState } from 'react';
-// A "extends" B means A inherits the properties and methods from B.
-
 
 export default function App() {
   const [stockList, setStockList] = useState<string[]>([]);
 
- 
   useEffect(() => {
     fetch('http://localhost:8000/stock_list')
       .then(res => res.json())
