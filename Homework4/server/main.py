@@ -4,7 +4,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 
 from fastapi.middleware.cors import CORSMiddleware
 
-from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel
+from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel
 
 # MongoDB connection (localhost, default port)
 client = AsyncIOMotorClient("mongodb://localhost:27017")
@@ -35,23 +35,32 @@ async def get_stock_list():
     stock_list = await stock_name_collection.find_one()
     return stock_list
 
-@app.get("/stocknews/{stock_name}", 
+@app.get("/stocknews/", 
         response_model=StockNewsModel
     )
-async def get_stock_news():
+async def get_stock_news(stock_name: str = 'XOM') -> StockNewsModel:
     """
     Get the list of news for a specific stock from the database
     The news is sorted by date in ascending order
     """
-    # TODO: implement this function
     return [] # replace with your code to get the news from the database
 
 @app.get("/stock/{stock_name}", 
         response_model=StockModelV2
     )
-async def get_stock():
+async def get_stock() -> StockModelV2:
     """
     Get the stock data for a specific stock
+    Parameters:
+    - stock_name: The name of the stock
     """
-    # TODO: implement this function
+    return [] # replace with your code to get the news from the database
+
+@app.get("/tsne/",
+        response_model=tsneDataModel
+    )
+async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
+    """
+    Get the t-SNE data for a specific stock
+    """
     return [] # replace with your code to get the news from the database

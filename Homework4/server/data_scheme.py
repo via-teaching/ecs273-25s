@@ -55,3 +55,12 @@ class StockNewsModel(BaseModel):
 class StockNewsModelList(BaseModel):
     Stock: str
     News: list[StockNewsModel]
+
+class tsneDataModel(BaseModel):
+    """
+    Model for t-SNE data
+    """
+    _id: PyObjectId
+    Stock: str
+    x: float
+    y: float
