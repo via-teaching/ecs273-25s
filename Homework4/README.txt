@@ -12,6 +12,8 @@ How to Run
 
 Note:
 I ran this on windows computer so I don't know how it is going to work on Mac enviroment
+Make sure to run API on localhost:8000
+Make sure to run frontend on localhost:5173
 
 Gen AI Statement:
 1. Ask AI about how to install MongoDB
