@@ -1,0 +1,85 @@
+{
+    "data":[
+        {
+            "value": 1,
+            "category": "AAPL"
+        },
+        {
+            "value": 2,
+            "category": "BAC"
+        },
+        {
+            "value": 3,
+            "category": "CAT"
+        },
+        {
+            "value": 4,
+            "category": "CVX"
+        },
+        {
+            "value": 5,
+            "category": "DAL"
+        },
+        {
+            "value": 6,
+            "category": "GOOGL"
+        },
+        {
+            "value": 7,
+            "category": "GS"
+        },
+        {
+            "value": 8,
+            "category": "HAL"
+        },
+        {
+            "value": 9,
+            "category": "JNJ"
+        },
+        {
+            "value": 10,
+            "category": "JPM"
+        },
+        {
+            "value": 11,
+            "category": "KO"
+        },
+        {
+            "value": 12,
+            "category": "MCD"
+        },
+        {
+            "value": 13,
+            "category": "META"
+        },
+        {
+            "value": 14,
+            "category": "MMM"
+        },
+        {
+            "value": 15,
+            "category": "MSFT"
+        },
+        {
+            "value": 16,
+            "category": "NKE"
+        },
+        {
+            "value": 17,
+            "category": "NVDA"
+        },
+        {
+            "value": 18,
+            "category": "PFE"
+        },
+        {
+            "value": 19,
+            "category": "UNH"
+        },
+        {
+            "value": 20,
+            "category": "XOM"
+        }
+    ]
+
+}

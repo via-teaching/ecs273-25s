@@ -1,0 +1,55 @@
+Title: Is Nvidia a Buy?
+Date: 2025-04-12 22:15
+URL: https://www.fool.com/investing/2025/04/12/is-nvidia-a-buy/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=81983f5b-25d1-4b31-b0a8-4531b6b9fabb&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Nvidia (NVDA 2.91%), an icon in the world of artificial intelligence (AI), has generated huge wealth for its long-term shareholders. In just the last five years, its shares have surged 1,610% (as of April 9), driven by ridiculous demand for its graphics processing units (GPUs). This trend shows no sign of slowing down. 
+However, things haven't been so smooth for its investors over the past few months. At the time of this writing, the AI stock is trading about 24% off the all-time high it hit in January amid a volatile market sell-off. But when pessimism and fear are in the air, some stocks can become oversold. Could that be the case here? Is Nvidia a no-brainer buying opportunity right now?
+Training and powering all the AI models that have hit the market requires advanced computing solutions. Nvidia sells the GPUs that provide just the sort of high-speed computational power those applications demand. In its fiscal 2025 fourth quarter, which ended Jan. 26, 91% of its revenue came from the data center segment, which is experiencing a massive surge in demand. Nvidia has taken a commanding lead in the AI chip segment, where it holds the vast majority of the market.
+Nvidia's growth trajectory will probably be the subject of numerous business school case studies in the future. Its revenue increased 78% from $22.1 billion in its fiscal 2024 Q4 to $39.3 billion in its most recently ended fiscal quarter. This was supported by cloud infrastructure providers that are boosting their AI capabilities to better serve their customers. Nvidia's revenue in its fiscal 2025 was 12-fold higher than just five years before.
+If you think Nvidia's top-line growth is impressive, look further down the income statement. This insanely profitable company's net income in the fourth quarter was 56% of sales. The operating leverage inherent in this business model is clear.
+A company doesn't reach a $2.4 trillion market cap without doing some things right. There are important factors that position Nvidia well in its industry.
+The first is its ability to innovate. Nvidia has historically introduced new GPU architectures at a rapid pace. Before it debuted its current cutting-edge Blackwell architecture, its Hopper and Lovelace lines were the best-in-class offerings of their periods, catering to the needs of customers and providing tangible improvement upon previous GPU generations. 
+Nvidia has also developed a wide and multifaceted economic moat. One factor in its economic advantage is its unmatched technological know-how in terms of GPU design, in addition to the tools needed for developers to use this hardware. This has given it a huge lead in the industry.
+Another area of competitive strength comes from its CUDA software platform -- a computing platform and application programming interface that allows developers to get the most speed and power out of its GPUs, and make it easier for AI experts to develop models. The result is that Nvidia also benefits from switching costs. CUDA only works with Nvidia's hardware. Developers who become expert in programming on that proprietary platform will be less likely to want to buy competitors' chips.
+Apple has become arguably the world's most successful company because it has developed a beautiful balance between its hardware and software offerings. Nvidia is doing something similar.
+Despite these positive characteristics, Nvidia still faces some noteworthy financial risks. Top hyperscaler clients like Amazon and Alphabet are working on their own AI accelerator chips. 
+What's more, it's easy to imagine that Nvidia's revenue could take a severe hit in an economic downturn. A substantial amount of money is being spent on AI. Some of these capital outlays will likely be delayed or canceled in a recession.
+President Donald Trump's ongoing tariff announcements and threats have sent shock waves through the global financial markets. Tech stocks have taken some of the biggest hits. The "Magnificent Seven" are all trading well off their peaks. It looks like the narrative of the AI boom is looking less compelling in the face of broader macroeconomic concerns.
+Yet Nvidia's valuation might be too tempting to ignore. The stock trades right now at a forward price-to-earnings (P/E) ratio of around 25. It has rarely been close to that cheap in the past couple of years. It can be mentally challenging to buy shares in AI companies when macro conditions are so volatile and uncertain. However, increasing your portfolio's exposure to the AI trend by opening a small position in the leading GPU provider now makes sense.
+
+ 
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Now, it’s worth noting Stock Advisor’s total average return is 796% — a market-crushing outperformance compared to 155% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 5, 2025
+
+
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool's board of directors. John Mackey, former CEO of Whole Foods Market, an Amazon subsidiary, is a member of The Motley Fool's board of directors. Neil Patel and his clients have no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Alphabet, Amazon, Apple, and Nvidia. The Motley Fool has a disclosure policy.
+This tech could reach $80 trillion. Imagine a technology worth over 30 Nvidias.
+What in the world could be worth 30 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
