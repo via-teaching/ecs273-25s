@@ -1,4 +1,4 @@
-import RenderOptions from "./component/tickers";
+import RenderOptions from "./component/options";
 import { ScatterPlot } from "./component/scatter";
 import { LineChart } from "./component/lines";
 import { useEffect, useRef, useState } from "react";
