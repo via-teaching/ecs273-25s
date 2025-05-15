@@ -1,0 +1,87 @@
+Title: Is Alphabet Inc. (NASDAQ_GOOGL) the Best Machine Learning Stock to Buy Now_
+Date: 2025-04-16 17:00
+URL: https://finance.yahoo.com/news/alphabet-inc-nasdaq-googl-best-170024335.html?.tsrc=rss
+
+Oops, something went wrong
+Tip: Try a valid symbol or a specific company name for relevant results
+Oops, something went wrong
+Meet the new most crowded trade on Wall Street. (It's not the Magnificent 7.)
+As tariffs rattle Big Tech, Wall Street is hoping Netflix will be a safe harbor. Here's what to expect from its earnings report.
+Trump's trade war is unlikely to bring tech manufacturing back to the US anytime soon. Here's why.
+Dow slides 700 points, Nasdaq leads market rout as Powell warns of 'challenging' tariff impact
+The Nasdaq was down over 4% as a tech-led sell-off intensified in late-afternoon trading
+The major indexes sank to session lows as Fed Chair Powell warned of stagflationary impacts from President Trump's tariffs.
+Powell sees 'challenging scenario' for Fed if Trump tariffs stoke inflation and slow growth
+The Nasdaq fell over 2%, leading the way down as Nvidia found itself caught in the crossfire of the US-China trade war.
+The Treasury secretary told us he thinks America's biggest CEOs should stop worrying about the economy. Here's why.
+The chipmaker's stock took a hit after it revealed the Trump administration's surprise new controls on exports to China.
+Stocks resume slide as Nvidia weighs on tech
+Retail sales surged in March at the biggest rate in over two years, in what was the latest sign of the US economy's pre-tariff strength.
+Why your water bill is an inflation problem that isn't budging
+Stock market today: Dow, S&P 500, Nasdaq futures fall as Nvidia reveals costly limits on China exports
+The Treasury secretary told Yahoo Finance that the next 90 days should provide 'substantial clarity' on tariffs
+Treasury Secretary Scott Bessent tells Yahoo Finance that the US has a 'big toolkit' to deal with bond market volatility
+Stocks drift lower as tariff chaos pauses for a day
+The chip giant committed to building AI infrastructure in the US, and Trump says he's going to help make it happen.
+The fallout from Trump's tariff whiplash hasn't yet pushed investors to shy away from an old habit
+Stocks edge higher after back-to-back rallies with Trump's latest tariff moves in focus
+BofA's Moynihan says 'we potentially face a changing economy' after highest-ever equities trading haul
+The trade war uncovers new economies of scale
+Trump is wrecking his own economic agenda
+Higher clothing costs from tariffs are coming soon — but not immediately, experts say
+Why Tesla, GM, and Rivian will be hurt most by China's critical minerals export ban
+Trump says he's 'looking at something' to help car companies with tariffs
+Stocks rally for second straight day, while Apple jumps on tech tariff reprieve
+The Nasdaq briefly turned red as stocks' relief rally failed to hold in early afternoon trading
+Americans are braced for the biggest unemployment rate jump since the pandemic, a New York Fed survey found
+Stocks surge as Apple leads way higher after tech's tariff reprieve
+Trump's temporary tech tariff respite adds to a growing sense that he has a willingness to listen and bend
+Goldman CEO Solomon warns of 'markedly different operating environment' as dealmaking slows
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+Trump has tariffs, taxes, and the debt ceiling on a collision course for this summer
+Trump denies that there was a tariff “exception” for certain electronics announced Friday. (Bloomberg)
+Tax day 2025 is coming up. Here’s what to know to file by the deadline.
+Commentary: Put the P/E ratio in timeout for now
+Market chaos signals 'sell America' trade as Trump tariff whipsaw threatens to upend the US economy's soft landing
+Apple was on brink of crisis before tariff concession from Trump (Bloomberg)
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+The best (and worst) time of year to buy a house
+The Trump family is going all-in on crypto projects, from Bitcoin mining to stablecoins (Bloomberg)
+How to invest in gold in 4 steps
+Changing jobs can disrupt saving for retirement. Here's how to stay on track.
+Trump exempts phones, computers, chips from ‘reciprocal’ tariffs (Bloomberg)
+Meet Walmart heir Steuart Walton, the most powerful board member you’ve never heard of
+The tariff uncertainty isn't getting any better in markets: Chart of the Week
+'T-shirts could be the new eggs': Why Trump's chaotic tariff whipsaw is still a huge threat to inflation
+Gold notches best week since 2020 amid 'shaken' investor confidence in US
+The bond market just had one of its most volatile and unusual weeks in recent memory
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+We recently published a list of the 10 Best Machine Learning Stocks to Buy Now. In this article, we are going to take a look at where Alphabet Inc. (NASDAQ:GOOGL) stands against other machine-learning stocks.
+Grand View Research reported that the global machine-learning market was valued at $36.73 billion in 2022. It’s now expected to grow at a 34.8% CAGR from 2023 to 2030. Machine learning helps machines and systems learn from experience instead of through explicit programming. It uses algorithms to improve and analyze vast amounts of complex data to make informed decisions. Machine learning is quickly progressing as AI is rapidly expanding and transforming how businesses and individuals operate. These technological advancements are revolutionizing consumer experiences, and enabling convenient creation of digital services, products, and optimized supply chains. With this, startups can focus on specific solutions while larger companies can deliver comprehensive AI platforms.
+On April 10, Amazon CEO Andy Jassy joined CNBC’s ‘Squawk Box’ to discuss the cost of AI and what has to happen to bring it down. Jassy emphasized that the growth in data center demand is now so significant that there is no foreseen attenuation here, even with ongoing macroeconomic uncertainties under tariffs. While there’s a general belief that the emergence of DeepSeek could now reduce the need for extensive data centers, processing power, and energy consumption previously forecasted at different tech companies, Jassy thinks that DeepSeek’s introduction did not disrupt any of this. Despite cost reductions that occurred have already over time, AI deployment still requires significant investment. He thinks that the current AI operations are expensive due to chip costs and other factors, but big techs, including his own company, would welcome any reductions in AI costs for customers moving forward.
+Jassy underscored the demand for data centers despite tariff impacts and reflected optimism regarding lowering costs, which would potentially drive innovation and expanded use of AI across industries. AI is still limited and requires substantial human oversight as of now but it has massive potential across various sectors.
+We sifted through ETFs and financial media reports to compile a list of the top ML stocks. We then selected the 10 stocks that were the most popular among elite hedge funds and that analysts were bullish on. The stocks are ranked in ascending order of the number of hedge funds that have stakes in them, as of Q4 2024. The hedge fund data was sourced from Insider Monkey’s database which tracks the moves of over 900 elite money managers.
+Why are we interested in the stocks that hedge funds pile into? The reason is simple: our research has shown that we can outperform the market by imitating the top stock picks of the best hedge funds. Our quarterly newsletter’s strategy selects 14 small-cap and large-cap stocks every quarter and has returned 373.4% since May 2014, beating its benchmark by 218 percentage points (see more details here).
+A user's hands typing a search query into a Google Search box, emphasizing the company's search capabilities.
+Number of Hedge Fund Holders: 234
+Alphabet Inc. (NASDAQ:GOOGL) is a tech company that is currently leading in AI research and uses machine learning across its search engine, cloud services, and other offerings. It operates through three segments under the name of Google Services, Google Cloud, and Other Bets segments. The Google Cloud segment offers AI infrastructure, Vertex AI platform, cybersecurity, data and analytics, and other related services.
+Roth MKM recently reiterated a Buy rating on the company with a $220 price target on March 19. This sentiment was fueled by the company’s $32 billion Wiz acquisition. This is the largest acquisition in the company’s history. With this, Alphabet Inc. (NASDAQ:GOOGL) can offer improved cloud security and threat detection data across cloud environments. The company is also positioned for long-term AI growth due to its significant infrastructure. This includes data centers, GPUs, and TPUs.
+The company’s advanced AI-powered features like AI Overviews in Search are monetized at the same rate as traditional search. For AI and cloud growth, the company is planning a $75 billion CapEx investment in 2025. This will particularly be focused on data centers and servers. Notably, the company’s Cloud business alone grew by 30% year-over-year in Q4 2024. The combined annual revenue from Cloud and Youtube exceeded $110 billion.
+Oakmark Equity and Income Fund stated the following regarding Alphabet Inc. (NASDAQ:GOOGL) in its Q4 2024 investor letter:
+“Alphabet Inc. (NASDAQ:GOOGL) was the top contributor during the quarter. Despite ongoing litigation with the Department of Justice in its antitrust case, the U.S.-headquartered interactive media and services company’s stock price rose after posting solid third-quarter earnings. In the Search division, the company generated low-teens year-over-year revenue growth and management highlighted that they’re seeing strong user engagement with their new AI Overviews feature. The biggest upside surprise came from the Cloud division, where revenue growth accelerated to 35% and margins reached a record of 17%. This performance was driven by client demand for AI Infrastructure and Generative AI Solutions as well as core Google Cloud Platform (GCP) products. We continue to believe Alphabet is a collection of great businesses that can unlock further value over the long term through its world-class AI capabilities.”
+Overall, GOOGL ranks 4th on our list of the best machine learning stocks to buy now. While we acknowledge the growth potential of GOOGL, our conviction lies in the belief that AI stocks hold great promise for delivering high returns and doing so within a shorter time frame. There is an AI stock that went up since the beginning of 2025, while popular AI stocks lost around 25%. If you are looking for an AI stock that is more promising than GOOGL but that trades at less than 5 times its earnings, check out our report about the cheapest AI stock.
+READ NEXT: 20 Best AI Stocks To Buy Now and 30 Best Stocks to Buy Now According to Billionaires.
+Disclosure: None. This article is originally published at Insider Monkey.
+We recently published a list of the 10 Best Machine Learning Stocks to Buy Now. In this article, we are going to take a look at where Alibaba Group Holding Limited (NYSE:BABA) stands against other machine-learning stocks. Grand View Research reported that the global machine-learning market was valued at $36.73 billion in 2022. It’s now […]
+We recently published a list of the 10 Best Machine Learning Stocks to Buy Now. In this article, we are going to take a look at where Amazon.com Inc. (NASDAQ:AMZN) stands against other machine-learning stocks. Grand View Research reported that the global machine-learning market was valued at $36.73 billion in 2022. It’s now expected to […]
+We recently compiled a list of the 14 Best American Tech Stocks To Buy Now. In this article, we are going to take a look at where Meta Platforms, Inc. (NASDAQ:META) stands against the other American tech stocks. American stocks moved up a bit on Monday, April 14 as investors focused on news about tech […]
+The stock market is in turmoil right now, and entering this week, the S&P 500 has declined by around 9% since the start of the year.  How can you keep your savings safe and still be invested in the stock market -- or is that even possible nowadays?  One blue chip stock you may be considering is Coca-Cola (NYSE: KO).
+We recently published a list of 15 Best Blue Chip Stocks to Buy According to Billionaires. In this article, we are going to take a look at where Broadcom Inc. (NASDAQ:AVGO) stands against other best blue chip stocks to buy according to billionaires. Is A Potential Trade War on the Horizon? The US stock market […]
+We recently published a list of 10 Dirt Cheap Stocks To Invest In Now. In this article, we are going to take a look at where PDD Holdings Inc. (NASDAQ:PDD) stands against other dirt cheap stocks to invest in now. Investor’s Guide to Navigating the Volatilitc The stock market has been experiencing volatility and has […]
+The US stock market is closed Friday in observation of Good Friday. So is the bond market, which also closes early Thursday.
+These 10 stocks performed the best over the past 10 years.
+Barclays Bank offers high-yield online savings accounts and CDs. Learn more about Barclays' interest rates, fees and more with this in-depth expert review.
+Baby boomers in America are at or near retirement. So how much should the average middle-class boomer have in savings in order to comfortably weather their golden years? Trending Now: How Much Money...
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio
+Try again.
