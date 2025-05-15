@@ -4,10 +4,10 @@ This folder contains two parts, client and server.
 
 ## Server
 
-For the server part, make sure you have the respective packages installed by this command.
+For the server part, make sure you have the respective packages installed.
 
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Secondly, make sure you have already installed and started your mongoDB local server.
