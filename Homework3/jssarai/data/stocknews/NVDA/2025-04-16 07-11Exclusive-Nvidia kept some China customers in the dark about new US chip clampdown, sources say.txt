@@ -1,0 +1,18 @@
+Exclusive-Nvidia kept some China customers in the dark about new US chip clampdown, sources say
+2025-04-16 07-11
+https://finance.yahoo.com/news/exclusive-nvidia-kept-china-customers-071125162.html?.tsrc=rss
+By Fanny Potkin and Liam Mo
+SINGAPORE (Reuters) - Nvidia did not warn at least some major customers in advance about new U.S. export rules it was told about a week ago requiring it to obtain licenses to sell its China-focused artificial intelligence chip, according to two sources familiar with the matter.
+The U.S. chipmaker disclosed on Tuesday that American officials had informed the company on April 9 that its H20 chip would require an export license for sales to China.
+The move to restrict H20 shipments marks Washington's latest effort to limit China's access to advanced semiconductors, as the United States seeks to maintain its edge in AI technology.
+Major Chinese cloud companies were still anticipating H20 deliveries by year-end, unaware of the impending restrictions, according to the two sources, who said Nvidia's China sales team also did not appear to be informed ahead of the public announcement. They spoke on condition of anonymity because of the sensitivity of the matter.
+Nvidia declined to comment.
+The export controls threaten Nvidia's business in China, one of its largest markets. Nvidia had secured $18 billion of H20 orders since the start of the year, according to one of the two sources and a third source.
+China generated $17 billion in revenue, or 13% of Nvidia's total sales, in its last fiscal year that ended on January 26.
+Nvidia shares fell 6% in after-hours trading on Tuesday after it said it would take up to $5.5 billion of charges in the first quarter ending April 27 due to the licensing requirement, which the U.S. government told it on Monday would be indefinite.
+The charges are associated with inventory, purchase commitments, and related reserves for H20 products, the company said.
+Chinese tech giants including Tencent, Alibaba and ByteDance, the owner of TikTok, had increased orders for H20 chips amid surging demand for affordable AI models from companies like startup DeepSeek, Reuters reported in February.
+Alibaba, ByteDance and Tencent did not immediately respond to requests for comment.
+The H20 is the primary chip Nvidia is legally permitted to sell in China and was launched after the latest round of U.S. export restrictions took effect in October 2023.
+Washington has banned exports of Nvidia's most advanced chips to China since 2022, concerned that advanced technologies could be used by China to build up its military capabilities.
+The restrictions on H20 could benefit Chinese AI chipmakers, particularly Huawei, which offers competing products to Nvidia's lineup, analysts said.

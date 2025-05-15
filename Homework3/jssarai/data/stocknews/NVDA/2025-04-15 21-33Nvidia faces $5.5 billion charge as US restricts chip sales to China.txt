@@ -1,0 +1,14 @@
+Nvidia faces $5.5 billion charge as US restricts chip sales to China
+2025-04-15 21-33
+https://ca.finance.yahoo.com/news/nvidia-expects-5-5-billion-213321749.html?.tsrc=rss
+By Stephen Nellis and Karen Freifeld
+(Reuters) - Nvidia on Tuesday said it would take $5.5 billion in charges after the U.S. government limited exports of its H20 artificial intelligence chip to China, a key market for one of its most popular chips.
+Nvidia's AI chips have been a key focus of U.S. export controls as U.S. officials have moved to keep the most advanced chips from being sold to China as the U.S. tries to keep ahead in the AI race. After those controls were implemented, Nvidia began designing chips that would come as close as possible to U.S. limits.
+Nvidia shares were down about 6% in after-hours trading.
+A U.S. Commerce Department spokesperson said late on Tuesday that it was issuing new licensing requirements for exports of chips including Nvidia's H20, AMD's MI308 and their equivalents.
+"The Commerce Department is committed to acting on the President's directive to safeguard our national and economic security," said the spokesperson of the department that oversees U.S. export controls.
+AMD did not immediately respond to a request for comment. Its shares were down 7% in after-hours trading.
+For Nvidia, the H20 is its most advanced chip available for sale in China and is central to its efforts to stay engaged with China's booming AI industry. Chinese companies including Tencent, Alibaba and TikTok parent ByteDance had been ramping up orders for H20 chips due to booming demand for low-cost AI models from startup DeepSeek, Reuters reported in February.
+While the H20 chip is not as fast at training AI models as Nvidia's chips for sale outside China, it is competitive with some of those chips at a step known as inference, where AI models serve up answers to users. Inference is fast becoming the biggest part of the AI chip market. Nvidia CEO Jensen Huang last month argued that Nvidia is well positioned to dominate that shift.
+But Nvidia said on Tuesday that the U.S. government was restricting H20 sales to China because of the risk the chips could be used in a supercomputer. While the H20 has lower computing capabilities than other Nvidia chips, its ability to connect to memory chips and other computing chips at high speeds is still high.
+Those memory and connectivity aspects could make the H20 useful in building supercomputers in China, and the U.S. has placed restrictions on selling chips for use in supercomputers in China since 2022. The Institute for Progress, a nonpartisan think tank in Washington, D.C., on Tuesday argued for restricting H20 chips, writing that Chinese firms were likely already building such systems.

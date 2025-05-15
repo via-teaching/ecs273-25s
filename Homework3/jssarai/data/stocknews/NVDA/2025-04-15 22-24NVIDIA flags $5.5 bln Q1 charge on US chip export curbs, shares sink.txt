@@ -1,0 +1,14 @@
+NVIDIA flags $5.5 bln Q1 charge on US chip export curbs, shares sink
+2025-04-15 22-24
+https://finance.yahoo.com/news/nvidia-braces-5-5-billion-222451859.html?.tsrc=rss
+Investing.com -- AI powerhouse NVIDIA (NASDAQ:NVDA) disclosed on Tuesday that it anticipates up to $5.5 billion in charges in its upcoming first-quarter financial results related to U.S. chip export controls on China, sending its shares down sharply in aftermarket trade.
+The announcement follows the U.S. government’s decision to mandate licenses for exports of the H20 chip to China, including Hong Kong and Macau, as well as to D:5 countries or companies with ultimate parent companies in those regions.
+Shares of NVIDIA fell 6% to $105.42 in after-hours trading following the news. Those of peers such as AMD (NASDAQ:AMD), Broadcom Inc (NASDAQ:AVGO), Super Micro Computer Inc (NASDAQ:SMCI), and Intel Corporation (NASDAQ:INTC) sank between 2% and 7%, while major Nvidia supplier TSMC (NYSE:TSM) shed 2.4%.
+The disclosure from NVIDIA comes just one day after the company made headlines after announcing a $500 billion investment to produce AI supercomputers entirely in the U.S.
+The U.S. government communicated to NVIDIA on April 9, 2025, that a license would be required for exporting the H20 integrated circuits, as well as any other circuits with similar memory and interconnect bandwidth capabilities. On April 14, 2025, it was further clarified that this licensing requirement would remain in place indefinitely.
+The measure is intended to prevent the potential use of Nvidia’s products in Chinese supercomputers or military applications. Nvidia said the $5.5 billion charge is related to inventory, purchase commitments, and associated reserves for its H20 microchip products.
+"The financial impact is small relatively, but the strategic blow is the focus of the market as Nvidia now has massive blockades going after the China market in the middle of this raging US/China tariff battle," Wedbush analysts wrote in a note.
+"Nvidia is a key strategic asset for the US and the Trump Administration during this very tense period with China...and the White House is going to make sure Jensen and Nvidia’s chips do not land in China for now and help Beijing in the AI Revolution."
+The H20 chip is the main AI chip Nvidia is permitted to sell in China under export restrictions imposed by the Biden administration, as it sought to close off Beijing’s access to cutting-edge advancements in AI tech.
+Still, earlier media reports showed Nvidia clocked strong demand for its H20 chips in China, as Chinese AI development and investment ramped up following the release of DeepSeek earlier this year.
+The Information reported earlier in April that Chinese firms including ByteDance,AlibabaGroup (NYSE:BABA) and Tencent Holdings Ltd (HK:0700) had ordered at least $16 billion worth of H20 chips in the first three months of 2025.
