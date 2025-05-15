@@ -1,0 +1,33 @@
+Title: Nvidia announces plans to make AI supercomputers in US for first time
+Date: 2025-04-14 15:39
+URL: https://www.foxbusiness.com/markets/nvidia-announces-plans-make-ai-supercomputers-us-first-time?.tsrc=rss
+
+Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided byFactset.
+          Powered and implemented byFactSet Digital Solutions.Legal Statement.
+This material may not be published, broadcast, rewritten, or redistributed. ©2025 FOX News Network, LLC. All rights reserved.FAQ-New Privacy Policy
+The Futurum Group CEO Daniel Newman joins Varney & Co. and discusses Nvidia CEO Jensen Huangs keynote and announcements at the GTC 2025 conference.
+Nvidia on Monday announced plans to manufacture itsartificial intelligence (AI)supercomputers entirely in the U.S. for the first time.
+The AI chipmaking giant said it has worked with manufacturing partners to commission over 1 million square feet of manufacturing space to build and test Nvidia's advanced Blackwell chips in Arizona as well as AI supercomputers in Texas.
+The company said it has already started production of Blackwell chips at TSMC's chip plant in Phoenix.
+Nvidia is also building twosupercomputer manufacturingplants in Texas – one with Foxconn in Houston and another with Wistron in Dallas. The company said it expects mass production to ramp up at both plants in the next 12 to 15 months.
+NVIDIA CEO: 'CHATGPT MOMENT FOR GENERAL ROBOTICS IS JUST AROUND THE CORNER'
+Nvidia CEO Jensen Huang said manufacturing chips and AI supercomputers in the U.S. will improve supply chain resiliency.(Akio Kon/Bloomberg via Getty Images / Getty Images)
+"The engines of the world's AI infrastructure are being built in the United States for the first time," said Nvidia CEOJensen Huang. "Adding American manufacturing helps us better meet the incredible and growing demand for AI chips and supercomputers, strengthens our supply chain and boosts our resiliency."
+The company's AI supercomputers are used to power new data centers that are being created for the purpose of processing AI. It's planning to build tens of "gigawatt AI factories" in the coming years. Nvidia added that its AI chips and supercomputers at AI factories in the U.S. are "expected to createhundreds of thousands of jobsand drive trillions of dollars in economic security over the coming decades."
+NVIDIA CEO TALKS AI BOOM, ADDRESSES CONCERNS ABOUT TECHNOLOGY REPLACING WORKERS
+Nvidia is planning to ramp up U.S. manufacturing of AI supercomputers and chips.(Photographer: Loren Elliott/Bloomberg via Getty Images / Getty Images)
+Nvidia said in its announcement that within the next four years, the company plans to produce up to $500 billion ofAI infrastructurein the U.S. through its partnerships with TSMC, Foxconn, Wistron, Amkor and SPIL.
+The company added it will utilize advanced AI, robotics and digital twin technologies to design and operate the facilities – including the use of Nvidia Omniverse to create digital twins of its factories and Nvidia Isaac Groot to build robots that automate manufacturing.
+PresidentDonald Trumpacknowledged Nvidia's announcement in a post on Truth Social and later commented on the news from the White House on Monday.
+"It's big. And the reason they did it is because of the election in Nov. 5 and because of a thing called tariffs," Trump said. "I want to thank Jensen and all of the people that we deal with, the great people, the brilliant people. And without tariffs, they wouldn't be doing it."
+Earlier this year, Huang said that the "ChatGPT momentfor general robotics is just around the corner" and unveiled Nvidia's Isaac Groot initiative to spur the development of robotics.
+GET FOX BUSINESS ON THE GO BY CLICKING HERE
+The Isaac Groot initiative gives developers of AI-enabled humanoid robots technology elements, including foundation models, data pipelines, simulation frameworks and a Thor robotics computer.
+Quotes displayed in real-time
+
+Get a brief on the top business stories of the week, plus CEO interviews, market updates, tech and money news that matters to you.
+We've added you to our mailing list.
+By clicking subscribe, you agree to the Fox NewsPrivacy PolicyandTerms of Use, and agree to receive content and promotional communications from Fox News. You understand that you can opt-out at any time.
+Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided byFactset.
+            Powered and implemented byFactSet Digital Solutions.Legal Statement.
+This material may not be published, broadcast, rewritten, or redistributed. ©2025 FOX News Network, LLC. All rights reserved.FAQ-New Privacy Policy

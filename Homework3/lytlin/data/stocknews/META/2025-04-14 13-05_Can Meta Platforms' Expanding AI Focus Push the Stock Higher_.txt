@@ -1,0 +1,95 @@
+Title: Can Meta Platforms' Expanding AI Focus Push the Stock Higher?
+Date: 2025-04-14 13:05
+URL: https://finance.yahoo.com/news/meta-platforms-expanding-ai-focus-130500616.html?.tsrc=rss
+
+Oops, something went wrong
+Tip: Try a valid symbol or a specific company name for relevant results
+Oops, something went wrong
+The Nasdaq briefly turned red as stocks' relief rally failed to hold in early afternoon trading
+Americans are braced for the biggest unemployment rate jump since the pandemic, a New York Fed survey found
+Stocks surge as Apple leads way higher after tech's tariff reprieve
+Trump's temporary tech tariff respite adds to a growing sense that he has a willingness to listen and bend
+Goldman CEO Solomon warns of 'markedly different operating environment' as dealmaking slows
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+Trump has tariffs, taxes, and the debt ceiling on a collision course for this summer
+Trump denies that there was a tariff “exception” for certain electronics announced Friday. (Bloomberg)
+Tax day 2025 is coming up. Here’s what to know to file by the deadline.
+Commentary: Put the P/E ratio in timeout for now
+Market chaos signals 'sell America' trade as Trump tariff whipsaw threatens to upend the US economy's soft landing
+Apple was on brink of crisis before tariff concession from Trump (Bloomberg)
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+The best (and worst) time of year to buy a house
+The Trump family is going all-in on crypto projects, from Bitcoin mining to stablecoins (Bloomberg)
+How to invest in gold in 4 steps
+Changing jobs can disrupt saving for retirement. Here's how to stay on track.
+Trump exempts phones, computers, chips from ‘reciprocal’ tariffs (Bloomberg)
+Meet Walmart heir Steuart Walton, the most powerful board member you’ve never heard of
+The tariff uncertainty isn't getting any better in markets: Chart of the Week
+'T-shirts could be the new eggs': Why Trump's chaotic tariff whipsaw is still a huge threat to inflation
+Gold notches best week since 2020 amid 'shaken' investor confidence in US
+The bond market just had one of its most volatile and unusual weeks in recent memory
+Stocks capped a wild week with a surge higher, as the S&P 500 posted its biggest weekly gain since 2023
+Stocks swung into rally mode in afternoon trading, with the major indexes all up over 1%. Bond yields pared bigger gains.
+The major indexes whipsawed to end a volatile week. Treasury yields surged in signs of more instability in the bond market.
+Consumer sentiment craters further as inflation expectations soar to highest since 1981
+Dow, S&P 500, Nasdaq slide as China hits US with tariff hike, bank earnings roll in
+JPMorgan's Dimon says economy is facing 'considerable turbulence'
+Tariff uncertainty muddies — and refocuses — earnings season
+China raises tariffs on US goods to 125% from the 84% planned in response to Trump's latest hike
+China already knows Trump's breaking point in their burgeoning trade war, our columnist writes
+How the bond market helped make Trump blink on tariffs
+The Dow fell 1,000 points, and the S&P 500 and Nasdaq were crushed as stocks resumed a tariff-fueled sell-off
+Trump's total tariff on China is actually 145%, the White House said, an amount higher than the 125% previously reported
+Stocks hit session lows as focus turned to the US-China trade war. The Dow lost over 1,200 points, and the Nasdaq plunged 4.5%.
+The Dow plummeted 900 points and the Nasdaq plunged over 3% as a tariff-fueled sell-off picked up speed again.
+Stocks plummet as Wall Street's euphoria from Trump's tariff pause gets a reality check
+Inflation unexpectedly tumbled in March, and core CPI rose at its slowest pace in four years.
+The EU matched Trump's 90-day pause on tariffs to 'give negtiations a chance.' See our live updates.
+The 'Trump put' makes an appearance
+March's report could be last time investors see inflation easing. Here's what to expect.
+Stocks wanted one thing from Trump after his shocking tariff announcement last week. They finally got it today.
+Stocks staged a wild rally after Trump's tariff reversal. The Dow gained near 3,000 points and the S&P 500 had its best day since 2008.
+Trump nodded to market turbulence as a factor in his 'reciprocal' tariff pause, saying investors were 'yippy' and 'afraid'
+The Nasdaq was up 10%, aiming for its biggest gain since 2008, after Trump paused some tariffs. The Dow soared 2,500 points.
+Trump unilaterally raises tariff rate on China to 125%, pauses 'reciprocal' tariffs on other countries
+The major indexes rocketed higher after Trump announced a '90-day pause on tariffs for most countries.
+Investors grapple with bond chaos as long-term yields soar following Trump's sweeping tariffs
+Trump tries to reassure Americans as markets reel from tariff shocks
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+Meta PlatformsMETA is leveraging AI to improve user engagement across its various platforms, including Facebook, Instagram, WhatsApp, Messenger and Threads. Last week, the company expanded AI features to its Ray-Ban Meta glasses in the United Kingdom.
+Meta Platforms hosts a data trove thanks to its more than 3.35 billion daily users. META’s staggering reach makes it one of the most important players in the digital advertising sales market, alongsideAlphabetGOOGL andSnapSNAP. This is driving Meta Platforms’ advertising revenues, which jumped 20.9% year over year to $46.78 billion and accounted for 96.7% of fourth-quarter revenues. At constant currency, revenues increased 21% year over year.
+META focuses on improving advertisers’ return on ad spending. It is leveraging a proprietary machine learning system, Andromeda, for retrieval in ad recommendation. The system is powered byNVIDIA’s NVDA Grace Hopper Superchip and Meta Training and Inference Accelerator hardware. The retrieval stage processes tens of millions of ads into a few thousand relevant ads, which are further processed by sophisticated ranking models to determine the final ads to be shown on its platforms.
+Andromeda improves the performance of META’s advertising system by delivering more personalized advertisements to viewers. The deployment of META’s deep neural network on the NVIDIA Grace Hopper Superchip across Instagram and Facebook applications has achieved more than 6% recall improvement to the retrieval system while delivering over 8% ad quality improvement on selected segments.
+Meta Platforms, Inc. price-consensus-chart | Meta Platforms, Inc. Quote
+Rising Meta AI Usage Bodes Well for META Stock
+Meta AI usage continues to increase, with more than 700 million monthly actives. The company’s initiative to add updates that will help Meta AI deliver more personalized and relevant responses is expected to boost engagement. Meta Platforms is now launching Meta AI across its messaging apps and is currently available in more than 100 countries.
+The addition of advanced AI features to the Ray-Ban Meta glasses enhances real-world interactions. The latest update allows users to receive intelligent responses about objects or scenes users are viewing.
+The latest update includes visual recognition capabilities that enable the glasses to identify landmarks, translate foreign-language text, and provide contextual information on demand. An upcoming rollout of live speech translation between English, Spanish, Italian, and French further supports Meta Platforms’ goal to make daily experiences more intuitive, accessible, and immersive through the use of augmented reality (AR).
+META Stock Benefits From Expanding Portfolio
+META shares have lost 7.2% year to date (YTD), outperforming the broader Zacks Computer & Technology sector’s decline of 14.5% and peers, including Alphabet and Snap. YTD, shares of Alphabet and Snap have plunged 17% and 26.1%, respectively.
+The launch of Llama 4 models, accessible through Amazon Web Services, signals Meta Platforms’ deepening involvement in AI and AR. These models, which include Llama 4 Scout 17B and Llama 4 Maverick 17B, are capable of processing both images and text, making them ideal for applications like AR.
+Amazon SageMaker JumpStart and Amazon Bedrock integration will ensure the widespread adoption of these models, aligning Meta Platforms’ AI vision with its consumer products, including its smart glasses.
+Meta Platforms has been focusing on enhancing safety across its platforms. The company has implemented various initiatives to ensure that users have a safer and more secure online experience. META’s focus on safety and integrity by investing in tools, resources, and initiatives like Community Standards and digital literacy programs to protect users, especially young people, from harmful content and scams is expected to boost the user base.
+META Offers Positive Guidance for Q1 2025
+Meta expects total revenues between $39.5 billion and $41.8 billion for the first quarter of 2025, suggesting 8-15% year-over-year growth.
+The Zacks Consensus Estimate for first-quarter 2025 revenues is pegged at $41.24 billion, suggesting a 13.20% increase from the prior-year quarter’s actual.
+The consensus mark for first-quarter 2025 earnings is currently pegged at $5.22 per share, indicating 10.83% year-over-year growth.
+Find the latest EPS estimates and surprises on Zacks Earnings Calendar.
+Zacks Rank
+META currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.
+Want the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days.Click to get this free report
+NVIDIA Corporation (NVDA) : Free Stock Analysis Report
+Alphabet Inc. (GOOGL) : Free Stock Analysis Report
+Snap Inc. (SNAP) : Free Stock Analysis Report
+Meta Platforms, Inc. (META) : Free Stock Analysis Report
+This article originally published on Zacks Investment Research (zacks.com).
+Zacks Investment Research
+Patrick Collison will join the board of the public social media company as speculation persists about the possibility of his payments company filing for an initial public offering.
+We recently published a list of 10 AI Stocks to Watch Now. In this article, we are going to take a look at where Meta Platforms, Inc. (NASDAQ:META) stands against other AI stocks to watch now. The trade war between two of the world’s biggest economies, China and the US, is deepening even further. In […]
+It used to be that once you worked for 30 years at the same company and were ready to retire, you would simply punch out and collect your pension. Retirement today looks a lot different, and...
+Retiring on a fixed income can seem daunting, but with some planning and commitment to a frugal lifestyle, it's possible to retire comfortably on $2,000 a month. This takes discipline but ultimately...
+It has been widely reported that roughly one in four Americans have no retirement savings. Austin Kilgore, a consumer finance expert with the Achieve Center for Consumer Insights, a digital personal...
+Meta is preparing for the start of a courtroom battle Monday with the US government in an antitrust case that could force Mark Zuckerberg to break up his $1.3 trillion empire and sell one of its crown jewels: Instagram.
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio
+Try again.
