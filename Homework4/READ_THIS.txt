@@ -19,4 +19,5 @@ Gen AI Statement:
 1. Ask AI about how to install MongoDB
 2. Ask AI to explain how FastAPI works and about what response_model mean
 3. Ask AI about how to use async and await for import_data.py
+4. Ask AI about some functions syntax for MongoDB
 
