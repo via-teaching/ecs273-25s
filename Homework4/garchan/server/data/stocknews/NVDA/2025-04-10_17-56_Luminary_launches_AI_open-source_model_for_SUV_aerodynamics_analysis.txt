@@ -1,0 +1,42 @@
+Title: Luminary launches AI open-source model for SUV aerodynamics analysis
+Date (YYYY-MM-DD hour-min):2025-04-10 17-56
+URL: https://www.just-auto.com/news/luminary-ai-suv-analysis/?.tsrc=rss
+The SHIFT-SUV aerodynamic dataset has been crafted by simulating thousands of AeroSUV geometry variants.
+Luminary Cloud, in partnership with automotive manufacturer Honda and technology company NVIDIA, has launched what it claims to be the world’s first Physics artificial intelligence (AI) foundation model for analysis of SUV aerodynamics.
+The SHIFT-SUV model, which forms part of Luminary Cloud’s SHIFT Models suite, enables real-time interactive aerodynamic analysis, a critical advancement for early-stage automotive development.
+The collaboration addresses a significant challenge in automotive design by combining Luminary’s virtual wind tunnel with the Physics AI model.
+The Mitsubishi Chemical Group (MCG) is proud to celebrate one year since its bio-based engineering polymer, DURABIO™, was first featured on BMW Group’s 7 Series sedan. This sedan, launched in October 2023, displayed DURABIO™ on its kidney grille surround. The…
+This synergy allows for the seamless integration of design aesthetics and engineering performance, which has traditionally been a bottleneck due to the slow pace of performance-based decision-making in the initial stages of development.
+Luminary Cloud CEO Pete Schlampp said: “This project represents a fundamental shift in automotive design methodology.
+“By providing instantaneous, physics-informed aerodynamic feedback, our open-source foundation model enables designers and engineers to collaborate more effectively at the earliest stages of development, saving time and money—while also advancing innovation.”
+Luminary said the SHIFT-SUV aerodynamic dataset has been crafted by simulating thousands of AeroSUV geometry variants using its “high-fidelity” Computational Fluid Dynamics platform.
+NVIDIA’s PhysicsNeMo, with its DoMINO architecture, was instrumental in training the foundational model, which utilises Physics AI-based simulation for inference.
+This modern approach outperforms traditional design methods by providing instantaneous and precise aerodynamic performance insights.
+At its inception, the SHIFT-SUV model has been trained on around 1,000 simulations, with ambitions to expand to 25,000 by year’s end.
+Luminary Cloud said it plans to release new data monthly and will offer pre-trained models at various dataset milestones. Both model and dataset will be available as open-source.
+The foundation model presents numerous advantages for automotive players, including access to scarce open-source, industry-relevant data, and the creation of the most extensive open-source Physics AI database for SUV aerodynamics.
+Honda’s contribution of design variations ensures a training set with industrial relevance, while NVIDIA provides accelerated GPU computing and the NVIDIA Omniverse Blueprint for real-time digital twins CAE resources to support model training.
+Honda principal aero design lead Fong Loon Pan said: “The automotive industry has long needed a solution that accelerates styling and engineering development cycles.
+“The Physics AI solution built with the Luminary Cloud SHIFT-SUV foundation model and Blender integration provides immediate insights into vehicle performance that designers and engineers need.”
+
+Give your business an edge with our leading industry insights.
+Give your business an edge with our leading industry insights.
+
+Just Auto : Just Auto Focus (monthly)
+Thematic Take (monthly)
+Visit our Privacy Policy for more information about our services, how we may use, process and share your personal data, including information on your rights in respect of your personal data and how you can unsubscribe from future marketing communications. Our services are intended for corporate subscribers and you warrant that the email address submitted is your corporate email address.
+View all newsletters from across the GlobalData Media network.
+Automotive Industry News & Analysis | Market Research - Just Auto
+Powered by
+© Verdict Media Limited 2025
+By clicking here, you agree to our Terms and Conditions and consent to us collection your details for the purposes of your enquiry
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+
+As part of GlobalData's extensive network of websites, this site is dedicated to protecting your privacy. We may store and access personal data such as cookies, device identifiers or other similar technologies on your device and process such data to enhance site navigation,  personalize ads and content when you visit our sites, measure ad and content performance, gain audience insights, analyze our site traffic as well as develop and improve our products and services.  Further information on the cookies we use and their purpose can be found on our website privacy policy accessiblehere.
+
+We use necessary cookies to make our site work.  Necessary cookies enable core functionality such as security, network management, and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions.  We'd also like to set optional cookies to help us improve our website and help improve your experience whilst on our website. 
+
+By clicking ‘Accept All Cookies’ you agree to us enabling all optional cookies for these purposes. Alternatively, you can set which optional cookies you wish to enable (and update your preferences including withdrawing your consent) at any time, by clicking ‘Cookie Settings’.
