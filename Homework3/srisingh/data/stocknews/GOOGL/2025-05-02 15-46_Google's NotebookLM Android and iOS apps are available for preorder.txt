@@ -1,0 +1,26 @@
+Title: Google's NotebookLM Android and iOS apps are available for preorder
+Date: 2025-05-02 15:46
+URL: https://techcrunch.com/2025/05/02/googles-notebooklm-android-and-ios-apps-are-available-for-pre-order/?.tsrc=rss
+
+Google’s NotebookLM Android and iOS apps are expected to launch on May 20, according to app store listings. The apps are currently available for preorder.
+Since its launch in 2023, the AI-based note-taking and research assistant has only been accessible via desktop. Google is now gearing up to make the service available on the go.
+NotebookLM is designed to help students, professionals, and researchers better understand complex information through features like smart summaries and the ability to ask questions about documents and other materials. The research assistant also lets you generate AI podcasts, called Audio Overviews, to make it easier to digest complex topics. 
+According to screenshots on the app listings, the dedicated apps will allow users to create new notebooks and view the ones they have already created. They can also upload new sources from their device and view the ones they have already uploaded in each of the notebooks. Plus, the apps will allow you to listen to the Audio Overviews you have generated on the go.
+In addition to mobile, the apps will be available on iPads and tablets, where you’ll have a bigger screen to multitask.
+You can choose to preorder the app on the App Store or pre-register for it on Google Play. If you do so, the app will be automatically downloaded onto your phone on May 20.
+Given that the apps are expected to become available on the first day of Google I/O, the tech giant will likely share more information about them at the annual conference in a few weeks. 
+Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ AI chatbots are ‘juicing engagement’ instead of being useful, Instagram co-founder warns
+
+ Aurora launches its driverless commercial trucking service, and a surprise bidder joins Canoo’s bankruptcy case
+
+ Google will soon start letting kids under 13 use its Gemini chatbot
+
+ One of Google’s recent Gemini AI models scores worse on safety
+
+ Apple and Anthropic reportedly partner to build an AI coding platform
+
+ Uber’s latest autonomous vehicle partner? Chinese startup Momenta
+
+ Dating app Raw exposed users’ location data and personal information
