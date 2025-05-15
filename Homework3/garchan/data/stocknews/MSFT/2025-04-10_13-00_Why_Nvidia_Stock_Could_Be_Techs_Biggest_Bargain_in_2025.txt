@@ -1,0 +1,64 @@
+Title: Why Nvidia Stock Could Be Tech's Biggest Bargain in 2025
+Date (YYYY-MM-DD hour-min):2025-04-10 13-00
+URL: https://www.fool.com/investing/2025/04/10/why-nvidia-stock-could-be-techs-biggest-bargain-in/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=d74e1802-bcf7-41b5-a5a7-31b511a19a90&.tsrc=rss
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Amid the rubble of President Donald Trump's escalating trade war, Nvidia (NVDA -5.88%), the semiconductor powerhouse fueling the artificial intelligence (AI) revolution, has watched its share price crumble 28% since the start of 2025.
+With the company's shares now trading at just 16.3 times 2028 projected earnings in response to Microsoft's slowing data center construction and America's newly implemented reciprocal tariffs, this historically cheap valuation may represent a once-in-a-generation buying opportunity for patient investors. Here's why.
+Image source: Getty Images.
+While investors worry about spending slowdowns in AI, Nvidia continues cementing strategic partnerships that expand its already vast technological moat. Most recently, the chipmaker announced a significant collaboration with Alphabet through its Google Cloud division to bring agentic-AI capabilities to enterprises using the Nvidia Blackwell platform.
+Agentic AI systems actively make decisions, solve problems, and function autonomously, unlike traditional models that simply respond to specific prompts. These advanced systems operate more independently, completing complex tasks without constant human direction, which opens new possibilities for enterprise automation and intelligence.
+This partnership addresses critical confidential computing needs, allowing organizations to locally harness Google's Gemini AI models while maintaining data sovereignty and regulatory compliance. For industries handling sensitive information like healthcare, finance, and government, this collaboration enables AI innovation without compromising security, creating an entirely new market segment for Nvidia's hardware.
+Nvidia is also making significant inroads into robotics and physical AI systems. At the recent GTC conference in San Jose, California, the company showcased numerous robotic applications powered by its technology, from surgical robots to autonomous delivery systems. These physical embodiments of AI represent another massive growth vector beyond data centers.
+The economic impact of robotics by 2035 can't be overstated. According to recent market forecasts, the global robotics market is projected to grow from $65 billion in 2024 to a staggering $376 billion by 2035, representing a compound annual growth rate of 17%.
+While uncertainty is on the rise, remember that volatility can also present great investing opportunities. Take advantage of our 55% off new member flash sale!
+Since inception, Motley Fool Stock Advisor has historically beaten the S&P 500 by 820% — a market-crushing outperformance compared to 158%!** New members can get a 55% discount* AND Stock Advisor’s top 10 stock recommendations. Don’t miss out on this opportunity to invest in your future!
+*$89/year is a promotional price for new members only. 55% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price. Offer expires on April 11, 2025 at 11:59 pm PST. **Stock Advisor and S&P returns as of April 10, 2025.
+The humanoid robot segment alone is expected to reach $38 billion by 2035, a sixfold increase from earlier projections only a few years ago. This dramatic upward revision reflects accelerating AI progress, particularly in multimodal physical AI that can perceive, understand, and interact with the three-dimensional world.
+For instance, Nvidia's Isaac Sim software platform enables developers to create and train robotic systems in simulated environments before deploying them in the real world. This novel capability was demonstrated through robotic arms that could precisely mirror human movements, opening up a range of real-world applications from manufacturing to healthcare.
+Despite headwinds, Nvidia's market leadership in graphics processing units (GPUs) and AI acceleration remains unchallenged. The company's GPUs process data in parallel, with unmatched efficiency, making them ideal for AI workloads, while its proprietary Compute Unified Device Architecture (CUDA) software platform creates enormous switching costs for customers, protecting its market position against emerging competitors.
+What truly differentiates Nvidia is its expanding footprint across the entire AI stack, from hardware to networking, software, and services. The recently announced Blackwell platform and partnerships with major cloud providers demonstrate how the company continues pushing technological boundaries while deepening integration into enterprise AI ecosystems. All in all, Nvidia's core competitive advantages are unlikely to be usurped by competitors anytime soon, creating a healthy margin of safety for long-term investors.
+At 16.3 times 2028 earnings, Nvidia stock offers tremendous value. After all, the chipmaker is pioneering the next computing paradigm. While tariffs and big-tech spending fluctuations present meaningful near-term risks, the company's strengthening partnerships and expanding technological capabilities position it for sustained leadership in the unstoppable AI revolution.
+What are the risks? The bearish case centers on potential competition from in-house chip development by major tech companies and possible migration to alternative open-source tools challenging CUDA's dominance. Additionally, historical boom-and-bust cycles in Nvidia's gaming segment contribute to its near-term risk profile.
+Nevertheless, for investors with the patience to weather trade-war disruptions, the stock's current valuation offers an attractive entry point. Agentic AI and advanced robotics, after all, should prove to be extraordinary catalysts for the stock over the next 10 to 20 years.
+
+
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $509,884!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $700,739!*
+Now, it’s worth noting Stock Advisor’s total average return is 820% — a market-crushing outperformance compared to 158% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 9, 2025
+
+
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool's board of directors. George Budwell has positions in Microsoft and Nvidia. The Motley Fool has positions in and recommends Alphabet, Microsoft, and Nvidia. The Motley Fool recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.
+While uncertainty is on the rise, remember that volatility can also present great investing opportunities. Take advantage of our 55% off new member flash sale!
+Since inception, Motley Fool Stock Advisor has historically beaten the S&P 500 by 661.71%!** New members can get a 55% discount* AND Stock Advisor’s top 10 stock recommendations. Don’t miss out on this opportunity to invest in your future!
+Continue ›
+*$89/year is a promotional price for new members only. 55% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price. Offer expires on April 11, 2025 at 11:59 pm PST. **Stock Advisor and S&P returns as of April 10, 2025.
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
+Stock Advisor for only $199 $89!* (save $110)
+
+Since inception, Motley Fool Stock Advisor has beaten the S&P 500 by 661.71%!**
+While uncertainty is on the rise, remember that volatility can also present great investing opportunities. Take advantage of our 55% off* for new members and gain access to our exclusive list of the top 10 stocks to buy right now!
+Continue ›
+*$89/year is a promotional price for new members only. 55% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price.**Returns as of April 10, 2025.

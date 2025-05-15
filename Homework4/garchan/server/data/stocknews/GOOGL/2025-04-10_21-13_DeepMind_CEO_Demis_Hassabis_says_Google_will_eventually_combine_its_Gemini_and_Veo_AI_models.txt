@@ -1,0 +1,77 @@
+Title: DeepMind CEO Demis Hassabis says Google will eventually combine its Gemini and Veo AI models
+Date (YYYY-MM-DD hour-min):2025-04-10 21-13
+URL: https://techcrunch.com/2025/04/10/deepmind-ceo-demis-hassabis-says-google-will-eventually-combine-its-gemini-and-veo-ai-models/?.tsrc=rss
+Latest
+AI
+Amazon
+Apps
+Biotech & Health
+Climate
+Cloud Computing
+Commerce
+Crypto
+Enterprise
+EVs
+Fintech
+Fundraising
+Gadgets
+Gaming
+Google
+Government & Policy
+Hardware
+Instagram
+Layoffs
+Media & Entertainment
+Meta
+Microsoft
+Privacy
+Robotics
+Security
+Social
+Space
+Startups
+TikTok
+Transportation
+Venture
+Events
+Startup Battlefield
+StrictlyVC
+Newsletters
+Podcasts
+Videos
+Partner Content
+TechCrunch Brand Studio
+Crunchboard
+Contact Us
+In a recent appearance on Possible, a podcast co-hosted by LinkedIn co-founder Reid Hoffman, Google DeepMind CEO Demis Hassabis said Google plans to eventually combine its Gemini AI models with its Veo video-generating models to improve the former’s understanding of the physical world.
+“We’ve always built Gemini, our foundation model, to be multimodal from the beginning,” Hassabis said, “and the reason we did that [is because] we have a vision for this idea of a universal digital assistant, an assistant that … actually helps you in the real world.”
+The AI industry is moving gradually toward “omni” models, if you will — models that can understand and synthesize many forms of media. Google’s newest Gemini models can generate audio as well as images and text, while OpenAI’s default model in ChatGPT can natively create images — including, of course, Studio Ghibli-style art. Amazon has also announced plans to launch an “any-to-any” model later this year.
+These omni models require a lot of training data — images, videos, audio, text, and so on. Hassabis implied that the video data for Veo is coming mostly from YouTube, a platform that Google owns.
+“Basically, by watching YouTube videos — a lot of YouTube videos — [Veo 2] can figure out, you know, the physics of the world,” Hassabis said.
+Google previously told TechCrunch its models “may be” trained on “some” YouTube content in accordance with its agreement with YouTube creators. Reportedly, Google broadened its terms of service last year in part to allow the company to tap more data to train its AI models.
+Topics
+AI Editor
+Google to embrace Anthropic’s standard for connecting AI models to data
+
+
+Solid, which claimed to be the ‘AWS of fintech,’ files for bankruptcy after raising nearly $81M in funding
+
+
+Meta whistleblower Sarah Wynn-Williams says company targeted ads at teens based on their ‘emotional state’
+
+
+Ilya Sutskever taps Google Cloud to power his AI startup’s research
+
+
+Anthropic rolls out a $200-per-month Claude subscription
+
+
+Artisan, the ‘stop hiring humans’ AI agent startup, raises $25M — and is still hiring humans
+
+
+Governments identify dozens of Android apps bundled with spyware
+
+
+© 2025 Yahoo.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
