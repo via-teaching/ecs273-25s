@@ -1,0 +1,140 @@
+Microsoft researchers say they've developed a hyper-efficient AI model that can run on CPUs
+2025-04-16 16:48
+https://techcrunch.com/2025/04/16/microsoft-researchers-say-theyve-developed-a-hyper-efficient-ai-model-that-can-run-on-cpus/?.tsrc=rss
+
+[<p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="19" href="/latest/">
+		Latest	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="20" href="/category/artificial-intelligence/">
+		AI	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="21" href="/tag/amazon/">
+		Amazon	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="22" href="/category/apps/">
+		Apps	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="23" href="/category/biotech-health/">
+		Biotech &amp; Health	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="24" href="/category/climate/">
+		Climate	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="25" href="/tag/cloud-computing/">
+		Cloud Computing	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="26" href="/category/commerce/">
+		Commerce	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="27" href="/category/cryptocurrency/">
+		Crypto	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="28" href="/category/enterprise/">
+		Enterprise	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="29" href="/tag/evs/">
+		EVs	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="30" href="/category/fintech/">
+		Fintech	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="31" href="/category/fundraising/">
+		Fundraising	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="32" href="/category/gadgets/">
+		Gadgets	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="33" href="/category/gaming/">
+		Gaming	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="34" href="/tag/google/">
+		Google	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="35" href="/category/government-policy/">
+		Government &amp; Policy	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="36" href="/category/hardware/">
+		Hardware	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="37" href="/tag/instagram/">
+		Instagram	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="38" href="/tag/layoffs/">
+		Layoffs	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="39" href="/category/media-entertainment/">
+		Media &amp; Entertainment	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="40" href="/tag/meta/">
+		Meta	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="41" href="/tag/microsoft/">
+		Microsoft	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="42" href="/category/privacy/">
+		Privacy	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="43" href="/category/robotics/">
+		Robotics	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="44" href="/category/security/">
+		Security	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="45" href="/category/social/">
+		Social	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="46" href="/category/space/">
+		Space	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="47" href="/category/startups/">
+		Startups	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="48" href="/tag/tiktok/">
+		TikTok	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="49" href="/category/transportation/">
+		Transportation	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="50" href="/category/venture/">
+		Venture	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="51" href="/events/">
+		Events	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="52" href="/startup-battlefield/">
+		Startup Battlefield	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="53" href="https://strictlyvc.com/" noreferrer&quot;="" rel='"noopener' target='"_blank"'>
+		StrictlyVC	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="54" href="/newsletters/">
+		Newsletters	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="55" href="/podcasts/">
+		Podcasts	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="56" href="/video/">
+		Videos	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="57" href="/sponsored/">
+		Partner Content	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="58" href="/brand-studio/">
+		TechCrunch Brand Studio	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="59" href="https://www.crunchboard.com/" noreferrer&quot;="" rel='"noopener' target='"_blank"'>
+		Crunchboard	</a>
+</p>, <p class="wp-block-techcrunch-mega-menu-link">
+<a data-rapid_p="60" href="/contact-us/">
+		Contact Us	</a>
+</p>, <p class="wp-block-paragraph" id="speakable-summary">Microsoft researchers claim they’ve developed the largest-scale 1-bit AI model, also known as a “bitnet,” to date. Called BitNet b1.58 2B4T, it’s <a cmp-ltrk="Article - intext links" cmp-ltrk-idx="0" data-mrf-link="https://huggingface.co/microsoft/bitnet-b1.58-2B-4T" data-rapid_p="78" href="https://huggingface.co/microsoft/bitnet-b1.58-2B-4T" mrfobservableid="c0318836-84f8-4264-9a82-c5a41b2dae74" rel="noreferrer noopener nofollow" target="_blank">openly available</a> under an MIT license and can run on CPUs, including Apple’s M2.</p>, <p class="wp-block-paragraph">Bitnets are essentially compressed models designed to run on lightweight hardware. In standard models, weights, the values that define the internal structure of a model, are often<em> </em>quantized so the models perform well on a wide range of machines. Quantizing the weights lowers the number of bits — the smallest units a computer can process — needed to represent those weights, enabling models to run on chips with less memory, faster.</p>, <p class="wp-block-paragraph">Bitnets quantize weights into just three values: -1, 0, and 1. In theory, that makes them far more memory- and computing-efficient than most models today.</p>, <p class="wp-block-paragraph">The Microsoft researchers say that BitNet b1.58 2B4T is the first bitnet with 2 billion parameters, “parameters” being largely synonymous with “weights.” Trained on a dataset of 4 trillion tokens — equivalent to about 33 million books, <a cmp-ltrk="Article - intext links" cmp-ltrk-idx="1" data-mrf-link="https://everdome.io/news/ai-tokens-explained-the-tldr-version" data-rapid_p="79" href="https://everdome.io/news/ai-tokens-explained-the-tldr-version" mrfobservableid="aca37291-0a87-40a4-9569-d384edb6a942" rel="noreferrer noopener nofollow" target="_blank">by one estimate</a> — BitNet b1.58 2B4T outperforms traditional models of similar sizes, the researchers claim.</p>, <p class="wp-block-paragraph">BitNet b1.58 2B4T doesn’t sweep the floor with rival 2 billion-parameter models, to be clear, but it seemingly holds its own. According to the researchers’ testing, the model surpasses Meta’s Llama 3.2 1B, Google’s Gemma 3 1B, and Alibaba’s Qwen 2.5 1.5B on benchmarks including GSM8K (a collection of grade-school-level math problems) and PIQA (which tests physical commonsense reasoning skills).</p>, <p class="wp-block-paragraph">Perhaps more impressively, BitNet b1.58 2B4T is speedier than other models of its size — in some cases, twice the speed — while using a fraction of the memory. </p>, <p class="wp-block-paragraph">There is a catch, however. </p>, <p class="wp-block-paragraph">Achieving that performance requires using Microsoft’s custom framework, bitnet.cpp, which only works with certain hardware at the moment. Absent from the list of supported chips are GPUs, which dominate the AI infrastructure landscape. </p>, <p class="wp-block-paragraph">That’s all to say that bitnets may hold promise, particularly for resource-constrained devices. But compatibility is — and will likely remain — a big sticking point.</p>, <p class="wp-block-paragraph">Topics</p>, <p>
+<span class="wp-block-tc23-author-card-title__title">AI Editor</span>
+</p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="0" data-destinationlink="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" data-rapid_p="94" href="https://techcrunch.com/2025/04/15/figma-ignores-the-fear-files-paperwork-for-an-ipo/" mrfobservableid="1ef43ce8-709c-49e1-bf8c-9831682a82c5">Figma ignores the fear, files paperwork for an IPO</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="2" data-destinationlink="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" data-rapid_p="96" href="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" mrfobservableid="cac3870a-b9ab-4033-8113-b7f8ddbad6aa">For security, Android phones will now auto-reboot after three days</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="4" data-destinationlink="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" data-rapid_p="98" href="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" mrfobservableid="5f11b1ec-84a2-485f-9ee9-93e9f61be08e">Figma sent a cease-and-desist letter to Lovable over the term ‘Dev Mode’</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="5" data-destinationlink="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" data-rapid_p="100" href="https://techcrunch.com/2025/04/15/anthropic-forms-a-new-team-to-grow-its-aws-business/" mrfobservableid="a1c77bc7-6a4c-43a1-9490-ea232437e3dd">Anthropic forms a new team to grow its AWS business</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="7" data-destinationlink="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" data-rapid_p="102" href="https://techcrunch.com/2025/04/15/notorious-image-board-4chan-hacked-and-internal-data-leaked/" mrfobservableid="c5461baf-6a40-444d-9816-4e35c53b91ca">Notorious image board 4chan hacked and internal data leaked</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="9" data-destinationlink="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" data-rapid_p="105" href="https://techcrunch.com/2025/04/15/notion-releases-its-ai-driven-email-inbox/" mrfobservableid="996e6deb-b4c1-4e7a-8c9b-8d6b8740fa22">Notion releases an AI-powered email client for Gmail</a><br/>
+</p>, <p></p>, <p></p>, <p> <a class="loop-card__title-link" cmp-ltrk="Article - Most Popular" cmp-ltrk-idx="11" data-destinationlink="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" data-event="recirculation" data-module="Query" data-mrf-link="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" data-rapid_p="107" href="https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/" mrfobservableid="64915256-0a98-4d28-ada9-897ccac2109b">Hertz says customers’ personal data and driver’s licenses stolen in data breach</a><br/>
+</p>, <p></p>, <p></p>, <p class="copyright has-white-color has-text-color has-link-color has-body-3-font-size wp-elements-609188f02cc3e7e277128e6956685bd3 wp-block-paragraph">© 2025 Yahoo.</p>, <p class="pn-ribbon__top-text pn-ribbon__top-text--desktop">1,200+ founders &amp; VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!</p>, <p class="pn-ribbon__top-text pn-ribbon__top-text--mobile">1,200+ founders &amp; VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!</p>]
