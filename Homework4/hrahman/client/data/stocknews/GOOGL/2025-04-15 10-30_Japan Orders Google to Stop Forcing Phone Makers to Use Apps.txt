@@ -1,0 +1,92 @@
+Title: Japan Orders Google to Stop Forcing Phone Makers to Use Apps
+Date: 2025-04-15 10:30
+URL: https://finance.yahoo.com/news/japan-orders-google-stop-forcing-103019112.html?.tsrc=rss
+Content:
+The chip giant committed to building AI infrastructure in the US, and Trump says he's going to help make it happen.
+The fallout from Trump's tariff whiplash hasn't yet pushed investors to shy away from an old habit
+Stocks edge higher after back-to-back rallies with Trump's latest tariff moves in focus
+BofA's Moynihan says 'we potentially face a changing economy' after highest-ever equities trading haul
+The trade war uncovers new economies of scale
+Trump is wrecking his own economic agenda
+Higher clothing costs from tariffs are coming soon — but not immediately, experts say
+Why Tesla, GM, and Rivian will be hurt most by China's critical minerals export ban
+Trump says he's 'looking at something' to help car companies with tariffs
+Stocks rally for second straight day, while Apple jumps on tech tariff reprieve
+The Nasdaq briefly turned red as stocks' relief rally failed to hold in early afternoon trading
+Americans are braced for the biggest unemployment rate jump since the pandemic, a New York Fed survey found
+Stocks surge as Apple leads way higher after tech's tariff reprieve
+Trump's temporary tech tariff respite adds to a growing sense that he has a willingness to listen and bend
+Goldman CEO Solomon warns of 'markedly different operating environment' as dealmaking slows
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+Trump has tariffs, taxes, and the debt ceiling on a collision course for this summer
+Trump denies that there was a tariff “exception” for certain electronics announced Friday. (Bloomberg)
+Tax day 2025 is coming up. Here’s what to know to file by the deadline.
+Commentary: Put the P/E ratio in timeout for now
+Market chaos signals 'sell America' trade as Trump tariff whipsaw threatens to upend the US economy's soft landing
+Apple was on brink of crisis before tariff concession from Trump (Bloomberg)
+Corporate earnings take center stage amid tariff turmoil: What to know this week
+The best (and worst) time of year to buy a house
+The Trump family is going all-in on crypto projects, from Bitcoin mining to stablecoins (Bloomberg)
+How to invest in gold in 4 steps
+Changing jobs can disrupt saving for retirement. Here's how to stay on track.
+Trump exempts phones, computers, chips from ‘reciprocal’ tariffs (Bloomberg)
+Meet Walmart heir Steuart Walton, the most powerful board member you’ve never heard of
+The tariff uncertainty isn't getting any better in markets: Chart of the Week
+'T-shirts could be the new eggs': Why Trump's chaotic tariff whipsaw is still a huge threat to inflation
+Gold notches best week since 2020 amid 'shaken' investor confidence in US
+The bond market just had one of its most volatile and unusual weeks in recent memory
+Stocks capped a wild week with a surge higher, as the S&P 500 posted its biggest weekly gain since 2023
+Stocks swung into rally mode in afternoon trading, with the major indexes all up over 1%. Bond yields pared bigger gains.
+The major indexes whipsawed to end a volatile week. Treasury yields surged in signs of more instability in the bond market.
+Consumer sentiment craters further as inflation expectations soar to highest since 1981
+Dow, S&P 500, Nasdaq slide as China hits US with tariff hike, bank earnings roll in
+JPMorgan's Dimon says economy is facing 'considerable turbulence'
+Tariff uncertainty muddies — and refocuses — earnings season
+China raises tariffs on US goods to 125% from the 84% planned in response to Trump's latest hike
+China already knows Trump's breaking point in their burgeoning trade war, our columnist writes
+How the bond market helped make Trump blink on tariffs
+The Dow fell 1,000 points, and the S&P 500 and Nasdaq were crushed as stocks resumed a tariff-fueled sell-off
+Trump's total tariff on China is actually 145%, the White House said, an amount higher than the 125% previously reported
+Stocks hit session lows as focus turned to the US-China trade war. The Dow lost over 1,200 points, and the Nasdaq plunged 4.5%.
+The Dow plummeted 900 points and the Nasdaq plunged over 3% as a tariff-fueled sell-off picked up speed again.
+Stocks plummet as Wall Street's euphoria from Trump's tariff pause gets a reality check
+Inflation unexpectedly tumbled in March, and core CPI rose at its slowest pace in four years.
+The EU matched Trump's 90-day pause on tariffs to 'give negtiations a chance.' See our live updates.
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+(Bloomberg) -- Japan’s Fair Trade Commission ordered Alphabet Inc.’s Google to stop alleged abuse of its market power over local smartphone manufacturers, just ahead of high-stakes trade negotiations with the US this week.
+Most Read from Bloomberg
+How Did This Suburb Figure Out Mass Transit?
+Even Oslo Has an Air Quality Problem
+NYC Tourist Helicopter Crashes in Hudson River, Killing Six
+$15 Million Fund Bets Leadership Training Can Improve Chicago Policing
+LA County Floats Leaner Budget Burdened by Fire and Legal Costs
+The Tuesday order reiterates the FTC’s earlier finding that the US tech giant took advantage of its position as the provider of the Google Play app ecosystem — the only viable alternative to the iPhone’s App store. Google is improperly forcing phone makers to prioritize its apps and services on their devices in exchange for allowing them to put the app store on phones sold in Japan, the regulator said. The US company said in a statement it was disappointed with the findings and will review the order before deciding next steps.
+The announcement comes just ahead of Economic Revitalization Minister Ryosei Akazawa’s planned visit to the US this week to press for a reprieve from President Donald Trump’s tariffs on Japanese products.
+The watchdog’s move also follows a complaint by the Office of the US Trade Representative that Japan’s Digital Platform Act — geared to boost transparency from large technology providers — disproportionately affects American companies and undermines their competitiveness in Japan by increasing compliance costs.
+Japan’s cease-and-desist order marks the country’s first such command to any leading US tech firm. But it’s a straggler among regulators overseas. The EU has rebuked both Google and Apple for using what it alleges are illegal tactics to dominate mobile software markets, while the US Justice Department is considering asking a federal judge to force Google to sell off parts of its business after a federal judge ruled the company illegally monopolized the search market.
+“It’s not like Japan is the only country that’s targeted certain US companies,” FTC Director General Masaru Ogo said in response to questions about how the move might affect US-Japan tariff discussions. “We don’t think this will be a big problem.”
+While the US runs a goods deficit with Japan, it has a surplus in services, which includes licensing fees for Android’s app ecosystem as well as advertising revenue. Last year, the US sold more than $45 billion in seasonally adjusted services to Japan.
+Google allegedly capitalized on the struggles of Android smartphone makers selling handsets in Japan to retain market share in a country where Apple Inc. is by far the leading smartphone brand. Google demanded the phone makers — which include Sony Group Corp. and Sharp Corp. — bundle the Chrome browser and the Google search box widget and promote it on each handset’s home screen as must-have conditions when making contracts to provide the Google Play store app, according to the FTC. The manufacturers complied, because that app ecosystem is indispensable to deliver phones that can stand toe to toe with Apple’s handsets.
+Mountain View, California-based Google also offered to share ad revenue with device makers if they agreed not to preload search engines from its rivals, the FTC said. Google places a high priority on ensuring it’s the first search service users see when they get a new phone, paying Apple billions each year to secure that spot on iPhones.
+As of December last year, Google had contracts with six handset makers that mandated installing the Google widget and app, the FTC said. It had inappropriate revenue share programs with four handset makers and one wireless carrier as of July 2024, it said.
+Failure on the part of Google to comply may result in fines or criminal punishment, officials said. The move gives handset makers more freedom to decide what apps to preload and provides opportunities for Google’s rivals, said Saiko Nakajima, senior investigator for digital platform operators.
+“The FTC will will continue to take proactive, strict and appropriate action when it comes in contact with information that is suspected of violating the law in the digital field,” Ogo said.
+--With assistance from Yoshiaki Nohara.
+(Updates with comments from Google and FTC from the second paragraph.)
+Most Read from Bloomberg Businessweek
+GM’s Mary Barra Has to Make a $35 Billion EV Bet Work in Trump’s America
+The Beauty Salon Recession Indicator
+Trump Is Firing the Wrong People, on Purpose
+How Mar-a-Lago Memberships Explain Trump’s Tariff Obsession
+Trade Tensions With China Clear Path for Salt-Powered Batteries
+©2025 Bloomberg L.P.
+Until excessive inequality is addressed, expect increased political violence, populism, and social unrest.
+Japan’s antitrust regulator instructed Alphabet’s Google to stop what it said are anticompetitive practices involving mobile search services, its first order against a U.S. technology giant.
+-BP has made an oil discovery at the Far South field in the U.S. Gulf of Mexico, it said on Monday, as the energy major seeks to grow production under a strategy reset announced earlier this year.  Both the initial well and a sidetrack encountered oil.  Preliminary data indicates a potentially commercial volume of oil and gas, the company said in a statement.
+DHL CEO Tobias Meyer discusses how the changes in President Trump's tariff policy are impacting business outlook and customer sentiment. Meyer tells Bloomberg Television that there's "still a lot of uncertainty" and the firm's clients are "trying to figure out where to put production, where to put inventory to best position themselves." He also talks about DHL's investments in Southeast Asia and expansion in healthcare logistics.
+US equity futures were trending higher on Tuesday as President Donald Trump hinted at a possible tar
+The move will mark a shift from the company’s prior exclusive reliance on synthetic data for training AI models.
+It used to be that once you worked for 30 years at the same company and were ready to retire, you would simply punch out and collect your pension. Retirement today looks a lot different, and...
+Barclays Bank offers high-yield online savings accounts and CDs. Learn more about Barclays' interest rates, fees and more with this in-depth expert review.
+Want to be a better investor? Follow these strategies used by Warren Buffett
+Recessions are a natural part of the economic cycle, but they can have severe negative consequences for your savings and finances. To minimize its impact on your life, take these steps to recession-proof your savings.
