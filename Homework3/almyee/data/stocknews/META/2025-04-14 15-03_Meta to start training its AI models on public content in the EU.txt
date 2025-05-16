@@ -1,0 +1,140 @@
+Title: Meta to start training its AI models on public content in the EU
+Date: 2025-04-14 15:03
+URL: https://techcrunch.com/2025/04/14/meta-to-start-training-its-ai-models-on-public-content-in-the-eu/?.tsrc=rss
+
+
+
+		Latest	
+ 
+
+		AI	
+ 
+
+		Amazon	
+ 
+
+		Apps	
+ 
+
+		Biotech & Health	
+ 
+
+		Climate	
+ 
+
+		Cloud Computing	
+ 
+
+		Commerce	
+ 
+
+		Crypto	
+ 
+
+		Enterprise	
+ 
+
+		EVs	
+ 
+
+		Fintech	
+ 
+
+		Fundraising	
+ 
+
+		Gadgets	
+ 
+
+		Gaming	
+ 
+
+		Google	
+ 
+
+		Government & Policy	
+ 
+
+		Hardware	
+ 
+
+		Instagram	
+ 
+
+		Layoffs	
+ 
+
+		Media & Entertainment	
+ 
+
+		Meta	
+ 
+
+		Microsoft	
+ 
+
+		Privacy	
+ 
+
+		Robotics	
+ 
+
+		Security	
+ 
+
+		Social	
+ 
+
+		Space	
+ 
+
+		Startups	
+ 
+
+		TikTok	
+ 
+
+		Transportation	
+ 
+
+		Venture	
+ 
+
+		Events	
+ 
+
+		Startup Battlefield	
+ 
+
+		StrictlyVC	
+ 
+
+		Newsletters	
+ 
+
+		Podcasts	
+ 
+
+		Videos	
+ 
+
+		Partner Content	
+ 
+
+		TechCrunch Brand Studio	
+ 
+
+		Crunchboard	
+ 
+
+		Contact Us	
+ Meta announced on Monday that it’s going to train its AI models on public content, such as posts and comments on Facebook and Instagram, in the EU after previously pausing its plans to do so in response to regulatory pressure due to data privacy concerns. The company will start training its AI on users’ content in the EU this week, it said. Users’ interactions with Meta AI will also be used to train its models. The announcement comes after a limited version of Meta AI launched in the EU last month, well after its debut in the U.S. and other global markets. While Meta has been training its AI on user-generated content in the U.S. for years, it has faced resistance in the EU due to the bloc’s strict privacy laws, particularly the General Data Protection Regulation (GDPR), which requires a clear legal basis for processing personal data to train AI models. Meta said back in June 2024 that it would pause plans to start training its AI systems using user data in the EU and U.K. following pushback from the Irish Data Protection Commission (DPC). The DPC regulates Meta in the EU and was acting on behalf of several data protection authorities across the bloc. In September 2024, Meta said it was restarting efforts to train its AI systems using public posts from its U.K. user base. Fast-forward to today; Meta has announced that it will do so with public posts from its EU user base as well. “Last year, we delayed training our large language models using public content while regulators clarified legal requirements,” Meta said in its blog post. “We welcome the opinion provided by the EDPB in December, which affirmed that our original approach met our legal obligations. Since then, we have engaged constructively with the IDPC and look forward to continuing to bring the full benefits of generative AI to people in Europe.” Starting this week, users in the EU will start receiving in-app and email notifications to explain that Meta will start using public data and interactions with Meta AI to train its models. These notifications will include a link to a form that will allow users to opt out of their data being used. Meta says it will honor all objection forms it has already received, as well as newly submitted ones. Meta notes that it doesn’t use private messages, nor public data from users under the age of 18 in the EU, to train its models. “We believe we have a responsibility to build AI that’s not just available to Europeans, but is actually built for them,” Meta says. “That’s why it’s so important for our generative AI models to be trained on a variety of data so they can understand the incredible and diverse nuances and complexities that make up European communities. That means everything from dialects and colloquialisms, to hyper-local knowledge and the distinct ways different countries use humor and sarcasm on our products.”  Meta says it’s following the example set by companies like Google and OpenAI, both of which have already used data from European users to train their AI models. Meanwhile, the DPC is not moving on entirely from scrutinizing how large language model creators are training their AI services. Last week, the regulator announced it was investigating xAI’s training of Grok. Topics 
+Consumer News Reporter
+ Aisha is a consumer news reporter at TechCrunch. Prior to joining the publication in 2021, she was a telecom reporter at MobileSyrup. Aisha holds an honours bachelor’s degree from University of Toronto and a master’s degree in journalism from Western University.  Debates over AI benchmarking have reached Pokémon
+    Colossal Biosciences raises $200M at $10.2B valuation to bring back woolly mammoths
+    Anthropic proposes a new way to connect data to AI chatbots
+    5 ‘dumbphones’ that can still run WhatsApp
+    Former teen model co-created app Frich to help Gen Z be more realistic about finances
+    As AI porn generators get better, the stakes get higher
+    Google can now read your doctor’s bad handwriting
+   © 2025 Yahoo. 1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now! 1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
