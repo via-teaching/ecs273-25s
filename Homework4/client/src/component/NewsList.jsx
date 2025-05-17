@@ -1,31 +1,9 @@
-
 import React, { useState } from "react";
 
-export default function NewsList({ stockNews = [], selectedStock }) {  // Default to an empty array
+export default function NewsList({ stockNews = [] }) {
   const [expanded, setExpanded] = useState({});
-  const [content, setContent] = useState("");
-  // console.log("selectedStock: ", selectedStock)
-  const handleArticleClick = (fileName) => {
-    fetch(`/data/stocknews/${selectedStock}/${fileName}`)
-      .then((res) => res.text())
-      .then((text) => {
-        setSelectedArticleContent(text);
-      });
-  };
-  
-  const toggleExpand = (index, fileName) => {
-    // console.log("filename: ", filename)
-    if (!expanded[index]) {
-      // Fetch the content of the clicked file
-      fetch(`/data/stocknews/${selectedStock}/${fileName}`)
-        .then((res) => res.text())
-        .then((data) => {
-          setContent(data); // Set the article content to display
-        })
-        .catch((error) => {
-          console.error("Error fetching article content:", error);
-        });
-    }
+
+  const toggleExpand = (index) => {
     setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
   };
 
@@ -39,15 +17,15 @@ export default function NewsList({ stockNews = [], selectedStock }) {  // Defaul
             <li key={index} className="border p-2 rounded hover:bg-gray-100">
               <div
                 className="cursor-pointer font-semibold"
-                onClick={() => toggleExpand(index, item.fileName)}
+                onClick={() => toggleExpand(index)}
               >
                 {item.title}
               </div>
               <p className="text-sm text-gray-600">{item.date}</p>
-              <a href={item.url} className="text-blue-500" target="_blank" rel="noopener noreferrer">
-                Read full article
-              </a>
-              {expanded[index] && <p className="text-sm mt-2">{content}</p>}
+        
+              {expanded[index] && (
+                <p className="text-sm mt-2 text-gray-800">{item.content}</p>
+              )}
             </li>
           ))}
         </ul>
@@ -55,5 +33,4 @@ export default function NewsList({ stockNews = [], selectedStock }) {  // Defaul
     </div>
   );
 }
-
 
