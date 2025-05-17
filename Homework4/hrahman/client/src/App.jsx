@@ -1,26 +1,35 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import RenderOptions from "./component/options";
 import StockLineChart from "./component/StockLineChart";
 import TSNEScatterPlot from "./component/TSNEScatterPlot";
 import StockNewsList from "./component/StockNewsList";
 
 function App() {
-
   const [selectedTicker, setSelectedTicker] = useState("AAPL");
+  const [stockList, setStockList] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:8000/stock_list")
+      .then(res => res.json())
+      .then(data => setStockList(data.tickers || []));
+  }, []);
 
   return (
     <div className="flex flex-col h-full w-full">
-
       <header className="bg-indigo-500 text-white p-2 flex flex-row items-center justify-between shadow-md">
         <div className="flex flex-col">
-          <h2 className="text-3xl font-bold tracking-wide">Homework 3</h2>
+          <h2 className="text-3xl font-bold tracking-wide">Homework 4</h2>
           <p className="text-sm text-indigo-100">ECS 273 - Visual Analytics</p>
         </div>
 
         <div className="flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
           <label htmlFor="bar-select" className="text-base font-bold mb-1 text-white">
             <b>Select a Stock :</b>
-            <RenderOptions selectedTicker={selectedTicker} setSelectedTicker={setSelectedTicker} />
+            <RenderOptions
+              selectedTicker={selectedTicker}
+              setSelectedTicker={setSelectedTicker}
+              stockList={stockList}
+            />
           </label>
         </div>
 
@@ -54,9 +63,8 @@ function App() {
           </div>
         </div>
       </div>
-
     </div>
-  )
+  );
 }
 
 export default App;

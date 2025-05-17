@@ -2,8 +2,9 @@ from fastapi import FastAPI
 from pydantic.functional_validators import BeforeValidator
 from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import HTTPException
 
-from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel
+from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel, StockModelUnit
 from bson import ObjectId
 
 client = AsyncIOMotorClient("mongodb://localhost:27017")
@@ -32,6 +33,27 @@ async def get_stock_list():
     result = await stock_name_collection.find_one()
     return result
 
+@app.get("/stock/{stock_name}", response_model=StockModelV2)
+async def get_stock(stock_name: str):
+    collection = db.get_collection("price_data")
+    docs = await collection.find({"name": stock_name}).to_list(length=None)
+
+    if not docs:
+        raise HTTPException(status_code=404, detail=f"Stock '{stock_name}' not found")
+
+    stock_series = [
+        StockModelUnit(
+            date=doc["Date"],
+            Open=doc["Open"],
+            High=doc["High"],
+            Low=doc["Low"],
+            Close=doc["Close"]
+        )
+        for doc in docs
+    ]
+
+    return { "name": stock_name, "stock_series": stock_series }
+
 
 @app.get("/stocknews/", response_model=list[StockNewsModel])
 async def get_stock_news(stock_name: str = 'XOM'):
@@ -42,17 +64,6 @@ async def get_stock_news(stock_name: str = 'XOM'):
     cursor = news_collection.find({ "Stock": stock_name }).sort("Date", -1)
     results = await cursor.to_list(length=None)
     return results
-
-
-@app.get("/stock/{stock_name}", response_model=StockModelV2)
-async def get_stock(stock_name: str):
-    """
-    Get OHLC time series for a specific stock.
-    """
-    price_collection = db.get_collection("price_data")
-    result = await price_collection.find_one({ "name": stock_name })
-    return result
-
 
 @app.get("/tsne/", response_model=list[tsneDataModel])
 async def get_tsne():

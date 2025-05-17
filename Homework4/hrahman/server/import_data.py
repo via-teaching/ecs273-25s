@@ -6,7 +6,6 @@ import asyncio
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.stock_hrahman
 
-stock_name_collection = db.get_collection("stock_list")
 tickers = [ 'XOM', 'CVX', 'HAL',
             'MMM', 'CAT', 'DAL',
             'MCD', 'NKE', 'KO',
@@ -15,6 +14,8 @@ tickers = [ 'XOM', 'CVX', 'HAL',
             'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META']
 
 async def import_tickers_to_mongodb():
+    stock_name_collection = db.get_collection("stock_list")
+    await stock_name_collection.delete_many({})
     await stock_name_collection.insert_one({
         "tickers": tickers
     })
@@ -22,16 +23,19 @@ async def import_tickers_to_mongodb():
 async def import_stock_price_data():
     stock_coll = db.get_collection("price_data")
     await stock_coll.delete_many({})
+
     for ticker in tickers:
         path = f"./data/stockdata/{ticker}.csv"
-        if not os.path.exists(path): continue
+        if not os.path.exists(path):
+            print(f"Skipping missing file: {path}")
+            continue
         df = pd.read_csv(path)
+        df["name"] = ticker
+        records = df.to_dict(orient="records")
+        if records:
+            await stock_coll.insert_many(records)
+            print(f"Inserted {len(records)} records for {ticker}")
 
-        stock_series = df.to_dict(orient="records")
-        await stock_coll.insert_one({
-            "name": ticker,
-            "stock_series": stock_series
-        })
 
 async def import_news_data():
     news_coll = db.get_collection("news_data")

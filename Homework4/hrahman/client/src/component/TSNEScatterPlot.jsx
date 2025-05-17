@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import Papa from "papaparse";
 
 const ticker_to_sector = {
   'XOM': "Energy", 'CVX': "Energy", 'HAL': "Energy",
@@ -27,22 +26,15 @@ export default function TSNEScatterPlot({ selectedTicker }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/data/tsne.csv")
-      .then(res => res.text())
-      .then(csvText => {
-        Papa.parse(csvText, {
-          header: true,
-          dynamicTyping: true,
-          complete: (results) => {
-            const cleaned = results.data
-              .filter(d => d.x !== undefined && d.y !== undefined && ticker_to_sector[d.label])
-              .map(d => ({
-                ...d,
-                sector: ticker_to_sector[d.label]
-              }));
-            setData(cleaned);
-          },
-        });
+    fetch("http://localhost:8000/tsne/")
+      .then(res => res.json())
+      .then(raw => {
+        const cleaned = raw
+          .filter(d => d.Stock && d.x !== undefined && d.y !== undefined)
+          .map(d => ({...d,
+            sector: ticker_to_sector[d.Stock]
+          }));
+        setData(cleaned);
       });
   }, []);
 
@@ -64,8 +56,7 @@ export default function TSNEScatterPlot({ selectedTicker }) {
       .attr("x", -20)
       .attr("y", -40)
       .attr("width", chartWidth + 40)
-      .attr("height", chartHeight + 60)
-
+      .attr("height", chartHeight + 60);
 
     const g = svg
       .attr("width", width)
@@ -108,16 +99,16 @@ export default function TSNEScatterPlot({ selectedTicker }) {
       .join("circle")
       .attr("cx", d => xScale(d.x))
       .attr("cy", d => yScale(d.y))
-      .attr("r", d => d.label === selectedTicker ? 6 : 3)
+      .attr("r", d => d.Stock === selectedTicker ? 6 : 3)
       .attr("fill", d => SECTOR_COLORS[d.sector] || "gray")
-      .attr("stroke", d => d.label === selectedTicker ? "#000" : "none");
+      .attr("stroke", d => d.Stock === selectedTicker ? "#000" : "none");
 
-    const selected = data.find(d => d.label === selectedTicker);
+    const selected = data.find(d => d.Stock === selectedTicker);
     if (selected) {
       chartBody.append("text")
         .attr("x", xScale(selected.x) + 8)
         .attr("y", yScale(selected.y) - 8)
-        .text(selected.label)
+        .text(selected.Stock)
         .attr("font-size", "0.75rem")
         .attr("font-weight", "bold")
         .attr("fill", "#000");

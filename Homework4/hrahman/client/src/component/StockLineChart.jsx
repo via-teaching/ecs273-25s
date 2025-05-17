@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import Papa from "papaparse";
 
 export default function StockLineChart({ selectedTicker }) {
   const svgRef = useRef();
@@ -20,18 +19,16 @@ export default function StockLineChart({ selectedTicker }) {
   useEffect(() => {
     if (!selectedTicker) return;
 
-    fetch(`/data/stockdata/${selectedTicker}.csv`)
-      .then(res => res.text())
-      .then(csvText => {
-        Papa.parse(csvText, {
-          header: true,
-          dynamicTyping: true,
-          complete: (results) => {
-            const parsedData = results.data.filter(d => d.Date && d.Open);
-            parsedData.forEach(d => d.Date = new Date(d.Date));
-            setData(parsedData);
-          },
-        });
+    fetch(`http://localhost:8000/stock/${selectedTicker}`)
+      .then(res => res.json())
+      .then(json => {
+        const parsed = json.stock_series
+          .filter(d => d.date && d.Open !== undefined)
+          .map(d => ({
+            ...d,
+            Date: new Date(d.date)
+          }));
+        setData(parsed);
       });
   }, [selectedTicker]);
 
@@ -49,8 +46,7 @@ export default function StockLineChart({ selectedTicker }) {
     const chartWidth = fullWidth;
     const chartHeight = height - margin.top - margin.bottom;
 
-    const g = svg.append("g")
-      .attr("transform", `translate(0,${margin.top})`);
+    const g = svg.append("g").attr("transform", `translate(0,${margin.top})`);
 
     const xScale = d3.scaleTime()
       .domain(d3.extent(data, d => d.Date))
@@ -86,11 +82,11 @@ export default function StockLineChart({ selectedTicker }) {
       .style("font-size", "0.8rem");
 
     g.append("text")
-      .attr("x", (chartWidth - 1000) / 2)
+      .attr("x", chartWidth / 2)
       .attr("y", chartHeight + 40)
       .attr("text-anchor", "middle")
       .text("Date")
-      .style("font-size", "0.8rem");    
+      .style("font-size", "0.8rem");
 
     const chartBody = g.append("g").attr("class", "chart-body");
 
@@ -143,6 +139,7 @@ export default function StockLineChart({ selectedTicker }) {
 
   return (
     <div className="relative w-full">
+      {/* Legend */}
       <div className="absolute top-2 right-40 z-50 bg-white/90 backdrop-blur p-2 rounded shadow text-sm flex flex-row items-center gap-4">
         {lineTypes.map(type => (
           <div key={type} className="flex items-center gap-2">
@@ -152,12 +149,14 @@ export default function StockLineChart({ selectedTicker }) {
         ))}
       </div>
 
+      {/* Zoom Buttons */}
       <div className="absolute top-2 right-2 z-50 bg-white/90 backdrop-blur-sm flex items-center gap-2 p-1 rounded shadow-md">
         <button onClick={() => handleZoom(1.2)} className="px-2 py-1 bg-indigo-500 hover:bg-indigo-600 text-white rounded">+</button>
         <button onClick={() => handleZoom(0.8)} className="px-2 py-1 bg-indigo-500 hover:bg-indigo-600 text-white rounded">−</button>
         <button onClick={handleReset} className="px-2 py-1 bg-gray-700 hover:bg-gray-800 text-white rounded">Reset</button>
       </div>
 
+      {/* Chart Area */}
       <div className="flex w-full">
         <svg ref={yAxisRef} width={60} height={300} />
         <div className="overflow-x-auto w-full">
