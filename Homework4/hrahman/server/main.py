@@ -5,7 +5,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi import HTTPException
 
 from data_scheme import StockListModel, StockModelV2, StockNewsModel, tsneDataModel, StockModelUnit
-from bson import ObjectId
 
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.stock_hrahman
@@ -51,7 +50,6 @@ async def get_stock(stock_name: str):
             Close=doc["Close"]
         ) for doc in docs]
     return { "name": stock_name, "stock_series": stock_series }
-
 
 @app.get("/stocknews/", response_model=list[StockNewsModel])
 async def get_stock_news(stock_name: str = 'XOM'):

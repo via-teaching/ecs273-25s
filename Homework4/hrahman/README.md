@@ -59,3 +59,9 @@ cd ../client # If currently you are in the server folder
 npm install
 npm run dev
 ```
+
+## Dashboard
+
+> Though the website is responsive, it looks best at 80% zoom level!
+
+![alt text](./client/public/image.png)

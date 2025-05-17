@@ -1,7 +1,6 @@
 from typing import Optional, List, Annotated
 from pydantic import BaseModel
 from pydantic.functional_validators import BeforeValidator
-from bson import ObjectId
 
 # Represents an ObjectId field in the database.
 # It will be represented as a `str` on the model so that it can be serialized to JSON.
