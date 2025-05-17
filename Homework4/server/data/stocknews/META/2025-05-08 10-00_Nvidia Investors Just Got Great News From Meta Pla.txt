@@ -1,0 +1,58 @@
+Title: Nvidia Investors Just Got Great News From Meta Platforms
+Date: 2025-05-08 10:00
+URL: https://www.fool.com/investing/2025/05/08/nvidia-investors-just-got-great-news-from-meta-pla/?.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Good news has been in short supply for Nvidia (NVDA 0.28%) investors this year. Shares of the technology giant are down 15% in 2025 as of this writing, despite solid earnings results released in February that not only beat the market's expectations but also pointed toward a bright future.
+Nvidia's pullback is a result of factors outside of the company's control. The potential fallout of President Trump's new tariffs along with the export controls on sales of the company's chips have dented investor confidence in the stock. Additionally, Wall Street is concerned about a potential drop in the pace of spending on artificial intelligence (AI) hardware.
+However, a closer look at the recent developments in the AI space suggests that the drop in Nvidia stock this year doesn't seem justified. Meta Platforms (META 0.16%), which is among Nvidia's major customers, recently released its quarterly results, which hint at better times for the chipmaker.
+Image source: Getty Images.
+Meta Platforms released its first-quarter results on April 30. The social media giant blew past consensus estimates as its AI-focused spending helped it win a bigger share of advertisers' wallets and led to an increase in user engagement across its family of applications. Meta management points out that the adoption of its AI-enabled ad tools is increasing thanks to improved audience targeting and higher conversion rates.
+Even better, Meta says AI has the potential to increase productivity within the advertising industry. As a result, CEO Mark Zuckerberg believes that "the increased productivity from AI will make advertising a meaningfully larger share of global GDP than it is today." What's more, management sees a significant jump in generative AI revenue over the next decade.
+As reported by TechCrunch, Meta estimates its generative AI revenue could land between $460 billion and $1.4 trillion in 2035. That would mark a massive jump over the $2 billion to $3 billion in revenue the company is expecting from this technology in 2025. Considering that Meta has generated $170 billion in trailing-12-month revenue, the potential opportunity outlined above suggests it could witness a remarkable increase of its top line over the next 10 years.
+All this explains why Meta has decided to further increase its capital spending this year. Management now expects the company's 2025 capital expenditures (capex) to land between $64 billion and $72 billion. It was earlier projecting $60 billion to $65 billion in capital spending for 2025. Meta's updated capex guidance points toward a 73% increase in spending compared to 2024.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 909% — a market-crushing outperformance compared to 162% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor.
+*Stock Advisor returns as of May 5, 2025
+Zuckerberg made it clear why the company is going to increase its capex on the latest earnings call, saying, "This updated outlook reflects additional data center investments to support our AI efforts as well as an increase in the expected cost of infrastructure hardware."
+This statement is significant for two reasons.
+First, Meta is going to keep investing in AI hardware thanks to the gains that this technology is bringing to advertisers, which is why they're willing to spend more money across its family of apps. For instance, Meta's average price per ad increased 10% year over year, outpacing the 6% growth it recorded in the year-ago period.
+Second, Meta plans to keep buying AI hardware despite a potential increase in infrastructure costs, which can be attributed to the uncertainty created by the tariff war. This is an indication that any potential increase in the costs of buying AI hardware should be offset by the gains that this technology is expected to deliver. Meta seems willing to spend more money to buy Nvidia chips even if they become more expensive due to new tariffs.
+Meta isn't the only one that's going to spend big bucks on AI infrastructure. Alphabet also reiterated its $75 billion capex forecast for the current year, while Microsoft is going to increase its outlay in fiscal 2026. Meanwhile, huge AI infrastructure projects such as Stargate, which could see investments worth a whopping $500 billion over the next four years, are also underway.
+The deployment of Nvidia's chips as part of the Stargate project has already begun. The company could win big from the massive amount of money that's going to be spent under this program. Moreover, Nvidia's foundry partner Taiwan Semiconductor Manufacturing has also indicated that the demand for AI chips is set to remain solid in 2025, with revenue from this category expected to double.
+Nvidia appears to have all of the ingredients it needs to deliver another solid quarter of results on May 28, which should help investors regain their confidence in this AI stock. With that in mind, savvy investors can start picking up shares before the upcoming earnings report as the stock trades at an attractive 26 times forward earnings estimates.
+Ever feel like you missed the boat in buying the most successful stocks? Then you’ll want to hear this.
+On rare occasions, our expert team of analysts issues a “Double Down” stock recommendation for companies that they think are about to pop. If you’re worried you’ve already missed your chance to invest, now is the best time to buy before it’s too late. And the numbers speak for themselves:
+Right now, we’re issuing “Double Down” alerts for three incredible companies, and there may not be another chance like this anytime soon.
+Learn more ›
+*Stock Advisor returns as of 05/08/2025
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool’s board of directors. Randi Zuckerberg, a former director of market development and spokeswoman for Facebook and sister to Meta Platforms CEO Mark Zuckerberg, is a member of The Motley Fool's board of directors. Harsh Chauhan has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Alphabet, Meta Platforms, Microsoft, Nvidia, and Taiwan Semiconductor Manufacturing. The Motley Fool recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.
+This tech could reach $80 trillion. Imagine a technology worth over 30 Nvidias.
+What in the world could be worth 30 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Motley Fool Returns
+Market-beating stocks from our flagship service.
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 05/08/2025.
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+Calculated by Time-Weighted Return since 2002. Volatility profiles based on trailing-three-year calculations of the standard deviation of service investment returns.
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends

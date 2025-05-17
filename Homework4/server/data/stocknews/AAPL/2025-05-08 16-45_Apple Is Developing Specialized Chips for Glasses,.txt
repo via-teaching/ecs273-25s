@@ -1,0 +1,103 @@
+Title: Apple Is Developing Specialized Chips for Glasses, New Macs and AI Servers
+Date: 2025-05-08 16:45
+URL: https://finance.yahoo.com/news/apple-developing-specialized-chips-glasses-164500707.html?.tsrc=rss
+
+Oops, something went wrong
+Tip: Try a valid symbol or a specific company name for relevant results
+Oops, something went wrong
+Why investors are still bullish on America, trade war and all
+Your employer's most popular retirement option just topped $4 trillion
+Americans haven't had this little faith in finding a new job since 2021
+Stocks jump on trade optimism as Trump says 'buy stock now'
+Bitcoin tops $100,000 for first time since February after Coinbase, tariff deals
+Dow jumps 500 points, Nasdaq rises nearly 2% as Trump announces UK trade deal, touts China talks
+Trump just announced his first deal since launching a global trade war. Here's what's in it.
+Trump unveiled the initial details of what he called a 'great' trade deal with the UK. Follow our live blog.
+President Trump is set to unveil the details of what he calls a ‘major’ trade deal with the UK. Watch here.
+Nasdaq leads stock jump with Trump set to unveil 'major' US-UK trade deal
+President Trump took aim at Powell after the Fed held rates steady, calling him a 'FOOL' who 'doesn't have a clue.'
+Trump says he'll announce a 'comprehensive' US-UK trade agreement on Thursday morning, with many more to follow
+The Fed will 'wait and see' whether something bad happens in the US economy
+People who have worked with Trump see method in his tariff madness
+'Authentically Disney and distinctly Emirati': Disney to expand into Middle East with new theme park in Abu Dhabi
+The Fed Chair said Trump has no impact on the central bank's work, and he isn't seeking a meeting with the president
+Dow leads stocks higher after Fed holds steady and Powell sticks to 'wait and see' mode
+Trump said he wouldn't lower sky-high US tariffs on China before the two countries kick off talks this weekend
+Fed Chair Jerome Powell is about to answer questions about interest rates and the economy. Watch here.
+Fed holds rates steady, defying Trump's call for cuts
+Strong jobs data may be masking other signs of weakness in the US economy
+Markets are cheering the start of US-China trade talks. But the 'big trade deal' is going to be a longer slog.
+Dow, S&P 500, Nasdaq rise with US-China trade talks, Fed rate decision in focus
+All eyes on Powell as Fed grapples with Trump tariff dilemma
+Disney delivers solid streaming results as domestic parks bounce back
+Fed's rate cuts, like Trump's tariffs, look to be on 90-day pause
+Dow, S&P 500, Nasdaq futures rise as US announces trade talks with China
+Some top investors at Milken miss the pre-Trump economy
+Private student loans could make a comeback under the GOP's new bill
+OpenAI's for-profit U-turn apparently isn't enough for Elon Musk
+Dow falls 400 points as stocks slide ahead of Fed decision with tariff fears back in focus
+Trump and Carney clash over Canada as 51st state while meeting for first time
+During a meeting with Canada's Carney, Trump put the onus on negotiating countries. 'We don't have to sign deals.'
+Tesla’s troubles in Europe are going from bad to worse
+Stocks slide as Fed meeting kicks off, tariff fears reemerge
+Stocks' best winning streak since 2004 hasn't 'alleviated' Wall Street's worries
+Big Tech earnings show why the hottest trade became the safest
+Bill Ackman has his sights set on being this generation's Warren Buffett. Here's how he could make it happen.
+Big tariffs on auto parts are now in effect. Here's how they work.
+One chart shows how Warren Buffett trounced the S&P 500 over 60 years
+Berkshire Hathaway stock drops more than 5% after board approves CEO Warren Buffett's successor
+Dow, S&P 500 snap historic run of gains as tariff risks return, Fed decision looms
+IRS lost 31% of tax auditors in DOGE downsizing, watchdog finds (Bloomberg)
+Trump is proposing to prevent Hollywood's 'very fast death' by using a familiar — yet unconventional — strategy.
+Netflix shares tumbled, leading a media stock decline after President Trump threatened 100% tariffs on foreign-made films.
+Dow, S&P 500, Nasdaq slide as tariff fears revive in run-up to Fed decision
+Buffett is stepping aside at Berkshire Hathaway. Here's what he thinks happens next.
+Fed and Powell face a tariff-related 'tug-of-war' between inflation and a slowdown — and Trump's push for rate cuts
+Buffett's Berkshire departure, Fed decision, and another rush of earnings: What to know this week
+Trade chaos is part of the plan for Trump, nightmare for Powell (Bloomberg)
+(Bloomberg) -- Apple Inc.’s silicon design group is working on new chips that will serve as the brains for future devices, including its first smart glasses, more powerful Macs and artificial intelligence servers.
+Most Read from Bloomberg
+Is Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?
+Vail to Borrow Muni Debt to Ease Ski Resort Town Housing Crunch
+As Trump Reshapes Housing Policy, Renters Face Rollback of Rights
+Iceland Plans for a More Volcanic Future
+NYC Warns of 17% Drop in Foreign Tourists Due to Trump Policies
+The company has made progress on the chip that it’s developing for smart glasses, according to people with knowledge of the matter. The move indicates that Apple is ramping up work on such a device, which would compete with the popular Ray-Ban spectacles offered by Meta Platforms Inc.
+The silicon team has become a critical piece of Apple’s product development engine in recent years, especially after it began replacing Intel Corp. processors with homegrown Mac chips in 2020. Other semiconductors in development will enable future Macs as well as AI servers that can power the Apple Intelligence platform, said the people, who asked not to be identified because the plans are private.
+A representative for Cupertino, California-based Apple declined to comment.
+The glasses processor is based on chips used in the Apple Watch that require less energy than the components in products like the iPhone, iPad and Mac. The chip has been customized to remove some parts in order to further improve power efficiency. The processor is also being designed to control the multiple cameras that are planned for the glasses.
+The company aims to begin mass production of the processor by the end of next year or in 2027, indicating that the glasses — if successful — are likely to come to market in roughly the next two years. As with Apple’s other major chips, partner Taiwan Semiconductor Manufacturing Co. will handle production.
+Apple has spent years trying to develop smart glasses — something lightweight that consumers can wear all day. The original idea was to use augmented reality, which superimposes media, notifications and apps over real-world views. But AR remains years away from being practical.
+In the meantime, Meta and others have had success with non-AR smart glasses, which can take pictures, play audio, make phone calls and let users talk to a voice assistant. Apple now looks to jump into that market as well — even while it continues to pursue the AR concept. The company held user studies with employees on the concept last year.
+Apple is working on both options under the code name N401, a recent shift from the prior internal nomenclature of N50. Tim Cook, the company’s chief executive officer, is determined to beat Meta in the glasses market, Bloomberg News has reported. But Meta is moving aggressively itself. The social networking giant is rolling out a premium model with a display later this year and plans its first true AR spectacles for 2027.
+Apple is currently exploring non-AR glasses that use cameras to scan the surrounding environment and rely on AI to assist users. That would make the device similar to the Meta product, though Apple is still figuring out the exact approach it wants to take. The iPhone maker also needs its own artificial intelligence technology to vastly improve before the company can roll out a compelling AI-centric device.
+The company also is spreading its bets. Apple has been working on adding cameras to its AirPods and smartwatches, aiming to turn those products into AI products well, Bloomberg News has reported. The company is developing a chip called Nevis for the camera-equipped Apple Watch and a component named Glennie for the similarly outfitted AirPods. Apple is aiming to have those chips ready by around 2027.
+Already, the iPhone has a feature called Visual Intelligence that can provide context for photos. For instance, customers can scan a music poster and have the event details added to their calendar.
+Beyond the semiconductors for smaller devices, Apple is working on several new Mac chips, including processors that will likely be known as the M6 (Komodo) and M7 (Borneo). There’s also another, more advanced Mac chip in development dubbed Sotra. The company is planning to bring the M5 processor to the iPad Pro and MacBook Pro as early as the end of this year.
+The AI server chips, meanwhile, would be the company’s first processors expressly made for that purpose. They will help process Apple Intelligence requests remotely and feed information to consumers’ devices. Today, Apple manages this task with the same chips it puts in high-end Macs, including the M2 Ultra. The Information reported that the AI server project would use a component developed with Broadcom Inc.
+The project, dubbed Baltra, is planned to be completed by 2027. As part of the effort, Apple is considering different types of chips, including ones that have double, quadruple or eight times the number of main processing and graphics cores as today’s M3 Ultra. The semiconductors would make Apple’s AI services faster and more powerful, potentially helping it catch up in an area where it’s struggled.
+The new semiconductors in development join a series of other initiatives in the works within Apple’s hardware technology groups, run by executive Johny Srouji. Following the release of the company’s first C1 modem chip in the iPhone 16e earlier this year, Apple is planning a pro-level C2 modem for next year’s high-end iPhones and an even higher-end C3 version for the year after, Bloomberg News has reported.
+The group is also in charge of underlying components for initiatives planned for even further in the future, including a sensor and chip system that can noninvasively measure a person’s glucose levels. The company aims to include the technology in a future version of the Apple Watch.
+Most Read from Bloomberg Businessweek
+US Border Towns Are Being Ravaged by Canada’s Furious Boycott
+Maybe AI Slop Is Killing the Internet, After All
+Pre-Tariff Car Buying Frenzy Leaves Americans With a Big Debt Problem
+Made-in-USA Wheelbarrows Promoted by Trump Are Now Made in China
+Inside the Dizzying Chaos of Running a Freight Business Under Trump
+©2025 Bloomberg L.P.
+Intel officially cut the suggested retail price of its 265K Arrow Lake desktop CPU.  The move makes the mid-range chip more competitive, although gaming performance remains an issue.  This could be a sign that Intel is getting more aggressive on pricing as it tries to regain market share.
+🔎 After-Market Activity: Shares of Lyft (LYFT), DraftKings (DKNG) and Pinterest (PINS) rose after the companies released results postmarket. Shares of Coinbase (COIN), Affirm (AFRM), Rocket Cos. (RKT) and Expedia (EXPE) fell after their reports.
+AMD stock whipsawed in early trading Wednesday as Wall Street tried to make sense of the company's future outlook.
+Apple "has incentive for Google to appear weaker in search," at least one analyst said Thursday, brushing off the sharp drop in Alphabet stock seen Wednesday.
+(Bloomberg) -- Coinbase Global Inc.’s first-quarter revenue jumped while profit declined as the largest US crypto exchange navigated the volatile price swings of the digital asset market. Most Read from BloombergIs Trump’s Plan to Reopen the Notorious Alcatraz Prison Realistic?Vail to Borrow Muni Debt to Ease Ski Resort Town Housing CrunchAs Trump Reshapes Housing Policy, Renters Face Rollback of RightsIceland Plans for a More Volcanic FutureNYC Warns of 17% Drop in Foreign Tourists Due to Trump
+Data center capital expenditures should push Nvidia's stock higher over the next few years.  You should keep a short list of stocks you'd scoop up during a market crash, so you're ready to act when it happens.  Two stocks at the top of my shopping list are Nvidia (NASDAQ: NVDA) and Taiwan Semiconductor Manufacturing (NYSE: TSM).
+We came across a bullish thesis on Nu Holdings Ltd. (NU) on Value Investing Subreddit Page by TyNads. In this article, we will summarize the bulls’ thesis on NU. Nu Holdings Ltd. (NU)’s share was trading at $12.45 as of May 2nd. NU’s trailing and forward P/E were 30.86 and 22.03 respectively according to Yahoo Finance. Nubank […]
+My wife and I are both 56. We have around $1.2 million saved – approximately $450,000 in company 401(k)s, $650,000 in a managed account, and approximately $70,000 in personal stocks. We also have approximately $22,000 in savings. Our home is worth $700,000 or more and we owe $197,000 with a 3.875% interest rate. Our advisor […] The post Ask an Advisor: We’re 56 With $1.2 Million in Investments and Savings. Can We Afford to Withdraw $60k-$80k Per Year in Retirement? appeared first on SmartReads b
+While I don't expect my daughter to become a stock-picking fanatic like me, I've enjoyed building a portfolio with her that is full of simple(ish) businesses that any elementary-aged kid might appreciate.  With tariff turbulence helping Union Pacific's price to tumble 22% from its highs, now looks like the perfect time to buy the steady stock.
+The vast majority of retirees work and save their entire adult lives in order to be able to slow down and enjoy their golden years. Unfortunately, many people fall behind and struggle to have enough...
+Tip: Try a valid symbol or a specific company name for relevant results
+Sign in to access your portfolio
+
+
+
+Try again.

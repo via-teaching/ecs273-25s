@@ -31,7 +31,7 @@ class StockModelUnit(BaseModel):
     """
     Model for stock data values
     """
-    date: str
+    Date: str
     Open: float
     High: float
     Low: float
