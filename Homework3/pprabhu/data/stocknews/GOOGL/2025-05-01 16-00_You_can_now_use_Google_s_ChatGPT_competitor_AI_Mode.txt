@@ -1,0 +1,32 @@
+You can now use Google's ChatGPT competitor AI Mode
+2025-05-01 16-00
+https://finance.yahoo.com/news/you-can-now-use-googles-chatgpt-competitor-ai-mode-160020957.html?.tsrc=rss
+Unlock stock picks and a broker-level newsfeed that powers Wall Street.
+Google (GOOG, GOOGL) is releasing its high-powered AI Mode to users across the US via its Labs testing service as it works to fight off challenges to its search throne from the likes of OpenAI and Perplexity, among others.
+The option, which users must opt into, appears below the search bar in Google Search alongside features like Images, Videos, and Shopping, is a kind of conversational AI more closely aligned with ChatGPT, Meta's (META) new Meta AI, and Google's own Gemini.
+The difference here is that because AI Mode is accessible directly from the Google Search page, it will appear in front of millions of users who already use Google as their regular search engine and, importantly, their browser homepage.
+"Really this lets you ask whatever's on your mind and have Google Search help you find helpful information," Google Search vice president of product Robby Stein explained.
+"It also allows you to ask follow-up questions, so you can have a back-and-forth. And it allows you to also use any modality. So you can use voice to talk to it, or you can take a photo and ask a question about that as well," Stein added.
+Google already offers generative AI via its AI Overviews, which appear above results in its standard Google Search option, but AI Mode strips out the company's traditional list of ranked blue links in responses, instead providing a variety of bullet-point lists and sidebars with links to the sites the service pulls information from.
+Like ChatGPT and Perplexity, however, AI Mode's design could prove problematic for publishers who rely on referral links from sites like Google Search to drive traffic to their sites.
+According to Stein, AI Mode pulls information together using Google Search's real-time systems and the company's Gemini models to provide users with answers to their queries. That means you can ask questions about your favorite TV shows, plan trips, or ask what the weather will be like over the weekend.
+AI Mode takes advantage of AI reasoning. Stein says this means when you ask a question, the AI model makes a plan to answer it, and then works through a series of ways to answer your query using things like the open web, Google's knowledge graph, and location data.
+"It makes this really powerful and rich and hopefully accurate response, because of all of the high-quality information systems that this is built on, which obviously Google search has been building up for 25 years now," Stein explained.
+Read more about Google's stock moves and today's market action.
+In addition to typing questions for AI Mode, you can also use voice and image search. And while asking a question is helpful, visual search is certainly more fun. You can point your phone at an object like a bookshelf and capture a shot of your books, then ask AI Mode what other books you might like based on your own.
+During my brief testing, I found AI Mode generally useful, but it did run into trouble answering questions from time to time, including queries about how to play certain video games. But it responded properly each time I reloaded my browser.
+Google is investing billions into its AI capabilities, and investors are keen to see it pay off. During the company's first quarter earnings call last week, CEO Sundar Pichai announced that 1.5 billion users access AI Overviews each month, though those generally appear when you perform a standard search.
+It will be especially interesting to see how AI Mode performs among users, considering it's a separate option from the general search panel, meaning people will have to deliberately access the service.
+Email Daniel Howley at dhowley@yahoofinance.com. Follow him on Twitter at @DanielHowley.
+Click here for the latest technology news that will impact the stock market
+Read the latest financial and business news from Yahoo Finance
+Investors need to pay close attention to ALC stock based on the movements in the options market lately.
+The tech giant has been in discussions with Musk's AI startup xAI in recent weeks to host the Grok model and make it available to customers, as well as Microsoft's own product teams through its Azure cloud service, the report said.  Grok will be available on Azure AI Foundry, Microsoft's platform for developers that provides access to AI tools and models that help them host, run and manage AI-driven applications, according to the report.  Microsoft and xAI did not immediately respond to Reuters' requests for a comment.
+This adds to Uber's growing list of partners for self-driving taxi deployment as it competes with Lyft and EV-maker Tesla in the robotaxi market.  The U.S. federal government is facilitating the deployment of autonomous vehicles by expanding exemptions from certain safety requirements while maintaining mandatory incident reporting.  May Mobility's robotaxis will initially operate with safety drivers before transitioning to fully autonomous operations.
+With President-elect Donald Trump’s historic and unprecedented win in the 2024 presidential election, it’s safe to say America will undergo a number of significant policy changes when his term begins in 2025. One issue that seems to be of high concern to many voters? Grocery prices, and the inflation that drives them.
+Millions of Americans got a Social Security bump thanks to the Social Security Fairness Act, which then-President Joe Biden signed into law in January. Beneficiaries affected by the Windfall...
+Former White House communications director and current investor, Anthony Scaramucci's forgotten investment in Microsoft Corporation (NASDAQ:MSFT) stock for his newborn son turned into a powerful lesson on the rewards of long-term investing. What ...
+Learn about the rights, responsibilities, and requirements of being a cosigner for a loan.
+Bankrate’s Greg McBride and others weigh in on what to expect for mortgage rates in March 2025 and beyond.
+When investing in crypto, it helps to look at the top performers to get a sense of what’s going on in the market.
+What to do when you’re sued for credit card debt, including how to settle credit card debt before going to court.

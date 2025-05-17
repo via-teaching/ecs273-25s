@@ -1,0 +1,50 @@
+4 PFA studies in the spotlight at Heart Rhythm 2025
+2025-04-29 15-10
+https://www.medtechdive.com/news/HRS-PFA-studies-Boston-Scientific-Abbott-Medtronic-JNJ/746659/?.tsrc=rss
+Let MedTech Dive’s free newsletter keep you informed, straight from your inbox.
+                    
+                
+            
+
+Boston Scientific, Medtronic, Abbott and J&J unveiled new data for their PFA devices in tandem with the Heart Rhythm Society’s annual meeting.
+Since its U.S. debut more than a year ago, pulsed field ablation continues to gain converts at a fast pace, with devices from Boston Scientific and Medtronic leading the way.
+The procedure is becoming physicians’ preferred ablation method for treating atrial fibrillation, an irregular rhythm that can lead to complications such as blood clots, stroke and heart failure. PFA delivers electrical pulses to targeted areas of the heart causing abnormal rhythms, offering a potentially safer approach than older treatments that use heat or extreme cold to ablate the tissue.
+In connection with the Heart Rhythm Society’s 2025 meeting in San Diego, which wrapped this weekend, Boston Scientific, Medtronic, Abbott and Johnson & Johnson all unveiled data supporting their devices.
+Truist analysts, in a note to clients Sunday, said physicians they spoke with at the event reported that the more efficient PFA procedures were allowing their institutions to perform at least 20% to 30% more cases.
+Below are updates from presentations on four clinical trials:
+Boston Scientific said the second phase of its Advantage AF trial for the Farapulse PFA system and Farapoint PFA catheter to treat patients with persistent atrial fibrillation, a rapid heartbeat lasting at least seven days, met all safety and effectiveness goals at one year.
+The study found 73.4% of patients were free from AFib, atrial flutter and atrial tachycardia, exceeding the goal of 40% or higher. The safety event rate of 2.4% met the goal of 12% or lower. In addition, 96.4% of patients treated with the Farapoint catheter had no recurrence of atrial flutter.
+Boston Scientific expects Food and Drug Administration approval for an expanded indication for Farapulse to include persistent AFib and European and U.S. regulatory approvals for Farapoint in the second half of this year.
+In the single-arm trial, 255 patients at 29 U.S. sites were treated with the Farawave PFA catheter. Of those, 141 patients also received cavotricuspid isthmus ablation with the Farapoint PFA catheter to treat atrial flutter.
+Patients were continuously monitored after their procedures with an insertable cardiac monitor designed to detect recurrence of cardiac arrhythmias.
+Keep up with the story. Subscribe to the MedTech Dive free daily newsletter
+BTIG analyst Marie Thibault said Boston Scientific is staying a step ahead of the competition in PFA. “We think these new technologies will gain some market share while helping sustain accelerated Electrophysiology (EP) market growth,” Thibault wrote in a note to clients Sunday.
+The trial results were published in the medical journal Circulation.
+Abbott said its CE Mark study for the Volt PFA system showed strong safety and efficacy, sustaining early results at one year. 
+The study of 150 patients at 11 European sites assessed the system in paroxysmal AFib, which comes and goes, and persistent AFib. It found that 83.5% of paroxysmal patients and 58.1% of persistent patients remained free from atrial arrhythmia. After 12 months, 2.7% of Volt patients had experienced a primary safety endpoint event.
+Abbott received Europe’s CE mark for Volt in March. Unlike Boston Scientific, Medtronic and J&J, the company does not yet have a PFA system on the U.S. market.
+“Our goal from the beginning with the Volt PFA System was to design a PFA system that would provide outstanding results in patients battling a range of atrial arrhythmias, and the latest data from the Volt CE Mark Study is confirmation that the system will truly impact patient care in a positive way,” Christopher Piorkowski, chief medical officer of Abbott’s electrophysiology business, said in a statement.
+Abbott anticipates FDA approval for Volt in 2026.
+“We think [Abbott’s] mapping market share, open architecture, and clinical results for Volt combine to make it a promising competitor in the PFA field,” said BTIG’s Thibault.
+Abbott published results of the Volt trial in Heart Rhythm, the official journal of the HRS.
+Medtronic said one-year results for its next-generation Sphere-360 device, a single-shot PFA mapping and ablation catheter, to treat paroxysmal AFib showed freedom from arrhythmia recurrence in 88% of patients at one year.
+The single-arm, multi-center trial performed in European centers also demonstrated durable pulmonary vein isolation in 98% of targeted veins and no reported safety events in a subgroup treated with the most optimized waveform.
+“The study results showed Sphere-360 has a promising safety and performance profile with zero serious adverse events observed,” Vivek Reddy, director of cardiac arrhythmia services for the Mount Sinai Health System and paid Medtronic consultant, said in a statement. 
+The Sphere-360 catheter is integrated with the company’s Affera mapping and ablation system.
+Stifel analyst Rick Wise said physician acceptance of Affera will continue to position Medtronic for faster growth. “Throughout HRS, we continued to hear positive physician comments about Affera,” Wise wrote in a Sunday note.
+Medtronic plans to begin its U.S. pivotal trial for the Sphere-360 catheter later this year. The company also published the trial in Heart Rhythm.
+Johnson & Johnson reported initial three-month results from the Omny-IRE study of its investigational Omnypulse platform in patients with paroxysmal atrial fibrillation.
+The 12-month multi-center, non-randomized trial is evaluating the safety and effectiveness of the Omnypulse platform for mapping and treatment of paroxysmal AFib in standard ablation procedures. The platform consists of the Omnypulse focal PFA catheter and the Trupulse generator and is integrated with the Carto 3 mapping system.
+J&J said the data demonstrated 100% acute pulmonary vein isolation, with durable isolation in 84.5% of pulmonary veins at three-month remapping. The data showed a 3% primary adverse event rate, with 0.7% being potentially catheter-related.
+“The 3-month data provide encouraging early evidence of the OMNYPULSE Platform,” Mattias Duytschaever of the department of cardiology at the AZ Sint-Jan Brugge hospital in Belgium said in a statement.
+The results were published in the journal JACC: Clinical Electrophysiology.
+In February, J&J resumed the use of its Varipulse PFA device in the U.S. after finding the technology works as intended. The company, which received U.S. approval for Varipulse in November, had paused cases in January to review safety risks.
+Get the free daily newsletter read by industry experts
+From the start, the DNA sequencing leader faced pressure to unwind its $8 billion acquisition of the cancer screening developer. As 2023 drew to a close, it has finally agreed.
+GE HealthCare, Johnson & Johnson and Danaher completed transactions this year. Baxter, 3M and Medtronic are now on deck.
+Subscribe to MedTech Dive for top news, trends & analysis
+Get the free daily newsletter read by industry experts
+From the start, the DNA sequencing leader faced pressure to unwind its $8 billion acquisition of the cancer screening developer. As 2023 drew to a close, it has finally agreed.
+GE HealthCare, Johnson & Johnson and Danaher completed transactions this year. Baxter, 3M and Medtronic are now on deck.
+The free newsletter covering the top industry headlines
+A 5-stage phaseout policy will require medical device manufacturers of new LDTs to achieve full compliance by 2028. Learn how to navigate the new LDT rule in this playbook.

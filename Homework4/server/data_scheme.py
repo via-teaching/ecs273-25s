@@ -14,19 +14,7 @@ class StockListModel(BaseModel):
     """
     _id: PyObjectId
     tickers: list[str]
-
-class StockModelV1(BaseModel):
-    """
-    Model for stock data values
-    """
-    _id: PyObjectId
-    name: str
-    date: list[str]
-    Open: list[float]
-    High: list[float]
-    Low: list[float]
-    Close: list[float]
-    
+ 
 class StockModelUnit(BaseModel):
     """
     Model for stock data values
@@ -46,21 +34,33 @@ class StockModelV2(BaseModel):
     stock_series: list[StockModelUnit]
     
 class StockNewsModel(BaseModel):
+    """
+    Model for stock news values
+    """
     _id: PyObjectId
     Stock: str
     Title: str
-    Date: str  
+    Date: str
+    URL: Optional[str] = None
     content: str
     
-class StockNewsModelList(BaseModel):
-    Stock: str
-    News: list[StockNewsModel]
+class StockNewsListModel(BaseModel):
+    """
+    Model for stock news list
+    """
+    articles: List[StockNewsModel]
+
+class TSNEDataPoint(BaseModel):
+    """
+    Model for t-SNE data points
+    """
+    stock: str
+    x: float
+    y: float
+    sector: str
 
 class tsneDataModel(BaseModel):
     """
-    Model for t-SNE data
+    Model for t-SNE data model
     """
-    _id: PyObjectId
-    Stock: str
-    x: float
-    y: float
+    data: List[TSNEDataPoint]

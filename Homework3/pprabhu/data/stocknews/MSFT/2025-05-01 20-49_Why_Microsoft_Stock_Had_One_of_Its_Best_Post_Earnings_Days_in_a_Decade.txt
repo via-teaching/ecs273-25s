@@ -1,0 +1,27 @@
+Why Microsoft Stock Had One of Its Best Post-Earnings Days in a Decade
+2025-05-01 20-49
+https://www.investopedia.com/why-microsoft-stock-had-one-of-its-best-post-earnings-days-in-a-decade-11726613?.tsrc=rss
+Colin is an Associate Editor focused on tech and financial news. He has more than three years of experience editing, proofreading, and fact-checking content on current financial events and politics. He received his M.A. in journalism from The New School and his B.A. in history and political science from McGill University.
+David Paul Morris / Bloomberg via Getty Images
+ Microsoft (MSFT) stock soared on Thursday after the tech giant’s quarterly results handily beat Wall Street estimates. 
+
+ Shares closed up 7.6% at $425.20, a jump that marks the stock’s second-best post-earnings performance in nearly 10 years. The last time Microsoft stock popped significantly more than that on earnings was in October 2015 when the company reported revenue from its nascent Azure cloud computing business had more than doubled from the prior year, and shares surged 10%.1
+
+ Wall Street on Thursday was cheering strong results in each of Microsoft’s major business lines. Sales at the company’s cloud computing unit rose 22% in constant currency (cc) terms to nearly $27 billion. Revenue at its productivity and business software unit also grew double digits, and even devices revenue—a soft spot for most tech companies of late—increased 3%.(cc)2
+
+ But it was the Azure business, Microsoft's cloud computing and AI platform, that really excited Wall Street. Azure growth accelerated to 35% (cc) in the quarter, well ahead of analysts' forecasts. CFO Amy Hood on Wednesday's earnings call noted that, despite recent economic uncertainty, AI demand continued to grow faster than Microsoft's supply.
+
+ Hood's warning helped to assuage some fear on Wall Street that macroeconomic headwinds would stunt AI growth. The AI stocks that tumbled from their record highs earlier this year—like chipmaker Nvidia (NVDA) and nuclear power providers Constellation Energy (CEG) and Vistra (VST)—led Thursday's rally.
+
+ Analysts at BMO raised their price target to $485 on Thursday morning, citing “improved Azure growth.”3 
+
+ Bank of America Securities analysts noted Microsoft’s partnership with OpenAI was a major driver behind the Azure beat, “which should allay fears that the partnership has frayed a bit.” The firm raised its price target on the stock by 7% to $515, and reiterated its “top pick” call.4
+
+ “We remain confident that MSFT's revenue growth opportunities over the medium-term and beyond are greater than many realize, and we continue to be very bullish on its tangible GenAI adoption and monetization levers,” Mizuho Americas analysts wrote on Thursday as they raised their price target to $500.5
+
+Microsoft. “Earnings Release FY16 Q1.”
+Microsoft. "Earnings Release FY25 Q3."
+BMO Securities. "BMO Research Today - May 1, 2025."
+Bank of America Securities. “Microsoft Corp. - Return on Capex and AI Product Adoption Drive Q3 Strength; Reiterate Buy, Top Pick.”
+Mizuho Americas. "Microsoft Corp. - Robust Azure Growth & Outlook Despite Macro; Reiterate Outperform, Raise PT
+to $500."
