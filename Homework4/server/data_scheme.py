@@ -1,5 +1,6 @@
+import datetime
 from typing import Optional, List, Annotated
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from pydantic.functional_validators import BeforeValidator
 from bson import ObjectId
 
@@ -12,14 +13,14 @@ class StockListModel(BaseModel):
     """
     Model for stock list
     """
-    _id: PyObjectId
+    _id: str #PyObjectId
     tickers: list[str]
 
 class StockModelV1(BaseModel):
     """
     Model for stock data values
     """
-    _id: PyObjectId
+    _id: str #PyObjectId
     name: str
     date: list[str]
     Open: list[float]
@@ -41,18 +42,27 @@ class StockModelV2(BaseModel):
     """
     Model for stock data values
     """
-    _id: PyObjectId
+    _id: str #PyObjectId
     name: str
     stock_series: list[StockModelUnit]
     
 class StockNewsModel(BaseModel):
-    _id: PyObjectId
+    id: str #PyObjectId 
     Stock: str
     Title: str
-    Date: str  
+    Date: datetime  # <- Use datetime, not str
     content: str
+
+    class Config:
+        allow_population_by_field_name = True
+        arbitrary_types_allowed = True
+        json_encoders = {
+            ObjectId: str,
+            datetime: lambda dt: dt.isoformat()
+        }
     
 class StockNewsModelList(BaseModel):
+    id: str
     Stock: str
     News: list[StockNewsModel]
 
@@ -60,7 +70,7 @@ class tsneDataModel(BaseModel):
     """
     Model for t-SNE data
     """
-    _id: PyObjectId
+    _id: str #PyObjectId
     Stock: str
     x: float
     y: float
