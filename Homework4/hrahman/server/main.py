@@ -4,7 +4,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import HTTPException
 
-from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel, StockModelUnit
+from data_scheme import StockListModel, StockModelV2, StockNewsModel, tsneDataModel, StockModelUnit
 from bson import ObjectId
 
 client = AsyncIOMotorClient("mongodb://localhost:27017")
@@ -35,12 +35,13 @@ async def get_stock_list():
 
 @app.get("/stock/{stock_name}", response_model=StockModelV2)
 async def get_stock(stock_name: str):
+    """
+    Get stock prices data
+    """
     collection = db.get_collection("price_data")
     docs = await collection.find({"name": stock_name}).to_list(length=None)
-
     if not docs:
         raise HTTPException(status_code=404, detail=f"Stock '{stock_name}' not found")
-
     stock_series = [
         StockModelUnit(
             date=doc["Date"],
@@ -48,10 +49,7 @@ async def get_stock(stock_name: str):
             High=doc["High"],
             Low=doc["Low"],
             Close=doc["Close"]
-        )
-        for doc in docs
-    ]
-
+        ) for doc in docs]
     return { "name": stock_name, "stock_series": stock_series }
 
 
@@ -75,36 +73,3 @@ async def get_tsne():
     for r in results:
         r["_id"] = str(r["_id"])
     return results
-
-# @app.get("/stock_list", response_model=StockListModel)
-# async def get_stock_list():
-#     """
-#     Get the list of stocks from the database
-#     """
-#     stock_name_collection = db.get_collection("stock_list")
-#     stock_list = await stock_name_collection.find_one()
-#     return stock_list
-
-# @app.get("/stocknews/", response_model=StockNewsModel)
-# async def get_stock_news(stock_name: str = 'XOM') -> StockNewsModel:
-#     """
-#     Get the list of news for a specific stock from the database
-#     The news is sorted by date in ascending order
-#     """
-#     return [] # replace with your code to get the news from the database
-
-# @app.get("/stock/{stock_name}", response_model=StockModelV2)
-# async def get_stock() -> StockModelV2:
-#     """
-#     Get the stock data for a specific stock
-#     Parameters:
-#     - stock_name: The name of the stock
-#     """
-#     return [] # replace with your code to get the news from the database
-
-# @app.get("/tsne/",response_model=tsneDataModel)
-# async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
-#     """
-#     Get the t-SNE data for a specific stock
-#     """
-#     return [] # replace with your code to get the news from the database
