@@ -55,10 +55,10 @@ async def get_stock_news(stock_name: str = 'XOM') -> StockNewsListModel:
     
     return StockNewsListModel(articles=news_articles)
 
-@app.get("/stock/{stock_name}", 
+@app.get("/stock/", 
         response_model=StockModelV2
     )
-async def get_stock(stock_name: str) -> StockModelV2:
+async def get_stock(stock_name: str = 'XOM') -> StockModelV2:
     """
     Get the stock data for a specific stock
     Parameters:
@@ -75,7 +75,7 @@ async def get_stock(stock_name: str) -> StockModelV2:
 @app.get("/tsne/",
         response_model=tsneDataModel
     )
-async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
+async def get_tsne() -> tsneDataModel:
     """
     Get the t-SNE data for a specific stock
     """

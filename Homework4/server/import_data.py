@@ -73,7 +73,7 @@ async def import_news_data():
         
         for file_name in news_files:
             article_id = f"{ticker}-{file_name.replace('.txt', '')}"
-            # If the article already exists, skip it
+
             if await news_collection.count_documents({"_id": article_id}) > 0:
                 continue
                 
@@ -82,7 +82,6 @@ async def import_news_data():
                 with open(file_path, 'r', encoding='utf-8') as file:
                     lines = file.readlines()
                     
-                    # Parse the news article format
                     if len(lines) >= 3:
                         title = lines[0].strip()
                         date = lines[1].strip()
@@ -97,9 +96,7 @@ async def import_news_data():
                             "URL": url,
                             "content": content
                         })
-                        
-                #print(f"Imported news: {file_name} for {ticker}")
-                        
+                                                
             except Exception as e:
                 print(f"Error #4 in import_data. {file_name} for {ticker}: {e}")
         print(f"News data for {ticker} imported in mongoDB")

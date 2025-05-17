@@ -34,7 +34,7 @@ export default function StockLineChart({ selectedStock }: StockLineChartInterfac
     async function fetchData() {
       try {
         // Fetch data from API
-        const response = await fetch(`http://localhost:8000/stock/${selectedStock}`);
+        const response = await fetch(`http://localhost:8000/stock/?stock_name=${selectedStock}`);
         if (!response.ok) {
           throw new Error(`Error fetching data from API for StockLineChart: ${response.status}`);
         }

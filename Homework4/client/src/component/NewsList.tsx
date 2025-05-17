@@ -23,6 +23,27 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
     const [expandedItemId, setExpandedItemId] = useState<string | null>(null);
     const containerRef = useRef<HTMLDivElement | null>(null);
 
+    console.log("Expanded ID:", expandedItemId);
+    console.log("News Items:", newsItems);
+
+    // Function to format date strings better
+    const formatDate = (dateStr: string): string => {
+        try {
+            const dateMatch = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})(?: (\d{2})-(\d{2}))?$/); 
+            if (dateMatch) {
+                const [_, year, month, day, hour, minute] = dateMatch;
+                const formattedDate = `${month}/${day}/${year}`; 
+                if (hour && minute) {
+                    return `${formattedDate} ${hour}:${minute}`;
+                }
+                return formattedDate;
+            }
+            return dateStr;
+        } catch (e) {
+            return dateStr;
+        }
+    };
+
     useEffect(() => {
         const loadNewsForStock = async (stockSymbol: string) => {
             try {
@@ -33,7 +54,13 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
                 }
                 
                 const newsData = await response.json();
-                setNewsItems(newsData.articles || []);
+                const articlesWithIds = (newsData.articles || []).map((article: NewsArticle, index: number) => ({
+                    ...article,
+                    _id: article._id || `${stockSymbol}-${index}`
+                }));
+                
+                setNewsItems(articlesWithIds);
+                setExpandedItemId(null);
             }
             catch (error) {
                 console.error(`Error loading news for ${stockSymbol}:`, error);
@@ -75,7 +102,7 @@ export default function NewsList({ selectedStock }: NewsListInterface) {
                                     className="cursor-pointer hover:bg-gray-50 p-4 transition-colors"
                                 >
                                     <h4 className="font-medium text-gray-800">{item.Title}</h4>
-                                    <p className="text-sm text-gray-500 mt-1">{item.Date}</p>
+                                    <p className="text-sm text-gray-500 mt-1">{formatDate(item.Date)}</p>
 
                                     {expandedItemId === item._id && (
                                         <div className="mt-3 pt-3 border-t border-gray-200">
