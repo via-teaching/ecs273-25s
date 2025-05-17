@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import RenderOptions from "./component/options";
+import RenderOptions from "./component/Options";
 import StockLineChart from "./component/StockLineChart";
 import TSNEScatterPlot from "./component/TSNEScatterPlot";
 import StockNewsList from "./component/StockNewsList";
