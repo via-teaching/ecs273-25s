@@ -72,6 +72,8 @@ async def get_tsne():
     """
     tsne_collection = db.get_collection("tsne_data")
     results = await tsne_collection.find({}).to_list(length=None)
+    for r in results:
+        r["_id"] = str(r["_id"])
     return results
 
 # @app.get("/stock_list", response_model=StockListModel)

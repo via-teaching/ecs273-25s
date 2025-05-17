@@ -49,3 +49,5 @@ class tsneDataModel(BaseModel):
     Stock: str
     x: float
     y: float
+    sector: str
+    color: str

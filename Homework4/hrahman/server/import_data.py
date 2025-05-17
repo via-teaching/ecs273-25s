@@ -13,6 +13,25 @@ tickers = [ 'XOM', 'CVX', 'HAL',
             'JPM', 'GS', 'BAC',
             'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META']
 
+SECTOR_COLORS = {
+    "Energy": "#1f77b4",
+    "Industrials": "#ff7f0e",
+    "Staples": "#2ca02c",
+    "Healthcare": "#d62728",
+    "Financials": "#9467bd",
+    "Tech": "#8c564b"
+}
+
+ticker_to_sector = {
+    'XOM': "Energy", 'CVX': "Energy", 'HAL': "Energy",
+    'MMM': "Industrials", 'CAT': "Industrials", 'DAL': "Industrials",
+    'MCD': "Staples", 'NKE': "Staples", 'KO': "Staples",
+    'JNJ': "Healthcare", 'PFE': "Healthcare", 'UNH': "Healthcare",
+    'JPM': "Financials", 'GS': "Financials", 'BAC': "Financials",
+    'AAPL': "Tech", 'MSFT': "Tech",
+    'NVDA': "Tech", 'GOOGL': "Tech", 'META': "Tech"
+}
+
 async def import_tickers_to_mongodb():
     stock_name_collection = db.get_collection("stock_list")
     await stock_name_collection.delete_many({})
@@ -69,10 +88,15 @@ async def import_tsne_data():
     await tsne_coll.delete_many({})
     df = pd.read_csv("./data/tsne.csv")
     for _, row in df.iterrows():
+        stock = row['label']
+        sector = ticker_to_sector.get(stock)
+        color = SECTOR_COLORS.get(sector, "#888")
         await tsne_coll.insert_one({
-            "Stock": row['label'],
+            "Stock": stock,
             "x": float(row['x']),
-            "y": float(row['y'])
+            "y": float(row['y']),
+            "sector": sector,
+            "color": color
         })
 
 async def main():

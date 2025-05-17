@@ -1,25 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
-const ticker_to_sector = {
-  'XOM': "Energy", 'CVX': "Energy", 'HAL': "Energy",
-  'MMM': "Industrials", 'CAT': "Industrials", 'DAL': "Industrials",
-  'MCD': "Staples", 'NKE': "Staples", 'KO': "Staples",
-  'JNJ': "Healthcare", 'PFE': "Healthcare", 'UNH': "Healthcare",
-  'JPM': "Financials", 'GS': "Financials", 'BAC': "Financials",
-  'AAPL': "Tech", 'MSFT': "Tech",
-  'NVDA': "Tech", 'GOOGL': "Tech", 'META': "Tech"
-};
-
-const SECTOR_COLORS = {
-  "Energy": "#1f77b4",
-  "Industrials": "#ff7f0e",
-  "Staples": "#2ca02c",
-  "Healthcare": "#d62728",
-  "Financials": "#9467bd",
-  "Tech": "#8c564b"
-};
-
 export default function TSNEScatterPlot({ selectedTicker }) {
   const svgRef = useRef();
   const zoomRef = useRef();
@@ -29,11 +10,9 @@ export default function TSNEScatterPlot({ selectedTicker }) {
     fetch("http://localhost:8000/tsne/")
       .then(res => res.json())
       .then(raw => {
-        const cleaned = raw
-          .filter(d => d.Stock && d.x !== undefined && d.y !== undefined)
-          .map(d => ({...d,
-            sector: ticker_to_sector[d.Stock]
-          }));
+        const cleaned = raw.filter(d =>
+          d.Stock && d.x !== undefined && d.y !== undefined && d.color && d.sector
+        );
         setData(cleaned);
       });
   }, []);
@@ -100,7 +79,7 @@ export default function TSNEScatterPlot({ selectedTicker }) {
       .attr("cx", d => xScale(d.x))
       .attr("cy", d => yScale(d.y))
       .attr("r", d => d.Stock === selectedTicker ? 6 : 3)
-      .attr("fill", d => SECTOR_COLORS[d.sector] || "gray")
+      .attr("fill", d => d.color || "gray")
       .attr("stroke", d => d.Stock === selectedTicker ? "#000" : "none");
 
     const selected = data.find(d => d.Stock === selectedTicker);
@@ -143,20 +122,18 @@ export default function TSNEScatterPlot({ selectedTicker }) {
 
   return (
     <div className="relative w-full h-[500px]">
-      <div className="absolute top-3 right-3 z-10 flex flex-row items-start gap-6 bg-white/90 backdrop-blur-sm px-4 py-3 rounded-lg shadow text-sm">
-        <div className="max-w-[200px]">
-          <div className="font-semibold mb-2 text-sm">Sectors</div>
-          <div className="flex flex-col gap-2">
-            {Object.entries(SECTOR_COLORS).map(([sector, color]) => (
-              <div key={sector} className="flex items-center gap-3">
-                <div className="w-3.5 h-3.5 rounded" style={{ backgroundColor: color }}></div>
-                <span className="leading-tight">{sector}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
+      <div className="absolute top-3 right-3 z-10 flex flex-col gap-2 bg-white/90 backdrop-blur-sm px-4 py-3 rounded-lg shadow text-sm">
+        <div className="font-semibold mb-2 text-sm">Sectors</div>
+        {[...new Set(data.map(d => d.sector))].map((sector, i) => {
+          const color = data.find(d => d.sector === sector)?.color;
+          return (
+            <div key={i} className="flex items-center gap-3">
+              <div className="w-3.5 h-3.5 rounded" style={{ backgroundColor: color }}></div>
+              <span className="leading-tight">{sector}</span>
+            </div>
+          );
+        })}
+        <div className="flex gap-2 mt-2">
           <button onClick={() => handleZoom(1.2)} className="w-8 h-8 bg-indigo-500 hover:bg-indigo-600 text-white text-base font-bold rounded shadow">+</button>
           <button onClick={() => handleZoom(0.8)} className="w-8 h-8 bg-indigo-500 hover:bg-indigo-600 text-white text-base font-bold rounded shadow">−</button>
           <button onClick={() =>

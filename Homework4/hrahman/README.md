@@ -43,7 +43,7 @@ python import_data.py
 
 ### [4] API Server
 
-Finally, start your api server by,
+- Finally, start your api server by,
 
 ```shell
 uvicorn main:app --reload --port 8000
