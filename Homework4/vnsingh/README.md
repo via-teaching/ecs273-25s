@@ -19,3 +19,8 @@ python import_data.py
 
 uvicorn main:app --reload --port 8000
 
+cd ../client
+
+npm install
+
+npm run dev
