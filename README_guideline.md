@@ -74,7 +74,7 @@ npm run dev
 **4. Visit the frontend in your browser**
 Usually: http://localhost:5173
 
-## Any additional requirements / information
+## Any additional requirements / information (optional)
 This contains:
 - Additional code running for your data
-- 
+- Your folder structures
