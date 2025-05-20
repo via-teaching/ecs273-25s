@@ -20,17 +20,17 @@ class StockOHLC(BaseModel):
 class StockRecord(BaseModel):
     _id: PyObjectId
     ticker: str
-    sector: str
+    sector: Optional[str] = None
     prices: List[StockOHLC]
-    tsne: Dict[str, float]
+    tsne: Optional[Dict[str, float]] = None
 
 class StockListItem(BaseModel):
     """
     Model for stock list
     """
-    _id: PyObjectId
+    # _id: PyObjectId
     ticker: str
-    sector: str
+    sector: Optional[str] = None
 
 
 class StockListResponse(BaseModel):
