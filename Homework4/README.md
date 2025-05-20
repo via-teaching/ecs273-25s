@@ -6,9 +6,8 @@ This project was successfully tested and runs on Windows and VS Code.
 ## Server
 
 For the server part, make sure you have the respective packages installed. 
-First, move into the server folder with 'cd Homework4/server'
-
 ```
+cd .\Homework4\server\
 pip install -r requirements.txt
 ```
 
@@ -17,7 +16,7 @@ For example, for mongodb managed with homebrew, run:
 ```
 brew services start mongodb-community
 ```
-Or on Windows, run as administator:
+Or on Windows, open a new command prompt terminal as administator and just execute the single command:
 ```
 net start MongoDB
 ```
@@ -36,10 +35,10 @@ uvicorn main:app --reload --port 8000
 
 ## Client
 
-For the client part, it should mostly the same as your Homework 4. The only difference in this template is the data fetching part, as the example shown in `App.tsx`, that fetch the data for the drop-down menu with 20 different stocks. You can easily transfer that part into `js` version if needed.
+Same as Homework 3 code, but connected by the API and grabbing data from the Database
 
 ```
-cd Homework4/client
+cd .\Homework4\client\
 npm install
 npm run dev
 ```

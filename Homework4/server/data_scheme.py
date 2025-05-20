@@ -10,14 +10,16 @@ PyObjectId = Annotated[str, BeforeValidator(str)]
 
 class StockListModel(BaseModel):
     """
-    Model for stock list
+    Model for the collection of available stock tickers
+    Used to populate dropdown selections in the frontend
     """
     _id: PyObjectId
     tickers: list[str]
  
 class StockModelUnit(BaseModel):
     """
-    Model for stock data values
+    Model for a single day's stock trading data point
+    Contains Open-High-Low-Close price values
     """
     date: str
     Open: float
@@ -27,7 +29,7 @@ class StockModelUnit(BaseModel):
     
 class StockModelV2(BaseModel):
     """
-    Model for stock data values
+    Model for complete stock historical data for a single ticker
     """
     _id: PyObjectId
     name: str
@@ -35,7 +37,7 @@ class StockModelV2(BaseModel):
     
 class StockNewsModel(BaseModel):
     """
-    Model for stock news values
+    Model for stock news articles
     """
     _id: PyObjectId
     Stock: str
@@ -46,7 +48,7 @@ class StockNewsModel(BaseModel):
     
 class StockNewsListModel(BaseModel):
     """
-    Model for stock news list
+    Model for a list of stock news articles
     """
     articles: List[StockNewsModel]
 
