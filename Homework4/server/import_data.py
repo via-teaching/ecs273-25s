@@ -1,10 +1,7 @@
 import os
 import pandas as pd
-import json
 from motor.motor_asyncio import AsyncIOMotorClient
 import asyncio
-from datetime import datetime
-from bson import ObjectId
 
 # MongoDB connection (localhost, default port)
 client = AsyncIOMotorClient("mongodb://localhost:27017")
@@ -19,6 +16,7 @@ tickers = [ 'XOM', 'CVX', 'HAL',
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
+# Import list of tickers to mongodb
 async def import_tickers_to_mongodb():
     # Insert the tickers into the collection
     stock_name_collection = db.get_collection("stock_list")
@@ -28,7 +26,9 @@ async def import_tickers_to_mongodb():
     })
     print("Tickers inserted into MongoDB")
 
+# Import stock data to mongodb. Using array of records(objects) approach, where each record contains the date and corresponding values.
 async def import_stock_data():
+    # Get reference to the stock data collection in MongoDB
     stock_collection = db.get_collection("stock_data")
     
     for ticker in tickers:    
@@ -59,7 +59,9 @@ async def import_stock_data():
         except Exception as e:
             print(f"Error #2 in import_data. Error for {ticker}: {e}")
 
+# Import news articles to mongodb. All news articles are stored in a single collection, with each article having a unique ID.
 async def import_news_data():
+    # Get reference to the news collection in MongoDB. Storing all news articles in a single collection
     news_collection = db.get_collection("stock_news")
     await news_collection.create_index("Stock")
     
@@ -78,6 +80,7 @@ async def import_news_data():
                 continue
                 
             try:
+                # Open and read the news article file
                 file_path = os.path.join(news_dir, file_name)
                 with open(file_path, 'r', encoding='utf-8') as file:
                     lines = file.readlines()
@@ -101,7 +104,9 @@ async def import_news_data():
                 print(f"Error #4 in import_data. {file_name} for {ticker}: {e}")
         print(f"News data for {ticker} imported in mongoDB")
 
+# Import tsne data to mongodb
 async def import_tsne_data():
+    # Get reference to the tsne data collection in MongoDB
     tsne_collection = db.get_collection("tsne_data")
     
     try:

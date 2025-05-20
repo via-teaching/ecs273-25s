@@ -8,6 +8,7 @@ export default function App() {
   const [stockList, setStockList] = useState<string[]>([]);
   const [selectedStock, setSelectedStock] = useState<string>('XOM');
 
+  // Fetch the list of available stocks when component mounts
   useEffect(() => {
     fetch('http://localhost:8000/stock_list')
       .then(res => res.json())
@@ -19,6 +20,7 @@ export default function App() {
       });
   }, []);
 
+  // Handler for when user selects a different stock from dropdown
   const handleStockChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedStock(e.target.value);
   };
