@@ -5,7 +5,6 @@ from bson import ObjectId
 
 # Represents an ObjectId field in the database.
 # It will be represented as a `str` on the model so that it can be serialized to JSON.
-
 PyObjectId = Annotated[str, BeforeValidator(str)]
 
 class StockListModel(BaseModel):
@@ -50,6 +49,7 @@ class StockNewsModel(BaseModel):
     Stock: str
     Title: str
     Date: str  
+    URL: str 
     content: str
     
 class StockNewsModelList(BaseModel):
@@ -60,7 +60,7 @@ class tsneDataModel(BaseModel):
     """
     Model for t-SNE data
     """
-    _id: PyObjectId
-    Stock: str
-    x: float
-    y: float
+    Ticker: str
+    Dim1: float
+    Dim2: float
+    Category: str 
