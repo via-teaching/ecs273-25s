@@ -12,7 +12,7 @@ A README is a text file that introduces and explains a project. It contains info
 
 ## Setup Instruction
 
-This part should clearly describe how people can run your project from scratch. You should assume the users as who:
+This section is crucial. It should clearly describe how someone can run your project from scratch — assuming they:
 
 - Knows basics of web development
 - Can use the terminal command line
@@ -23,50 +23,66 @@ This part should clearly describe how people can run your project from scratch. 
 Thus, you should write your instructions as if someone not familiar with your code at all is reading it.
 
 This part should include installing dependencies, starting services and how to run the code (including backend and frontend).
-Please do not state something like "run the code" **without any command line instructions**. 
+Please do not state something like "run the code" **without any command line instructions**. Below is some example you can follow(modify according to your own structure).
 
 ### A backend instruction example:
 
 **1. Navigate to the backend folder**
+
 ```
 cd server
 ```
+
 **2. (Optional but recommended) Set up a Python virtual environment (or conda based on your preference)**
+
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 **3. Install required Python packages**
+
 ```
 pip install -r requirements.txt
 ```
 
 **4. Make sure MongoDB is running**
 If using Homebrew on macOS:
+
 ```
 brew services start mongodb-community
 ```
+
 **5. Import data into the database (if required)**
+
 ```
 python import_data.py
 ```
+
 **6. Run the FastAPI server**
+
 ```
 uvicorn main:app --reload --port 8000
 ```
+
 API Docs available at: http://localhost:8000/docs
 
 ### A frontend instruction example
+
 **1. Navigate to the frontend folder**
+
 ```
 cd client
 ```
+
 **2. Install required Node.js packages**
+
 ```
 npm install
 ```
+
 **3. Start the React development server**
+
 ```
 npm run dev
 ```
@@ -74,7 +90,11 @@ npm run dev
 **4. Visit the frontend in your browser**
 Usually: http://localhost:5173
 
-## Any additional requirements / information (optional)
-This contains:
-- Additional code running for your data
-- Your folder structures
+## Additional Notes (Optional)
+
+You may include:
+
+- Extra setup
+- How your folders are organized
+- Any known issues or limitations
+- Assumptions you made during implementation
