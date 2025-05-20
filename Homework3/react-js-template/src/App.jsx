@@ -14,7 +14,7 @@ function App() {
        {/*
         <label htmlFor="bar-select" className="mx-2">Select a category:
           <select id = 'bar-select' className="bg-white text-black p-2 rounded mx-2">
-              {RenderOptions()}
+              <RenderOptions />
           </select>
         </label>
         */}
