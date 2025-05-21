@@ -2,6 +2,8 @@ from typing import Optional, List, Annotated
 from pydantic import BaseModel
 from pydantic.functional_validators import BeforeValidator
 from bson import ObjectId
+from datetime import datetime
+
 
 # Represents an ObjectId field in the database.
 # It will be represented as a `str` on the model so that it can be serialized to JSON.
@@ -15,18 +17,33 @@ class StockListModel(BaseModel):
     _id: PyObjectId
     tickers: list[str]
 
+class PriceRecord(BaseModel):
+    Date: str
+    Open: float
+    High: float
+    Low: float
+    Close: float
+    Volume: int
+
 class StockModelV1(BaseModel):
-    """
-    Model for stock data values
-    """
     _id: PyObjectId
-    name: str
-    date: list[str]
-    Open: list[float]
-    High: list[float]
-    Low: list[float]
-    Close: list[float]
-    
+    Stock: str
+    TimeSeries: List[PriceRecord]  
+
+class NewsArticle(BaseModel):
+    _id: PyObjectId
+    Stock: str
+    Date: datetime
+    Title: str
+    Content: str
+
+class TSNEPoint(BaseModel):
+    _id: PyObjectId
+    Symbol: str
+    Sector: str
+    X: float
+    Y: float
+
 class StockModelUnit(BaseModel):
     """
     Model for stock data values
@@ -56,11 +73,11 @@ class StockNewsModelList(BaseModel):
     Stock: str
     News: list[StockNewsModel]
 
-class tsneDataModel(BaseModel):
-    """
-    Model for t-SNE data
-    """
+
+
+class TSNEPoint(BaseModel):
     _id: PyObjectId
-    Stock: str
-    x: float
-    y: float
+    Symbol: str
+    Sector: str
+    X: float
+    Y: float
