@@ -1,41 +1,25 @@
 {
-    "data":[
-        {
-            "value": 21,
-            "category": "a"
-        },
-        {
-            "value": 42,
-            "category": "b"
-        },
-        {
-            "value": 43,
-            "category": "c"
-        },
-        {
-            "value": 5,
-            "category": "d"
-        },
-        {
-            "value": 26,
-            "category": "e"
-        },
-        {
-            "value": 7,
-            "category": "f"
-        },
-        {
-            "value": 10,
-            "category": "l"
-        },
-        {
-            "value": 18,
-            "category": "s"
-        },
-        {
-            "value": 85,
-            "category": "x"
-        }
+    "data": [
+      { "ticker": "XOM", "value": 1 },
+      { "ticker": "CVX", "value": 1 },
+      { "ticker": "HAL", "value": 1 },
+      { "ticker": "MMM", "value": 1 },
+      { "ticker": "CAT", "value": 1 },
+      { "ticker": "DAL", "value": 1 },
+      { "ticker": "MCD", "value": 1 },
+      { "ticker": "NKE", "value": 1 },
+      { "ticker": "KO", "value": 1 },
+      { "ticker": "JNJ", "value": 1 },
+      { "ticker": "PFE", "value": 1 },
+      { "ticker": "UNH", "value": 1 },
+      { "ticker": "JPM", "value": 1 },
+      { "ticker": "GS", "value": 1 },
+      { "ticker": "BAC", "value": 1 },
+      { "ticker": "AAPL", "value": 1 },
+      { "ticker": "MSFT", "value": 1 },
+      { "ticker": "NVDA", "value": 1 },
+      { "ticker": "GOOGL", "value": 1 },
+      { "ticker": "META", "value": 1 }
     ]
-
-}
+  }
+  

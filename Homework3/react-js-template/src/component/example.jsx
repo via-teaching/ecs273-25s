@@ -35,7 +35,9 @@ export function BarChart() {
     }
 
     return () => resizeObserver.disconnect();
-  }, []);
+  }, [bars]);
+
+  
 
   return (
     <div className="chart-container d-flex" ref={containerRef} style={{ width: '100%', height: '100%' }}>
@@ -103,13 +105,13 @@ function drawChart(svgElement, bars, width, height, ) {
     const categorySelect = d3.select('#bar-select');
 
     // call it once initially
-    const initialSelected = categorySelect.property('value');
+    const initialSelected = categorySelect.property('ticker');
     highlightBar(initialSelected);
     
     // change when the select changes
     categorySelect
       .on('change', function(event) {
-        const selectedCategory = event.target.value;
+        const selectedCategory = event.target.ticker;
         highlightBar(selectedCategory);
 
       })

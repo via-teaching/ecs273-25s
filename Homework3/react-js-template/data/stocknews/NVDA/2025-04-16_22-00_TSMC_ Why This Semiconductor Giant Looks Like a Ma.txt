@@ -1,0 +1,52 @@
+Title: TSMC: Why This Semiconductor Giant Looks Like a Massive Bargain Right Now
+Date: 2025-04-16 22:00
+URL: https://www.fool.com/investing/2025/04/16/tsmc-why-this-semiconductor-giant-looks-like-a-mas/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=c092ea3b-2e16-4332-8c29-2bec7e17bcd5&.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+Taiwan Semiconductor Manufacturing(TSM-3.59%), popularly known as TSMC, is the world's largest semiconductor foundry, which fabricates chips for the top consumer electronics companies and chip designers across the globe. That explains why it has been growing at an impressive pace over the past couple of years.
+The world's leading companies, such asNvidia,AMD,Broadcom,Sony, andApple, tap TSMC's plants for manufacturing chips that power personal computers (PCs), smartphones, data centers, and gaming consoles, among others. As a result, TSMC is in a solid position to benefit from the secular growth of the global semiconductor market, which is expected to hit $2 trillion in annual revenue in 2032.
+That would be more than triple the $656 billion in revenue that the semiconductor industry generated last year. However,TSMC stockhas been caught in the tariff turmoil of late, which explains why it is down more than 20% in 2025 as of this writing. But this pullback has made TSMC a terrific bargain.
+Let's look at the reasons why buying TSMC looks like a no-brainer right now.
+TSMC enjoys a massive lead in the foundry market with an estimated share of 67%, according to Counterpoint Research. That figure has been heading higher in recent quarters. Specifically, TSMC's foundry market share increased by six percentage points in 2024. Meanwhile, second-placed Samsung lost ground in this market as its share shrank by three points to 11%.
+A key reason why TSMC has been able to open such a huge gap over rivals in the foundry market is because of its technological advantage. TSMC's advanced process nodes allow its customers to manufacture powerful and power-efficient chips. For example, TSMC's 3-nanometer (nm) node is considered to be the most advanced chip manufacturing technology.
+This process node is being used to manufacture smartphone chips and PC processors by the likes of AMD, MediaTek, Apple, andQualcomm. Now, it looks like Nvidia will tap TSMC's 3nm process node to manufacture its next-generation Rubin graphics processing units (GPUs). Looking ahead, TSMC is looking to push the envelope further in chip manufacturing technology with the 2-nanometer process.
+The company is expected to start mass-producing its 2nm processors in the second half of this year, which could put it ahead of rivals Samsung andIntel. Meanwhile, TSMC is also looking to diversify its global presence. The company has pledged an investment of $165 billion in the U.S. to build advanced chip manufacturing facilities that will powerartificial intelligence (AI)applications.
+It is worth noting that TSMC already fabricates chips for the leading AI semiconductor companies such as Nvidia, Broadcom, andMarvell, and its focus on boosting investments in advanced technologies should allow it to maintain its dominant position in the global foundry market. Additionally, TSMC's strategy of diversifying its global manufacturing footprint in countries such as Japan, the U.S., and Europe could turn out to be a smart move in the long run as it could help it mitigate the challenges arising out of potential trade-related conflicts, such as the one we are witnessing right now.
+So, it won't be surprising to see TSMC remaining the top semiconductor foundry for a long time to come, and that's expected to translate into robust financial growth for the company.
+TSMC finished 2024 with $90 billion in revenue, an improvement of 30% from the prior year. The company has got off to a stronger start in 2025, recording a solid 42% jump in revenue in the first three months of the year to $25.6 billion. That's better than what the market was anticipating. Analysts expect TSMC's growth to gain momentum as the year progresses, as evident from the chart below.
+TSM Revenue Estimates for Current Fiscal Yeardata byYCharts
+What's more, the chart above also tells us that TSMC is on track to deliver robust growth over the next couple of years as well. Importantly, it won't be surprising to see the company sustaining its solid growth for a much longer period in light of the points discussed in the article. The semiconductor market is set to grow at an impressive pace, and TSMC itself sees a total addressable market worth almost $250 billion in its foundry and packaging services.
+That figure could be bigger in the future as the size of the semiconductor market keeps growing. Not surprisingly, TSMC management expects to maintain an annual revenue growth rate of 20% for the next five years, which should translate into robust bottom-line growth as well. All this makes TSMC a topsemiconductor stockto buy right now as it is trading at just 22 times trailing earnings and 17 times forward earnings, which is a nice discount to the tech-ladenNasdaq-100index's forward earnings multiple of 27 (using the index as a proxy for tech stocks).
+Before you buy stock inTaiwan Semiconductor Manufacturing, consider this:
+The Motley FoolStock Advisoranalyst team just identified what they believe are the10 best stocksfor investors to buy now… andTaiwan Semiconductor Manufacturingwasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider whenNetflixmade this list on December 17, 2004... if you invested $1,000 at the time of our recommendation,you’d have $526,499!*Or whenNvidiamade this list on April 15, 2005... if you invested $1,000 at the time of our recommendation,you’d have $687,684!*
+Now, it’s worth notingStock Advisor’s total average return is818% — a market-crushing outperformance compared to156%for the S&P 500. Don't miss out on the latest top 10 list, available when you joinStock Advisor.
+See the 10 stocks ›
+*Stock Advisor returns as of April 14, 2025
+Harsh Chauhanhas no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Advanced Micro Devices, Apple, Intel, Nvidia, Qualcomm, and Taiwan Semiconductor Manufacturing. The Motley Fool recommends Broadcom and Marvell Technology and recommends the following options: short May 2025 $30 calls on Intel. The Motley Fool has adisclosure policy.
+This tech could reach 80 trillion. Imagine a technology worth over26 Nvidias.
+What in the world could be worth 26 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Learn more ›
+Limited Time: Get a $250 Bonus with This Cash Back Card!
+Earn $250 when you spend $500 in 3 months—that's an easy 50% return! Plus, enjoy 0% intro APR for 15 months & up to 5% cash back.
+Stocks Mentioned
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered byXigniteandPolygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
+JoinStock AdvisorNow to Get Our Newest Rec and Save 50%*
+By signing up today, you secure your spot to be among the first to receive our latest stock recommendation when it's released at 1 pm ET tomorrow!
+Since inception,Motley Fool Stock Advisorhas beaten the S&P 500 by662.32%!**Don't Miss Out!
+Continue ›
+*$99/year is a promotional price for new members only. 50% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price.**Returns as of April 16, 2025.
