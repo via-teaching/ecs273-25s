@@ -27,23 +27,23 @@ class StockModelV1(BaseModel):
     Low: list[float]
     Close: list[float]
     
-class StockModelUnit(BaseModel):
-    """
-    Model for stock data values
-    """
-    date: str
-    Open: float
-    High: float
-    Low: float
-    Close: float
+# class StockModelUnit(BaseModel):
+#     """
+#     Model for stock data values
+#     """
+#     date: str
+#     Open: float
+#     High: float
+#     Low: float
+#     Close: float
     
-class StockModelV2(BaseModel):
-    """
-    Model for stock data values
-    """
-    _id: PyObjectId
-    name: str
-    stock_series: list[StockModelUnit]
+# class StockModelV2(BaseModel):
+#     """
+#     Model for stock data values
+#     """
+#     _id: PyObjectId
+#     name: str
+#     stock_series: list[StockModelUnit]
     
 class StockNewsModel(BaseModel):
     _id: PyObjectId
