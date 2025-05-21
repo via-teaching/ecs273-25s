@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic.functional_validators import BeforeValidator
 from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
+from fastapi.responses import JSONResponse
 
 from data_scheme import (
     StockListModel, StockModelV1, StockModelV2, 
@@ -69,8 +70,12 @@ async def get_stock(stock_name: str):
         "stock_series": []
     }
 
-@app.get("/tsne/", response_model=tsneDataModel)
-async def get_tsne(stock_name: str):
+@app.get("/tsne/")
+async def get_tsne():
     tsne_collection = db.get_collection("tsne")
-    doc = await tsne_collection.find_one({"Stock": stock_name})
-    return doc
+    cursor = tsne_collection.find({})
+    results = []
+    async for doc in cursor:
+        doc["_id"] = str(doc["_id"])  
+        results.append(doc)
+    return JSONResponse(content=results)
