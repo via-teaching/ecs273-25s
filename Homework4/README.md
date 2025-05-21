@@ -3,6 +3,7 @@
 This folder contains two parts, client and server. This repository contains my solution to Homework 4, which extends Homework 3 into a complete full-stack web application using FastAPI (backend) and React (frontend).
 
 ## Folder Structure
+```
 .
 ├── client/             # React frontend (mostly unchanged from HW3)
 ├── server/             # FastAPI backend
@@ -15,6 +16,7 @@ This folder contains two parts, client and server. This repository contains my s
 │   │   └── tsne.csv
 ├── README.md
 └── ...
+```
 
 ## Server
 
