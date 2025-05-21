@@ -33,8 +33,6 @@ async def import_news():
         if not os.path.isdir(stock_path):
             continue
 
-        print(f"📁 Found stock folder: {stock}")
-
         for filename in os.listdir(stock_path):
             if not filename.endswith(".txt"):
                 continue
