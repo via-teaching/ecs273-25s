@@ -98,6 +98,6 @@ The dropdown in the UI fetches data from your API server—this is the main conn
 
 All news articles are stored in a single MongoDB collection, indexed by a stock field for efficient querying.
 
-Follow the exact folder structure provided in the assignment. Points will be deducted for incorrect organization.
+Follow the exact folder structure provided in the assignment.
 
-Your pull request should be created from the hw4 branch and submitted to the original GitHub repository as per the course instructions.
+I reused the same pull request link that was created for Homework 3 and updated it with my Homework 4 submission. 
