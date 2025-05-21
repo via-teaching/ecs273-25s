@@ -9,15 +9,43 @@ garchan@ucdavis.edu
 Google Gemini in Google search results and ChatGPT were used to learn about the existence of functions in various classes, modules, and packages.
 
 ## Server Side
-1. `cd` into `server`. The import script will not work if run in a different working directory.
-2. If packages are not already installed in the working environment, run `pip install -r requirements.txt`.
-3. Run `python ./import_data.py`. (Assuming the local database is running)
-4. Run `uvicorn main:app --reload --port 8000`.
+1. Navigate to server folder 
+```shell
+cd server
+```
+2. Create a Python Virtual Environment
+```shell
+python -m venv venv
+source venv/bin/activate
+```
+3. Install Python packages
+```shell
+pip install -r requirements.txt
+```
+4. Start local MongoDB on Mac:
+```shell
+brew services start mongodb-community
+```
+5. Import data to databse
+```shell
+python ./import_data.py
+```
+6. Run the server 
+```shell
+uvicorn main:app --reload --port 8000
+```
 
 ## Client Side
-Run the following in another terminal:
+1. Navigate to client folder
 ```shell
 cd client
+```
+2. Install Node packages
+```shell
 npm install
+```
+3. Run React server
+```shell
 npm run dev
 ```
+4. In a web browser, go to `http://localhost:5173` (or whichever path is printed in the console).
