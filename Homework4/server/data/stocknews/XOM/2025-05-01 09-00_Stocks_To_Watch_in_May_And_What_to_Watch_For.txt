@@ -1,0 +1,72 @@
+Stocks To Watch in May—And What to Watch For
+2025-05-01 09-00
+https://www.investopedia.com/stocks-to-watch-in-may-2025-aapl-nvda-wmt-xom-coin-11725302?.tsrc=rss
+Colin is an Associate Editor focused on tech and financial news. He has more than three years of experience editing, proofreading, and fact-checking content on current financial events and politics. He received his M.A. in journalism from The New School and his B.A. in history and political science from McGill University.
+Angela Weiss / AFP / Getty Images
+ U.S. stocks fell for a third consecutive month in April as uncertainty about President Trump's tariff policies wreaked havoc on Wall Street.
+
+ The month got off to a dismal start when President Trump's April 2 "Liberation Day" tariff announcement erased about $6 trillion in market value. Stocks were boosted mid-month by a 90-day pause on most of Trump's country-specific tariffs and signs that the White House was eager to de-escalate its trade war with China. But the rebound, hampered on Wednesday by data showing U.S. GDP contracted in the first quarter, wasn't enough to dig stocks out of their hole; the S&P 500 finished April down 0.8%.
+
+ Tariffs will likely continue to dominate the conversation on Wall Street in May as the torrent of first-quarter earnings reports early in the month slows to a trickle. Below, we look at five stocks to keep an eye on in May.
+
+ Apple (AAPL) will report its first-quarter results after the closing bell on Thursday, May 1, and the focus will be squarely on tariffs.
+
+ The iPhone maker won a tariff exemption during the first Trump administration’s trade war with China in 2018. Perhaps seeing the writing on the wall, Apple has spent the intervening years diversifying its manufacturing base, moving some assembly to countries such as India and Vietnam. Still, the vast majority of Apple products are manufactured in China, putting it squarely in the crosshairs of escalating tensions between the world’s two largest economies. 
+
+ Trump has, for now, exempted smartphones and other Apple products from the “Liberation Day” tariffs he announced in early April, which would have raised the duties on Apple products shipped from China, Vietnam, and India by 125%, 46%, and 26%, respectively. But Commerce Secretary Howard Lutnick has warned that exempted consumer electronics will be included in semiconductor-specific tariffs to be announced in the coming months.1
+
+ Analysts and investors will be eager to hear on Apple’s earnings call how the company is planning for the tariffs to come and how it sees a slowing economy affecting sales. 
+
+ Apple shares are down 15% since the start of the year. 
+
+ Nvidia (NVDA) is expected to report quarterly results late in the month, and investors will be anxiously awaiting updates on the company’s sales to China and how it expects a slowdown to affect AI investment.
+
+ The stock has been dealt a blow this year by rising economic uncertainty and escalating tensions with China. The company recently warned investors that its first-quarter results will take a hit of up to $5.5 billion after the U.S. government tightened restrictions on sales to China. 
+
+ On top of that, several leading cloud service providers, including Microsoft (MSFT) and Amazon (AMZN), have reportedly slowed or paused some AI data center buildouts in response to the cloudy economic outlook.23 Less AI investment from some of the world’s largest tech companies is likely to portend slower sales growth at Nvidia. 
+
+ Nvidia stock has fallen after each of its three most recent earnings reports despite consistently topping estimates, a sign Wall Street’s expectations have caught up with Nvidia’s breakneck growth. The stock’s response to May’s results could depend on whether the company’s various headwinds have reset investors’ expectations. 
+
+ Nvidia shares are down nearly 19% since the start of the year.
+
+ Retail giant Walmart (WMT) is slated to report earnings before markets open on May 15. 
+
+ Few companies are in as good of a position to deal with tariffs than Walmart. The company has reportedly pressured Chinese suppliers to lower their prices, a tactic unavailable to smaller retailers.4 It has also had some success getting through to the White House; Trump expressed interest in de-escalating the trade war with China shortly after Walmart, Target, and Costco executives reportedly warned the president that prohibitively high tariffs would eventually lead to empty shelves across the country.5 
+
+ Walmart’s first-quarter sales are unlikely to be affected by tariffs, the majority of which were announced in April. Retail sales data also suggests consumers, despite cratering confidence in the economy, didn’t slow their spending in the first quarter.
+
+ The company’s guidance will be of greater interest to Wall Street—that is, if it issues guidance. Many companies have withdrawn their full-year forecasts, citing the difficulty of predicting future costs and demand without clarity on trade policy. If Walmart were to do the same, it could ratchet up the anxiety on Wall Street and send shockwaves through the stock market. 
+
+ Walmart shares are up nearly 8% year-to-date. 
+
+ ExxonMobil (XOM) is scheduled to report its first-quarter earnings before markets open on Friday, and the Trump administration will likely loom large over the report.
+
+ Trump walked a tightrope throughout last year’s presidential campaign, promising to tame inflation by lowering energy costs while also casting himself as an ally of America’s fossil fuel industry. 
+
+ In office, he has tried to smooth over the tensions between those two goals. Trump has taken steps to remove regulatory barriers to resource extraction, expedite the permitting of drilling on federal lands, and prevent states from impeding his program to “unleash American energy.”678
+
+ At the same time, Trump’s trade war has raised the odds of a U.S. recession, causing oil prices to slump. West Texas Intermediate, the U.S. crude oil benchmark, closed at about $58 a barrel on Wednesday, its lowest price in 4 years and below what the average producer needs to profitably drill a new well. 
+
+ Exxon’s results and commentary could help investors understand the balance of good and bad news for the industry coming out of Washington. 
+
+ ExxonMobil stock has fallen about 2% since the start of the year.
+
+ Coinbase (COIN) is also set to report first-quarter earnings this month, and the future appears bright for the crypto exchange. 
+
+ The cryptocurrency industry has emerged as one of the few winners of the second Trump administration thus far. Trump has ordered the creation of a Strategic Bitcoin Reserve and a U.S. Digital Assets Stockpile, installed crypto-advocate Paul Atkins as the head of the Securities and Exchange Commission, and wound down major federal lawsuits against the crypto industry.
+
+ The prices of major cryptocurrencies like Bitcoin and Ether have declined since Trump took office, battered by the same economic uncertainty that’s hammered the stock and bond markets. That could take a bite out of Coinbase’s transaction revenue, which as of mid-February was on track to surpass last year’s first quarter. Nonetheless, Coinbase forecast subscription and services revenue—less volatile than transaction revenue, which fluctuates with crypto prices—would grow as much as 50%.9
+
+ Investors will be listening to Coinbase’s earnings call for insights into the company’s efforts to shape the cryptocurrency legislation and regulations being developed in Washington.
+
+  Coinbase shares are down about 18% so far this year.
+
+ABC News. “'This Week' Transcript 4-13-25: U.S. Commerce Secretary Howard Lutnick, Sen. Elizabeth Warren & Stephen A. Smith.”
+CNBC. “Amazon has paused some data center lease commitments, Wells Fargo says.”
+AP News. “Microsoft says it’s ‘slowing or pausing’ some AI data center projects, including $1B plan for Ohio.”
+Bloomberg News. “Walmart Keeps Price Pressure on Suppliers After Beijing Pushback.”
+CBS News. “Walmart, Target CEOs privately warned Trump tariffs could lead to empty shelves soon.”
+U.S. Department of the Interior. “Department of the Interior Implements Emergency Permitting Procedures to Strengthen Domestic Energy Supply.”
+White House. “PROTECTING AMERICAN ENERGY FROM STATE OVERREACH.”
+White House. “ZERO-BASED REGULATORY BUDGETING TO UNLEASH AMERICAN ENERGY.”
+Coinbase. “Shareholder Letter: Fourth Quarter and Full Year 2024.”

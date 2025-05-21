@@ -1,7 +1,16 @@
-export default function RenderOptions({stockList}: { stockList: string[] }) {
-  return stockList.map((name, index) => (
-    <option key={index} value={name}>
-      {name}
-    </option>
-  ));
-  }
+interface OptionsProps {
+  stockList: string[];
+}
+
+// Component that renders a list of stock options for a select dropdown
+export function RenderOptions({ stockList }: OptionsProps) {
+  return (
+    <>
+      {stockList.map((stock) => (
+        <option key={stock} value={stock}>
+          {stock}
+        </option>
+      ))}
+    </>
+  );
+}

@@ -1,0 +1,220 @@
+Reddit's AI play is for the Google crowd, not just the community scrollers
+2025-05-01 23-00
+https://techcrunch.com/2025/05/01/reddits-ai-play-is-for-the-google-crowd-not-just-the-community-scrollers/?.tsrc=rss
+Latest	
+
+
+
+		AI	
+
+
+
+		Amazon	
+
+
+
+		Apps	
+
+
+
+		Biotech & Health	
+
+
+
+		Climate	
+
+
+
+		Cloud Computing	
+
+
+
+		Commerce	
+
+
+
+		Crypto	
+
+
+
+		Enterprise	
+
+
+
+		EVs	
+
+
+
+		Fintech	
+
+
+
+		Fundraising	
+
+
+
+		Gadgets	
+
+
+
+		Gaming	
+
+
+
+		Google	
+
+
+
+		Government & Policy	
+
+
+
+		Hardware	
+
+
+
+		Instagram	
+
+
+
+		Layoffs	
+
+
+
+		Media & Entertainment	
+
+
+
+		Meta	
+
+
+
+		Microsoft	
+
+
+
+		Privacy	
+
+
+
+		Robotics	
+
+
+
+		Security	
+
+
+
+		Social	
+
+
+
+		Space	
+
+
+
+		Startups	
+
+
+
+		TikTok	
+
+
+
+		Transportation	
+
+
+
+		Venture	
+
+
+
+		Events	
+
+
+
+		Startup Battlefield	
+
+
+
+		StrictlyVC	
+
+
+
+		Newsletters	
+
+
+
+		Podcasts	
+
+
+
+		Videos	
+
+
+
+		Partner Content	
+
+
+
+		TechCrunch Brand Studio	
+
+
+
+		Crunchboard	
+
+
+
+		Contact Us	
+
+Reddit CEO Steve Huffman says there are two kinds of people who come to the social media platform: Scrollers and seekers.
+Scrollers are the ones who come to Reddit’s core product, which is community conversation and engaging about topics they’re passionate about, from r/sourdough to r/popculturechat. Then there are the Seekers; the people who might type their specific query into Google Search and tack “Reddit” on the end so they can find real advice and opinions from real people. 
+Reddit Answers, the company’s AI-powered chatbot that surfaces verbatim answers and summaries from existing Reddit posts, is for the Seekers. And early results suggest it is already gaining traction. 
+“Up until very recently, we haven’t built a product for them,” Reddit CEO Steve Huffman said Thursday on the company’s first-quarter earnings call. “Those users are not coming to Reddit for a community in that moment. They’re coming for an answer. And I think we can [acknowledge] the use case that the user’s bringing us and be more effective at solving it.”
+Reddit announced during the call that its Answers product already has 1 million weekly active users since it launched in beta in December. Last month, Reddit expanded Answers beyond the U.S. and into Australia, the U.K., Canada, and India. 
+The feature, which is still in beta, currently lives in the navigation bar of the app as its own separate experience. Going into 2025, Reddit plans to integrate Answers more deeply into the platform in a few different ways. 
+Huffman said the most obvious way to do this would be to integrate Answers into the primary search box, which could allow users to type in a full query rather than just a few keywords. 
+The executive also said the company is exploring ways to integrate Answers into the beginning of the user journey.
+“So you’re a new user opening Reddit for the first time, using Answers to see what’s in Reddit and learn that Reddit almost certainly has what you’re looking for,” he said.
+Another “point of entry” for Answers would be through external search, “helping [users] get a more summarized or easy-to-parse version of the answer on Reddit,” Huffman said.
+That could also protect Reddit from being at the mercy of Google Search. In the fourth quarter of 2024, a Google Search algorithm change caused some “volatility” with Reddit’s user growth, which spooked investors at the time, despite beating earnings estimates.  
+“We’re an open platform, and we want people to find Reddit content in [Google] Search,” Huffman said. “Being open drives awareness and visibility. It can also create variability, and we do expect some bumps along the way from Google, because we’ve already seen a few this year. This is expected in any year, but given that the Search ecosystem is under heavy construction, the near term could be more bumpy than usual.”
+Reddit’s stock soared in after-hours trading as the company beat analyst earnings expectations and strong user growth. The company reported revenue of $392.4 million, up 61% year-over-year, an adjusted EBITDA of $115.3 million, and daily active unique users of 108.1 million, a 31% YoY increase. 
+In the second quarter, Reddit estimates revenue in the range of $410 million to $430 million and adjusted EBITDA between $110 million and $130 million.
+Topics
+
+Senior Reporter
+
+Rebecca Bellan is a senior reporter at TechCrunch, where she covers Tesla and Elon Musk’s broader empire, autonomy, AI, electrification, gig work platforms, Big Tech regulatory scrutiny, and more. She’s one of the co-hosts of the Equity podcast and writes the TechCrunch Daily morning newsletter. 
+Previously, she covered social media for Forbes.com, and her work has appeared in Bloomberg CityLab, The Atlantic, The Daily Beast, Mother Jones, i-D (Vice) and more.
+Rebecca has invested in Ethereum.	
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ Duolingo launches 148 courses created with AI after sharing plans to replace contractors with AI
+
+
+
+ Microsoft CEO says up to 30% of the company’s code was written by AI
+
+
+
+ Google launches AI tools for practicing languages through personalized lessons
+
+
+
+ Indian court orders blocking of Proton Mail
+
+
+
+ Hugging Face releases a 3D-printed robotic arm starting at $100
+
+
+
+ From coding tests to billion-dollar startups, Ali Partovi’s eight-year experiment is paying off
+
+
+
+ Bezos-backed Slate Auto debuts analog EV pickup truck that is decidedly anti-Tesla
+
+
+
+© 2025 TechCrunch Media LLC.
