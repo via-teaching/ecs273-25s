@@ -1,40 +1,81 @@
-# Homework 4 Templates
+# Homework 4 
 
 This folder contains two parts, client and server.
 
-## Server
+## 📁 Folder Structure
 
-For the server part, make sure you have the respective packages installed.
+```plaintext
+Homework4/
+├── client/                     # Frontend (React + TypeScript)
+│   ├── public/                 
+│   ├── src/                    # Main source code
+│   │   ├── component/          # React components
+│   │   │   ├── NewsList.tsx         # News list view (View 3)
+│   │   │   ├── options.tsx          # Dropdown select for stock
+│   │   │   ├── StockLineChart.tsx   # Stock price line chart (View 1)
+│   │   │   └── TSNEScatter.tsx      # t-SNE scatter plot (View 2)
+│   │   └── App.tsx             # Main app layout and logic
+│   └── package.json            # Project config and dependencies
 
+├── server/                     # Backend (FastAPI + MongoDB)
+│   ├── data/                   # Raw input files
+│   │   ├── stockdata/          # CSV files for stock prices
+│   │   ├── stocknews/          # News articles (txt format)
+│   │   └── tsne.csv            # CSV file for t-SNE projection
+│   ├── data_scheme.py          # schemas
+│   ├── import_data.py          # put data into MongoDB
+│   └── main.py                 # FastAPI server with defined endpoints
+│
+├── requirements.txt            # Backend Python package requirements
+```
+
+
+## Server (A backend instruction):
+1. Navigate to the backend folder
+```
+cd server
+```
+2. Set up a Python virtual environment by Miniconda
+```
+conda create -n myenv python=3.11
+conda activate myenv
+```
+3. For the server part, make sure you have the respective packages installed.
 ```
 pip install -r requirements.txt
 ```
-
-Secondly, make sure you have already installed and started your mongoDB local server.
-For example, for mongodb managed with homebrew, run:
-
+4. Make sure MongoDB is running (command by using Homebrew on macOS):
 ```
-brew services start mongodb-community
+brew services start mongodb/brew/mongodb-community@7.0
 ```
 
-Then, put your data into database with:
-
+5. Put your data into database
 ```
 python import_data.py
 ```
 
-Finally, start your api server by,
-
+6. Run the FastAPI server
 ```
 uvicorn main:app --reload --port 8000
 ```
+API Docs available at: http://localhost:8000/docs
 
-## Client
-
-For the client part, it should mostly the same as your Homework 4. The only difference in this template is the data fetching part, as the example shown in `App.tsx`, that fetch the data for the drop-down menu with 20 different stocks. You can easily transfer that part into `js` version if needed.
-
+## Client (A frontend instruction) :
+1. Navigate to the frontend folder
 ```
 cd client
+```
+2. Install required Node.js packages
+```
 npm install
+```
+3. Start the React development server
+```
 npm run dev
+```
+4. Visit the frontend in your browser : http://localhost:5173
+
+## Close MongoDB
+```
+brew services stop mongodb/brew/mongodb-community@7.0
 ```
