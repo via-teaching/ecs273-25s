@@ -6,10 +6,11 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel
 
-# MongoDB connection (localhost, default port)
-client = AsyncIOMotorClient("mongodb://localhost:27017")
-db = client.stock_yuchia # please replace the database name with stock_[your name] to avoid collision at TA's side
-            
+# MongoDB connection 
+MONGO_URI = "mongodb+srv://iakahssay:ecs273@hw4.q7b31db.mongodb.net/?retryWrites=true&w=majority&appName=hw4"
+client = AsyncIOMotorClient(MONGO_URI)
+db = client["stock_Iman_K"] #Safer way to access it than "client.stock_Iman_K"
+
 app = FastAPI(
     title="Stock tracking API",
     summary="An aplication tracking stock prices and respective news"
@@ -35,32 +36,54 @@ async def get_stock_list():
     stock_list = await stock_name_collection.find_one()
     return stock_list
 
-@app.get("/stocknews/", 
-        response_model=StockNewsModel
-    )
-async def get_stock_news(stock_name: str = 'XOM') -> StockNewsModel:
+@app.get("/stock_news/" )
+async def get_stock_news(stock_name: str ): 
     """
     Get the list of news for a specific stock from the database
     The news is sorted by date in ascending order
     """
-    return [] # replace with your code to get the news from the database
+    news_collection = db.get_collection("stock_news")
+    cursor = news_collection.find({"Stock": stock_name}).sort("Date", 1)
+    news = await cursor.to_list(length=100)  # adjust as needed
 
-@app.get("/stock/{stock_name}", 
-        response_model=StockModelV2
-    )
-async def get_stock() -> StockModelV2:
+    for item in news:
+        item["_id"] = str(item["_id"])  # Convert ObjectId to string
+
+    return news
+
+@app.get("/stock/{stock_name}" )
+async def get_stock(stock_name: str): 
     """
     Get the stock data for a specific stock
     Parameters:
     - stock_name: The name of the stock
     """
-    return [] # replace with your code to get the news from the database
+    stock_collection = db.get_collection("stock_data_v2")
+    stock_data = await stock_collection.find_one({"name": stock_name})
+    if stock_data:
+        stock_data["_id"] = str(stock_data["_id"])  # prevent ObjectId serialization error
+    return stock_data or {} # replace with your code to get the news from the database
 
-@app.get("/tsne/",
-        response_model=tsneDataModel
-    )
-async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
+
+#@app.get("/tsne_data/",
+#        response_model=tsneDataModel
+#    )
+#async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
+#    """
+#    Get the t-SNE data #for a specific stock
+#    """
+#    tsne_collection = db.get_collection("tsne_data")
+#    tsne_point = await tsne_collection.find_one({"Ticker": stock_name})
+#    return tsne_point or {} # replace with your code to get the news from the database
+
+@app.get("/tsne_data/", 
+         response_model=list[tsneDataModel]
+        )
+async def get_tsne():
     """
-    Get the t-SNE data for a specific stock
+    Get t-SNE projection for all stocks
     """
-    return [] # replace with your code to get the news from the database
+    tsne_collection = db.get_collection("tsne_data")
+    data = await tsne_collection.find({}).to_list(length=100)
+    return data
+ 
