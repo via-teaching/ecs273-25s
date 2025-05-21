@@ -34,7 +34,7 @@ async def get_stock_list():
     stock_list["_id"] = str(stock_list["_id"])
     return stock_list
 
-@app.get("/stocknews/", response_model=list[StockNewsModel])
+@app.get("/news/", response_model=list[StockNewsModel])
 async def get_stock_news(stock_name: str = 'XOM'):
     news_collection = db.get_collection("news")
     cursor = news_collection.find({"Stock": stock_name})
@@ -70,7 +70,7 @@ async def get_stock(stock_name: str):
     }
 
 @app.get("/tsne/", response_model=tsneDataModel)
-async def get_tsne(stock_name: str = 'XOM'):
+async def get_tsne(stock_name: str):
     tsne_collection = db.get_collection("tsne")
     doc = await tsne_collection.find_one({"Stock": stock_name})
     return doc
