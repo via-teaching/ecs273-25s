@@ -33,7 +33,7 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
   useEffect(() => {
     async function fetchData() {
       try {
-        // Fetch t-SNE data from API
+        // Fetch t-SNE data from API at mounting time of component
         const response = await fetch('http://localhost:8000/tsne/');
         if (!response.ok) {
           throw new Error(`Error fetching data from API for tsne: ${response.status}`);
@@ -46,10 +46,8 @@ export default function Scatterplot({ selectedStock }: ScatterplotInterface) {
         setData([]);
       }
     }
-    if (selectedStock) {
-      fetchData();
-    }
-  }, [selectedStock]);
+    fetchData();
+  }, []);
 
   //For fixing zoom jumpiness
   useEffect(() => {
