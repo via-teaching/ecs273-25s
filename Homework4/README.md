@@ -46,28 +46,38 @@ uvicorn main:app --reload --port 8000
 ## Backend Setup
 
 ### Step 1: Navigate to server folder
+```
 cd server
+```
 
 ### Step 2: Step 2: (Optional but recommended) Create virtual environment
+```
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
-
+```
 ### Step 3: Install backend dependencies
+```
 pip install -r requirements.txt
-
+```
 ### Step 4: Start local MongoDB server
-If using Homebrew (macOS): brew services start mongodb-community
+If using Homebrew (macOS): 
+```
+brew services start mongodb-community
+```
 
 ### Step 5: Import your data into MongoDB
 Before running this step, ensure your data is inside server/data/ using the structure specified.
 
+```
 python import_data.py
+```
 
 ### Step 6: Start the FastAPI server
+```
 uvicorn main:app --reload --port 8000
+```
 API base: http://localhost:8000
 Swagger docs: http://localhost:8000/docs
-
 
 ## Client
 
