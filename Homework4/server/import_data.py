@@ -23,9 +23,8 @@ async def import_stock_data():
 
         ticker = file.replace(".csv", "").upper()
         df = pd.read_csv(os.path.join(path, file), parse_dates=["Date"])
-        df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+        df = pd.read_csv(os.path.join(path, file), parse_dates=["Date"])
         df = df.dropna(subset=["Date"])  
-        df["Date"] = df["Date"].dt.date  
         df.rename(columns={
             "Date": "date", "Open": "open", "High": "high",
             "Low": "low", "Close": "close", "Volume": "volume"

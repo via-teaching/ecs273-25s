@@ -1,0 +1,5 @@
+db.news.findOne
+db.stocks.findOne
+server/__pycache__
+show
+use

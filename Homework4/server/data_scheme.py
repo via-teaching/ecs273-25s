@@ -10,7 +10,7 @@ from datetime import datetime, date
 PyObjectId = Annotated[str, BeforeValidator(str)]
 
 class StockOHLC(BaseModel):
-    date: date
+    date: datetime
     open: float
     high: float
     low: float
