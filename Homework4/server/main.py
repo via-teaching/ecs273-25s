@@ -1,10 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic.functional_validators import BeforeValidator
 from motor.motor_asyncio import AsyncIOMotorClient
-
 from fastapi.middleware.cors import CORSMiddleware
-
-from .data_scheme import  StockListItem, StockRecord, StockNewsModel
+from data_scheme import StockListItem, StockRecord, StockNewsModel
 from typing import List
 import os
 
