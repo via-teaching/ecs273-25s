@@ -1,0 +1,32 @@
+Title: One of Google's recent Gemini AI models scores worse on safety
+Date: 2025-05-02 18:52
+URL: https://techcrunch.com/2025/05/02/one-of-googles-recent-gemini-ai-models-scores-worse-on-safety/?.tsrc=rss
+
+A recently released Google AI model scores worse on certain safety tests than its predecessor, according to the company’s internal benchmarking. 
+In a technical report published this week, Google reveals that its Gemini 2.5 Flash model is more likely to generate text that violates its safety guidelines than Gemini 2.0 Flash. On two metrics, “text-to-text safety” and “image-to-text safety,” Gemini 2.5 Flash regresses 4.1% and 9.6%, respectively.
+Text-to-text safety measures how frequently a model violates Google’s guidelines given a prompt, while image-to-text safety evaluates how closely the model adheres to these boundaries when prompted using an image. Both tests are automated, not human-supervised.
+In an emailed statement, a Google spokesperson confirmed that Gemini 2.5 Flash “performs worse on text-to-text and image-to-text safety.” 
+These surprising benchmark results come as AI companies move to make their models more permissive — in other words, less likely to refuse to respond to controversial or sensitive subjects. For its latest crop of Llama models, Meta said it tuned the models not to endorse “some views over others” and to reply to more “debated” political prompts. OpenAI said earlier this year that it would tweak future models to not take an editorial stance and offer multiple perspectives on controversial topics.
+Sometimes, those permissiveness efforts have backfired. TechCrunch reported Monday that the default model powering OpenAI’s ChatGPT allowed minors to generate erotic conversations. OpenAI blamed the behavior on a “bug.”
+According to Google’s technical report, Gemini 2.5 Flash, which is still in preview, follows instructions more faithfully than Gemini 2.0 Flash, inclusive of instructions that cross problematic lines. The company claims that the regressions can be attributed partly to false positives, but it also admits that Gemini 2.5 Flash sometimes generates “violative content” when explicitly asked. 
+“Naturally, there is tension between [instruction following] on sensitive topics and safety policy violations, which is reflected across our evaluations,” reads the report. 
+Scores from SpeechMap, a benchmark that probes how models respond to sensitive and controversial prompts, also suggest that Gemini 2.5 Flash is far less likely to refuse to answer contentious questions than Gemini 2.0 Flash. TechCrunch’s testing of the model via AI platform OpenRouter found that it’ll uncomplainingly write essays in support of replacing human judges with AI, weakening due process protections in the U.S., and implementing widespread warrantless government surveillance programs.
+Thomas Woodside, co-founder of the Secure AI Project, said the limited details Google gave in its technical report demonstrates the need for more transparency in model testing. 
+“There’s a trade-off between instruction-following and policy following, because some users may ask for content that would violate policies,” Woodside told TechCrunch. “In this case, Google’s latest Flash model complies with instructions more while also violating policies more. Google doesn’t provide much detail on the specific cases where policies were violated, although they say they are not severe. Without knowing more, it’s hard for independent analysts to know whether there’s a problem.”
+Google has come under fire for its model safety reporting practices before. 
+It took the company weeks to publish a technical report for its most capable model, Gemini 2.5 Pro. When the report eventually was published, it initially omitted key safety testing details. 
+On Monday, Google released a more detailed report with additional safety information.
+Get inside access to Europe’s top investment minds — with leaders from Monzo, Accel, Paladin Group, and more — plus top-tier networking at StrictlyVC London.
+ AI chatbots are ‘juicing engagement’ instead of being useful, Instagram co-founder warns
+
+ Aurora launches its driverless commercial trucking service, and a surprise bidder joins Canoo’s bankruptcy case
+
+ Google will soon start letting kids under 13 use its Gemini chatbot
+
+ One of Google’s recent Gemini AI models scores worse on safety
+
+ Apple and Anthropic reportedly partner to build an AI coding platform
+
+ Uber’s latest autonomous vehicle partner? Chinese startup Momenta
+
+ Dating app Raw exposed users’ location data and personal information

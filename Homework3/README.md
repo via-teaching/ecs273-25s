@@ -1,16 +1,17 @@
-# Homework 3 Templates
-
-This repository contains multiple templates:
-
-- `react-js-example`: A template based on react and javascript.
-- `react-ts-example`: A template based on react and typescript.
-
-## Usage
-
-Each template is self-contained. Navigate into a folder and install dependencies:
+# Homework 3 
+To launch the visualizer web app locally:
 
 ```bash
-cd react-example
+cd Homework3
+cd srisingh
+
+# Install dependencies
 npm install
+npm install papaparse
+npm install recharts
+
+# Generate files.json for stocknews
+node generateFileLists.js
+
+# Start the development server
 npm run dev
-```

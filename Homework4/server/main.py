@@ -1,66 +1,74 @@
-from fastapi import FastAPI
-from pydantic.functional_validators import BeforeValidator
+from fastapi import FastAPI, HTTPException
+from bson import ObjectId
 from motor.motor_asyncio import AsyncIOMotorClient
-
 from fastapi.middleware.cors import CORSMiddleware
+from typing import List
 
-from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel
-
-# MongoDB connection (localhost, default port)
-client = AsyncIOMotorClient("mongodb://localhost:27017")
-db = client.stock_yuchia # please replace the database name with stock_[your name] to avoid collision at TA's side
-            
-app = FastAPI(
-    title="Stock tracking API",
-    summary="An aplication tracking stock prices and respective news"
+from data_scheme import (
+    StockListModel,
+    StockModelV1,
+    StockModelV2,
+    StockNewsModel,
+    tsneDataModel
 )
 
-# Enables CORS to allow frontend apps to make requests to this backend
+# Connect to MongoDB
+client = AsyncIOMotorClient("mongodb://localhost:27017")
+db = client.stock_srisingh  # Replace with your MongoDB db name
+
+app = FastAPI(
+    title="Stock Tracking API",
+    summary="API for stock prices, news, and t-SNE projection"
+)
+
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/stock_list", 
-         response_model=StockListModel
-    )
+
+@app.get("/stock_list", response_model=StockListModel)
 async def get_stock_list():
     """
-    Get the list of stocks from the database
+    Get list of available stock tickers
     """
-    stock_name_collection = db.get_collection("stock_list")
-    stock_list = await stock_name_collection.find_one()
+    stock_list_collection = db.get_collection("stock_list")
+    stock_list = await stock_list_collection.find_one()
     return stock_list
 
-@app.get("/stocknews/", 
-        response_model=StockNewsModel
-    )
-async def get_stock_news(stock_name: str = 'XOM') -> StockNewsModel:
-    """
-    Get the list of news for a specific stock from the database
-    The news is sorted by date in ascending order
-    """
-    return [] # replace with your code to get the news from the database
 
-@app.get("/stock/{stock_name}", 
-        response_model=StockModelV2
-    )
-async def get_stock() -> StockModelV2:
-    """
-    Get the stock data for a specific stock
-    Parameters:
-    - stock_name: The name of the stock
-    """
-    return [] # replace with your code to get the news from the database
+from fastapi import HTTPException
 
-@app.get("/tsne/",
-        response_model=tsneDataModel
-    )
-async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
-    """
-    Get the t-SNE data for a specific stock
-    """
-    return [] # replace with your code to get the news from the database
+@app.get("/stock/{stock_name}", response_model=StockModelV2)
+async def get_stock(stock_name: str) -> StockModelV2:
+    collection = db.stock_v2
+    data = await collection.find_one({"name": stock_name})
+    
+    if not data:
+        raise HTTPException(status_code=404, detail="Stock not found")
+    
+    return data
+
+
+from typing import List
+
+@app.get("/stocknews/", response_model=List[StockNewsModel])
+async def get_stock_news(stock_name: str):
+    news_collection = db.get_collection("stock_news")
+    cursor = news_collection.find({"Stock": stock_name})
+    news = await cursor.to_list(length=1000)
+    return news
+
+@app.get("/tsne/all", response_model=List[tsneDataModel])
+async def get_all_tsne_data():
+    tsne_collection = db.get_collection("tsne")
+    tsne_data_list = await tsne_collection.find().to_list(length=100)
+
+    if not tsne_data_list:
+        raise HTTPException(status_code=404, detail="No t-SNE data found")
+
+    return tsne_data_list

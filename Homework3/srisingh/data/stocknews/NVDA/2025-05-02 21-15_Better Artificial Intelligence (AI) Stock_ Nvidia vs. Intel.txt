@@ -1,0 +1,42 @@
+Title: Better Artificial Intelligence (AI) Stock: Nvidia vs. Intel
+Date: 2025-05-02 21:15
+URL: https://www.fool.com/investing/2025/05/02/better-artificial-intelligence-ai-stock-nvda-intc/?.tsrc=rss
+
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+When it comes to investing in artificial intelligence (AI), buying shares of graphics processing unit (GPU) manufacturers like Nvidia (NVDA 2.33%) and Intel (INTC 3.00%) can be a wise decision. Nearly every AI application requires these specialized chips to function, and buying stock in a GPU maker gives your portfolio direct exposure to the entire AI industry.
+Right now, Nvidia shares give you more-direct exposure to AI demand, but Intel's discounted valuation and plans for growth make it an exciting story to watch. So which GPU manufacturer should you invest in today? You might be surprised by the answer.
+Most of Nvidia's gargantuan $3 trillion market cap can be attributed to its dominance in AI chips. Estimates say the company commands somewhere between 70% to 95% market share for GPUs designed for the AI market.
+This dominance was created over more than a decade of forward thinking. In 2006, for instance, Nvidia released its CUDA developer suite, which allowed developers to customize its chips to create unparalleled performance benefits. This customization also locked customers into Nvidia's hardware and has a flywheel effect for its software.
+The company was also one of the first to ramp up investment in machine-learning GPUs, giving it a crucial head start over the competition. 
+Intel, meanwhile, has been left in the dust due to a variety of management errors. Today, its revenue is shrinking, with its valuation more than 90% below Nvidia's on a price-to-sales basis.
+Even management isn't confident that it can catch up to Nvidia anytime soon. Patrick Gelsinger, Intel's former CEO, recently said about Nvidia: "In that race, they are so far ahead. Given the other challenges that we have, we're just not going to be competing anytime soon." 
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 889% — a market-crushing outperformance compared to 162% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor.
+*Stock Advisor returns as of May 2, 2025
+So when it comes to betting on AI, Nvidia is the clear winner right now. But might Intel shares be a worthwhile investment given their rock bottom valuation?
+NVDA PS Ratio data by YCharts; PS = price to sales, TTM = trailing 12 months.
+Right now, Nvidia is selling tens of billions of dollars worth of AI accelerators each quarter. Advanced Micro Devices, a rival, is selling more than $1 billion worth each quarter. What about Intel?
+In 2024, it failed to reach its target of just $500 million in AI GPU sales for the entire year. Intel's competitiveness in AI right now simply cannot be undersold. But is the valuation low enough to warrant a small stake? I'd argue yes for one reason: gross margins.
+NVDA Gross Profit Margin data by YCharts.
+Due to heavy demand, many of Nvidia's chips are seeing waiting times of 12 months or more. Its products are priced at a steep premium to the competition, and rightfully so. Its gross margins are nearly 75%, while Intel's gross margins are closer to 30%. This is where Intel can compete. 
+If demand for AI chips continues to outpace Nvidia's ability to meet that demand, it's possible that Intel can convince developers and data center operators to switch to its inferior product due to cheaper pricing and its availability. This adoption could help build out Intel's developer ecosystem, a major weakness in its current product.
+If you want to invest in AI, Nvidia should be a heavy position in your portfolio. But adding a small position in Intel could help diversify that bet for a very small price, allowing you to benefit wherever shares trend toward over time.
+Before you buy Intel, you should know this:
+The Motley Fool’s analysts are tracking a massive shift in U.S. tech. Over $1.5 trillion is already flowing into infrastructure, AI, and advanced manufacturing… and the number keeps climbing.
+It’s all being driven by a short-term tariff pause that could expire any day. And while Intel might look like a smart move, we think the real winner is a company 1/100th the size of NVIDIA.
+It builds the tech infrastructure that Apple, OpenAI, and others suddenly can’t live without. We just released a full write-up on this under-the-radar stock to all Stock Advisor members — and why now might be the exact moment to move.
+Ryan Vanzo has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Advanced Micro Devices, Intel, and Nvidia. The Motley Fool recommends the following options: short May 2025 $30 calls on Intel. The Motley Fool has a disclosure policy.
+This tech could reach $80 trillion. Imagine a technology worth over 30 Nvidias.
+What in the world could be worth 30 Nvidias? The answer is a radical tech breakthrough that our experts think is transforming every walk of life. And this giant leap forward has many on Wall Street very excited.
+Alert: Top Cash Back Card Now Offers 0% Intro APR Until 2026
+Enjoy 0% intro APR on purchases and balance transfers well into 2026—plus up to 5% cash back in popular categories.
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+
+        Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+      
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
