@@ -1,0 +1,12 @@
+Nvidia shares fall after it says US controls on exports of AI chip will cost it $5.5 billion
+2025-04-16 05-44
+https://finance.yahoo.com/news/nvidia-shares-fall-says-us-054433361.html?.tsrc=rss
+BANGKOK (AP) — Shares in computer chip makers slumped in after-hours trading and in Asia after Nvidia said tighter U.S. government controls on exports of computer chips used forartificial intelligencewill cost it an extra $5.5 billion.
+The company, which announced Monday that it will produce its artificial intelligence super computers in the United States for the first time, said the government told it that its H20 integrated circuits and others of the same bandwidth would be subject to the controls for the “indefinite future.”
+In a regulatory filing,it saidthe government said the controls addressed risks that the products “may be used in or diverted to, a supercomputer in China.”
+Nvidia's shares fell 6.3% in after-hours trading. Shares in rival chip maker AMD dropped 7.1% after markets closed.
+Asian technology giants also saw big declines. Testing equipment maker Advantest's shares fell 6.7% in Tokyo, Disco Corp. lost 7.6% and Taiwan's TSMC dropped 2.4%.
+Earlier, reports had said the Trump administration had backed away from imposing stricter licensing requirements on the H20 chip. Commerce Department officials were not immediately available for comment early Wednesday.
+Nvidia said Mondayit has commissioned more than one million square feet of manufacturing space to build and test its specialized Blackwell chips in Arizona and AI supercomputers in Texas — part of an investment the company said will produce up to half a trillion dollars of AI infrastructure in the next four years.
+The announcement comes after President Donald Trump and other officials saidtariff exemptionson electronics like smartphones and laptops were only a temporary reprieve until officials develop a new tariff approach specific to the semiconductor industry.
+Trump claimed that decision as a victory for his effort to expand manufacturing in the U.S.
