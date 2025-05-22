@@ -36,6 +36,12 @@ async def get_stock_list():
     cursor = db.stocks.find({}, {"_id": 0, "ticker": 1, "sector": 1, "company": 1})
     return [doc async for doc in cursor]
 
+@app.get("/api/stocks/{ticker}/prices", response_model=StockRecord)
+async def get_stock_prices(ticker: str):
+    doc = await db.stocks.find_one({"ticker": ticker.upper()})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Stock not found")
+    return doc
 
 
 
