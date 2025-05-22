@@ -11,9 +11,23 @@ This project is a web application that visualizes stock market data and related 
 
 ## Prerequisites
 
-- Python 3.11+
+- Miniconda (Python environment manager)
 - Node.js 18+
 - MongoDB
+
+### Setting up Miniconda
+
+1. Download and install Miniconda:
+   - Mac (Apple Silicon): [Miniconda3 macOS ARM64](https://docs.conda.io/en/latest/miniconda.html)
+   - Mac (Intel): [Miniconda3 macOS x86_64](https://docs.conda.io/en/latest/miniconda.html)
+   - Windows: [Miniconda3 Windows 64-bit](https://docs.conda.io/en/latest/miniconda.html)
+   - Linux: [Miniconda3 Linux 64-bit](https://docs.conda.io/en/latest/miniconda.html)
+
+2. Create a new conda environment:
+```zsh
+conda create -n stock-viz python=3.11
+conda activate stock-viz
+```
 
 ## Project Structure
 
@@ -33,34 +47,33 @@ Homework4/
 
 ### Backend Setup
 
-1. Navigate to the server directory
+1. Navigate to the server directory and activate conda environment
 ```zsh
 cd server
+conda activate stock-viz
 ```
 
-2. Set up a Python virtual environment
+2. Install required Python packages
 ```zsh
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+# Install packages using conda first
+conda install -c conda-forge fastapi uvicorn motor pandas pymongo
 
-3. Install required Python packages
-```zsh
+# Then install any remaining packages with pip
 pip install -r requirements.txt
 ```
 
-4. Make sure MongoDB is running
+3. Make sure MongoDB is running
 ```zsh
 # If using Homebrew on macOS:
 brew services start mongodb-community
 ```
 
-5. Import data into the database
+4. Import data into the database
 ```zsh
 python import_data.py
 ```
 
-6. Start the FastAPI server
+5. Start the FastAPI server
 ```zsh
 uvicorn main:app --reload --port 8000
 ```
