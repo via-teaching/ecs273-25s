@@ -1,6 +1,10 @@
-# Homework 4 Templates
+# Homework 4: Stock Visualizer Full-Stack App
 
-This folder contains two parts, client and server.
+This project is split into two parts:
+
+client – React frontend visualizing stock data, news, and t-SNE projection
+
+server – FastAPI backend serving stock and news data from MongoDB
 
 ## Server
 
@@ -31,10 +35,13 @@ uvicorn main:app --reload --port 8000
 
 ## Client
 
-For the client part, it should mostly the same as your Homework 4. The only difference in this template is the data fetching part, as the example shown in `App.tsx`, that fetch the data for the drop-down menu with 20 different stocks. You can easily transfer that part into `js` version if needed.
+Install dependencies and start dev server:
+
 
 ```
 cd client
 npm install
 npm run dev
 ```
+This will launch the frontend on:
+http://localhost:5173

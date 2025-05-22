@@ -3,8 +3,6 @@ from pydantic import BaseModel
 from pydantic.functional_validators import BeforeValidator
 from bson import ObjectId
 
-# Represents an ObjectId field in the database.
-# It will be represented as a `str` on the model so that it can be serialized to JSON.
 
 PyObjectId = Annotated[str, BeforeValidator(str)]
 
@@ -26,16 +24,15 @@ class StockModelV1(BaseModel):
     High: list[float]
     Low: list[float]
     Close: list[float]
-    
+from datetime import datetime
+
 class StockModelUnit(BaseModel):
-    """
-    Model for stock data values
-    """
-    date: str
+    Date: datetime
     Open: float
     High: float
     Low: float
     Close: float
+
     
 class StockModelV2(BaseModel):
     """
@@ -64,3 +61,4 @@ class tsneDataModel(BaseModel):
     Stock: str
     x: float
     y: float
+    sector: str

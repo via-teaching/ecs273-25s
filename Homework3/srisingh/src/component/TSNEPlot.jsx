@@ -34,9 +34,7 @@ const TSNEPlot = ({ selectedTicker }) => {
       const svg = d3
         .select(svgRef.current)
         .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
-        .attr("preserveAspectRatio", "xMidYMid meet");
-
-      const chartGroup = svg
+        .attr("preserveAspectRatio", "xMidYMid meet")
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -63,28 +61,26 @@ const TSNEPlot = ({ selectedTicker }) => {
         .domain(d3.extent(data, d => d.y))
         .range([height, 0]);
 
-      const xAxisGroup = chartGroup.append("g")
+      svg.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x));
 
-      const yAxisGroup = chartGroup.append("g")
-        .call(d3.axisLeft(y));
+      svg.append("g").call(d3.axisLeft(y));
 
       svg.append("text")
-        .attr("x", width / 2 + margin.left)
-        .attr("y", height + margin.top + 40)
+        .attr("x", width / 2)
+        .attr("y", height + 40)
         .attr("text-anchor", "middle")
         .text("t-SNE X");
 
       svg.append("text")
         .attr("transform", "rotate(-90)")
-        .attr("x", -height / 2 - margin.top)
-        .attr("y", 15)
+        .attr("x", -height / 2)
+        .attr("y", -35)
         .attr("text-anchor", "middle")
         .text("t-SNE Y");
 
-      const dotsGroup = chartGroup.append("g");
-      const circles = dotsGroup.selectAll(".dot")
+      svg.selectAll(".dot")
         .data(data)
         .enter()
         .append("circle")
@@ -107,7 +103,7 @@ const TSNEPlot = ({ selectedTicker }) => {
         })
         .on("mouseout", () => tooltip.style("visibility", "hidden"));
 
-      chartGroup.selectAll(".label")
+      svg.selectAll(".label")
         .data(data.filter(d => d.ticker === selectedTicker))
         .enter()
         .append("text")
@@ -118,7 +114,7 @@ const TSNEPlot = ({ selectedTicker }) => {
         .style("font-weight", "bold")
         .style("fill", "black");
 
-      const legend = chartGroup
+      const legend = svg
         .append("g")
         .attr("transform", `translate(${width + 30}, 10)`);
 
@@ -132,28 +128,11 @@ const TSNEPlot = ({ selectedTicker }) => {
           .attr("y", 4)
           .style("font-size", "13px");
       });
-
-      // ✅ Add zoom behavior
-      const zoom = d3.zoom()
-        .scaleExtent([0.5, 10])
-        .on("zoom", (event) => {
-          const transform = event.transform;
-          const zx = transform.rescaleX(x);
-          const zy = transform.rescaleY(y);
-
-          xAxisGroup.call(d3.axisBottom(zx));
-          yAxisGroup.call(d3.axisLeft(zy));
-
-          circles
-            .attr("cx", d => zx(d.x))
-            .attr("cy", d => zy(d.y));
-        });
-
-      svg.call(zoom);
     };
 
     drawChart();
 
+    
     const handleResize = () => drawChart();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
