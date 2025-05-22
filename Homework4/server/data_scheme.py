@@ -31,7 +31,7 @@ class StockModelUnit(BaseModel):
     """
     Model for stock data values
     """
-    date: str
+    Date: str
     Open: float
     High: float
     Low: float
@@ -46,21 +46,26 @@ class StockModelV2(BaseModel):
     stock_series: list[StockModelUnit]
     
 class StockNewsModel(BaseModel):
-    _id: PyObjectId
-    Stock: str
-    Title: str
-    Date: str  
-    content: str
+    filename: str
+    date: str
+    title: str  
+    body: str
     
 class StockNewsModelList(BaseModel):
     Stock: str
     News: list[StockNewsModel]
 
+
+
 class tsneDataModel(BaseModel):
     """
     Model for t-SNE data
     """
-    _id: PyObjectId
-    Stock: str
+    ticker: str
     x: float
     y: float
+    type: str
+
+class tsneModelList(BaseModel):
+    _id: PyObjectId
+    Values: list[tsneDataModel]

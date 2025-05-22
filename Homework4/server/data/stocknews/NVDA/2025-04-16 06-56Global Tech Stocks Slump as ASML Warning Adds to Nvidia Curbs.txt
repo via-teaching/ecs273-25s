@@ -1,0 +1,17 @@
+Global Tech Stocks Slump as ASML Warning Adds to Nvidia Curbs
+2025-04-16 06-56
+https://finance.yahoo.com/news/asian-tech-stocks-slide-fresh-055536977.html?.tsrc=rss
+(Bloomberg) -- Technology stocks fell as new US government restrictions on the export of Nvidia Corp. chips to China and a disappointing report from Dutch chip-equipment maker ASML Holding NV fanned trade war concerns.
+Most Read from Bloomberg
+How Did This Suburb Figure Out Mass Transit?
+Trump Signs Executive Orders on Federal Purchasing, Office Space
+LA County Floats Leaner Budget Burdened by Fire and Legal Costs
+$15 Million Fund Bets Leadership Training Can Improve Chicago Policing
+President Donald Trump’s administration has barred Nvidia from selling its H20 chip in China, an escalation of Washington’s tech battle with Beijing. ASML later added to investor anxiety by posting orders that missed expectations and saying that it doesn’t know how to quantify the impact of recent tariff announcements.
+The latest developments show how tariffs are already wreaking havoc on global companies, while the trade war is extending beyond mere import taxes as well. The fallout could weigh on chip-sector earnings and also set back China’s ambitions to compete on the global tech stage.
+The H20 restrictions are “driven by concerns over China’s rise in the electronics sector, and in that sense, it is likely to become a permanent policy,” said Tomo Kinoshita, global market strategist at Invesco Asset Management. “It is expected to have a significant negative impact on semiconductor supply chain.”
+Nvidia warned that it will report around $5.5 billion in related charges during the fiscal first quarter. Its shares slid about 5% in late US trading Tuesday. Futures on the Nasdaq 100 later extended losses to more than 2% after ASML’s report.
+Among key suppliers, Korean memory maker SK Hynix Inc. slumped as much as 3.9% Wednesday. Top foundry Taiwan Semiconductor Manufacturing Co. fell 2.9%. Japanese chip-equipment maker Advantest Corp. dropped as much as 7.8%, extending its fall after ASML’s statement.
+TSMC was already likely to slow some production expansion on a weaker economic outlook, and “the tighter rules on Nvidia’s China sales might amplify the deceleration,” Bloomberg Intelligence analyst Ken Hui wrote in a note.
+For China, the broader restrictions raise concerns that access to global tech hardware will be further choked off. Exports of the most-advanced chips and equipment to the Asian nation are already banned, and the H20 is a scaled-down product specifically designed not to be too powerful.
+Even after DeepSeek raised hopes that advances can be made in artificial intelligence and other fields without the most cutting-edge chips, China’s tech giants may suffer if curbs keep getting extended. Alibaba Group Holding Ltd. sank as much as 5.4% in Hong Kong trading Wednesday, while Baidu Inc. fell 3.3%.
