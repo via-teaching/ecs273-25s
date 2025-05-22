@@ -9,7 +9,7 @@ from datetime import datetime, date
 
 PyObjectId = Annotated[str, BeforeValidator(str)]
 
-class StockOHLC(BaseModel):
+class StockPrice(BaseModel):
     date: datetime
     open: float
     high: float
@@ -17,25 +17,31 @@ class StockOHLC(BaseModel):
     close: float
     volume: int
 
-class StockRecord(BaseModel):
-    _id: PyObjectId
+class StockNewsModel(BaseModel):
     ticker: str
-    sector: Optional[str] = None
-    prices: List[StockOHLC]
-    tsne: Optional[Dict[str, float]] = None
+    date: datetime
+    title: str
+    content: str
+    url: Optional[str] = None
 
 class StockListItem(BaseModel):
-    """
-    Model for stock list
-    """
-    # _id: PyObjectId
     ticker: str
     sector: Optional[str] = None
+    company: Optional[str] = None
 
+class TSNEPoint(BaseModel):
+    x: float
+    y: float
+
+class StockRecord(BaseModel):
+    ticker: str
+    sector: Optional[str] = None
+    company: Optional[str] = None
+    prices: List[StockPrice]
+    tsne: Optional[TSNEPoint] = None
 
 class StockListResponse(BaseModel):
     stocks: List[StockListItem]
-
 
 class StockNewsModel(BaseModel):
     _id: PyObjectId
