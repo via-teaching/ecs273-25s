@@ -1,54 +1,123 @@
-# React + TypeScript + Vite
+# 📊 Homework3: Interactive Stock Visualization Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web-based financial dashboard that visualizes stock data using **React**, **D3.js**, and **Node.js**. It provides interactive components for time-series stock trends, t-SNE dimensionality reduction visualization, and related financial news.
 
-Currently, two official plugins are available:
+![Overview](./screenshots/overview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 How to Run This Project
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔧 Prerequisites
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+* Node.js (v16+)
+* npm
+
+### 🛠 Setup
+
+1. Clone the repository
+
+```bash
+cd Homework3/ciqchen
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
 ```
+
+3. Start frontend + backend + auto-open in browser
+
+```bash
+npm run start
+```
+
+> This will:
+>
+> * Start Express backend at [http://localhost:5174](http://localhost:5174)
+> * Start Vite frontend at [http://localhost:5173](http://localhost:5173)
+> * Open the app in your browser automatically
+
+---
+
+## 🧭 Project Structure
+
+```
+Homework3/
+└── ciqchen/
+    ├── data/
+    │   ├── stockdata/{TICKER}/...csv  # Stock csv files
+    │   └── stocknews/{TICKER}/...txt  # News text files per company
+    ├── node_modules/                           
+    ├── public/ 
+    ├── src/                           # React/D3 frontend code
+    │   ├── assets
+    │   ├── component
+    │   │   ├── example.jsx
+    │   │   ├── LineChart.jsx
+    │   │   ├── NewsList.jsx
+    │   │   ├── options.jsx
+    │   │   └── TSNEScatter.jsx
+    │   └── App.jsx
+    ├── server.js                      # Express API server
+    │   ...
+    └── package.json
+```
+
+---
+## 🔍 Project Overview
+![LineChart](./screenshots/webview.png)
+
+## 🔍 Feature Breakdown
+
+### 📈 View 1: LineChart - Stock Trend Over Time
+
+Displays a multi-line time series chart for the selected company, showing **Open, High, Low, Close** prices.
+
+* Zoomable timeline
+* Colored legends
+* Responsive layout
+
+![LineChart](./screenshots/linechart.png)
+
+
+### 🧠 View 2: TSNE Scatter Plot
+
+A t-SNE dimensionality reduction scatter plot that groups stocks in 2D space. Each ticker is uniquely colored, and the selected company is highlighted.
+
+* Scroll to zoom
+* Hover to show tooltips
+* Highlighted company gets a label
+
+![ScatterPlot](./screenshots/scatterplot.png)
+
+
+### 📰 View 3: News List
+
+Displays all `.txt` news files under `/data/stocknews/{ticker}/`.
+
+* Filename list shown in View 3
+* Hover to open full content in a new tab
+* Dynamically loaded by API
+
+![NewsList](./screenshots/newslist.png)
+
+---
+
+## 📦 Backend API Routes (Express)
+
+| Endpoint                     | Description                            |
+| ---------------------------- | -------------------------------------- |
+| `/api/list-news?ticker=AAPL` | Lists all `.txt` filenames for ticker  |
+| `/api/news-content?...`      | (optional) Loads specific file content |
+
+---
+
+## 🙌 Author
+
+Chi-Chun Chen
+
+* MS Statistics @ UC Davis
+* GitHub: [chichichen77](https://github.com/chichichen77)
+
