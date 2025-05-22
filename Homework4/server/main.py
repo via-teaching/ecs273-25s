@@ -1,21 +1,20 @@
 from fastapi import FastAPI
-from pydantic.functional_validators import BeforeValidator
-from motor.motor_asyncio import AsyncIOMotorClient
-
 from fastapi.middleware.cors import CORSMiddleware
+from motor.motor_asyncio import AsyncIOMotorClient
+from typing import List
+from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, StockNewsModelList, tsneDataList
 
-from data_scheme import StockListModel, StockModelV1, StockModelV2, StockNewsModel, tsneDataModel
-
-# MongoDB connection (localhost, default port)
+# MongoDB connection (replace with your personal DB name to avoid TA conflict)
 client = AsyncIOMotorClient("mongodb://localhost:27017")
-db = client.stock_yuchia # please replace the database name with stock_[your name] to avoid collision at TA's side
-            
+db = client.stock_sd
+
+# FastAPI initialization
 app = FastAPI(
-    title="Stock tracking API",
-    summary="An aplication tracking stock prices and respective news"
+    title="Stock Tracking API",
+    summary="An application tracking stock prices and respective news"
 )
 
-# Enables CORS to allow frontend apps to make requests to this backend
+# Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -24,9 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/stock_list", 
-         response_model=StockListModel
-    )
+# -----------------------------
+#         ROUTES
+# -----------------------------
+
+@app.get("/stock_list", response_model=StockListModel)
 async def get_stock_list():
     """
     Get the list of stocks from the database
@@ -35,32 +36,36 @@ async def get_stock_list():
     stock_list = await stock_name_collection.find_one()
     return stock_list
 
-@app.get("/stocknews/", 
-        response_model=StockNewsModel
-    )
-async def get_stock_news(stock_name: str = 'XOM') -> StockNewsModel:
-    """
-    Get the list of news for a specific stock from the database
-    The news is sorted by date in ascending order
-    """
-    return [] # replace with your code to get the news from the database
 
-@app.get("/stock/{stock_name}", 
-        response_model=StockModelV2
-    )
-async def get_stock() -> StockModelV2:
+@app.get("/stocknews/", response_model=StockNewsModelList)
+async def get_stock_news(stock_name: str = 'XOM'):
+    """
+    Get the list of news for a specific stock from the database.
+    The news is sorted by date in ascending order.
+    """
+    news_collection = db.get_collection("news_data")
+    cursor = news_collection.find({"Stock": stock_name}).sort("Date", 1)
+    news_list = await cursor.to_list(length=None)
+    return {"Stock": stock_name, "News": news_list}
+
+
+@app.get("/stock/{stock_name}", response_model=StockModelV2)
+async def get_stock(stock_name: str):
     """
     Get the stock data for a specific stock
-    Parameters:
-    - stock_name: The name of the stock
     """
-    return [] # replace with your code to get the news from the database
+    stock_collection = db.get_collection("stock_data")
+    stock_data = await stock_collection.find_one({"ticker": stock_name})
+    return stock_data
+    # response_model=StockModelV2
 
-@app.get("/tsne/",
-        response_model=tsneDataModel
-    )
-async def get_tsne(stock_name: str = 'XOM') -> tsneDataModel:
+
+@app.get("/tsne/", response_model=tsneDataList)
+async def get_tsne():
     """
-    Get the t-SNE data for a specific stock
+    Get all t-SNE data points for visualization
     """
-    return [] # replace with your code to get the news from the database
+    tsne_collection = db.get_collection("tsne_data")
+    cursor = tsne_collection.find()
+    tsne_list = await cursor.to_list(length=None)
+    return {"ZData": tsne_list}
