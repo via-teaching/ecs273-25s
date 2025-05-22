@@ -1,4 +1,3 @@
-@import "tailwindcss";
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -17,11 +16,299 @@
 html, body, #root {
   height: 100%;
   width: 100%;
-  margin: 0; /* no margin here to avoid overflow */
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   display: flex;
+}
+
+/* Layout */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.h-screen { height: 100vh; }
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.w-2\/3 { width: 66.666667%; }
+.w-1\/3 { width: 33.333333%; }
+.h-1\/4 { height: 25%; }
+.h-3\/4 { height: 75%; }
+.flex-1 { flex: 1; }
+
+/* Spacing */
+.p-2 { padding: 0.5rem; }
+.mx-2 { margin-left: 0.5rem; margin-right: 0.5rem; }
+
+/* Typography */
+.text-left { text-align: left; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.text-white { color: white; }
+.text-black { color: black; }
+
+/* Background */
+.bg-zinc-400 { background-color: #a1a1aa; }
+.bg-white { background-color: white; }
+
+/* Border */
+.border-2 { border-width: 2px; }
+.border-gray-300 { border-color: #d1d5db; }
+.rounded-xl { border-radius: 0.75rem; }
+.rounded { border-radius: 0.25rem; }
+
+/* Other */
+.overflow-hidden { overflow: hidden; }
+.h-\[2rem\] { height: 2rem; }
+.h-\[calc\(100\%_-_2rem\)\] { height: calc(100% - 2rem); }
+
+/* Alignment */
+.align-center { align-items: center; }
+
+/* Select element */
+select {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+select:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 2px rgba(147, 197, 253, 0.2);
+}
+
+select:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.4);
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #71717a;
+  color: white;
+  height: 3rem;
+}
+
+header .flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+header h2 {
+  margin: 0;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+header h2:hover {
+  color: #e2e8f0;
+}
+
+header label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+header select {
+  min-width: 120px;
+  height: 2rem;
+  padding: 0 0.5rem;
+}
+
+/* View containers */
+.view {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.view2, .view3 {
+  height: calc(50% - 1rem);
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #a1a1aa transparent;
+}
+
+.view2 {
+  margin-bottom: 0.5rem;
+}
+
+.view3 {
+  margin-top: 0.5rem;
+}
+
+/* カスタムスクロールバーのスタイル */
+.view2::-webkit-scrollbar,
+.view3::-webkit-scrollbar {
+  width: 6px;
+}
+
+.view2::-webkit-scrollbar-track,
+.view3::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.view2::-webkit-scrollbar-thumb,
+.view3::-webkit-scrollbar-thumb {
+  background-color: #a1a1aa;
+  border-radius: 3px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* News List */
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-300 {
+  border-color: #d1d5db;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.min-w-\[7rem\] {
+  min-width: 7rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Chart Container */
+.chart-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/* D3 Chart Styles */
+.axis-label {
+  font-size: 0.8rem;
+}
+
+.legend-text {
+  font-size: 0.65rem;
+}
+
+.hint-text {
+  font-size: 0.75rem;
+  fill: #666;
+}
+
+.sel-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* News List Toggle Animation */
+.toggle-icon {
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] .toggle-icon {
+  transform: rotate(90deg);
+}
+
+/* Fade in animation for content */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
 }

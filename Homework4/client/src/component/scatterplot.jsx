@@ -2,12 +2,15 @@ import * as d3 from "d3";
 import { useEffect, useRef } from "react";
 import { debounce } from "lodash";
 
+// グラフの余白設定
+const margin = { 
+  left: 60,   // 左余白
+  right: 40,  // 右余白
+  top: 50,    // 上余白
+  bottom: 50  // 下余白
+};
 
-
-const margin = { left: 60, right: 40, top: 50, bottom: 50 };
-
-// helper for stock categories -------------
-
+// 株式のカテゴリー分類 -------------
 const categories = {
     Energy:       ["XOM", "CVX", "HAL"],
     Industrials:  ["MMM", "CAT", "DAL"],
@@ -15,199 +18,201 @@ const categories = {
     Healthcare:   ["JNJ", "PFE", "UNH"],
     Financials:   ["JPM", "GS", "BAC"],
     Tech:         ["AAPL", "MSFT", "NVDA", "GOOGL", "META"]
-  };
+};
 
-const categoryOf = {};
-for (const category in categories) {
-    const symbols = categories[category];
-    symbols.forEach(symbol => {
-        categoryOf[symbol] = category;
+// 銘柄からカテゴリーを素早く検索するためのマップを作成
+const categoryMap = {};
+Object.entries(categories).forEach(([category, stocks]) => {
+    stocks.forEach(symbol => {
+        categoryMap[symbol] = category;
     });
-}
+});
 
-const categoryColour = d3.scaleOrdinal()
+// カテゴリーごとの色を設定
+const colorScale = d3.scaleOrdinal()
   .domain(Object.keys(categories))
   .range(d3.schemeTableau10.slice(0, Object.keys(categories).length));
-
-// -----------------------------------------
-  
   
 export function ScatterPlot({ selectedStock }) {
+  // コンテナとSVGの参照を保持
   const containerRef = useRef(null);
   const svgRef = useRef(null);
   const dataRef = useRef([]); 
 
-
   useEffect(() => {
     if (!containerRef.current || !svgRef.current) return;
 
-    const resizeObserver = new ResizeObserver(
+    // 画面サイズ変更時の処理
+    const handleResize = new ResizeObserver(
       debounce((entries) => {
-        for (const entry of entries) {
-          if (entry.target !== containerRef.current) continue;
-          const { width, height } = entry.contentRect;
-          if (width && height) {
-            drawPlot(dataRef.current, width, height, selectedStock, svgRef);
+        entries.forEach(entry => {
+          if (entry.target === containerRef.current) {
+            const { width, height } = entry.contentRect;
+            if (width && height) {
+              drawPlot(dataRef.current, width, height, selectedStock, svgRef);
+            }
           }
-        }
+        });
       }, 100)
     );
 
-    resizeObserver.observe(containerRef.current);
+    handleResize.observe(containerRef.current);
 
-    // Draw initially based on starting size
-    d3.csv(`/data/tsne.csv`, d => ({
-        Ticker: d.ticker,
-        x: +d.x,
-        y: +d.y,
-        Category: categoryOf[d.ticker] ?? "Other" 
-      })).then(rows => {
-        dataRef.current = rows;
+    // 初回描画時のデータ取得
+    fetch(`http://localhost:8000/api/tsne`)
+      .then(response => response.json())
+      .then(data => {
+        dataRef.current = data;
         const { width, height } = containerRef.current.getBoundingClientRect();
-        drawPlot(rows, width, height, selectedStock, svgRef);
+        drawPlot(data, width, height, selectedStock, svgRef);
+      })
+      .catch(error => {
+        console.error('Failed to fetch data:', error);
       });
 
-    return () => resizeObserver.disconnect();
+    return () => handleResize.disconnect();
   }, [selectedStock]);
 
-  
-
   return (
-    <div className="chart-container d-flex" ref={containerRef} style={{ width: '100%', height: '100%' }}>
-      <svg id="bar-svg" ref={svgRef} width="100%" height="100%"></svg>
+    <div className="chart-container" ref={containerRef} style={{ width: '100%', height: '100%' }}>
+      <svg id="scatter-plot" ref={svgRef} width="100%" height="100%"></svg>
     </div>
   );
 }
 
-function drawPlot(rows, width, height, selectedStock, svgRef) {
+function drawPlot(data, width, height, selectedStock, svgRef) {
     const svg = d3.select(svgRef.current);
-    svg.selectAll('*').remove(); // clear previous render
-
-    // const yExtents = d3.extent(bars.map((d) => d.value));
-    // const xCategories = [...new Set(bars.map((d) => d.category))];
+    svg.selectAll('*').remove(); // 前回の描画をクリア
     
+    // X軸のスケール設定
     const xScale = d3.scaleLinear()
-      .domain(d3.extent(rows, d => d.x)).nice()
+      .domain(d3.extent(data, d => d.x)).nice()
       .range([margin.left, width - margin.right]);
 
-
+    // Y軸のスケール設定
     const yScale = d3.scaleLinear()
-      .domain(d3.extent(rows, d => d.y)).nice()
+      .domain(d3.extent(data, d => d.y)).nice()
       .range([height - margin.bottom, margin.top]);
-
    
-      const plotG = svg.append("g");
+    const plotGroup = svg.append("g");
 
+    // クリッピングマスクの設定（プロットエリアからはみ出さないように）
+    const clipId = `clip-${Date.now()}`;
+    svg.append("clipPath")
+      .attr("id", clipId)
+      .append("rect")
+        .attr("x", margin.left)
+        .attr("y", margin.top)
+        .attr("width", width - margin.left - margin.right)
+        .attr("height", height - margin.top - margin.bottom);
 
-      const clipId = `clip-${Math.random().toString(36).slice(2)}`;
-      svg.append("clipPath")
-        .attr("id", clipId)
-        .append("rect")
-          .attr("x", margin.left)
-          .attr("y", margin.top)
-          .attr("width", width - margin.left - margin.right)
-          .attr("height", height - margin.top - margin.bottom);
-  
-      svg.append("g")
-        .attr("clip-path", `url(#${clipId})`);
-  
-      // View 2 : plot
-      const pts = svg.append("g")
-        .selectAll("circle")
-        .data(rows)
-        .enter()
-        .append("circle")
-          .attr("cx", d => xScale(d.x))
-          .attr("cy", d => yScale(d.y))
-          .attr("r", d => d.Ticker === selectedStock ? 7 : 4)
-          .attr("fill", d => categoryColour(d.Category))
-          .attr("stroke", d => d.Ticker === selectedStock ? "#000" : "none")
-          .attr("stroke-width", 1);
-  
-      // View 2 : label (only selected stock)
-      plotG.selectAll(".sel-label")
-        .data(rows.filter(d => d.Ticker === selectedStock))
-        .enter()
-        .append("text")
-          .attr("class", "sel-label")
-          .attr("x", d => xScale(d.x))
-          .attr("y", d => yScale(d.y) - 8)
-          .attr("text-anchor", "middle")
-          .style("font-size", "0.7rem")
-          .style("font-weight", "700")
-          .text(d => d.Ticker);
-  
-       // View 2 : axis
-      const xAxisG = svg.append("g")
-        .attr("class", "x-axis")
-        .attr("transform", `translate(0, ${height - margin.bottom })`)
-        .call(d3.axisBottom(xScale));
-  
-      const yAxisG = svg.append("g")
-        .attr("class", "y-axis")
-        .attr("transform", `translate(${margin.left}, 0)`)
-        .call(d3.axisLeft(yScale));
-  
-      svg.append("text")
-        .attr("x", width / 2)
-        .attr("y", height  - margin.bottom + 40)
+    svg.append("g")
+      .attr("clip-path", `url(#${clipId})`);
+
+    // 散布図の点を描画
+    const points = svg.append("g")
+      .selectAll("circle")
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", d => xScale(d.x))
+        .attr("cy", d => yScale(d.y))
+        .attr("r", d => d.ticker === selectedStock ? 7 : 4)  // 選択された銘柄は大きく表示
+        .attr("fill", d => colorScale(d.sector))
+        .attr("stroke", d => d.ticker === selectedStock ? "#000" : "none")
+        .attr("stroke-width", 1);
+
+    // 選択された銘柄のラベルを表示
+    plotGroup.selectAll(".stock-label")
+      .data(data.filter(d => d.ticker === selectedStock))
+      .enter()
+      .append("text")
+        .attr("class", "stock-label")
+        .attr("x", d => xScale(d.x))
+        .attr("y", d => yScale(d.y) - 8)
         .attr("text-anchor", "middle")
-        .style("font-size", "0.75rem")
-        .text("t-SNE 1");
-  
-      svg.append("text")
-        .attr("x", - height / 2 + margin.top +10 )
-        .attr("y", 14)
-        .attr("transform", "rotate(-90)")
-        .attr("text-anchor", "middle")
-        .style("font-size", "0.75rem")
-        .text("t-SNE 2");
-  
-      // View 2 : legend
-      const legend = svg.append("g")
-        .attr("transform", `translate(${margin.left}, ${ margin.top  -20})`);
-  
-      Object.keys(categories).forEach((category, i) => {
-        const item = legend.append("g")
-          .attr("transform", `translate(${i * 88},0)`);
-  
-        item.append("rect")
-          .attr("width", 10).attr("height", 10)
-          .attr("fill", categoryColour(category));
-  
-        item.append("text")
-          .attr("x", 14).attr("y", 9)
-          .style("font-size", "0.65rem")
-          .text(category);
+        .style("font-size", "0.7rem")
+        .style("font-weight", "700")
+        .text(d => d.ticker);
+
+    // X軸の描画
+    const xAxis = svg.append("g")
+      .attr("class", "x-axis")
+      .attr("transform", `translate(0, ${height - margin.bottom })`)
+      .call(d3.axisBottom(xScale));
+
+    // Y軸の描画
+    const yAxis = svg.append("g")
+      .attr("class", "y-axis")
+      .attr("transform", `translate(${margin.left}, 0)`)
+      .call(d3.axisLeft(yScale));
+
+    // X軸ラベル
+    svg.append("text")
+      .attr("x", width / 2)
+      .attr("y", height  - margin.bottom + 40)
+      .attr("text-anchor", "middle")
+      .style("font-size", "0.75rem")
+      .text("t-SNE 1");
+
+    // Y軸ラベル
+    svg.append("text")
+      .attr("x", - height / 2 + margin.top +10 )
+      .attr("y", 14)
+      .attr("transform", "rotate(-90)")
+      .attr("text-anchor", "middle")
+      .style("font-size", "0.75rem")
+      .text("t-SNE 2");
+
+    // カテゴリー凡例の描画
+    const legend = svg.append("g")
+      .attr("transform", `translate(${margin.left}, ${ margin.top  -20})`);
+
+    Object.entries(categories).forEach(([category, _], index) => {
+      const legendItem = legend.append("g")
+        .attr("transform", `translate(${index * 88},0)`);
+
+      // 凡例の色付き四角形
+      legendItem.append("rect")
+        .attr("width", 10)
+        .attr("height", 10)
+        .attr("fill", colorScale(category));
+
+      // 凡例のテキスト
+      legendItem.append("text")
+        .attr("x", 14)
+        .attr("y", 9)
+        .style("font-size", "0.65rem")
+        .text(category);
+    });
+
+    // ズーム機能の実装
+    const baseXScale = xScale.copy();
+    const baseYScale = yScale.copy();
+
+    // パンの範囲を制限
+    const panLimits = [
+      [margin.left, margin.top],
+      [xScale(d3.max(data, d => d.x)), yScale(d3.min(data, d => d.y))]
+    ];
+
+    const zoom = d3.zoom()
+      .scaleExtent([1, 10])  // ズームの範囲を1-10倍に制限
+      .translateExtent(panLimits)
+      .extent([[margin.left, margin.top], [width - margin.right, height - margin.bottom]])
+      .on("zoom", event => {
+        const transform = event.transform;
+        const newX = transform.rescaleX(baseXScale);
+        const newY = transform.rescaleY(baseYScale);
+
+        // 軸の更新
+        xAxis.call(d3.axisBottom(newX));
+        yAxis.call(d3.axisLeft(newY));
+
+        // 点とラベルの位置を更新
+        points.attr("transform", transform);
+        plotGroup.attr("transform", transform);
       });
-  
 
-      // View 2 : Zoom
-      const xInit = xScale.copy();
-      const yInit = yScale.copy();
-  
-      const panExtent = [
-        [margin.left, margin.top],
-        [xScale(d3.max(rows, d => d.x)), yScale(d3.min(rows, d => d.y))]
-      ];
-  
-      const zoom = d3.zoom()
-        .scaleExtent([1, 10])
-        .translateExtent(panExtent)
-        .extent([[margin.left, margin.top], [width - margin.right, height - margin.bottom]])
-        .on("zoom", e => {
-          const t = e.transform;
-          const zx = t.rescaleX(xInit);
-          const zy = t.rescaleY(yInit);
-  
-          xAxisG.call(d3.axisBottom(zx));
-          yAxisG.call(d3.axisLeft(zy));
-  
-          pts.attr("cx", d => zx(d.x)).attr("cy", d => zy(d.y));
-          plotG.selectAll(".sel-label")
-            .attr("x", d => zx(d.x))
-            .attr("y", d => zy(d.y) - 8);
-        });
-  
-      svg.call(zoom);
+    svg.call(zoom);
 }

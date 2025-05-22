@@ -1,17 +1,22 @@
-import Data from "../../data/demo.json";
+import { useEffect, useState } from "react";
 
 export default function RenderOptions() {
+    const [stocks, setStocks] = useState([]);
 
-    const tickers = [
-      "AAPL", "MSFT", "GOOGL", "AMZN", "META",
-      "NVDA", "TSLA", "JPM", "V", "UNH",
-      "HD", "PG", "DIS", "MA", "PEP",
-      "KO", "BAC", "CVX", "XOM", "INTC"
-    ];
-    // const bars = Data.data;
-    return tickers.map((ticker, index) => (
-      <option key={index} value={ticker}>
-        {ticker}
-      </option>
+    useEffect(() => {
+        fetch('http://localhost:8000/api/stocks')
+            .then(res => res.json())
+            .then(data => {
+                // アルファベット順にソート
+                const sortedStocks = data.sort((a, b) => a.ticker.localeCompare(b.ticker));
+                setStocks(sortedStocks);
+            })
+            .catch(console.error);
+    }, []);
+
+    return stocks.map(stock => (
+        <option key={stock.ticker} value={stock.ticker}>
+            {stock.ticker}
+        </option>
     ));
-  }
+}

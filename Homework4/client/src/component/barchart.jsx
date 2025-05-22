@@ -1,159 +1,177 @@
 import * as d3 from "d3";
 import { useEffect, useRef } from "react";
 import { isEmpty, debounce } from 'lodash';
-import Data from "../../data/demo.json";
 
-
-const margin = { left: 40, right: 20, top: 20, bottom: 40 };
+// グラフの余白設定
+const margin = { 
+    left: 40,    // 左余白
+    right: 20,   // 右余白
+    top: 20,     // 上余白
+    bottom: 40   // 下余白
+};
   
 export function BarChart({ selectedStock }) {
+  // コンテナとSVGの参照を保持
   const containerRef = useRef(null);
   const svgRef = useRef(null);
-//   const bars = Data.data;
 
   useEffect(() => {
     if (!containerRef.current || !svgRef.current) return;
 
-    const resizeObserver = new ResizeObserver(
+    // 画面サイズ変更時の処理
+    const handleResize = new ResizeObserver(
       debounce((entries) => {
-        for (const entry of entries) {
-          if (entry.target !== containerRef.current) continue;
-          const { width, height } = entry.contentRect;
-          if (width && height) {
-            d3.csv(`/data/stockdata/${selectedStock}.csv`).then((rawData) => {
-                drawChart(svgRef.current,rawData, width, height);
-            });
+        entries.forEach(entry => {
+          if (entry.target === containerRef.current) {
+            const { width, height } = entry.contentRect;
+            if (width && height) {
+              // 選択された銘柄の株価データを取得
+              fetch(`http://localhost:8000/api/stocks/${selectedStock}/prices`)
+                .then(response => response.json())
+                .then(data => {
+                  drawChart(svgRef.current, data.prices, width, height);
+                })
+                .catch(error => {
+                  console.error('Failed to fetch price data:', error);
+                });
+            }
           }
-        }
+        });
       }, 100)
     );
 
-    resizeObserver.observe(containerRef.current);
+    handleResize.observe(containerRef.current);
 
-    // Draw initially based on starting size
+    // 初回描画時のデータ取得と描画
     const { width, height } = containerRef.current.getBoundingClientRect();
     if (width && height) {
-        d3.csv(`/data/stockdata/${selectedStock}.csv`).then((rawData) => {
-            drawChart(svgRef.current,rawData, width, height);
+      fetch(`http://localhost:8000/api/stocks/${selectedStock}/prices`)
+        .then(response => response.json())
+        .then(data => {
+          drawChart(svgRef.current, data.prices, width, height);
+        })
+        .catch(error => {
+          console.error('Failed to fetch price data:', error);
         });
     }
 
-    return () => resizeObserver.disconnect();
+    return () => handleResize.disconnect();
   }, [selectedStock]);
 
-  
-
   return (
-    <div className="chart-container d-flex" ref={containerRef} style={{ width: '100%', height: '100%' }}>
-      <svg id="bar-svg" ref={svgRef} width="100%" height="100%"></svg>
+    <div className="chart-container" ref={containerRef} style={{ width: '100%', height: '100%' }}>
+      <svg id="price-chart" ref={svgRef} width="100%" height="100%"></svg>
     </div>
   );
 }
 
-
 function drawChart(svgElement, rawData, width, height) {
     const svg = d3.select(svgElement);
-    svg.selectAll('*').remove(); // clear previous render
+    svg.selectAll('*').remove(); // 前回の描画をクリア
 
-    const stock_data = rawData.map((d) => ({
-        Date: new Date(d.Date),
-        Open: +d.Open,
-        High: +d.High,
-        Low: +d.Low,
-        Close: +d.Close,
+    // 株価データの整形
+    const data = rawData.map((d) => ({
+        date: new Date(d.date),
+        open: +d.open,
+        high: +d.high,
+        low: +d.low,
+        close: +d.close,
     }));
 
-    const yExtent = d3.extent(stock_data.flatMap(d => [d.Open, d.High, d.Low, d.Close]));
-    // const xCategories = [...new Set(bars.map((d) => d.category))];
+    // Y軸の範囲を計算（株価の最高値と最安値）
+    const priceRange = d3.extent(
+        data.flatMap(d => [d.open, d.high, d.low, d.close])
+    );
 
-    const xScale = d3.scaleTime()
+    // X軸（日付）のスケール設定
+    const timeScale = d3.scaleTime()
         .rangeRound([margin.left, width - margin.right])
-        .domain(d3.extent(stock_data, d => d.Date));
+        .domain(d3.extent(data, d => d.date));
 
-    const yScale = d3.scaleLinear()
+    // Y軸（株価）のスケール設定
+    const priceScale = d3.scaleLinear()
         .range([height - margin.bottom, margin.top])
-        .domain(yExtent);
+        .domain(priceRange);
     
-    const g = svg.append("g");
+    const chartGroup = svg.append("g");
 
-    //View1: labeled axes
-    
-    //axes
-
-    //delete original x axis for new x-axis with Zoom function
-    // svg.append('g')
-    //     .attr('transform', `translate(0, ${height - margin.bottom})`)
-    //     .call(d3.axisBottom(xScale))
-
+    // Y軸の描画
     svg.append('g')
         .attr('transform', `translate(${margin.left}, 0)`)
-        .call(d3.axisLeft(yScale));
+        .call(d3.axisLeft(priceScale));
 
-    // labels
+    // Y軸ラベル
     svg.append('g')
         .attr('transform', `translate(10, ${height / 2}) rotate(-90)`)
         .append('text')
         .text('Price')
         .style('font-size', '.8rem');
 
+    // X軸ラベル
     svg.append('g')
         .attr('transform', `translate(${width / 2 - margin.left}, ${height - margin.top +12 })`)
         .append('text')
         .text('Date')
         .style('font-size', '.8rem'); 
-    
 
-    const fields = [
-        { key: "Open", color: "blue" },
-        { key: "High", color: "green" },
-        { key: "Low", color: "orange" },
-        { key: "Close", color: "red" },
-        ];
+    // 株価の種類と色の定義
+    const priceTypes = [
+        { key: "open", label: "Open", color: "blue" },
+        { key: "high", label: "High", color: "green" },
+        { key: "low", label: "Low", color: "orange" },
+        { key: "close", label: "Close", color: "red" },
+    ];
     
-    fields.forEach(({ key, color }, idx) => {
-        const line = d3.line()
-            .x((d) => xScale(d.Date))
-            .y((d) => yScale(d[key]));
+    // 各株価種別のラインを描画
+    priceTypes.forEach(({ key, color }, index) => {
+        const priceLine = d3.line()
+            .x((d) => timeScale(d.date))
+            .y((d) => priceScale(d[key]));
     
-        g.append("path")
-            .datum(stock_data)
-            .attr("class", `line-${idx}`) 
+        chartGroup.append("path")
+            .datum(data)
+            .attr("class", `price-line-${index}`) 
             .attr("fill", "none")
             .attr("stroke", color)
             .attr("stroke-width", 1.5)
-            .attr("d", line);
+            .attr("d", priceLine);
     });
 
-
-    // View 1: legend
+    // 凡例の描画
     const legend = svg.append("g")
         .attr("transform", `translate(${margin.left + 5 }, ${height - margin.bottom - 20})`);
 
-    fields.forEach(({ key, color }, i) => {
-        const g = legend.append("g").attr("transform", `translate(${i * 50},0)`);
-        g.append("rect")
-            .attr("width", 10).attr("height", 10)
+    priceTypes.forEach(({ label, color }, index) => {
+        const legendGroup = legend.append("g")
+            .attr("transform", `translate(${index * 50},0)`);
+
+        // 凡例の色付き四角形
+        legendGroup.append("rect")
+            .attr("width", 10)
+            .attr("height", 10)
             .attr("fill", color);
-        g.append("text")
-            .attr("x", 16).attr("y", 10)
+
+        // 凡例のテキスト
+        legendGroup.append("text")
+            .attr("x", 16)
+            .attr("y", 10)
             .style("font-size", "0.65rem")
             .attr("fill", color) 
-            .text(key);
+            .text(label);
     });
 
-
+    // 操作説明のテキスト
     svg.append("text")
-        .attr("class", "hint-text")
+        .attr("class", "hint")
         .attr("x", width - margin.right)
         .attr("y", height - margin.bottom + 30)
         .style("text-anchor", "end")
         .style("font-size", "0.75rem")
         .style("fill", "#666")
-        .text("drag: horizontal scroll, wheel/pinch: zoom");
+        .text("drag: scroll, wheel/pinch: zoom");
 
-
-    // View 1: Zoom and scroll
-    const clipId = "clipID-" + Math.random().toString(36).slice(2);
+    // クリッピングマスクの設定（グラフエリアからはみ出さないように）
+    const clipId = "clip-" + Date.now();
     svg.append("clipPath")
         .attr("id", clipId)
         .append("rect")
@@ -162,41 +180,38 @@ function drawChart(svgElement, rawData, width, height) {
         .attr("width", width - margin.left - margin.right)
         .attr("height", height - margin.top - margin.bottom);
 
-    g.attr("clip-path", `url(#${clipId})`);
+    chartGroup.attr("clip-path", `url(#${clipId})`);
 
-
-    const new_g = svg.append("g")
+    // X軸の描画
+    const xAxis = svg.append("g")
         .attr("class", "x-axis")
         .attr("transform", `translate(0, ${height - margin.bottom})`)
-        .call(d3.axisBottom(xScale));
+        .call(d3.axisBottom(timeScale));
 
-
-    const xScale_original = xScale.copy();
-
-    const dataMinPx = xScale(stock_data[0].Date);
-    const dataMaxPx = xScale(stock_data[stock_data.length - 1].Date);
+    // ズーム機能の実装
+    const baseTimeScale = timeScale.copy();
 
     const zoom = d3.zoom()
-        .scaleExtent([1, 20])
-        .translateExtent([[margin.left, 0],[dataMaxPx, 0]])
+        .scaleExtent([1, 20])  // ズームの範囲を1-20倍に制限
         .extent([[margin.left, 0], [width - margin.right, 0]])
-        .on("zoom", zoomed);
+        .on("zoom", handleZoom);
 
     svg.call(zoom);
 
-    function zoomed(event) {
-        const newX = event.transform.rescaleX(xScale_original);
-        new_g.call(d3.axisBottom(newX));
+    // ズーム時の処理
+    function handleZoom(event) {
+        const newTimeScale = event.transform.rescaleX(baseTimeScale);
+        xAxis.call(d3.axisBottom(newTimeScale));
 
-        fields.forEach(({ key, color }, idx) => {
-            const newLine = d3.line()
-                .x(d => newX(d.Date))
-                .y(d => yScale(d[key]));
+        // 各株価ラインの位置を更新
+        priceTypes.forEach(({ key }, index) => {
+            const updatedLine = d3.line()
+                .x(d => newTimeScale(d.date))
+                .y(d => priceScale(d[key]));
 
-            svg.select(`.line-${idx}`)
-                .attr("d", newLine);
+            svg.select(`.price-line-${index}`)
+                .attr("d", updatedLine);
         });
     }
-
 }
 
