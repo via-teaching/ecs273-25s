@@ -2,6 +2,28 @@ import os
 import pandas as pd
 from motor.motor_asyncio import AsyncIOMotorClient
 import asyncio
+from datetime import datetime, timedelta
+import random
+
+# Get the absolute path to the data directory
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
+
+# Stock categories
+categories = {
+    'Energy':       ['XOM', 'CVX', 'HAL'],
+    'Industrials':  ['MMM', 'CAT', 'DAL'],
+    'Consumer':     ['MCD', 'NKE', 'KO'],
+    'Healthcare':   ['JNJ', 'PFE', 'UNH'],
+    'Financials':   ['JPM', 'GS', 'BAC'],
+    'Tech':         ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META']
+}
+
+# Create a mapping from ticker to sector
+categoryOf = {}
+for sector, tickers in categories.items():
+    for ticker in tickers:
+        categoryOf[ticker] = sector
 
 # MongoDB connection (localhost, default port)
 client = AsyncIOMotorClient("mongodb://localhost:27017")
@@ -16,13 +38,13 @@ tickers = [ 'XOM', 'CVX', 'HAL',
             'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META']
 
 async def import_stock_data():
-    path = "server/data/stockdata"
+    path = os.path.join(DATA_DIR, "stockdata")
+    print(f"Looking for stock data in: {path}")
     for file in os.listdir(path):
         if not file.endswith(".csv"):
             continue
 
         ticker = file.replace(".csv", "").upper()
-        df = pd.read_csv(os.path.join(path, file), parse_dates=["Date"])
         df = pd.read_csv(os.path.join(path, file), parse_dates=["Date"])
         df = df.dropna(subset=["Date"])  
         df.rename(columns={
@@ -41,42 +63,66 @@ async def import_stock_data():
         print(f"Imported stock: {ticker}")
 
 async def import_tsne_data():
-    df = pd.read_csv("server/data/tsne.csv")
+    tsne_path = os.path.join(DATA_DIR, "tsne.csv")
+    print(f"Looking for TSNE data in: {tsne_path}")
+    df = pd.read_csv(tsne_path)
 
     for _, row in df.iterrows():
+        ticker = row["ticker"]
         await db.stocks.update_one(
-            {"ticker": row["ticker"]},
+            {"ticker": ticker},
             {"$set": {
                 "tsne": {"x": row["x"], "y": row["y"]},
-                "sector": row.get("sector")
+                "sector": categoryOf.get(ticker, "Other")
             }}
         )
 
     print("t-SNE data imported")
 
 async def import_news_data():
-    root = "server/data/stocknews"
+    root = os.path.join(DATA_DIR, "stocknews")
+    print(f"Looking for news data in: {root}")
     for ticker in os.listdir(root):
         folder = os.path.join(root, ticker)
         if not os.path.isdir(folder):
             continue
 
         for file in os.listdir(folder):
-            if file.endswith(".csv"):
-                df = pd.read_csv(os.path.join(folder, file), parse_dates=["Date"])
-                for _, row in df.iterrows():
-                    news_doc = {
-                        "_id": row["URL"],
-                        "ticker": ticker,
-                        "date": row["Date"],
-                        "title": row["Title"],
-                        "url": row["URL"],
-                        "content": row.get("Content", "")
-                    }
-                    await db.news.replace_one({"_id": news_doc["_id"]}, news_doc, upsert=True)
+            if file.endswith(".txt"):
+                with open(os.path.join(folder, file), 'r') as f:
+                    content = f.read()
+                
+                # Parse date from filename (format: YYYY-MM-DD HH-MM)
+                date_str = file.split("_")[0]
+                date = datetime.strptime(date_str, "%Y-%m-%d %H-%M")
+                
+                # Parse title from filename
+                title = "_".join(file.split("_")[1:]).replace(".txt", "")
+                
+                # Extract URL from content
+                url = None
+                for line in content.split("\n"):
+                    if line.startswith("URL:"):
+                        url = line.replace("URL:", "").strip()
+                        break
+                
+                news_doc = {
+                    "_id": f"{ticker}_{date_str}_{title}",
+                    "ticker": ticker,
+                    "date": date,
+                    "title": title,
+                    "content": content,
+                    "url": url or "https://example.com"  # Fallback URL if none found
+                }
+                await db.news.replace_one({"_id": news_doc["_id"]}, news_doc, upsert=True)
         print(f"Imported news: {ticker}")
 
 async def main():
+    # Clear existing data first
+    await db.stocks.delete_many({})
+    await db.news.delete_many({})
+    
+    # Import actual data
     await import_stock_data()
     await import_tsne_data()
     await import_news_data()
