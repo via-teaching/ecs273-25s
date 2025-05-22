@@ -11,23 +11,18 @@ This project is a web application that visualizes stock market data and related 
 
 ## Prerequisites
 
-- Miniconda (Python environment manager)
-- Node.js 18+
-- MongoDB
+Before starting, make sure you have the following installed:
 
-### Setting up Miniconda
+1. **Miniconda** (Python environment manager)
+   - Download from the official Miniconda page:
+     - [Mac (Apple Silicon)](https://docs.conda.io/en/latest/miniconda.html#macos-installers)
+     - [Mac (Intel)](https://docs.conda.io/en/latest/miniconda.html#macos-installers)
+     - [Windows](https://docs.conda.io/en/latest/miniconda.html#windows-installers)
+     - [Linux](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
+   - Follow the installation prompts and allow conda initialization
 
-1. Download and install Miniconda:
-   - Mac (Apple Silicon): [Miniconda3 macOS ARM64](https://docs.conda.io/en/latest/miniconda.html)
-   - Mac (Intel): [Miniconda3 macOS x86_64](https://docs.conda.io/en/latest/miniconda.html)
-   - Windows: [Miniconda3 Windows 64-bit](https://docs.conda.io/en/latest/miniconda.html)
-   - Linux: [Miniconda3 Linux 64-bit](https://docs.conda.io/en/latest/miniconda.html)
-
-2. Create a new conda environment:
-```zsh
-conda create -n stock-viz python=3.11
-conda activate stock-viz
-```
+2. **Node.js 18+**
+3. **MongoDB**
 
 ## Project Structure
 
@@ -47,33 +42,38 @@ Homework4/
 
 ### Backend Setup
 
-1. Navigate to the server directory and activate conda environment
+1. Create and activate conda environment
+```zsh
+conda create -n ecs273 python=3.12
+conda activate ecs273
+```
+
+2. Navigate to the server directory
 ```zsh
 cd server
-conda activate stock-viz
 ```
 
-2. Install required Python packages
+3. Install required packages using conda
 ```zsh
-# Install packages using conda first
+# Install main dependencies
 conda install -c conda-forge fastapi uvicorn motor pandas pymongo
 
-# Then install any remaining packages with pip
-pip install -r requirements.txt
+# Install additional dependencies
+conda install -c conda-forge python-dotenv httpx
 ```
 
-3. Make sure MongoDB is running
+4. Make sure MongoDB is running
 ```zsh
 # If using Homebrew on macOS:
 brew services start mongodb-community
 ```
 
-4. Import data into the database
+5. Import data into the database
 ```zsh
 python import_data.py
 ```
 
-5. Start the FastAPI server
+6. Start the FastAPI server
 ```zsh
 uvicorn main:app --reload --port 8000
 ```
@@ -117,15 +117,6 @@ http://localhost:5173
 
 ### Development Notes
 
-AI assistance was used during development to enhance code quality and readability:
-
-- Debugging Support: AI was consulted for complex debugging issues that took more than 10 minutes to resolve manually
-- Code Optimization: Used to implement efficient CSS solutions (e.g.  index.css)
-- Code Readability: Assisted in formatting code and maintaining consistent naming conventions
-- Documentation: Helped in creating clear and comprehensive README
-
-The AI was used as a supplementary tool while maintaining human oversight on all critical development decisions.
-
 1. Stock Price Chart
    - Shows historical price data for the selected stock
    - Includes Open, High, Low, and Close prices
@@ -140,6 +131,16 @@ The AI was used as a supplementary tool while maintaining human oversight on all
    - Displays latest news articles for the selected stock
    - Shows article title, date, and content
    - Includes links to full articles when available
+
+AI assistance was used during development to enhance code quality and readability:
+
+- Debugging Support: AI was consulted for complex debugging issues that took more than 10 minutes to resolve manually
+- Code Optimization: Used to implement efficient CSS solutions (e.g.  index.css)
+- Code Readability: Assisted in formatting code and maintaining consistent naming conventions
+- Documentation: Helped in creating clear and comprehensive README
+
+The AI was used as a supplementary tool while maintaining human oversight on all critical development decisions.
+
 
 ## API Endpoints
 
