@@ -48,6 +48,19 @@ async def get_stock_news(ticker: str, limit: int = 10):
     cursor = db.news.find({"ticker": ticker.upper()}).sort("date", -1).limit(limit)
     return [doc async for doc in cursor]
 
+@app.get("/api/tsne")
+async def get_tsne():
+    cursor = db.stocks.find({"tsne": {"$exists": True}}, {"_id": 0, "ticker": 1, "tsne": 1, "sector": 1})
+    result = []
+    async for doc in cursor:
+        result.append({
+            "ticker": doc["ticker"],
+            "x": doc["tsne"]["x"],
+            "y": doc["tsne"]["y"],
+            "sector": doc.get("sector")
+        })
+    return result
+
 # @app.get("/stock_list", 
 #          response_model=StockListModel
 #     )
