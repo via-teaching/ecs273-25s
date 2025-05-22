@@ -158,3 +158,10 @@ Once both servers are running:
 
 - The frontend can fetch data live from the backend API
 - You will be able to see interactive stock charts and formatted news popups
+
+## 🙌 Author
+
+Chi-Chun Chen
+
+* MS Statistics @ UC Davis
+* GitHub: [chichichen77](https://github.com/chichichen77)
