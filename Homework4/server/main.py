@@ -43,7 +43,10 @@ async def get_stock_prices(ticker: str):
         raise HTTPException(status_code=404, detail="Stock not found")
     return doc
 
-
+@app.get("/api/stocks/{ticker}/news", response_model=List[StockNewsModel])
+async def get_stock_news(ticker: str, limit: int = 10):
+    cursor = db.news.find({"ticker": ticker.upper()}).sort("date", -1).limit(limit)
+    return [doc async for doc in cursor]
 
 # @app.get("/stock_list", 
 #          response_model=StockListModel
