@@ -5,9 +5,9 @@ This project is a web application that visualizes stock market data and related 
 ## Features
 
 - Interactive stock selection
-- Real-time price visualization
+- Stock price interactive visualization
 - Related news articles display
-- Responsive layout with multiple views
+
 
 ## Prerequisites
 
@@ -109,28 +109,8 @@ http://localhost:5173
 3. Click on news articles to see detailed information
 4. Use the interactive features to explore different time periods and data points
 
-## Additional Notes
-
-- The application uses MongoDB for data storage
-- Real-time updates are handled through FastAPI's async capabilities
-- The frontend is built with React and uses modern CSS features
 
 ### Development Notes
-
-1. Stock Price Chart
-   - Shows historical price data for the selected stock
-   - Includes Open, High, Low, and Close prices
-   - Supports zooming and panning
-
-2. t-SNE Scatter Plot
-   - Visualizes stock relationships using t-SNE dimensionality reduction
-   - Color-coded by sector
-   - Supports zooming and panning
-
-3. News Feed
-   - Displays latest news articles for the selected stock
-   - Shows article title, date, and content
-   - Includes links to full articles when available
 
 AI assistance was used during development to enhance code quality and readability:
 

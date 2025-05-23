@@ -6,7 +6,7 @@ from data_scheme import StockListItem, StockRecord, StockNewsModel
 from typing import List
 import os
 
-# MongoDB connection (localhost, default port)
+# MongoDB
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.stock_manami # please replace the database name with stock_[your name] to avoid collision at TA's side
             
@@ -15,7 +15,7 @@ app = FastAPI(
     summary="An aplication tracking stock prices and respective news"
 )
 
-# Enables CORS to allow frontend apps to make requests to this backend
+# Enables CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

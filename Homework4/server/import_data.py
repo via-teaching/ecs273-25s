@@ -5,7 +5,7 @@ import asyncio
 from datetime import datetime, timedelta
 import random
 
-# Get the absolute path to the data directory
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 
@@ -19,13 +19,13 @@ categories = {
     'Tech':         ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'META']
 }
 
-# Create a mapping from ticker to sector
+
 categoryOf = {}
 for sector, tickers in categories.items():
     for ticker in tickers:
         categoryOf[ticker] = sector
 
-# MongoDB connection (localhost, default port)
+# MongoDB 
 client = AsyncIOMotorClient("mongodb://localhost:27017")
 db = client.stock_manami
 
@@ -39,7 +39,7 @@ tickers = [ 'XOM', 'CVX', 'HAL',
 
 async def import_stock_data():
     path = os.path.join(DATA_DIR, "stockdata")
-    print(f"Looking for stock data in: {path}")
+    # print(f"Looking for stock data in: {path}")
     for file in os.listdir(path):
         if not file.endswith(".csv"):
             continue
@@ -92,14 +92,13 @@ async def import_news_data():
                 with open(os.path.join(folder, file), 'r') as f:
                     content = f.read()
                 
-                # Parse date from filename (format: YYYY-MM-DD HH-MM)
+            
                 date_str = file.split("_")[0]
                 date = datetime.strptime(date_str, "%Y-%m-%d %H-%M")
-                
-                # Parse title from filename
+   
                 title = "_".join(file.split("_")[1:]).replace(".txt", "")
                 
-                # Extract URL from content
+          
                 url = None
                 for line in content.split("\n"):
                     if line.startswith("URL:"):
@@ -112,17 +111,17 @@ async def import_news_data():
                     "date": date,
                     "title": title,
                     "content": content,
-                    "url": url or "https://example.com"  # Fallback URL if none found
+                    "url": url or "https://example.com" 
                 }
                 await db.news.replace_one({"_id": news_doc["_id"]}, news_doc, upsert=True)
         print(f"Imported news: {ticker}")
 
 async def main():
-    # Clear existing data first
+
     await db.stocks.delete_many({})
     await db.news.delete_many({})
     
-    # Import actual data
+   a
     await import_stock_data()
     await import_tsne_data()
     await import_news_data()
