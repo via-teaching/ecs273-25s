@@ -31,7 +31,7 @@ class StockModelUnit(BaseModel):
     """
     Model for stock data values
     """
-    date: str
+    index: str
     Open: float
     High: float
     Low: float
@@ -53,6 +53,7 @@ class StockNewsModel(BaseModel):
     content: str
     
 class StockNewsModelList(BaseModel):
+    _id: PyObjectId
     Stock: str
     News: list[StockNewsModel]
 
@@ -62,5 +63,6 @@ class tsneDataModel(BaseModel):
     """
     _id: PyObjectId
     Stock: str
-    x: float
-    y: float
+    tsne1: float
+    tsne2: float
+    Category: str
