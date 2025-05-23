@@ -1,0 +1,20 @@
+Title: Nvidia Faces More Disruption From New China Export Curbs Than Expected, Morgan Stanley Says
+Date: 2025-04-16 23:41
+URL: https://www.investopedia.com/nvidia-faces-more-disruption-from-new-china-export-curbs-than-expected-morgan-stanley-says-11716847?.tsrc=rss
+
+PATRICK T. FALLONMANDEL NGAN / Getty Images
+Morgan Stanley analysts on Wednesday trimmed their revenue projections for Nvidia (NVDA), citing concerns new chip export curbs to China are “more disruptive” than anticipated.
+The analysts said they expect an 8% to 9% hit to Nvidia's data center revenues over the next couple quarters after the U.S. government told the chipmaker it would require a federal export license in order to sell its H20 chips to China. The H20 is less powerful than Nvidia’s latest chips, and had been tailored to meet export limits for the Chinese market.
+Nvidia said Tuesday it expects to take a $5.5 billion charge in its fiscal first quarter as a result of the government's decision, which “suggests that the company is not optimistic about being granted licenses,” Morgan Stanley said. The analysts estimated the H20 chip made up 12% to 13% of Nvidia's data center revenue in April.
+Shares of Nvidia slumped nearly 7% to close at $104.49 Wednesday, leading other chip and tech stocks lower amid worries tightening export restrictions could have wide-reaching impacts. (Read Investopedia's live coverage of today's market action here.)
+The development comes as Nvidia’s relationship with Chinese AI startup DeepSeek is under increased scrutiny from the federal government. The House Select Committee on the Chinese Communist Party sent a letter to Nvidia Wednesday expressing concern DeepSeek used restricted Nvidia chips to develop its AI models, which the Chinese firm has claimed can keep up with American rivals at a fraction of the cost.
+"The U.S. government instructs American businesses on what they can sell and where—we follow the government’s directions to the letter," Nvidia told Investopedia.
+DeepSeek’s rapid rise “makes this game of high stakes poker that much more tense,” Wedbush analysts said Wednesday, adding that Nvidia's AI leadership makes it a "big chip on the table for Trump.”
+Despite concerns about the new export restrictions, Nvidia's stock is still a “top pick" said Morgan Stanley, which maintained its price target of $162, pointing to the chipmaker's potential to benefit from growing demand for AI hardware.
+Bank of America similarly reiterated a $160 target, calling the chipmaker’s stock “compelling” given strong global demand for Nvidia chips. Jefferies and UBS were even more bullish, each reaffirming a target of $185.
+Morgan Stanley. "NVIDIA Corp. H20 restrictions more abrupt than we had expected."
+SELECT COMMITTEE ON THE CCP. “Moolenaar, Krishnamoorthi Unveil Explosive Report on Chinese AI Firm DeepSeek — Demand Answers from Nvidia Over Chip Use.”
+Wedbush. “Disruptive Technology. The Trade and Tariff War Impacts Now First Being Seen in Nvidia China Blockade.”
+BofA Securities. "NVIDIA Corporation. China H20 restriction unwelcome but somewhat expected, manageable risk."
+UBS. “NVIDIA Corp. H20 Banned, But Maybe There Is A Silver Lining.”
+Jefferies. “NVIDIA Corporation. H20 Restrictions Another Surprise Turn in Trade War.”
