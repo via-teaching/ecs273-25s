@@ -37,7 +37,6 @@ export function ScatterPlot({ selectedStock }) {
   useEffect(() => {
     if (!containerRef.current || !svgRef.current) return;
 
-    // 画面サイズ変更時の処
     const handleResize = new ResizeObserver(
       debounce((entries) => {
         entries.forEach(entry => {

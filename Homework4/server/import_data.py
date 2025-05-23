@@ -111,7 +111,7 @@ async def import_news_data():
                     "date": date,
                     "title": title,
                     "content": content,
-                    "url": url or "https://example.com" 
+                    "url": url or "https://none" 
                 }
                 await db.news.replace_one({"_id": news_doc["_id"]}, news_doc, upsert=True)
         print(f"Imported news: {ticker}")
