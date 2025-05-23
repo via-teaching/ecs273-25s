@@ -105,8 +105,11 @@ http://localhost:5173
 ## Usage
 
 1. Select a stock from the dropdown menu in the header
+   
 2. View the stock price visualization in the main chart
+   
 3. Click on news articles to see detailed information
+   
 4. Use the interactive features to explore different time periods and data points
 
 
