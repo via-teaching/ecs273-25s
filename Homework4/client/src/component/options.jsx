@@ -7,7 +7,6 @@ export default function RenderOptions() {
         fetch('http://localhost:8000/api/stocks')
             .then(res => res.json())
             .then(data => {
-                // アルファベット順にソート
                 const sortedStocks = data.sort((a, b) => a.ticker.localeCompare(b.ticker));
                 setStocks(sortedStocks);
             })

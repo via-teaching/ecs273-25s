@@ -157,7 +157,7 @@ header select {
   margin-top: 0.5rem;
 }
 
-/* カスタムスクロールバーのスタイル */
+
 .view2::-webkit-scrollbar,
 .view3::-webkit-scrollbar {
   width: 6px;
@@ -286,7 +286,6 @@ h1 {
   font-weight: 700;
 }
 
-/* News List Toggle Animation */
 .toggle-icon {
   display: inline-block;
   transform: rotate(0deg);
@@ -297,7 +296,7 @@ details[open] .toggle-icon {
   transform: rotate(90deg);
 }
 
-/* Fade in animation for content */
+
 @keyframes fadeIn {
   from {
     opacity: 0;

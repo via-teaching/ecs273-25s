@@ -186,7 +186,7 @@ function drawChart(svgElement, rawData, width, height) {
     const baseTimeScale = timeScale.copy();
 
     const zoom = d3.zoom()
-        .scaleExtent([1, 20])  // ズームの範囲を1-20倍に制限
+        .scaleExtent([1, 20])  
         .extent([[margin.left, 0], [width - margin.right, 0]])
         .on("zoom", handleZoom);
 
