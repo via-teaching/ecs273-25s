@@ -105,12 +105,15 @@ http://localhost:5173
 ## Usage
 
 1. Select a stock from the dropdown menu in the header
+   ![image](https://github.com/user-attachments/assets/1da83e4e-32ad-4200-a030-e4659cf4267e)
    
-2. View the stock price visualization in the main chart
+2. Interact with the stock price / t-SNE visualization
+   ![image](https://github.com/user-attachments/assets/e1eb227c-c268-40d5-beb8-d37a50285644)
    
-3. Click on news articles to see detailed information
-   
-4. Use the interactive features to explore different time periods and data points
+3. Click on related news articles to see detailed information
+
+   ![image](https://github.com/user-attachments/assets/d92b6ce9-7ee0-4a1d-8cb9-33ca6ac22f8c)
+
 
 
 ### Development Notes
