@@ -121,7 +121,7 @@ async def main():
     await db.stocks.delete_many({})
     await db.news.delete_many({})
     
-   a
+   
     await import_stock_data()
     await import_tsne_data()
     await import_news_data()
