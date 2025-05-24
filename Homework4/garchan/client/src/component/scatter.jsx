@@ -113,7 +113,7 @@ function drawChart(svgElement, data, width, height, ticker){
     // Clip points outside of axes
     // Clipping code adapted from https://d3-graph-gallery.com/graph/interactivity_zoom.html
     svg.append('defs').append('SVG:clipPath')
-        .attr('id', 'clip')
+        .attr('id', 'clipScatter')
         .append('SVG:rect')
         .attr('width', width - margin.right - margin.left)
         .attr('height', height - margin.bottom - margin.top)
@@ -130,7 +130,7 @@ function drawChart(svgElement, data, width, height, ticker){
         .attr('fill', 'teal')
         .attr('class', (d) => `tsne-point tsne-point-${sectorMap[d.Stock]}`)
         .attr('id', (d) => `tsne-point-${d.Stock}`)
-        .attr('clip-path', 'url(#clip)');
+        .attr('clip-path', 'url(#clipScatter)');
     // Ticker symbol text
     const dotLabels = svg.append('g')
         .selectAll('text')
@@ -144,7 +144,7 @@ function drawChart(svgElement, data, width, height, ticker){
         .attr('text-anchor', 'middle')
         .attr('class', 'tsne-label')
         .attr('id', (d) => `tsne-label-${d.Stock}`)
-        .attr('clip-path', 'url(#clip)');
+        .attr('clip-path', 'url(#clipScatter)');
 
     // Draw the legend
     for(let i = 0; i < legendProps.length; i++){
