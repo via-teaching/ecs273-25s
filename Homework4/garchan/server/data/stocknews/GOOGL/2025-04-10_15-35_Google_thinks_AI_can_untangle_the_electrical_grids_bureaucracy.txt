@@ -1,0 +1,82 @@
+Title: Google thinks AI can untangle the electrical grid’s bureaucracy
+Date (YYYY-MM-DD hour-min):2025-04-10 15-35
+URL: https://techcrunch.com/2025/04/10/google-thinks-ai-can-untangle-the-electrical-grids-bureaucracy/?.tsrc=rss
+Latest
+AI
+Amazon
+Apps
+Biotech & Health
+Climate
+Cloud Computing
+Commerce
+Crypto
+Enterprise
+EVs
+Fintech
+Fundraising
+Gadgets
+Gaming
+Google
+Government & Policy
+Hardware
+Instagram
+Layoffs
+Media & Entertainment
+Meta
+Microsoft
+Privacy
+Robotics
+Security
+Social
+Space
+Startups
+TikTok
+Transportation
+Venture
+Events
+Startup Battlefield
+StrictlyVC
+Newsletters
+Podcasts
+Videos
+Partner Content
+TechCrunch Brand Studio
+Crunchboard
+Contact Us
+There has been a lot of angst among tech companies and policymakers about a looming power shortage on the grid due in no small part to the rise in AI. But what’s less known is that there are terawatts of new capacity waiting to be approved for connection to the grid, and unknotting the bureaucracy could go a long way to solving the problem.
+All grid operators in the U.S. face the similar backlogs, but few are as significant as that of PJM, which manages the flow of electricity in the mid-Atlantic states, Ohio, and eastern Kentucky.
+Now, Google and PJM are hoping that AI can help speed things along.
+The two organizations announced Thursday a partnership, along with Alphabet “moonshot” Tapestry, to develop AI models to streamline key parts of the application process on both sides of the transaction. They’ll get assistance with data verification and submit projects through new, centralized planning tools, which will also help PJM analyze how best to integrate variable power sources like renewables.
+Because of the surge in computing demand from AI, tech companies have been racing to secure generating capacity. Amazon, Google, Meta, and Microsoft have all either invested in or pledged to buy significant amounts of nuclear power. But they’ve also been steadily snapping up solar power in large quantities.
+The interconnection problem is wonky, to be sure, but solving it could alleviate concerns about underpowered data centers. Nationwide, 2.6 terawatts of generating capacity are waiting for approval, according to the Lawrence Berkeley Lab. That’s double what every U.S. power plant combined is capable of generating today.
+PJM’s queue is by far the longest. There are over 3,000 active requests to connect 286.7 gigawatts of capacity in the region, according to the Berkeley Lab. Overwhelmed, the organization stopped accepting applications for new connections in 2022 and won’t review new requests until mid-2026.
+Renewables have been penalized the most by the sclerotic process.
+Nationwide, over 1 terawatt each of solar and storage are waiting for permission to send electrons to the grid. Even the queue in the PJM region, which isn’t typically considered a hotbed of renewable development, is dominated by the two clean power sources: Just 2.4% of applicants are natural gas power plants.
+The PJM-managed grid has historically been dominated by fossil fuels. Over the last decade or so, natural gas-fired power plants have displaced coal as fracking drove gas costs down. The grid operator also recently developed a new approval process that critics argue allows for fossil fuel plants to unfairly skip the line ahead of renewable projects.
+In unveiling the partnership with Google, PJM Executive Vice President Aftab Khan said that the organization’s grid will remain “fuel agnostic,” according to E&E News. Meanwhile, Google spokesperson Amanda Peterson Corio maintained that its was “committed to our goals to decarbonize our electricity footprint.”
+Topics
+Senior Reporter, Climate
+Google to embrace Anthropic’s standard for connecting AI models to data
+
+
+Solid, which claimed to be the ‘AWS of fintech,’ files for bankruptcy after raising nearly $81M in funding
+
+
+Meta whistleblower Sarah Wynn-Williams says company targeted ads at teens based on their ‘emotional state’
+
+
+Ilya Sutskever taps Google Cloud to power his AI startup’s research
+
+
+Anthropic rolls out a $200-per-month Claude subscription
+
+
+Artisan, the ‘stop hiring humans’ AI agent startup, raises $25M — and is still hiring humans
+
+
+Governments identify dozens of Android apps bundled with spyware
+
+
+© 2025 Yahoo.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!

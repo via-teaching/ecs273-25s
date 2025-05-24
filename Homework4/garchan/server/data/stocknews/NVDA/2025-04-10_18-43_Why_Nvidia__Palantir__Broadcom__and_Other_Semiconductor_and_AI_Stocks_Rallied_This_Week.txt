@@ -1,0 +1,63 @@
+Title: Why Nvidia, Palantir, Broadcom, and Other Semiconductor and AI Stocks Rallied This Week
+Date (YYYY-MM-DD hour-min):2025-04-10 18-43
+URL: https://www.fool.com/investing/2025/04/10/why-nvidia-palantir-broadcom-and-other-semiconduct/?source=eptyholnk0000202&utm_source=yahoo-host-full&utm_medium=feed&utm_campaign=article&referring_guid=97c39187-6b55-4af0-8b0c-31b54f94fc02&.tsrc=rss
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Founded in 1993, The Motley Fool is a financial services company dedicated to making the world smarter, happier, and richer. The Motley Fool reaches millions of people every month through our premium investing solutions, free guidance and market analysis on Fool.com, personal finance education, top-rated podcasts, and non-profit The Motley Fool Foundation.
+Key Points
+A double dose of good news gave investors hope for the future.
+Investors and consumers alike have had plenty to worry about in recent weeks. The on-again, off-again tariffs, the ongoing trade war with China, and persistent inflation have led to concerns about a potential recession.
+The resulting market tailspin resulted in a market correction, which threatened to spread to a bear market. However, a double dose of good news this week fueled a broad-based market rally, which helped drive artificial intelligence (AI) and semiconductor stocks higher.
+With that as a backdrop, AI specialist Palantir Technologies (PLTR -3.79%) surged 18% this week, semiconductor giant Broadcom (AVGO -7.20%) soared 16.8%, chipmaker Nvidia (NVDA -5.88%) jumped 13.3%, and chip designer Arm Holdings (ARM -5.68%) rallied 13%, as of 1:10 p.m. ET on Thursday.
+Image source: Getty Images.
+Lest I bury the lede, the biggest boost to stocks came Wednesday when the Trump administration announced a 90-day pause on the imposition of most new tariffs to allow for trade negotiations to go forward with 75 countries. The decision gave investors hope that the move might prevent a protracted and large-scale trade war, which many fear could spark a recession.
+The news wasn't all good, as President Donald Trump escalated matters with China, increasing tariffs to 125% "effective immediately" citing a "lack of respect that China has shown to the world's markets."
+The 90-day pause marked a stark about-face from the Trump administration's position earlier this month. After initiating baseline tariffs of 10% across the board for many countries, the White House announced so-called "reciprocal tariffs" on 86 countries, which ranged from 11% to 84%.
+There was more good news: The monthly report on inflation, which came courtesy of the U.S. Bureau of Labor Statistics, showed that inflation cooled somewhat last month, a welcome development for price-weary consumers. The Consumer Price Index (CPI), the most widely followed gauge of inflation, rose 2.4% in March compared to the year-ago period, down from 2.8% in February. Prices also decreased by 0.1% month over month.
+When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 820% — a market-crushing outperformance compared to 158% for the S&P 500.
+They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor.
+*Stock Advisor returns as of April 9, 2025
+Both numbers came in below expectations, as economists predicted inflation to increase 2.6% year over year and 0.1% sequentially. The "core" data, which excludes volatile food and energy prices, was up 2.8% compared to this time last year and climbed 0.1% sequentially, which marked the lowest rate of core inflation in more than four years. The Fed continues to chase its stated goal of 2% inflation, but investors and consumers alike were thankful for signs of improvement.
+In company-specific news, the Trump administration has dropped plans for an export ban on Nvidia's H20 chip, which was designed specifically to meet U.S. trade restrictions to customers in China. During a meeting with Trump last week, Nvidia CEO Jensen Huang negotiated the concessions after pledging to invest heavily in U.S. data centers.
+The AI revolution has been in full swing, fueled by advanced semiconductors and cutting-edge AI models. The build-out to support AI has been notable, with some of the world's biggest technology companies planning an estimated $315 billion in capital expenditures in 2025, with the vast majority allocated to the servers and data centers needed to support AI.
+The planned tariffs could significantly raise the cost of the semiconductors and other ancillary products that are key to data centers and other AI infrastructure, because many of the components needed come from countries that would be subject to the higher tariffs. The increased costs could threaten to put the brakes on the accelerating adoption of AI.
+For their part, Palantir, Nvidia, Broadcom, and Arm Holdings have been among the biggest beneficiaries of this secular tailwind, providing the chips and AI expertise that are fueling the AI revolution. Palantir and Arm remain pricey at 154 times and 49 times forward earnings, respectively. However, Nvidia and Broadcom are attractively priced, selling for 26 times and 23 times forward earnings, respectively. This gives investors a rare opportunity to get these industry stalwarts at a discount.
+
+
+
+Before you buy stock in Nvidia, consider this:
+The Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.
+Consider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $509,884!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $700,739!*
+Now, it’s worth noting Stock Advisor’s total average return is 820% — a market-crushing outperformance compared to 158% for the S&P 500. Don't miss out on the latest top 10 list, available when you join Stock Advisor.
+See the 10 stocks ›
+
+*Stock Advisor returns as of April 9, 2025
+
+
+Danny Vena has positions in Nvidia and Palantir Technologies. The Motley Fool has positions in and recommends Nvidia and Palantir Technologies. The Motley Fool recommends Broadcom. The Motley Fool has a disclosure policy.
+While uncertainty is on the rise, remember that volatility can also present great investing opportunities. Take advantage of our 55% off new member flash sale!
+Since inception, Motley Fool Stock Advisor has historically beaten the S&P 500 by 661.71%!** New members can get a 55% discount* AND Stock Advisor’s top 10 stock recommendations. Don’t miss out on this opportunity to invest in your future!
+Continue ›
+*$89/year is a promotional price for new members only. 55% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price. Offer expires on April 11, 2025 at 11:59 pm PST. **Stock Advisor and S&P returns as of April 10, 2025.
+Limited Time: Get a $250 Bonus with This Cash Back Card!
+Earn $250 when you spend $500 in 3 months—that's an easy 50% return! Plus, enjoy 0% intro APR for 15 months & up to 5% cash back.
+Stocks Mentioned
+
+*Average returns of all recommendations since inception. Cost basis and return based on previous market day close.
+Related Articles
+Invest better with The Motley Fool. Get stock recommendations, portfolio guidance, and more from The Motley Fool's premium services.
+Making the world smarter, happier, and richer.
+© 1995 - 2025 The Motley Fool. All rights reserved.
+Market data powered by Xignite and Polygon.io.
+About The Motley Fool
+Our Services
+Around the Globe
+Free Tools
+Affiliates & Friends
+Stock Advisor for only $199 $89!* (save $110)
+
+Since inception, Motley Fool Stock Advisor has beaten the S&P 500 by 661.71%!**
+While uncertainty is on the rise, remember that volatility can also present great investing opportunities. Take advantage of our 55% off* for new members and gain access to our exclusive list of the top 10 stocks to buy right now!
+Continue ›
+*$89/year is a promotional price for new members only. 55% discount based on current list price of Stock Advisor of $199/year. Membership will renew annually at the then current list price.**Returns as of April 10, 2025.
